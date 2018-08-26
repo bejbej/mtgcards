@@ -378,7 +378,7 @@ Altar of Shadows	artifact	7	colorless	mrd/143
 Altar of the Brood	artifact	1	colorless	ktk/216
 Altar of the Lost	artifact	3	colorless	dka/144
 Altar's Light	instant	4	white	mrd/1
-Altar's Reap	instant	2	black	mtga/24
+Altar's Reap	instant	2	black	cma/45
 Alter Reality	instant	2	blue	tor/22
 Altered Ego	creature	4	multicolored	soi/241
 Aluren	enchantment	4	green	tpr/165
@@ -390,7 +390,7 @@ Ambassador Laquatus	creature	3	blue	10e/65
 Ambassador Oak	creature	4	green	a25/158
 Amber Prison	artifact	4	colorless	6ed/272
 Ambiguity	enchantment	4	blue	unh/24
-Ambition's Cost	sorcery	4	black	mtga/25
+Ambition's Cost	sorcery	4	black	c17/95
 Ambitious Aetherborn	creature	5	black	kld/72
 Ambuscade	instant	3	green	hou/110
 Ambuscade Shaman	creature	3	black	dtk/87
@@ -517,7 +517,6 @@ Angelic Page	creature	2	white	a25/4
 Angelic Protector	creature	4	white	tpr/2
 Angelic Purge	sorcery	3	white	soi/3
 Angelic Renewal	enchantment	2	white	wth/4
-Angelic Reward	enchantment	5	white	mtga/1
 Angelic Rocket	creature	8	colorless	ust/139
 Angelic Shield	enchantment	2	multicolored	ddi/27
 Angelic Skirmisher	creature	6	white	gtc/3
@@ -1502,7 +1501,6 @@ Blinding Fog	instant	3	green	xln/177
 Blinding Light	sorcery	3	white	inv/9
 Blinding Mage	creature	2	white	ima/13
 Blinding Powder	artifact	1	colorless	bok/153
-Blinding Radiance	sorcery	3	white	mtga/2
 Blinding Souleater	creature	3	colorless	mm2/202
 Blinding Spray	instant	5	blue	ktk/32
 Blink of an Eye	instant	2	blue	dom/46
@@ -2449,7 +2447,7 @@ Chaos Confetti	artifact	4	colorless	ugl/72
 Chaos Harlequin	creature	4	red	all/69
 Chaos Imps	creature	6	red	rtr/90
 Chaos Lord	creature	7	red	ice/178
-Chaos Maw	creature	7	red	mtga/36
+Chaos Maw	creature	7	red	hou/87
 Chaos Moon	enchantment	4	red	ice/179
 Chaos Orb	artifact	2	colorless	2ed/236
 Chaos Wand	artifact	3	colorless	m19/228
@@ -2867,7 +2865,6 @@ Confiscation Coup	sorcery	5	blue	kld/41
 Conflagrate	sorcery	1	red	tsp/151
 Conflux	sorcery	8	multicolored	a25/202
 Confound	instant	2	blue	pls/22
-Confront the Assault	instant	5	white	mtga/3
 Confront the Unknown	instant	1	green	soi/198
 Confusion in the Ranks	enchantment	5	red	mrd/87
 Congregate	instant	4	white	a25/8
@@ -3174,7 +3171,6 @@ Crucible of Worlds	artifact	3	colorless	m19/229
 Crucible of the Spirit Dragon	land	0	colorless	c17/243
 Crude Rampart	creature	4	white	ons/17
 Cruel Bargain	sorcery	3	black	vma/111
-Cruel Cut	instant	2	black	mtga/26
 Cruel Deceiver	creature	2	black	chk/106
 Cruel Edict	sorcery	2	black	dvd/48
 Cruel Entertainment	sorcery	7	black	c16/11
@@ -4041,7 +4037,7 @@ Divergent Transformations	instant	7	red	c16/17
 Diversionary Tactics	enchantment	4	white	apc/7
 Divert	instant	1	blue	ody/82
 Divest	sorcery	1	black	dom/87
-Divination	sorcery	3	blue	mtga/14
+Divination	sorcery	3	blue	m19/51
 Divine Congregation	sorcery	4	white	tsp/13
 Divine Deflection	instant	1	white	avr/18
 Divine Favor	enchantment	2	white	m15/10
@@ -4114,7 +4110,7 @@ Double Header	creature	5	blue	unh/31
 Double Negative	instant	3	multicolored	arb/87
 Double Play	sorcery	5	green	ugl/55
 Double Take	instant	5	blue	ugl/23
-Doublecast	sorcery	2	red	mtga/37
+Doublecast	sorcery	2	red	m19/137
 Doubling Chant	sorcery	6	green	m12/170
 Doubling Cube	artifact	2	colorless	10e/321
 Doubling Season	enchantment	5	green	bbd/195
@@ -5273,7 +5269,6 @@ Feral Krushok	creature	5	green	frf/128
 Feral Lightning	sorcery	6	red	sok/97
 Feral Prowler	creature	2	green	hou/115
 Feral Ridgewolf	creature	3	red	isd/142
-Feral Roar	sorcery	2	green	mtga/46
 Feral Shadow	creature	3	black	6ed/131
 Feral Thallid	creature	6	green	me2/161
 Feral Throwback	creature	6	green	lgn/126
@@ -6296,7 +6291,6 @@ Go for the Throat	instant	2	black	c17/114
 Goatnapper	creature	3	red	lrw/172
 Gobbling Ooze	creature	5	green	rtr/126
 Gobhobbler Rats	creature	2	multicolored	dis/111
-Goblin	creature	0	red	mtga/T1
 Goblin Archaeologist	creature	2	red	dst/63
 Goblin Arsonist	creature	1	red	ddk/42
 Goblin Artillery	creature	3	red	m10/138
@@ -6315,7 +6309,6 @@ Goblin Boom Keg	artifact	4	colorless	frf/159
 Goblin Bowling Team	creature	4	red	ugl/44
 Goblin Brawler	creature	3	red	5dn/66
 Goblin Brigand	creature	2	red	9ed/190
-Goblin Bruiser	creature	3	red	mtga/39
 Goblin Bully	creature	2	red	me4/117
 Goblin Burrows	land	0	colorless	evg/58
 Goblin Bushwhacker	creature	1	red	zen/125
@@ -6349,7 +6342,6 @@ Goblin Flotilla	creature	3	red	fem/55
 Goblin Freerunner	creature	4	red	ogw/111
 Goblin Furrier	creature	2	red	csp/82
 Goblin Game	sorcery	7	red	pls/61
-Goblin Gang Leader	creature	4	red	mtga/40
 Goblin Gardener	creature	4	red	7ed/188
 Goblin Gaveleer	creature	1	red	som/92
 Goblin General	creature	3	red	vma/165
@@ -6357,7 +6349,7 @@ Goblin Glider	creature	2	red	8ed/189
 Goblin Glory Chaser	creature	1	red	ddt/43
 Goblin Goon	creature	4	red	ddt/44
 Goblin Grappler	creature	1	red	lgn/100
-Goblin Grenade	sorcery	1	red	mtga/41
+Goblin Grenade	sorcery	1	red	ddt/45
 Goblin Grenadiers	creature	4	red	wth/104
 Goblin Guide	creature	1	red	mm3/96
 Goblin Haberdasher	creature	3	red	ust/83
@@ -7801,7 +7793,6 @@ Inspired Sprite	creature	4	blue	mor/37
 Inspiring Call	instant	3	green	cm2/139
 Inspiring Captain	creature	4	white	soi/25
 Inspiring Cleric	creature	3	white	xln/16
-Inspiring Commander	creature	6	white	mtga/5
 Inspiring Roar	sorcery	4	white	aer/186
 Inspiring Statuary	artifact	3	colorless	aer/160
 Inspiring Vantage	land	0	colorless	kld/246
@@ -8479,7 +8470,7 @@ Knight of the Stampede	creature	4	green	rix/138
 Knight of the Tusk	creature	6	white	m19/18
 Knight of the White Orchid	creature	2	white	ori/21
 Knight of the Widget	creature	3	white	ust/13
-Knight's Pledge	enchantment	2	white	mtga/6
+Knight's Pledge	enchantment	2	white	m19/19
 Knight-Captain of Eos	creature	5	white	ala/17
 Knighthood	enchantment	3	white	7ed/25
 Knightly Valor	enchantment	5	white	m19/20
@@ -9124,7 +9115,7 @@ Loxodon Anchorite	creature	4	white	5dn/10
 Loxodon Convert	creature	4	white	nph/14
 Loxodon Gatekeeper	creature	4	white	rav/25
 Loxodon Hierarch	creature	4	multicolored	ddh/15
-Loxodon Line Breaker	creature	3	white	mtga/7
+Loxodon Line Breaker	creature	3	white	m19/24
 Loxodon Mender	creature	6	white	mrd/12
 Loxodon Mystic	creature	5	white	10e/26
 Loxodon Partisan	creature	5	white	ddo/17
@@ -9730,7 +9721,7 @@ Meteor Storm	enchantment	2	multicolored	inv/256
 Meteorite	artifact	5	colorless	ori/233
 Metrognome	artifact	4	colorless	usg/301
 Metropolis Sprite	creature	2	blue	gtc/42
-Miasmic Mummy	creature	2	black	mtga/29
+Miasmic Mummy	creature	2	black	akh/100
 Michiko Konda, Truth Seeker	creature	4	white	sok/19
 Midlife Upgrade	sorcery	4	white	ust/14
 Midnight Banshee	creature	6	black	mm2/86
@@ -10588,7 +10579,6 @@ Nimana Sell-Sword	creature	4	black	zen/106
 Nimble Innovator	creature	4	blue	kld/58
 Nimble Mongoose	creature	1	green	ema/179
 Nimble Obstructionist	creature	3	blue	hou/40
-Nimble Pilferer	creature	2	black	mtga/31
 Nimble-Blade Khenra	creature	2	red	akh/145
 Nimbus Champion	creature	6	blue	bbd/37
 Nimbus Maze	land	0	colorless	ima/242
@@ -10823,7 +10813,6 @@ Ogre Jailbreaker	creature	4	black	mm3/80
 Ogre Leadfoot	creature	5	red	mrd/102
 Ogre Marauder	creature	3	black	bok/75
 Ogre Menial	creature	4	red	nph/89
-Ogre Painbringer	creature	5	red	mtga/42
 Ogre Recluse	creature	4	red	bok/113
 Ogre Resister	creature	4	red	mbs/72
 Ogre Savant	creature	5	red	ddj/9
@@ -11070,7 +11059,7 @@ Overblaze	instant	4	red	bok/114
 Overburden	enchantment	2	blue	pcy/39
 Overcome	sorcery	5	green	hou/125
 Overeager Apprentice	creature	3	black	dvd/35
-Overflowing Insight	sorcery	7	blue	mtga/16
+Overflowing Insight	sorcery	7	blue	xln/66
 Overgrown Armasaur	creature	5	green	rix/141
 Overgrown Battlement	creature	2	green	ima/180
 Overgrown Estate	enchantment	3	multicolored	apc/113
@@ -12088,7 +12077,7 @@ Ragemonger	creature	3	multicolored	bng/153
 Ragged Veins	enchantment	2	black	chk/139
 Raging Bull	creature	3	red	leg/163
 Raging Cougar	creature	3	red	por/144
-Raging Goblin	creature	1	red	mtga/43
+Raging Goblin	creature	1	red	evg/47
 Raging Gorilla	creature	3	red	vis/90
 Raging Kavu	creature	3	multicolored	inv/262
 Raging Minotaur	creature	4	red	me3/109
@@ -12469,7 +12458,7 @@ Rendclaw Trow	creature	3	multicolored	eve/127
 Render Silent	instant	3	multicolored	dgm/96
 Rending Vines	instant	3	green	sok/143
 Rending Volley	instant	1	red	dtk/150
-Renegade Demon	creature	5	black	mtga/33
+Renegade Demon	creature	5	black	ddr/59
 Renegade Doppelganger	creature	2	blue	roe/84
 Renegade Firebrand	creature	3	red	kld/268
 Renegade Freighter	artifact	3	colorless	kld/230
@@ -12731,7 +12720,7 @@ Riptide Replicator	artifact	4	colorless	ons/309
 Riptide Shapeshifter	creature	5	blue	ons/109
 Riptide Survivor	creature	3	blue	c14/121
 Rise // Fall	sorcery	4	multicolored	ddh/73a
-Rise from the Grave	sorcery	5	black	mtga/34
+Rise from the Grave	sorcery	5	black	m19/117
 Rise from the Tides	sorcery	6	blue	soi/83
 Rise of Eagles	sorcery	6	blue	jou/49
 Rise of the Dark Realms	sorcery	9	black	m14/111
@@ -12789,7 +12778,6 @@ River Merfolk	creature	2	blue	med/47
 River Serpent	creature	6	blue	akh/66
 River Sneak	creature	2	blue	xln/70
 River of Tears	land	0	colorless	ima/246
-River's Favor	enchantment	1	blue	mtga/17
 River's Grasp	sorcery	4	multicolored	shm/174
 River's Rebuke	sorcery	6	blue	xln/71
 Riverfall Mimic	creature	2	multicolored	eve/111
@@ -12950,7 +12938,7 @@ Rukh Egg	creature	4	red	8ed/216
 Rule of Law	enchantment	3	white	10e/37
 Rules Lawyer	creature	5	white	ust/20
 Rumbling Aftershocks	enchantment	5	red	wwk/89
-Rumbling Baloth	creature	4	green	mtga/47
+Rumbling Baloth	creature	4	green	m14/193
 Rumbling Crescendo	enchantment	5	red	usg/210
 Rumbling Slum	creature	4	multicolored	hop/93
 Rummaging Goblin	creature	3	red	xln/160
@@ -13136,7 +13124,7 @@ Samut, the Tested	planeswalker	4	multicolored	hou/144
 Sanctified Charge	instant	5	white	m15/30
 Sanctifier of Souls	creature	4	white	emn/39
 Sanctimony	enchantment	2	white	8ed/42
-Sanctuary Cat	creature	1	white	mtga/8
+Sanctuary Cat	creature	1	white	dka/19
 Sanctum Custodian	creature	3	white	usg/42
 Sanctum Gargoyle	creature	4	white	c16/76
 Sanctum Guardian	creature	3	white	9ed/40
@@ -13554,7 +13542,7 @@ Seht's Tiger	creature	4	white	c17/72
 Seismic Assault	enchantment	3	red	10e/228
 Seismic Elemental	creature	5	red	ori/161
 Seismic Mage	creature	4	red	mmq/211
-Seismic Rupture	sorcery	3	red	mtga/44
+Seismic Rupture	sorcery	3	red	dtk/156
 Seismic Shift	sorcery	4	red	dom/141
 Seismic Shudder	instant	2	red	zen/147
 Seismic Spike	sorcery	4	red	rav/141
@@ -13654,7 +13642,7 @@ Serpentine Basilisk	creature	4	green	ons/280
 Serpentine Kavu	creature	5	green	inv/211
 Serpentine Spike	sorcery	7	colorless	bfz/133
 Serra Advocate	creature	4	white	dvd/7
-Serra Angel	creature	5	white	mtga/9
+Serra Angel	creature	5	white	dom/33
 Serra Ascendant	creature	1	white	ima/31
 Serra Avatar	creature	7	white	c18/73
 Serra Avenger	creature	2	white	m13/33
@@ -13901,7 +13889,6 @@ Shockmaw Dragon	creature	6	red	frf/114
 Shoe Tree	creature	5	green	unh/109%E2%98%85
 Shore Keeper	creature	1	blue	xln/77
 Shore Snapper	creature	3	black	ala/87
-Shorecomber Crab	creature	1	blue	mtga/18
 Shorecrasher Elemental	creature	3	blue	dtk/73
 Shorecrasher Mimic	creature	2	multicolored	eve/159
 Shoreline Raider	creature	3	blue	inv/73
@@ -13933,7 +13920,6 @@ Shrieking Specter	creature	6	black	s99/89
 Shriekmaw	creature	5	black	cma/68
 Shrike Harpy	creature	5	black	bng/83
 Shrill Howler	creature	3	green	emn/168a
-Shrine Keeper	creature	2	white	mtga/10
 Shrine of Boundless Growth	artifact	3	colorless	nph/152
 Shrine of Burning Rage	artifact	2	colorless	nph/153
 Shrine of Limitless Power	artifact	3	colorless	nph/154
@@ -14608,7 +14594,6 @@ Souldrinker	creature	4	black	dvd/39
 Soulfire Grand Master	creature	2	white	frf/27
 Soulflayer	creature	6	black	frf/84
 Soulgorger Orgg	creature	5	red	jud/99
-Soulhunter Rakshasa	creature	5	black	mtga/35
 Soulless One	creature	4	black	hop/41
 Soulless Revival	instant	2	black	chk/144
 Soulmender	creature	1	white	m15/35
@@ -14808,7 +14793,7 @@ Spire of Industry	land	0	colorless	aer/184
 Spirebluff Canal	land	0	colorless	kld/249
 Spireside Infiltrator	creature	3	red	kld/133
 Spirespine	creature	3	green	jou/142
-Spirit	creature	0	white	mtga/T2
+Spirit	creature	0	white	ddq/79
 Spirit Away	enchantment	7	blue	avr/76
 Spirit Bonds	enchantment	2	white	m15/37
 Spirit Cairn	enchantment	3	white	vma/48
@@ -14830,7 +14815,7 @@ Spirit of the Night	creature	9	black	mir/146
 Spiritmonger	creature	5	multicolored	ima/209
 Spiritual Asylum	enchantment	4	white	nem/23
 Spiritual Focus	enchantment	2	white	mmq/49
-Spiritual Guardian	creature	5	white	mtga/11
+Spiritual Guardian	creature	5	white	por/27
 Spiritual Sanctuary	enchantment	4	white	leg/38
 Spiritual Visit	instant	1	white	sok/29
 Spiritualize	instant	3	white	ody/53
@@ -15590,7 +15575,6 @@ Szadek, Lord of Secrets	creature	7	multicolored	cm2/168
 Séance	enchantment	4	white	mm3/22
 Tablet of Epityr	artifact	1	colorless	me4/230
 Tablet of the Guilds	artifact	2	colorless	rtr/235
-Tactical Advantage	instant	1	white	mtga/12
 Tah-Crop Elite	creature	4	white	akh/31
 Tah-Crop Skirmisher	creature	2	blue	akh/72
 Tahngarth's Glare	sorcery	1	red	apc/70
@@ -15626,7 +15610,7 @@ Take Down	sorcery	1	green	kld/170
 Take Inventory	sorcery	2	blue	emn/76
 Take Possession	enchantment	7	blue	mma/66
 Take Up Arms	instant	5	white	bbd/111
-Take Vengeance	sorcery	2	white	mtga/13
+Take Vengeance	sorcery	2	white	m19/40
 Take into Custody	instant	1	blue	aer/47
 Takeno's Cavalry	creature	4	white	bok/24
 Takeno, Samurai General	creature	6	white	chk/46
@@ -16255,7 +16239,6 @@ Titania's Song	enchantment	4	green	me4/170
 Titania, Protector of Argoth	creature	5	green	cma/157
 Titanic Bulvox	creature	8	green	scg/129
 Titanic Growth	instant	2	green	m19/205
-Titanic Pelagosaur	creature	5	blue	mtga/19
 Titanic Ultimatum	sorcery	7	multicolored	ddh/31
 Titanium Golem	creature	5	colorless	mrd/263
 Tithe	instant	1	white	vis/23
@@ -16486,7 +16469,6 @@ Treetop Rangers	creature	3	green	usg/279
 Treetop Scout	creature	1	green	scg/130
 Treetop Sentinel	creature	4	blue	ody/111
 Treetop Village	land	0	colorless	ddu/30
-Treetop Warden	creature	2	green	mtga/48
 Tremble	sorcery	2	red	ody/225
 Tremor	sorcery	1	red	8ed/228
 Trench Gorger	creature	8	blue	cmd/65
@@ -17291,7 +17273,7 @@ Voidwielder	creature	5	blue	rtr/56
 Volatile Chimera	creature	3	red	cn2/59
 Volatile Rig	creature	4	colorless	rtr/236
 Volcanic Awakening	sorcery	6	red	tsp/186
-Volcanic Dragon	creature	6	red	mtga/45
+Volcanic Dragon	creature	6	red	m19/167
 Volcanic Eruption	sorcery	3	blue	4ed/112
 Volcanic Fallout	instant	3	red	cns/157
 Volcanic Geyser	instant	2	red	e01/61
@@ -17582,7 +17564,7 @@ Water Servant	creature	4	blue	mm2/69
 Water Wurm	creature	1	blue	drk/38
 Watercourser	creature	3	blue	bbd/137
 Waterfront Bouncer	creature	2	blue	vma/102
-Waterknot	enchantment	3	blue	mtga/22
+Waterknot	enchantment	3	blue	m19/311
 Watermarket	land	0	colorless	ust/166
 Waterspout Djinn	creature	4	blue	jvc/11
 Waterspout Elemental	creature	5	blue	pls/38
@@ -18159,7 +18141,6 @@ Zephid	creature	6	blue	usg/113
 Zephid's Embrace	enchantment	4	blue	usg/114
 Zephyr Charge	enchantment	2	blue	m14/82
 Zephyr Falcon	creature	2	blue	5ed/137
-Zephyr Gull	creature	1	blue	mtga/23
 Zephyr Net	enchantment	2	blue	lrw/98
 Zephyr Scribe	creature	3	blue	dtk/85
 Zephyr Spirit	creature	6	blue	rav/76
