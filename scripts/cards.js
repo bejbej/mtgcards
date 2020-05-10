@@ -122,11 +122,13 @@ Admiral's Order	instant	3	blue	front/8/0/80dc0310-afd9-49b4-b58f-a0e91120c38c
 Admonition Angel	creature	6	white	front/5/f/5feddbd0-3d29-4428-b70d-107c1e26930d
 Adorable Kitten	creature	1	white	front/d/2/d25ff6aa-a01d-49f2-926f-8f5457143b5c
 Adorned Pouncer	creature	2	white	front/9/0/90cbdcc2-b8a5-4098-98bd-38af59fcfea7
+Adriana's Valor	conspiracy	0	colorless	front/8/b/8bfd6889-90e2-49fe-bd30-7d850dc18db2
 Adriana, Captain of the Guard	creature	5	multicolored	front/d/2/d29569dd-6d79-412d-bc14-674cd1705260
 Adun Oakenshield	creature	3	multicolored	front/6/0/60252226-a102-4d88-9b80-42d021b5184d
 Advance Scout	creature	2	white	front/8/1/81ce7e1e-ffe5-4ced-8967-9a6917245240
 Advanced Hoverguard	creature	4	blue	front/7/3/7384d50a-5801-47ed-ab9f-5c7e4f1f20dd
 Advanced Stitchwing	creature	5	blue	front/f/9/f9c9e68a-6b73-456b-8895-065d26446430
+Advantageous Proclamation	conspiracy	0	colorless	front/f/8/f8c37fe8-43b3-454e-a70b-5b0d0f396a33
 Advent of the Wurm	instant	4	multicolored	front/b/a/ba3b5e35-5448-4115-a9c5-6ac14013c904
 Adventurers' Guildhouse	land	0	colorless	front/3/2/32865e68-5842-4f17-b2ea-4ffa743b511f
 Adventuring Gear	artifact	1	colorless	front/3/a/3aa395f2-656e-4bf3-bd9b-6240bd3e2774
@@ -937,6 +939,7 @@ Assault Strobe	sorcery	1	red	front/9/b/9b505c78-5dbd-483d-92bb-5144060e962f
 Assault Suit	artifact	4	colorless	front/b/c/bcc50d1e-fcc8-4f19-8e1a-9209725521ec
 Assault Zeppelid	creature	4	multicolored	front/1/2/12bf6443-c941-418a-a766-05bba088a117
 Assemble the Legion	enchantment	5	multicolored	front/c/7/c71a6dbc-11cd-43f9-ac1b-fe779d590bff
+Assemble the Rank and Vile	conspiracy	0	colorless	front/7/0/7023889e-924f-495f-b189-82592989d659
 Assembled Alphas	creature	6	red	front/8/6/8603c493-afb0-47a1-b4e3-9848b3824840
 Assembly Hall	artifact	5	colorless	front/1/6/1676ccbb-91d2-4f26-b3a5-ccb1a21bdebf
 Assembly-Worker	creature	3	colorless	front/8/9/89a288d2-de94-4c49-a17e-5b0ed0281a5b
@@ -1169,6 +1172,7 @@ Backdraft Hellkite	creature	5	red	front/2/a/2af9027d-c1d2-49b6-b303-04e37d38e010
 Backfire	enchantment	1	blue	front/a/d/ad34094d-a7ec-4b04-a288-4d4f1a07fc6b
 Backlash	instant	3	multicolored	front/d/a/dadf030d-5451-43fc-bf0c-c1629fdf88ec
 Backslide	instant	2	blue	front/4/7/47c40269-80a5-454f-83dd-dae1c11500c0
+Backup Plan	conspiracy	0	colorless	front/8/4/84c5a45a-adc2-41f9-893c-58a03bebbf0c
 Backwoods Survivalists	creature	4	green	front/f/8/f8257adc-5441-404d-a1fa-7abf8c15036c
 Bad Ass	creature	4	black	front/2/e/2ee08949-7cd4-4099-a109-de041a201529
 Bad Moon	enchantment	2	black	front/8/f/8f8a75da-ea3c-43e7-9d32-1c92f8ec0fd2
@@ -2022,6 +2026,7 @@ Bower Passage	enchantment	2	green	front/b/9/b9f0048f-aaa0-4597-b898-ee754d0bbe4b
 Box of Free-Range Goblins	sorcery	6	red	front/6/9/6964c3d5-4bb7-46b1-a057-878af73f2e5f
 Brace for Impact	instant	5	white	front/8/d/8d1f1c57-693f-452b-951f-8c8c23f2ee99
 Brackwater Elemental	creature	3	blue	front/a/9/a96f2106-3524-4fc0-85df-8cf9d0901ea8
+Brago's Favor	conspiracy	0	colorless	front/9/b/9bb6ece9-2038-4dbc-83aa-01ab4d7980b4
 Brago's Representative	creature	3	white	front/b/f/bfa2b59c-eaeb-4946-80e0-f937a206aa0c
 Brago, King Eternal	creature	4	multicolored	front/8/b/8ba873c1-f1ff-49f2-9e0d-bc9d52f94d76
 Braid of Fire	enchantment	2	red	front/8/a/8a8e0464-3f05-4719-ad42-577954751da8
@@ -4570,6 +4575,7 @@ Double Dip	instant	5	white	front/e/b/ebbdbd92-ec36-4fe9-b75d-13f55574db5e
 Double Header	creature	5	blue	front/5/3/532c9c9f-a622-4bc3-b9be-38ed70b5c0f1
 Double Negative	instant	3	multicolored	front/2/c/2c7e3c58-3cda-4891-8b3d-33bb21568cf5
 Double Play	sorcery	5	green	front/e/3/e35c66e0-0ca8-447f-b8d9-b03ce7ffaf7f
+Double Stroke	conspiracy	0	colorless	front/b/0/b0ec6d79-8a22-49d5-ac00-7fd60b278a4d
 Double Take	instant	5	blue	front/7/1/71941f1f-b41e-4ec9-a7c6-61eccaa47b0e
 Doublecast	sorcery	2	red	front/b/e/be8875d8-fe8c-4721-aa8d-978bf72e9c26
 Doubling Chant	sorcery	6	green	front/f/7/f71dc232-9b7e-4c0e-ac05-8e48b4936aa9
@@ -5002,6 +5008,7 @@ Echo Storm	sorcery	5	blue	front/5/4/546da0df-db26-4f50-8b5e-eb09782dd1d1
 Echo Tracer	creature	3	blue	front/e/8/e856fbd5-0e8b-4f28-bfea-0ad73418d140
 Echo of Eons	sorcery	6	blue	front/f/f/ff590af2-2d6c-4f16-a9b8-1a6dab6e9ad5
 Echoes of the Kin Tree	enchantment	2	white	front/5/3/531414e6-ea72-4934-b05e-e1782249fd1f
+Echoing Boon	conspiracy	0	colorless	front/1/6/165dd3b0-0878-448e-b922-019d0ba372d0
 Echoing Calm	instant	2	white	front/0/6/060e278c-dc34-4a94-9b15-6e9ffb2a1aee
 Echoing Courage	instant	2	green	front/0/4/04367e72-3f8c-4cba-8bdf-5a1ba9c9f01f
 Echoing Decay	instant	2	black	front/2/3/23a927c2-ded1-4014-a692-2af965eb3ed8
@@ -5222,6 +5229,7 @@ Emissary of Grudges	creature	6	red	front/b/8/b8d3d78d-a18b-4ed2-a076-9893fbba94b
 Emissary of Hope	creature	3	white	front/f/4/f4c47553-4209-4634-a49c-25714cd3967b
 Emissary of Sunrise	creature	3	white	front/0/6/0636cd47-d2a3-4320-97bf-40db805fca51
 Emissary of the Sleepless	creature	5	white	front/c/c/cc5fa496-a830-4031-a19a-d6467d074ad1
+Emissary's Ploy	conspiracy	0	colorless	front/c/e/ce5f3b5c-feb8-4304-852f-01c467d6517c
 Emmara Tandris	creature	7	multicolored	front/7/d/7d415858-5f7d-406c-bb30-b4c48ebaad08
 Emmara, Soul of the Accord	creature	2	multicolored	front/4/1/41b930ee-e16b-4612-87de-c03ecc6ff6db
 Emmessi Tome	artifact	4	colorless	front/b/f/bf5b4fac-165b-447b-9a5f-820b2ca226c3
@@ -8116,6 +8124,7 @@ Hinterland Logger	creature	2	green	front/1/4/14529bed-9632-4d58-8edc-c5a1359f660
 Hipparion	creature	2	white	front/f/2/f26fc403-b8af-499a-8cbc-4077ff97b8b0
 Hired Blade	creature	3	black	front/d/0/d02e7036-de50-4e87-a68b-3a6f33fdc142
 Hired Giant	creature	4	red	front/d/c/dc33920a-f05c-46fa-b94b-278af0022b78
+Hired Heist	conspiracy	0	colorless	front/d/3/d3914468-d769-4fe3-ae18-0caee9eb1502
 Hired Muscle	creature	3	black	front/2/8/28f72260-c8f9-4c44-92b5-23cef6690fdd
 Hired Poisoner	creature	1	black	front/b/f/bf97e572-90d6-46fc-81c3-956a7ef88983
 Hired Torturer	creature	3	black	front/6/2/62e9f79e-6606-4c9b-838c-eda5d8cc612c
@@ -8145,6 +8154,7 @@ Hokori, Dust Drinker	creature	4	white	front/5/a/5a03f5d5-d5c3-4a7d-8d44-e60b498b
 Hold at Bay	instant	2	white	front/f/f/ffeb407d-6a42-488a-9869-83da3047e45d
 Hold the Gates	enchantment	3	white	front/4/8/48fd52d0-0e41-48d5-b96f-4c6409788c18
 Hold the Line	instant	3	white	front/d/2/d20ee9c8-6d58-42fc-8b27-bfd0ea6d4374
+Hold the Perimeter	conspiracy	0	colorless	front/0/0/00717f7c-0778-4a02-b6c0-b3c3f07e75a9
 Holdout Settlement	land	0	colorless	front/c/f/cf08c317-6f2d-47e3-ab5b-8af73fd3e404
 Holistic Wisdom	enchantment	3	green	front/2/1/2134a564-b089-4049-bd9c-a3f10e072263
 Hollow Dogs	creature	5	black	front/5/2/520fcafe-0c4a-49ca-8138-57a60506b0cd
@@ -8380,6 +8390,7 @@ Hydrosurge	instant	1	blue	front/1/f/1fd4dacb-912e-4e54-ab60-16a5262d0fbb
 Hyena Pack	creature	4	red	front/1/d/1dce786c-af9c-49f5-b372-741458180a09
 Hyena Umbra	enchantment	1	white	front/c/2/c2ece04a-e6b3-4496-b5e2-1fe8875f1982
 Hymn of Rebirth	sorcery	5	multicolored	front/6/1/61d0f2f2-f6e2-4b8a-8418-10b17c5e0ea9
+Hymn of the Wilds	conspiracy	0	colorless	front/e/7/e7902666-21f2-4590-9dca-e95858dbde70
 Hymn to Tourach	sorcery	2	black	front/3/f/3faa8c5e-9e1b-4cee-b322-a033bf33dcbc
 Hypergenesis	sorcery	0	green	front/d/a/da4d6969-e579-4b28-a76b-5a99c7488f15
 Hyperion Blacksmith	creature	3	red	front/4/4/44d499a9-fe7c-4a1a-9eb3-a7fd9f85ae08
@@ -8495,6 +8506,7 @@ Imaginary Pet	creature	2	blue	front/4/3/432d8827-e46d-4c0d-bde3-305594f20f19
 Imaginary Threats	instant	4	blue	front/5/0/50c3a6a5-9a50-4a38-9f5f-b8caa320909d
 Imi Statue	artifact	3	colorless	front/9/1/91c33332-8a72-4b81-a8e9-a73aaac6013c
 Immaculate Magistrate	creature	4	green	front/f/a/fa30a2b4-ab8d-4c53-8dbd-d27aadf18667
+Immediate Action	conspiracy	0	colorless	front/1/6/167c6740-0625-4987-8fac-516aab564ca1
 Immerwolf	creature	3	multicolored	front/9/3/9326061f-ea76-4be7-a06f-aefb63454777
 Imminent Doom	enchantment	3	red	front/a/5/a51f8207-485e-4a4e-aa62-8e0e69645a0e
 Immobilizer Eldrazi	creature	2	colorless	front/9/5/95d9c92d-8b1b-4adc-8015-d50e673b6321
@@ -8566,6 +8578,7 @@ Iname, Life Aspect	creature	6	green	front/b/e/be027e3c-8891-46f0-bca7-d28a94ca28
 Incandescent Soulstoke	creature	3	red	front/0/2/024e80e3-a36f-4c07-99d3-5dd8a2d8998f
 Incendiary	enchantment	1	red	front/8/5/854f4775-29b1-4ed1-94d9-db5930a35157
 Incendiary Command	sorcery	5	red	front/9/2/925d6ae9-deb8-41a4-99de-fd6fc6924d3b
+Incendiary Dissent	conspiracy	0	colorless	front/c/f/cfbe340b-ca40-4604-bdc6-4b00e7444df4
 Incendiary Flow	sorcery	2	red	front/c/f/cf464f61-8a7f-493b-a80f-2f2b0ebd8bf6
 Incendiary Oracle	creature	2	red	front/e/b/eb6b9b5c-35ff-47ac-9b04-71257314b686
 Incendiary Sabotage	instant	4	red	front/0/e/0ee44ca0-1989-42fa-8024-b6b3e5c3883c
@@ -8860,6 +8873,7 @@ Isperia, Supreme Judge	creature	6	multicolored	front/1/e/1e3b82a7-ebef-4190-9f50
 It That Betrays	creature	12	colorless	front/5/b/5b64cfc0-dace-4f54-b2b1-c92d8cb64c35
 It That Gets Left Hanging	creature	6	red	front/c/1/c1131b87-8e59-47e7-a760-848a455c82b0
 It of the Horrid Swarm	creature	8	colorless	front/2/e/2e9160cb-d3de-49ca-a97d-2cd259cd5447
+Iterative Analysis	conspiracy	0	colorless	front/2/1/212a39fa-e1b3-4ae3-945f-6d8cda6372ae
 Ith, High Arcanist	creature	7	multicolored	front/8/d/8dd98dea-8012-49bb-84cf-dd8ed5c032cf
 Ivory Charm	instant	1	white	front/0/7/0706acf6-587e-4f29-944a-fdf25aeacb6d
 Ivory Crane Netsuke	artifact	2	colorless	front/d/f/dfd84d1a-1e74-4779-996f-f8518f0b5f8c
@@ -11418,6 +11432,7 @@ Mutavault	land	0	colorless	front/9/2/927ed667-c228-4b96-a9f6-7cbadade8134
 Mutilate	sorcery	4	black	front/0/4/04587192-e5a6-46f6-98b5-3b349d618880
 Mutiny	sorcery	1	red	front/e/f/ef5c5531-4bb6-404d-b0cf-a3733a375d45
 Mutual Destruction	sorcery	1	black	front/8/5/85ac0b25-80bf-4871-a6f6-5cf4d5b9496e
+Muzzio's Preparations	conspiracy	0	colorless	front/5/7/57c57a16-328d-4c87-adf0-7af8f3515339
 Muzzio, Visionary Architect	creature	3	blue	front/1/7/170926b9-4bfa-4a9b-a297-db1672bc48d9
 Muzzle	enchantment	2	white	front/8/b/8b3048ec-bcbf-4a69-b56f-83bbe82b68e5
 Mwonvuli Acid-Moss	sorcery	4	green	front/6/8/6841dbf6-5023-4612-bbd7-182fd35b05c8
@@ -11570,6 +11585,7 @@ Natural Order	sorcery	4	green	front/b/f/bfe3329c-7faa-4925-b9d2-075a1ab27e80
 Natural Selection	instant	1	green	front/3/1/315a6bfb-5417-465f-97d9-e157f5c3cf79
 Natural Spring	sorcery	5	green	front/9/8/983874b1-3179-4ac6-a4f3-efa133331c6f
 Natural State	instant	1	green	front/f/d/fdd4bdd5-1673-4f22-b593-41df8ce95a97
+Natural Unity	conspiracy	0	colorless	front/5/e/5e633e76-ea92-46e5-a0c1-7930109c7712
 Naturalize	instant	2	green	front/7/1/717a07df-2259-4bbe-8e6a-04de1ca7bcdc
 Nature's Blessing	enchantment	4	multicolored	front/5/b/5ba0e677-361d-4e03-9c2c-018d1c383456
 Nature's Chant	instant	2	multicolored	front/9/a/9a17cbf6-3f38-4bc6-8448-881e19cffe06
@@ -12999,6 +13015,7 @@ Power Artifact	enchantment	2	blue	front/e/4/e48bc89e-6da5-43da-b4e0-60d5f850199c
 Power Conduit	artifact	2	colorless	front/b/0/b0f5c84f-1924-4a4a-84c1-00dcb756e9c9
 Power Leak	enchantment	2	blue	front/9/9/99f235d7-8f6b-4d17-bc36-6f2cb6d5deec
 Power Matrix	artifact	4	colorless	front/a/5/a578599c-7d90-4881-b59a-9cf64b90d917
+Power Play	conspiracy	0	colorless	front/b/b/bbfca319-edc4-45f2-b208-35c8112ec918
 Power Sink	instant	1	blue	front/0/9/098d3f20-e377-4579-b8d7-2d5e7ee3fb4e
 Power Surge	enchantment	2	red	front/0/b/0b5717af-a1a3-45cb-8b05-7543eed5532a
 Power Taint	enchantment	2	blue	front/1/3/13d0296c-c0f5-491e-9e61-be8f5af2e631
@@ -15070,7 +15087,9 @@ Second Wind	enchantment	3	blue	front/0/6/061d2f8f-1166-4579-9609-d8ba5db79172
 Secret Base	land	0	colorless	front/6/b/6ba52527-191f-4b6e-a524-f2a7a01813bf
 Secret Plans	enchantment	2	multicolored	front/b/2/b223d673-79da-4e2e-84a4-db917fbbd7dd
 Secret Salvage	sorcery	5	black	front/d/9/d9b9f3e2-b5e8-4234-aaf3-5f1938a20c78
+Secret Summoning	conspiracy	0	colorless	front/7/8/7867db8a-5adc-4fe9-aabd-aa55935e3227
 Secretkeeper	creature	4	blue	front/0/3/03247e03-747a-462a-ad74-49ce02d20f13
+Secrets of Paradise	conspiracy	0	colorless	front/1/5/15ace01c-93de-49e6-b9f9-276a2303f42f
 Secrets of the Dead	enchantment	3	blue	front/0/6/066311f5-51fc-4da9-a5fa-fa5059a88e5b
 Secrets of the Golden City	sorcery	3	blue	front/2/a/2a08f978-380c-4443-bbb8-3eb8ad2f513a
 Secure the Wastes	instant	1	white	front/9/1/915d2f5f-b228-4190-ade9-52e2a8056847
@@ -15185,6 +15204,7 @@ Senseless Rage	enchantment	2	red	front/9/c/9c779cb6-3454-4d5a-85a1-bea5cf8005b1
 Sensor Splicer	creature	5	white	front/f/3/f36f269c-4178-48be-b1f7-fc35fc5082f0
 Sensory Deprivation	enchantment	1	blue	front/7/0/7050735c-b232-47a6-a342-01795bfd0d46
 Sentinel	creature	4	colorless	front/f/f/ffd4921f-cda5-4318-837d-a3fe4f0d9362
+Sentinel Dispatch	conspiracy	0	colorless	front/2/b/2b5f4072-47d6-46e2-affb-3affb908124e
 Sentinel Sliver	creature	2	white	front/7/4/74c28560-e6ac-4be9-a253-22c4613b0d90
 Sentinel Spider	creature	5	green	front/c/9/c9ddd780-29e5-4dbd-a371-5e46f63157d4
 Sentinel Totem	artifact	1	colorless	front/0/d/0d8097eb-518a-4b8e-8d6a-a139d4ddcc8f
@@ -16303,6 +16323,7 @@ Southern Elephant	creature	4	green	front/7/7/77c3a2b3-5ad8-4b16-a7a8-8344b78ca77
 Southern Paladin	creature	4	white	front/b/2/b2fa1570-3103-494c-8316-8f0bf484f22d
 Souvenir Snatcher	creature	5	blue	front/f/7/f7845c68-ab08-4fb3-a1af-167ba6c8b82a
 Sovereign's Bite	sorcery	2	black	front/5/3/5326d251-bb91-4653-b1fa-44f14c4e0b88
+Sovereign's Realm	conspiracy	0	colorless	front/a/b/abefb30c-780d-4496-8fc6-6e1b80686c15
 Sovereigns of Lost Alara	creature	6	multicolored	front/9/d/9d68ea02-66d3-4cca-ba0c-96f4340f683c
 Sower of Discord	creature	6	black	front/b/1/b111df04-7687-47f9-8ffc-5cf25bc3e9bf
 Sower of Temptation	creature	4	blue	front/0/d/0d4a3eb3-8b28-49f7-a06c-eae26da6026b
@@ -17101,6 +17122,7 @@ Summit Prowler	creature	4	red	front/f/2/f2672bc8-3331-4d4d-8fa1-d78d213d507c
 Summon the Pack	sorcery	8	black	front/c/d/cd66d5bb-a0cc-48fa-9d98-4195debc188a
 Summon the School	sorcery	4	white	front/1/3/13a4c124-216b-44b1-b49a-3db3f033e4cd
 Summoner's Bane	instant	4	blue	front/5/4/54a9a782-3479-41cd-9c4f-fa38bfad98c8
+Summoner's Bond	conspiracy	0	colorless	front/c/4/c4f16145-1ace-48a9-bd98-b0aea3e4bf62
 Summoner's Egg	creature	4	colorless	front/3/5/3581ac02-5dab-423a-9cf3-275d9203f26d
 Summoner's Pact	instant	0	green	front/4/5/4550b26a-3a73-4724-99d5-1e0a52c36701
 Summoning Station	artifact	7	colorless	front/c/8/c8072944-268a-41e0-a1d8-9fe33e964bff
@@ -18691,6 +18713,7 @@ Unearthly Blizzard	sorcery	3	red	front/d/0/d034ad87-fd28-4c23-b897-1d6343ce8282
 Unerring Sling	artifact	3	colorless	front/e/c/ecf946b8-8574-406a-83fd-966ed912921f
 Unesh, Criosphinx Sovereign	creature	6	blue	front/f/d/fdd1a8b2-f4ba-45af-9586-98a98834b8bc
 Unexpected Fangs	instant	2	black	front/a/a/aa6494ad-a35e-4b09-8623-7740f3c20b0b
+Unexpected Potential	conspiracy	0	colorless	front/8/7/8789ef9e-f68c-4ff0-8621-47678038131b
 Unexpected Results	sorcery	4	multicolored	front/6/5/65e10a22-6070-48d7-99ab-45f770f16fd1
 Unexpectedly Absent	instant	2	white	front/a/1/a1501a42-e233-423b-b68a-1b76630bbccc
 Unexplained Disappearance	instant	2	blue	front/9/c/9c99b239-50d2-4393-80ec-94dbfaa6ae70
@@ -19683,6 +19706,7 @@ Wei Infantry	creature	2	black	front/7/2/72c6465f-3144-4faf-b248-a9fb941dc002
 Wei Night Raiders	creature	4	black	front/f/5/f5a0292e-ecf4-42df-8abf-f4479f8ad6cb
 Wei Scout	creature	2	black	front/a/1/a11d58fb-fb70-4e8f-8f64-232ad2c1f59b
 Wei Strike Force	creature	3	black	front/6/e/6eae8ce1-b21f-4d64-91ff-e98bf6a4548a
+Weight Advantage	conspiracy	0	colorless	front/f/e/feef03a1-f19a-413b-ad86-0b357cf9c09c
 Weight of Conscience	enchantment	2	white	front/3/9/396c8c41-70b4-4189-9160-8b7367a817a2
 Weight of Memory	sorcery	5	blue	front/2/f/2f2359aa-9230-4519-b12e-ec395a8dd2a0
 Weight of Spires	instant	1	red	front/d/5/d5f26a87-4562-450c-800b-7d4acc1ae17b
@@ -20080,6 +20104,7 @@ World-Bottling Kit	artifact	5	colorless	front/f/d/fd1be145-cf42-4a9a-8d0a-d7174d
 Worldfire	sorcery	9	red	front/2/e/2ef3d4b5-0453-4bf0-b018-23b0c3b9ae11
 Worldgorger Dragon	creature	6	red	front/9/d/9dae8fa6-c86e-492b-b28b-96d4ee83f6c6
 Worldheart Phoenix	creature	4	red	front/1/9/1927081a-4eea-48dd-a81a-2e751552751d
+Worldknit	conspiracy	0	colorless	front/7/f/7f1fe849-b407-4252-b175-3f4afbbcea1b
 Worldly Counsel	instant	2	blue	front/b/4/b454cbdc-b2ff-4b6a-acaf-b7cf52359f0b
 Worldly Tutor	instant	1	green	front/b/3/b34d9054-5ad8-4a7d-a5c8-58bc39051834
 Worldpurge	sorcery	8	multicolored	front/d/6/d6f70fdb-264f-4545-97fa-3702168a66d4
