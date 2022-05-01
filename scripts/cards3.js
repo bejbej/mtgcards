@@ -4,6 +4,7 @@ var cardsCSV = `name	primaryType	cmc	color	imageuri	doubleFace
 +2 Mace	artifact	2	white	e/8/e882c9f9-bf30-46b6-bedc-379d2c80e5cb
 _____	creature	2	blue	5/a/5aa90ab6-2686-4462-8725-5d4370c05437
 A Good Thing	enchantment	6	multicolored	1/a/1ad27492-be40-4417-a275-a76fe974d350
+A Little Chat	instant	2	blue	4/d/4d7424b6-b56a-47b7-8204-294d3dca925f
 Abandon Hope	sorcery	2	black	9/4/942cf220-472c-48f6-8f60-993939ea5ab8
 Abandon Reason	instant	3	red	1/8/18c0b3b3-bb62-42c5-9869-386af0540a9b
 Abandon the Post	sorcery	2	red	9/8/983da138-f0f5-46c4-90c2-d3c34cc37d1f
@@ -76,7 +77,7 @@ Academy Manufactor	creature	3	colorless	9/0/90744c2c-6dd7-4623-8cbf-b138b83ee88f
 Academy Raider	creature	3	red	6/6/6652ed29-ee90-4abc-a6cf-6b18a6cbae86
 Academy Rector	creature	4	white	4/3/4367bc78-0912-4abd-8edd-bc792558d01a
 Academy Researchers	creature	3	blue	b/6/b62ca800-ec24-476e-b56f-834eef9622a9
-Academy Ruins	land	0	colorless	a/9/a95b7645-154f-4904-bf71-db7eb24d4df2
+Academy Ruins	land	0	colorless	5/7/579cce0c-5afe-4104-97e8-fd303e8fcc28
 Accelerate	instant	2	red	6/a/6a28dd88-db90-4f02-8aa9-39051d2c4763
 Accelerated Mutation	instant	5	green	2/8/282f808c-0b58-4b98-aeda-f606a10d1a4b
 Acceptable Losses	sorcery	4	red	9/0/9082bfb8-0ab0-4378-976d-a2c9d3c35a5e
@@ -173,6 +174,7 @@ Aerathi Berserker	creature	5	red	0/6/06673800-22a7-4ee3-92fa-7c7cd4865d30
 Aerial Assault	sorcery	3	white	5/8/58e84a4a-034f-4f55-a827-e62f2b61f091
 Aerial Caravan	creature	6	blue	a/d/adac91af-5165-4779-99f7-e75c83fa5d5d
 Aerial Engineer	creature	4	multicolored	5/3/5314bae2-4930-4f8a-8a52-853bc3feb88f
+Aerial Extortionist	creature	5	white	2/1/219a1d6c-e886-4d5a-a501-d5149fcd1871
 Aerial Formation	instant	1	blue	f/c/fce86785-bc03-451e-8422-8bb53082cc12
 Aerial Guide	creature	3	blue	b/7/b744c138-9b9e-47f6-9d56-feb6a78ce377
 Aerial Maneuver	instant	2	white	c/6/c63e9c49-3fa4-41ad-9eed-19801df103c6
@@ -213,7 +215,7 @@ Aether Poisoner	creature	2	black	c/9/c9b217f1-1621-40d1-8a98-24c1f7cba800
 Aether Rift	enchantment	3	multicolored	6/9/692c186a-997c-4f7e-a339-bf84884e1019
 Aether Searcher	creature	7	colorless	9/4/94dcff94-9f25-4ca9-a1f1-5d97de4ab9df
 Aether Shockwave	instant	4	white	8/2/8214d2e9-5aa1-42a7-8f1a-f4eaa2def1b1
-Aether Snap	sorcery	5	black	c/8/c89eed52-aa5b-4a59-9bc6-cea65e504deb
+Aether Snap	sorcery	5	black	d/d/dd9cade1-b077-4fb0-b55a-01b9916647e7
 Aether Spellbomb	artifact	1	colorless	a/5/a54e8ce9-edd7-4ae7-9521-6fb6727cf63b
 Aether Sting	enchantment	4	red	6/6/66a09917-50ce-4b51-a5cf-e28e88a45762
 Aether Storm	enchantment	4	blue	c/e/ce479e91-7b21-4312-a3c0-950d9f6dc029
@@ -267,6 +269,7 @@ Agent of Shauku	creature	2	black	d/8/d8316804-6f8b-423e-a2c3-fa476c095544
 Agent of Stromgald	creature	1	red	d/9/d9236d75-1724-4121-9fa9-57fa96b19361
 Agent of the Fates	creature	3	black	e/c/ecd59977-8788-417d-ba50-e21b8a636bd3
 Agent of Treachery	creature	7	blue	c/c/cc6686e6-4535-49be-b0b3-e76464656cd2
+Agent's Toolkit	artifact	3	multicolored	6/4/64cbb81d-3444-4491-963f-8ce9a9430788
 Aggravate	instant	5	red	9/9/999f40a7-b723-42e1-83c1-f45a72a26dd4
 Aggravated Assault	enchantment	3	red	c/9/c99c5707-d5f2-4675-bfca-e801e6b0f627
 Aggression	enchantment	3	red	f/3/f3f26060-0c24-496c-b8e2-4dac7ea6166b
@@ -276,7 +279,7 @@ Aggressive Mammoth	creature	6	green	4/e/4e68b3bd-996e-4383-b134-f529bcb768de
 Aggressive Mining	enchantment	4	red	e/1/e15a3f1a-83af-4541-8d1c-bf7844f969c9
 Aggressive Urge	instant	2	green	f/f/ff69e6a8-f34f-4aea-9a54-c4b64ed3116c
 Agility	enchantment	2	red	5/6/5694cb42-7489-40c5-b21a-aeb36636015f
-Agitator Ant	creature	3	red	6/a/6a61c242-5273-430c-b14e-fb76dc782ba3
+Agitator Ant	creature	3	red	c/5/c58f8394-db7d-496b-a6bf-481b3cc55fc8
 Agonizing Demise	instant	4	black	b/7/b7621aab-4839-45ef-bfa2-9aa2417bbec0
 Agonizing Memories	sorcery	4	black	2/8/28bac7a8-d3bb-4032-b30b-db7328e4d2fc
 Agonizing Remorse	sorcery	2	black	0/9/09270c65-546e-4737-a6b7-402cbb87917a
@@ -306,7 +309,7 @@ Airdrop Condor	creature	5	red	e/c/ec9796ac-11e2-4295-bf00-f684d0111970
 Aisling Leprechaun	creature	1	green	6/4/640a161d-ad7b-4e5b-8f2d-d3753cb9daa3
 Ajani Goldmane	planeswalker	4	white	2/d/2d911053-a026-4b20-ba2d-dbcc367c1413
 Ajani Steadfast	planeswalker	4	white	f/9/f9302ba8-7ff2-4eaa-a32d-eedd94f0bb79
-Ajani Unyielding	planeswalker	6	multicolored	9/6/9675ba74-3e3c-4570-bdc0-44b90de7953b
+Ajani Unyielding	planeswalker	6	multicolored	4/1/41000308-144d-4d3b-afec-e3928d20edfc
 Ajani Vengeant	planeswalker	4	multicolored	8/f/8fc108a3-15e5-44ab-a6e2-182b309f9c0c
 Ajani's Aid	enchantment	4	multicolored	7/0/7026c374-0776-403b-86fd-5092677fd5c9
 Ajani's Chosen	creature	4	white	8/e/8ea009c1-505e-4307-b8f3-2d37e36507a6
@@ -400,7 +403,7 @@ Alchemist's Retrieval	instant	1	blue	e/d/edbf9d4f-6027-40b8-81c1-7f001a9119dd
 Alchemist's Vial	artifact	2	colorless	d/6/d6df465c-11f5-4b42-9ff1-e89b92aa1f31
 Alchor's Tomb	artifact	4	colorless	f/4/f4395b19-2118-4a09-8932-f9ce9bc54d6d
 Aleatory	instant	2	red	7/3/7380af0a-8a8f-44fd-9456-14a68a2830d3
-Alela, Artful Provocateur	creature	4	multicolored	7/2/726e7dc5-2089-4758-93e1-79212aedf75f
+Alela, Artful Provocateur	creature	4	multicolored	a/b/abc9e41e-fd03-4b6f-8f44-17ba94fa44f5
 Alena, Kessig Trapper	creature	5	red	9/0/90c51949-b1ef-4c6e-98b0-4fb33a81db24
 Alert Heedbonder	creature	3	multicolored	1/5/15a2ccae-c322-4e99-a094-a68fc5d52ea3
 Alert Shu Infantry	creature	3	white	c/9/c94a92a9-060e-42d3-a8d1-49425defc08a
@@ -424,6 +427,7 @@ All Hallow's Eve	sorcery	4	black	1/8/18787a2d-6688-47e9-94bc-ccf229df823f
 All Is Dust	sorcery	7	colorless	1/e/1e30c6a4-62c4-444a-8c4c-a73d8f59b276
 All Suns' Dawn	sorcery	5	green	1/5/15629398-bb20-4ff3-ab0e-061dcea916d5
 All That Glitters	enchantment	2	white	d/9/d9713032-2956-4564-b5f5-2dd16245a4e6
+All-Seeing Arbiter	creature	6	blue	c/8/c832c0b8-aefa-459c-8de8-aa32400612cd
 Allay	instant	2	white	f/2/f20a1c6d-ec6a-4bd6-b3b2-b997f71d41fc
 Alley Evasion	instant	1	white	6/0/6063d9b7-9874-47da-90aa-8938df2086ab
 Alley Grifters	creature	3	black	c/f/cfb648e3-f5ad-4b33-afa3-d4cda0d369a1
@@ -517,6 +521,7 @@ Amulet of Quoz	artifact	6	colorless	7/6/764ec6a8-a878-446c-b7e4-6026c2a3e9a4
 Amulet of Safekeeping	artifact	2	colorless	d/4/d45ac8dc-281f-4257-9658-80af65a0295b
 Amulet of Unmaking	artifact	5	colorless	f/d/fdbd94c8-611c-4b20-99ca-dd2d7661d644
 Amulet of Vigor	artifact	1	colorless	9/9/997bc933-ac30-477b-a4e1-5333b796a99d
+An Offer You Can't Refuse	instant	1	blue	b/9/b9d349f3-5be2-4b1f-a4c3-ba94822cf0cf
 An-Havva Constable	creature	3	green	4/2/42c5a793-a777-44f9-a977-d16d26d3f852
 An-Havva Inn	sorcery	3	green	e/f/eff4531f-d19d-44af-861a-33087197d21c
 An-Havva Township	land	0	colorless	9/a/9afac347-4316-43e2-848b-e474ed563af6
@@ -596,6 +601,7 @@ Angel of Retribution	creature	7	white	8/0/807f4edf-a961-4f52-a44e-abde0fd35722
 Angel of Salvation	creature	8	white	a/5/a55cdee5-134f-4008-91ce-9e7d0fdb5750
 Angel of Sanctions	creature	5	white	f/3/f3f7f258-7ac0-4149-9d8c-712b5ea7f0a8
 Angel of Serenity	creature	7	white	6/0/60301fbc-1bd4-4c37-ad19-660d625a090a
+Angel of Suffering	creature	5	black	c/d/cd4aee25-496d-453e-95b7-d773fe21cacc
 Angel of the Dawn	creature	5	white	d/0/d00ffeb5-195c-45ad-a791-ec67f463d552
 Angel of the Dire Hour	creature	7	white	b/7/b7ab81d4-aaf7-4c72-9651-5e1482126928
 Angel of the God-Pharaoh	creature	6	white	a/d/ad202785-a91f-4dc8-bcc0-eb1bd49f162e
@@ -627,6 +633,7 @@ Angelic Favor	instant	4	white	8/7/871ad2f3-1dd2-45ea-881d-529aad3b76ec
 Angelic Field Marshal	creature	4	white	4/e/4e8185b9-f559-47e8-ae90-d62396b4aa6b
 Angelic Gift	enchantment	2	white	5/a/5a2122c0-5fb4-4767-b969-c61bd959d604
 Angelic Guardian	creature	6	white	e/0/e058dc51-b200-42ee-a345-a63cfaa397fe
+Angelic Observer	creature	6	white	e/6/e6cce4d3-e6d8-4c6f-9d9c-c0a8a607a42f
 Angelic Overseer	creature	5	white	2/2/221d999c-dde1-4a0f-87cf-9e9f44969f94
 Angelic Page	creature	2	white	d/d/ddf5db14-f2aa-4088-9894-7bd3a56dfe1e
 Angelic Protector	creature	4	white	b/5/b5713023-3975-464f-b88a-096b3737a84c
@@ -636,6 +643,7 @@ Angelic Renewal	enchantment	2	white	a/0/a03fc1f1-31f6-4e52-87d0-e3d18ea60d3b
 Angelic Rocket	creature	8	colorless	b/d/bd8b8287-7af4-4c5b-8d76-7f865bd602c0
 Angelic Shield	enchantment	2	multicolored	b/5/b5c268cc-891b-49df-8964-736d325b9403
 Angelic Skirmisher	creature	6	white	b/e/beb04702-5cb2-4590-b675-9409ba52a395
+Angelic Sleuth	creature	3	white	b/0/b0d044fe-9a6b-4994-9fad-2cc52696f90d
 Angelic Voices	enchantment	4	white	1/e/1e9a66b2-7392-4030-a3a8-8f3697307a39
 Angelic Wall	creature	2	white	7/f/7fe8f88e-8a51-494b-a008-fbfe624f97f7
 Angelsong	instant	2	white	e/d/ed7c777e-b9c9-4ee6-9bf2-b2fc50db3813
@@ -653,6 +661,7 @@ Angrath, the Flame-Chained	planeswalker	5	multicolored	a/4/a4d76d03-4fcf-42f8-8c
 Angry Mob	creature	4	white	a/2/a26d1c4d-af95-4b40-83a5-b51f8b2506db
 Anguished Unmaking	instant	3	multicolored	9/0/90ced4fa-6509-4f7a-9da7-efc70de6f90c
 Angus Mackenzie	creature	3	multicolored	5/7/57264bd9-94f6-4d4d-baff-2b2900585635
+Anhelo, the Painter	creature	3	multicolored	4/6/462e887d-6b91-4b31-9487-2780ffe8943f
 Animal Boneyard	enchantment	3	white	e/3/e3379317-be18-4252-84ad-b7ebb6e557ff
 Animal Magnetism	sorcery	5	green	c/3/c33db646-b30d-4a15-9f8a-63bda74e2d81
 Animal Sanctuary	land	0	colorless	f/8/f8d7a2c7-666d-4fc6-bac8-ef8eb66e355d
@@ -690,6 +699,7 @@ Anowon, the Ruin Thief	creature	4	multicolored	b/c/bca84fc4-4710-44c8-b90a-73ef8
 Answered Prayers	enchantment	3	white	1/7/175b6e34-9cb3-4c8d-9cc0-960082a9ee71
 Ant Queen	creature	5	green	4/9/499cc16c-9ead-45b9-b56c-7512cd54cf7c
 Antagonism	enchantment	4	red	6/b/6b9db511-089e-413f-8005-ccb05ec3b06e
+Antagonize	instant	2	red	8/b/8bac1d2a-99dd-40b3-8823-ce9225efcdcf
 Anthem of Rakdos	enchantment	5	multicolored	e/a/ea00d757-0ea9-4123-89f6-0a437d7fd33d
 Anthousa, Setessan Hero	creature	5	green	c/a/ca89e4d4-185d-4a08-b7af-03f6eff38ba3
 Anthroplasm	creature	4	blue	0/8/089e2bc7-0063-47bf-8f66-48bed6eb046b
@@ -758,7 +768,7 @@ Arashin Cleric	creature	2	white	1/0/10aeac19-6892-448e-9e5f-302051a089fc
 Arashin Foremost	creature	3	white	1/f/1f88ecc5-df1d-47e6-8cf3-1d708e2389e4
 Arashin Sovereign	creature	7	multicolored	d/b/db7fbf78-8cb6-4fbf-b925-5543bcb64b45
 Arashin War Beast	creature	7	green	6/6/66aed11a-0831-4619-931f-7dfded999c66
-Arasta of the Endless Web	creature	4	green	7/c/7c38833a-96c5-48b5-8dd8-23f10e798537
+Arasta of the Endless Web	creature	4	green	e/9/e905a310-02d5-4a86-bb58-2bb3502edba2
 Araumi of the Dead Tide	creature	3	multicolored	4/8/48b597dd-f6eb-45da-977d-453e8c1433cc
 Arbalest Elite	creature	4	white	0/9/094c839e-0aea-4754-af37-edf6292623e1
 Arbiter of Knollridge	creature	7	white	1/f/1fc2e7c4-5dbe-49f4-8c3f-192e7544df74
@@ -775,12 +785,14 @@ Arc Blade	sorcery	5	red	9/2/92b8fe7c-fe36-4f6d-9c7f-85286b745865
 Arc Lightning	sorcery	3	red	3/5/35c7c392-6782-40c8-bb24-6aad24f14660
 Arc Mage	creature	3	red	6/2/62982dab-4c27-45b3-9740-38fec3df7226
 Arc Runner	creature	3	red	3/2/32014715-7faa-412a-b8b4-751102e6b8a3
+Arc Spitter	artifact	1	colorless	f/9/f95a00ed-dc77-4dcd-9e14-6902565974b5
 Arc Trail	sorcery	2	red	7/c/7c093cb4-e4f8-4059-b6bf-6ab1ae81fedc
 Arc-Slogger	creature	5	red	d/3/d3dd67e0-72b4-4c55-b49b-c69950feccb1
 Arcades Sabboth	creature	8	multicolored	d/2/d20a0b5a-2a04-4cce-83e4-2d65ef9399df
 Arcades, the Strategist	creature	4	multicolored	1/e/1e90c638-d4b2-4243-bbc4-1cc10516c40f
 Arcane Adaptation	enchantment	3	blue	b/f/bf3edaaf-cf63-4e17-94ae-9d9991d9fb5f
 Arcane Artisan	creature	3	blue	b/a/ba946cfb-a729-406b-be35-0defaf95283e
+Arcane Bombardment	enchantment	6	red	3/1/31f1b2bd-fe06-45ec-99dc-ff357a7a31d2
 Arcane Denial	instant	2	blue	2/4/247e08a1-b9ce-4312-aec4-626992933038
 Arcane Encyclopedia	artifact	3	colorless	4/1/416a2796-08c7-4370-8bc5-2152877e9034
 Arcane Endeavor	sorcery	7	blue	7/8/7886d4e9-003c-4978-a48d-4743fbc38985
@@ -790,9 +802,9 @@ Arcane Investigator	creature	2	blue	d/c/dc457520-9947-4f65-bbe7-9b95bd2c23af
 Arcane Laboratory	enchantment	3	blue	f/9/f9e3bcd7-60f8-472a-ada0-c3147cf06588
 Arcane Lighthouse	land	0	colorless	f/a/fa90e142-15d4-461a-9e57-4a301a5df958
 Arcane Melee	enchantment	5	blue	9/e/9ea8fd24-311a-4745-804e-46b2abbe217a
-Arcane Sanctum	land	0	colorless	4/8/48d87619-6a6d-42ba-8a69-910d3cc7aede
+Arcane Sanctum	land	0	colorless	1/0/10ed5393-e274-4412-ba5d-6faecf3c18d8
 Arcane Savant	creature	5	blue	0/e/0e7466e5-9443-4b38-a7e9-e0d615a35667
-Arcane Signet	artifact	2	colorless	7/b/7bdf4615-7a08-40fe-9e04-cdbe10a62e06
+Arcane Signet	artifact	2	colorless	f/3/f3ee9829-f4c0-44a0-8252-4097402e2f8d
 Arcane Spyglass	artifact	4	colorless	d/1/d10d85c9-859a-4ff5-9a41-bf20622a3ff5
 Arcane Subtraction	instant	2	blue	6/8/68cdb00c-ea86-4b72-8f62-570820edfa1b
 Arcane Teachings	enchantment	3	red	4/1/41764237-fa31-4b27-92ff-712a42d350b9
@@ -857,7 +869,7 @@ Archmage Ascension	enchantment	3	blue	d/b/dbfe803d-88d7-4ad2-b3d8-c41c123d8bf3
 Archmage Emeritus	creature	4	blue	7/6/761df6cd-0928-4167-8902-58fdb50181a0
 Archmage's Charm	instant	3	blue	5/7/57b852b6-4388-4a41-a5c0-bba37a5c1451
 Archon of Absolution	creature	4	white	6/8/684ca60c-7ed4-49e1-b54a-91d129539375
-Archon of Coronation	creature	6	white	9/e/9e367c30-3b77-445e-a1fb-78f6c5971826
+Archon of Coronation	creature	6	white	2/c/2c306cf7-da52-4cc4-9272-bd7d78f1175d
 Archon of Cruelty	creature	8	black	1/b/1be9d9a4-d7ee-4854-abc2-85cabf993ec9
 Archon of Emeria	creature	3	white	2/2/228c1650-da3c-4099-91b6-18e3873c9cdb
 Archon of Falling Stars	creature	6	white	d/0/d0dd1e40-a514-42df-8cc1-364998c7700c
@@ -967,7 +979,7 @@ Arms Dealer	creature	3	red	9/1/910d3c33-8cda-487b-8b44-87a9d06d6749
 Arms Depot	artifact	0	colorless	8/2/8277ff56-067f-49dc-8f83-b9fe7b37990f
 Army Ants	creature	3	multicolored	7/e/7e129be5-e2c5-4f69-b8e8-539ac2085c7a
 Army of Allah	instant	3	white	3/d/3d170015-b125-49a6-a15e-8fd116bbcb14
-Army of the Damned	sorcery	8	black	7/8/787503ed-ebf5-4309-8dc6-3de925ea28a6
+Army of the Damned	sorcery	8	black	b/f/bf818314-1eb4-48da-8e6f-ff7b89873b63
 Arni Brokenbrow	creature	3	red	f/f/ff334bba-0805-4d5d-86c4-99185fe9a77a
 Arni Slays the Troll	enchantment	2	multicolored	d/1/d18396f9-ae20-4471-84ab-a2148319bc39
 Arnjlot's Ascent	enchantment	3	blue	2/3/2307fb16-8b77-45b5-8a02-51a13214791d
@@ -990,7 +1002,7 @@ Artful Looter	creature	3	blue	0/f/0f3ba2a4-3784-4bb5-8a60-7bae80e97eba
 Artful Maneuver	instant	2	white	6/4/644ef9b7-05b1-4878-9297-9f0d1cc9bf08
 Artful Takedown	instant	4	multicolored	4/c/4c9e8f24-af62-4d13-bfed-a8b3294b64c3
 Artifact Blast	instant	1	red	1/5/1506d99d-7b2e-4101-84a5-c950dadb263a
-Artifact Mutation	instant	2	multicolored	b/3/b3bbecfc-0983-4ade-b00a-2bac2cad8d2f
+Artifact Mutation	instant	2	multicolored	f/e/fed09083-a259-4ab5-bb85-aeab9d0b1f7c
 Artifact Possession	enchantment	3	black	5/8/587d6ac8-fad8-49e0-862e-636e06628ff9
 Artifact Ward	enchantment	1	white	b/3/b3a5101a-ec66-4658-950c-9ad49c29b836
 Artificer's Assistant	creature	1	blue	8/5/852ceabf-ce14-4fa9-90b5-895b5cb5ca7f
@@ -1000,9 +1012,10 @@ Artificer's Intuition	enchantment	2	blue	a/b/abe37c88-afd7-45ac-9f84-f4bd881a146
 Artificial Evolution	instant	1	blue	f/4/f46894d1-2503-43fa-938e-7bbf19101d13
 Artillerize	instant	4	red	0/3/034522ae-f531-44d9-b186-ada046ce0abc
 Artisan of Forms	creature	2	blue	a/7/a7f10198-1eef-4577-b375-b900b15060e1
-Artisan of Kozilek	creature	9	colorless	f/3/f3eafe93-4245-482d-bb68-446ff96cbcb0
+Artisan of Kozilek	creature	9	colorless	e/3/e3fef480-ee0e-41e1-9db3-68e945e7e867
 Artisan's Sorrow	instant	4	green	b/4/b4f38f7e-2369-48c9-9121-4b13c29ea869
 Arvad the Cursed	creature	5	multicolored	e/8/e811f37a-f381-42e7-9b4a-15b2241eb10d
+Arvinox, the Mind Flail	creature	7	black	c/8/c83542de-38ca-4aad-acba-189374be37e2
 Aryel, Knight of Windgrace	creature	4	multicolored	5/8/58e2981b-bf25-4d9d-8811-5a1ff0b4d5d2
 As Foretold	enchantment	3	blue	0/f/0f91d225-788e-42fc-9d01-8668f672b717
 As Luck Would Have It	enchantment	1	green	d/1/d17892f5-5c4a-4149-8d5e-ba9df013866e
@@ -1015,7 +1028,7 @@ Ascended Lawmage	creature	4	multicolored	e/9/e90d9cc4-9444-4610-ace5-c2981809b33
 Ascending Aven	creature	4	blue	b/d/bd8b17df-615c-4cc1-af1a-2fc35a985af9
 Ascent of the Worthy	enchantment	3	multicolored	0/b/0bf01666-0fbf-4b15-a33d-964165bbfafb
 Asceticism	enchantment	5	green	7/2/72eefa85-39de-4f9f-aba1-7520b358c6c4
-Ash Barrens	land	0	colorless	9/f/9f4dd417-43fd-4dee-aaf2-80d425bd0191
+Ash Barrens	land	0	colorless	5/2/5233b31f-a179-4ae9-95a2-2ff75b374edf
 Ash Zealot	creature	2	red	1/f/1f61b1a3-4b3b-4490-a9dc-17aac258cbda
 Asha's Favor	enchantment	3	white	2/8/28b817f7-ae05-4d31-8a2c-29d8082b4132
 Ashaya, Soul of the Wild	creature	5	green	7/4/74943390-d25f-47cb-90bb-cbf70c87f4a2
@@ -1074,7 +1087,7 @@ Assault Griffin	creature	4	white	7/0/704286a5-e3a8-4517-85e5-6447c5c2530f
 Assault Strobe	sorcery	1	red	9/b/9b505c78-5dbd-483d-92bb-5144060e962f
 Assault Suit	artifact	4	colorless	b/c/bcc50d1e-fcc8-4f19-8e1a-9209725521ec
 Assault Zeppelid	creature	4	multicolored	1/2/12bf6443-c941-418a-a766-05bba088a117
-Assemble the Legion	enchantment	5	multicolored	c/7/c71a6dbc-11cd-43f9-ac1b-fe779d590bff
+Assemble the Legion	enchantment	5	multicolored	c/7/c7a760c9-eeb5-4b83-b68b-f6738915f534
 Assemble the Rank and Vile	conspracy	0	colorless	7/0/7023889e-924f-495f-b189-82592989d659
 Assembled Alphas	creature	6	red	8/6/8603c493-afb0-47a1-b4e3-9848b3824840
 Assembly Hall	artifact	5	colorless	1/6/1676ccbb-91d2-4f26-b3a5-ccb1a21bdebf
@@ -1108,6 +1121,7 @@ Atsushi, the Blazing Sky	creature	4	red	7/3/73b64c17-8a52-4d9d-a28b-7e0e945be059
 Attendant of Vraska	creature	3	multicolored	7/f/7f4840f1-3db3-4ba6-b75b-bbd87251a3af
 Attended Healer	creature	4	white	6/c/6ca80b5a-3943-41ca-8cd1-8e3db1b2a1c8
 Attended Knight	creature	3	white	e/a/eac22a3b-4536-4372-a854-bc7f0919830b
+Attended Socialite	creature	2	green	8/b/8bccccf9-3ee5-4485-ae01-4dcbad989d18
 Attrition	enchantment	3	black	f/8/f8f29b57-172e-407b-b55e-32fe96198f92
 Attune with Aether	sorcery	1	green	3/2/32b0707d-241e-4ced-9251-b16af4fef2cb
 Attunement	enchantment	3	blue	f/6/f6723528-8b2c-4beb-a465-800300faf158
@@ -1115,6 +1129,7 @@ Atzocan Archer	creature	3	green	3/e/3e214e0d-bd3d-467b-83fb-d8a232e166e4
 Atzocan Seer	creature	3	multicolored	f/e/fe84b3c0-bca2-42d3-a82c-540644e59625
 Audacious Infiltrator	creature	2	white	3/6/36a348bb-cdc5-4e2a-933f-21f91faab891
 Audacious Reshapers	creature	3	red	e/c/ec593c8a-b5ef-45a1-ac19-45937a876038
+Audacious Swap	instant	4	red	8/1/816cb69f-8c9f-4a1e-90d4-8c304501876c
 Audacious Thief	creature	3	black	e/1/e1ff5e66-4718-43c3-8a58-1a0a8e788f83
 Auger Spree	instant	3	multicolored	0/5/05f0092a-b642-41be-a907-4c8931962ef9
 Augmenter Pugilist // Echoing Equation	creature	3	green	d/9/d9131fc3-018a-4975-8795-47be3956160d	1
@@ -1136,7 +1151,7 @@ Aura Flux	enchantment	3	blue	a/6/a6be1542-70b8-4e97-a951-100966dc46ce
 Aura Fracture	enchantment	3	white	d/e/de8d3e36-977f-4169-8f2a-a4057b912ccb
 Aura Gnarlid	creature	3	green	3/7/3729a071-8eb0-4142-be7e-c53139c40c46
 Aura Graft	instant	2	blue	5/5/55552a2b-1861-4235-a60d-ccabb4839d54
-Aura Mutation	instant	2	multicolored	0/5/0526debc-6eca-413e-b68c-50aa70927058
+Aura Mutation	instant	2	multicolored	7/2/7240e52a-e435-46f1-ad68-96d6e12e123c
 Aura of Dominion	enchantment	2	blue	2/6/26913c27-5794-42c7-a2a2-af565ce84fd1
 Aura of Silence	enchantment	3	white	b/6/b6b0b957-cebe-4767-9e6c-b0d33f45efec
 Aura Shards	enchantment	3	multicolored	2/1/21ee3588-e512-4391-8f11-b44220c4b972
@@ -1169,7 +1184,7 @@ Aurora Griffin	creature	4	white	b/f/bfd6c695-1944-4bb0-a701-0daf47cdbcb4
 Aurora Phoenix	creature	6	red	3/8/3841b5f9-f9a3-433d-bcdc-f2aa5c783b6d
 Auspicious Ancestor	creature	4	white	7/f/7f6f9ec3-6033-4cd4-a52e-31a559559a93
 Auspicious Starrix	creature	5	green	a/3/a39ae1e4-d4dd-4691-af5a-5fa25ace4ebe
-Austere Command	sorcery	6	white	c/e/ce4ec853-411d-40a3-84a7-a62b3cb57cb3
+Austere Command	sorcery	6	white	a/1/a12ce59c-4b72-45a9-91df-5966d3a81f3a
 Author of Shadows	creature	5	black	9/5/95b5fc08-5c50-4ec9-9788-54f95c4ce916
 Authority of the Consuls	enchantment	1	white	3/2/324b2f55-1e09-490e-8f7e-bfde85a91ac4
 Auto-Key	artifact	0	colorless	2/9/29dcdef4-7898-4620-a176-fcabd3f1fa4f
@@ -1210,6 +1225,7 @@ Aven Augur	creature	4	blue	c/7/c7599618-cbd9-4013-b0a5-4ba77fd52ab4
 Aven Battle Priest	creature	6	white	a/3/a37d3345-3950-4977-af19-209c7a2f8d0c
 Aven Brigadier	creature	6	white	d/a/da24ef56-8d54-4146-97e9-4abded807545
 Aven Cloudchaser	creature	4	white	4/0/407110e9-19af-4ff5-97b2-c03225031a73
+Aven Courier	creature	2	blue	7/b/7bb0e478-c359-4523-a1e1-ba711a8cb8e0
 Aven Envoy	creature	1	blue	4/0/40ead30e-9f96-4fca-b619-fdc8d1b5e2e0
 Aven Eternal	creature	3	blue	f/e/fe479484-a827-4d3c-8e35-e905e4f6664a
 Aven Farseer	creature	2	white	4/7/47854e89-4d22-4eb6-a77d-6f04407bd2e5
@@ -1219,9 +1235,10 @@ Aven Fleetwing	creature	4	blue	5/7/57626fd2-d101-4e23-946f-8309c9676fe5
 Aven Flock	creature	5	white	4/3/43c97d63-d0f9-402d-948a-b73f73bed919
 Aven Fogbringer	creature	4	blue	c/0/c0ee9e09-c4b1-4133-90a3-350677f0b72a
 Aven Gagglemaster	creature	5	white	c/5/c5b57247-81cc-44ec-b5a9-0702111a98a8
+Aven Heartstabber	creature	2	multicolored	a/c/acef329c-61e6-41c1-8d89-ff2417949839
 Aven Initiate	creature	4	blue	6/1/61203781-24ad-4bc9-9b69-97149f3043bc
 Aven Liberator	creature	4	white	b/2/b2804006-2a60-400c-be0b-8aa042469372
-Aven Mimeomancer	creature	3	multicolored	4/9/49876185-e23d-4137-8612-1347da3a1df6
+Aven Mimeomancer	creature	3	multicolored	c/5/c50162a7-a791-4afc-a129-d259cd4419f2
 Aven Mindcensor	creature	3	white	7/6/76cf42b4-f767-48b7-b38c-b98306909f06
 Aven of Enduring Hope	creature	5	white	0/2/02c1310c-1b54-42dd-bf24-889770fa2ded
 Aven Redeemer	creature	4	white	8/a/8a2fa0a3-e40f-49e4-a4fd-427e7e808afd
@@ -1244,11 +1261,11 @@ Aven Wind Guide	creature	4	multicolored	4/1/414bc716-2b1b-4731-bd0c-f4a5caf26e40
 Aven Wind Mage	creature	3	blue	2/8/28911e7b-0435-4393-a651-dc6eb53c7d98
 Aven Windreader	creature	5	blue	3/a/3a67d7ae-3117-433f-ad82-44a4f015fecf
 Avenger en-Dal	creature	2	white	f/c/fcf6f711-c0bc-4e12-b9d0-41581924e13c
-Avenger of Zendikar	creature	7	green	0/3/03dea775-bbb3-4e9c-8514-0605b5ad2e8b
+Avenger of Zendikar	creature	7	green	9/6/9685faa0-46cc-4098-9ad7-cffece741baa
 Avenging Angel	creature	5	white	2/8/28333138-60bc-459b-a0cd-1b7fd19c89cd
 Avenging Arrow	instant	3	white	6/9/696678ff-44dc-4fe4-bf17-024e86cd0220
 Avenging Druid	creature	3	green	f/c/fca9fd31-639a-4fbc-84bd-c3078df29c0a
-Avenging Huntbonder	creature	5	white	2/4/24ad6b07-3487-4e19-b554-196697a413df
+Avenging Huntbonder	creature	5	white	0/5/05e201fa-fdd3-45bf-89a2-dae8c896aa28
 Averna, the Chaos Bloom	creature	3	multicolored	e/4/e46b3ef3-3ba9-4da7-a675-86468a8da4c7
 Avian Changeling	creature	3	white	1/f/1fe4fba9-5ff4-4e4b-be28-2849fa3c7003
 Avian Oddity	creature	4	blue	f/3/f325873b-97de-4701-910f-ec5cdb66de33
@@ -1266,7 +1283,7 @@ Awakened Awareness	enchantment	2	blue	5/1/51378e10-2f17-445b-97e9-5c373234ba52
 Awakener Druid	creature	3	green	7/d/7de98df4-9552-4ba6-a324-1669dc077d4c
 Awakening	enchantment	4	green	5/9/59612c02-6028-4953-ac4d-aca94b0ce4b9
 Awakening of Vitu-Ghazi	instant	5	green	b/4/b42b2fb4-8016-462c-8764-2639adec931f
-Awakening Zone	enchantment	3	green	b/e/be0c3878-3097-4451-9ec0-7f45a0f72323
+Awakening Zone	enchantment	3	green	2/4/245246ae-207b-451e-8b73-97535e9bc885
 Awe for the Guilds	sorcery	3	red	e/c/ec644ac3-07a2-43de-8173-9cc18e2ea2d9
 Awe Strike	instant	1	white	a/5/a5cd231b-7891-42b5-b5de-5112d1230c37
 Awesome Presence	enchantment	1	blue	0/a/0aa8a120-5c13-4852-bdc8-80ae50a6e3d3
@@ -1309,7 +1326,7 @@ Azorius Keyrune	artifact	3	colorless	a/8/a8755662-b329-4c5b-8bf7-c9e1702e5979
 Azorius Knight-Arbiter	creature	5	multicolored	6/0/60befc28-2ab8-4b59-a33f-0328c5d2f995
 Azorius Locket	artifact	3	colorless	f/8/f893f1e9-1d19-4220-9e0d-3f9c85d33837
 Azorius Ploy	instant	4	multicolored	7/6/763f2c68-77a9-43e9-8f9b-2f318afcd686
-Azorius Signet	artifact	2	colorless	4/0/40b0c4e7-1b0f-44ab-ac52-d86d449f555a
+Azorius Signet	artifact	2	colorless	4/f/4f42d990-a7da-4274-a6c0-4daeb56ba480
 Azorius Skyguard	creature	6	multicolored	c/2/c2fddecd-e660-43de-bccc-52f60a089052
 Azra Bladeseeker	creature	3	red	0/8/08b8a222-483c-480d-bbb3-c46922175aaf
 Azra Oddsmaker	creature	3	multicolored	7/8/78630f58-8733-43ec-ba20-fbb21b276434
@@ -1331,6 +1348,8 @@ Backdraft Hellkite	creature	5	red	2/a/2af9027d-c1d2-49b6-b303-04e37d38e010
 Backfire	enchantment	1	blue	a/d/ad34094d-a7ec-4b04-a288-4d4f1a07fc6b
 Backlash	instant	3	multicolored	d/a/dadf030d-5451-43fc-bf0c-c1629fdf88ec
 Backslide	instant	2	blue	4/7/47c40269-80a5-454f-83dd-dae1c11500c0
+Backstreet Bruiser	creature	2	blue	8/d/8d3a94c8-a7eb-4f05-8d48-d42e5129b09a
+Backup Agent	creature	2	white	2/a/2a46af75-3880-4141-b26e-19834d67e7a8
 Backup Plan	conspracy	0	colorless	8/4/84c5a45a-adc2-41f9-893c-58a03bebbf0c
 Backwoods Survivalists	creature	4	green	f/8/f8257adc-5441-404d-a1fa-7abf8c15036c
 Bad Ass	creature	4	black	3/3/33b41832-f549-42e3-871e-e3a03372dbba
@@ -1382,6 +1401,7 @@ Ballista Squad	creature	4	white	a/4/a4d17394-b9c4-43f6-9a6d-2c7c7ecb1d74
 Ballista Watcher	creature	4	red	6/3/63d96c52-66ce-4b46-9a0b-7cd9a43f9253	1
 Balloon Peddler	creature	3	blue	c/3/c34963e6-850e-4ce4-b04f-5e623ce5b73f
 Ballot Broker	creature	3	white	5/9/591e124d-3317-455e-9189-5d76089c1c03
+Ballroom Brawlers	creature	5	white	b/f/bf5615a2-03a2-41f4-ab3b-de5e60d1504e
 Ballynock Cohort	creature	3	white	6/1/61e9d49a-5f60-4b2a-b709-a5eb1c6cc249
 Ballynock Trapper	creature	4	white	6/b/6b10d37b-2cbc-4061-b25a-ad8ff3944ad3
 Ballyrush Banneret	creature	2	white	a/0/a029814e-d84d-43e5-b483-e918871b3333
@@ -1429,8 +1449,8 @@ Banshee	creature	4	black	7/0/70a68d3f-fd2a-475f-8d17-6a62e773a312
 Banshee of the Dread Choir	creature	5	black	b/0/b019f6b5-ce8f-4b95-8fcb-72dc4931b3aa
 Banshee's Blade	artifact	2	colorless	b/7/b77baad4-2bd6-492a-86ca-8e0088b751d2
 Bant Battlemage	creature	3	white	2/c/2c597b1d-d8b5-4922-a3f2-1f173a73ea2a
-Bant Charm	instant	3	multicolored	7/b/7bb17888-f298-438d-aab0-3d28111daa3f
-Bant Panorama	land	0	colorless	c/1/c1b0eb8f-f91e-43d0-9c16-2f330612550a
+Bant Charm	instant	3	multicolored	c/2/c27fff99-2ed2-4ab5-955f-108c5513faf1
+Bant Panorama	land	0	colorless	d/c/dc506497-4ecd-41d3-9042-f92f498251b0
 Bant Sojourners	creature	4	multicolored	e/f/eff007af-0329-4872-8621-41e90d9f06e6
 Bant Sureblade	creature	2	multicolored	1/6/162feb2b-e641-4338-bcf1-1f7e7a11bb9d
 Bar the Door	instant	3	white	b/5/b593f544-2d82-4237-b9a9-88503b5036cc
@@ -1621,17 +1641,17 @@ Beast in Show	creature	6	green	9/f/9f7191d7-2c2c-470e-a2b6-eeb8f3031cc2
 Beast of Burden	creature	6	colorless	e/1/e1a19f6d-4fab-4be6-af9e-c66acc16e4f8
 Beast Walkers	creature	3	white	9/9/99b42f6c-5c7e-4ba8-b0fb-ac8564aaf825
 Beast Whisperer	creature	4	green	b/7/b7e90355-80ca-49db-914c-62b3a7bd4726
-Beast Within	instant	3	green	d/e/de50c5d4-6599-4894-a8d7-01d104fc97fd
+Beast Within	instant	3	green	2/d/2df1045c-0186-45e8-aed2-807528fc1aba
 Beastbreaker of Bala Ged	creature	2	green	5/4/547f2641-bcd6-4536-ba5a-f46170dd2803
 Beastcaller Savant	creature	2	green	c/c/cca9f5da-986c-43ab-a2ec-efb8b098c17c
-Beastmaster Ascension	enchantment	3	green	3/a/3ac51aa4-710e-4171-9fb8-9f28525e3e26
+Beastmaster Ascension	enchantment	3	green	f/4/f404d133-fc1a-4751-ac72-554e6553e486
 Beastmaster's Magemark	enchantment	3	green	7/b/7b5eea61-373a-4bca-a793-d6be7f6214e2
 Beasts of Bogardan	creature	5	red	c/e/cec0fe2c-e7e6-42d1-8128-58d70a7f1177
 Beck // Call	sorcery	8	multicolored	a/0/a01d6540-9eaf-4e08-a62d-682551ee78e9
 Beckon Apparition	instant	1	multicolored	3/9/396bdd5f-2aad-48ba-a4b1-f2b2365a1a53
 Become Immense	instant	6	green	9/6/96e32a8c-6f5b-40e3-ab24-8296275df295
 Bedeck // Bedazzle	instant	8	multicolored	b/5/b5873efa-d573-4435-81ad-48df2ca5c7f2
-Bedevil	instant	3	multicolored	f/f/ffd34d49-9c77-499d-a9ad-a491f5d169d0
+Bedevil	instant	3	multicolored	c/0/c0c8694d-e8fe-42d0-8c00-78b1505541e2
 Bedlam	enchantment	4	red	2/7/2788ec1a-930e-4a19-ad69-ea456c1390fd
 Bedlam Reveler	creature	8	red	0/2/0232f188-44f2-4aee-963c-6f6edc4a21ac
 Bee Sting	sorcery	4	green	7/4/74dc1f90-8227-47ad-8551-a4e7e565738d
@@ -1664,6 +1684,7 @@ Belligerent Whiptail	creature	4	red	a/5/a5b5b7d2-acb8-4aca-b9e7-67e59aeb384b
 Bellowing Aegisaur	creature	6	white	c/3/c3e3b6c5-fd30-4d45-a122-ce60d5707357
 Bellowing Elk	creature	4	green	c/e/cec6cf54-79ff-44e8-af83-786fd72867dd
 Bellowing Fiend	creature	5	black	2/b/2b0962d7-d797-4f07-bd73-9cd7a11ffad8
+Bellowing Mauler	creature	5	black	d/8/d885b5af-f77f-481c-be6c-bfc1980638c4
 Bellowing Saddlebrute	creature	4	black	a/1/a1939b5d-e24f-4e4b-b4c5-8bdb232d8926
 Bellowing Tanglewurm	creature	5	green	4/4/44eb3e3a-60ee-4293-a321-daa452d4c70d
 Bellows Lizard	creature	1	red	6/e/6e1b8569-3743-485c-a0ee-4ec52d65b31e
@@ -1697,6 +1718,7 @@ Benevolent Blessing	enchantment	2	white	0/d/0d5c2401-da2c-46f9-b850-f37edcbb85cd
 Benevolent Bodyguard	creature	1	white	2/4/241e5c4e-0f0b-4a3f-91e0-87387a11e81e
 Benevolent Offering	instant	4	white	d/0/d080c35d-f2c6-4f4e-8f7c-305b319d4cde
 Benevolent Unicorn	creature	2	white	2/a/2a243bd7-af98-4e44-af6e-3b0b71d4837b
+Bennie Bracks, Zoologist	creature	4	white	3/b/3b21be33-c0f0-4ba9-b283-e498a71323c1
 Benthic Behemoth	creature	8	blue	1/9/19577bda-2728-40c8-a262-26051e6c226b
 Benthic Biomancer	creature	1	blue	7/b/7b0cb4d6-350b-4e66-b035-dac7b3ba77cc
 Benthic Djinn	creature	4	multicolored	9/5/95b03586-8d04-4114-a7ce-b8c8ab5ff857
@@ -1716,6 +1738,7 @@ Berserkers' Onslaught	enchantment	5	red	e/e/ee571a78-16b2-40ba-92b2-87c1bf4b39bc
 Beseech the Queen	sorcery	6	black	f/7/f7d6a020-8843-4a97-9d00-86f3928e8acd
 Beskir Shieldmate	creature	2	white	d/f/dfc1df84-9c47-444b-9d58-d9c7bed51c66
 Besmirch	sorcery	3	red	5/3/534c652a-2345-48d5-bd78-33f91ed914b4
+Bess, Soul Nourisher	creature	3	multicolored	d/9/d96c33f5-f891-44bc-8ae1-11bc6f6544b6
 Bestial Fury	enchantment	3	red	7/2/7271e0d7-0c55-4020-97de-b8a27ba51d4b
 Bestial Menace	sorcery	5	green	1/4/14003109-ec2c-40ad-b005-67218ec75cbd
 Betrayal	enchantment	1	blue	7/f/7f9b5c75-882e-4fe4-827f-584080e91485
@@ -1730,6 +1753,7 @@ Bifurcate	sorcery	4	green	d/e/dedb483e-b2c6-46c6-b02b-a49599d33521
 Big Boa Constrictor	creature	4	black	e/3/e30980d4-b12e-4504-b257-c920b073fd91
 Big Game Hunter	creature	3	black	2/c/2cec1014-375c-4877-95e3-093d24c02bc8
 Big Play	instant	2	green	9/0/9016d667-50a9-4093-9a99-b34dcdafe60b
+Big Score	instant	4	red	3/9/39d1578f-e2cf-4b93-8204-ed5434feb183
 Bile Blight	instant	2	black	3/c/3ca11057-e50a-4817-924a-5bb504d0780f
 Bile Urchin	creature	1	black	8/0/801c2b46-c7a7-44d6-ae38-5d34bf00c404
 Bind	instant	2	green	c/f/cfa51783-9ef8-4e51-ba0d-ce8439d83bdf
@@ -1779,6 +1803,7 @@ Bitterblossom	enchantment	2	black	5/4/547872bd-d2b3-4c24-b3fb-481e0c90c3c0
 Bitterbow Sharpshooters	creature	5	green	7/5/753d2393-ce5a-422f-858c-25e3f61d52bd
 Bitterheart Witch	creature	5	black	c/f/cf2ff2b4-8f40-42c0-af3c-b55bfa8839be
 Bituminous Blast	instant	5	multicolored	a/f/af8613ee-4b67-49b8-920b-3b5a25897f64
+Bjorna, Nightfall Alchemist	creature	2	multicolored	8/3/83b0b716-bcb0-4044-b64a-354e3cbbd563
 Black Carriage	creature	5	black	8/7/87068116-6000-44ee-b47f-f5cb8c233bb2
 Black Cat	creature	2	black	c/9/c90a12af-b453-4d83-9a14-5411b562d480
 Black Dragon	creature	7	black	a/a/aaca283a-39f1-4ae7-98fb-7821a927ef86
@@ -1786,6 +1811,7 @@ Black Knight	creature	2	black	0/3/036297e5-6ecc-487d-86e6-939ecbe3c61c
 Black Lotus	artifact	0	colorless	4/a/4a2e428c-dd25-484c-bbc8-2d6ce10ef42c
 Black Mana Battery	artifact	4	colorless	a/8/a81f7a0f-183f-438b-b252-738d8d30c245
 Black Market	enchantment	5	black	1/f/1f51ced8-9384-4b8d-aa60-efb281ac9439
+Black Market Tycoon	creature	2	multicolored	2/8/28d92b13-8b23-4c78-b690-c5d9ca835809
 Black Oak of Odunos	creature	3	black	5/f/5f1e9195-a711-4f4d-9d53-d5d230c092ef
 Black Poplar Shaman	creature	3	black	1/1/11a1fc03-5719-49ed-9d53-d8ea5693373e
 Black Scarab	enchantment	1	white	5/b/5bfd4ee1-05f9-45ae-a31d-1225b271dbe6
@@ -1829,7 +1855,7 @@ Blanchwood Treefolk	creature	5	green	f/8/f824502c-d712-41af-ba44-33e8294c3735
 Blanket of Night	enchantment	3	black	f/e/fe012fd0-9ff0-4436-a890-3ab436e42201
 Blaring Captain	creature	4	black	5/2/529ff592-88bd-4bab-8f6a-637bb08d9198
 Blaring Recruiter	creature	4	white	9/5/959bb0f1-0af3-4070-9303-684a07edfcfa
-Blasphemous Act	sorcery	9	red	6/5/65254343-8b47-49b9-8834-b71bd11f4ab7
+Blasphemous Act	sorcery	9	red	0/b/0b98a8ac-9255-416d-b86a-46621c4bea4f
 Blast from the Past	instant	3	red	a/7/a784dde5-cfce-464f-a134-8894ba3faf5b
 Blast of Genius	sorcery	6	multicolored	7/a/7a97c6e7-affd-455a-925c-332ca6b7a6a5
 Blast Zone	land	0	colorless	e/a/ea6bc7d5-e8f6-4103-920c-9f7ec5cd6c28
@@ -1893,7 +1919,7 @@ Blighted Fen	land	0	colorless	4/8/48c0e762-761f-49a6-9004-308ca26d2af1
 Blighted Gorge	land	0	colorless	f/1/f133ba0a-e141-4f57-9819-bc17bbacd7b3
 Blighted Shaman	creature	2	black	1/d/1d46c90a-215a-4897-94f8-52a02abf25c4
 Blighted Steppe	land	0	colorless	f/4/f43df8ee-d3e4-419e-aed0-1059d95f9cab
-Blighted Woodland	land	0	colorless	1/1/113bc443-cccc-434d-b3e4-53d15056175d
+Blighted Woodland	land	0	colorless	f/0/f005da4d-2e2a-4915-83d9-2015d96f4d54
 Blightning	sorcery	3	multicolored	9/0/90ceb84e-871e-4dbc-8c84-2acc5369c5f3
 Blightsoil Druid	creature	2	black	b/6/b696f2e5-563f-4f77-b0ae-049ab1e4ba44
 Blightspeaker	creature	2	black	1/7/17ab3455-f464-41b0-ac63-d40d27abbfb1
@@ -2058,18 +2084,18 @@ Bloodshot Cyclops	creature	6	red	b/0/b021f1ea-4db1-40fb-a5dc-af13be53ad15
 Bloodshot Trainee	creature	4	red	7/7/779a130b-1d23-4a20-9914-dbdc2268ae3b
 Bloodsky Berserker	creature	2	black	a/6/a6308a53-de07-4ed9-80a1-3579843466c2
 Bloodsoaked Altar	artifact	6	black	b/9/b9169431-a5b1-42ea-bcf4-6c750d2a2dbb
-Bloodsoaked Champion	creature	1	black	3/4/34bc9bb0-5ec1-400f-89e7-b450980a3391
+Bloodsoaked Champion	creature	1	black	1/0/107081ae-dfda-4e54-9963-ac01161cc437
 Bloodspore Thrinax	creature	4	green	f/8/f8bc8355-3a02-44a5-b06f-8be24d7cbcbe
 Bloodstained Mire	land	0	colorless	7/f/7f430794-0d86-4f6a-97e0-4bbb6716d613
 Bloodstoke Howler	creature	6	red	7/4/743779d4-fee8-4b8d-a5ac-27f355e006e5
 Bloodstone Cameo	artifact	3	colorless	f/9/f9db32fa-64b2-4ef6-88f2-28e758d420bb
 Bloodstone Goblin	creature	2	red	b/7/b71f7881-43bf-4b72-87b3-e8a7bf49f388
 Bloodsworn Squire	creature	4	black	a/7/a7cbdd54-7685-4921-ab60-dc36e647a4c5	1
-Bloodsworn Steward	creature	4	red	4/0/4023f86a-91af-439b-b591-8bb621255eee
+Bloodsworn Steward	creature	4	red	5/3/539b5715-965a-4066-b75b-c4bb952ad65f
 Bloodtallow Candle	artifact	1	colorless	5/f/5f8125b6-911e-4663-962a-d741984c927d
 Bloodthirsty Adversary	creature	2	red	e/d/ed557e51-32bd-476f-99f8-d7b1738495c5
 Bloodthirsty Aerialist	creature	3	black	2/9/29156f28-38d8-4f65-b416-089f3fd97109
-Bloodthirsty Blade	artifact	2	colorless	b/6/b69c43bc-3dda-4658-8cef-d5f90ba30d0a
+Bloodthirsty Blade	artifact	2	colorless	b/7/b731a394-40ae-4238-b1b6-0082df22427c
 Bloodthirsty Ogre	creature	3	black	c/5/c557f035-f93b-41ce-b8de-dea79dcf15be
 Bloodthorn Taunter	creature	2	red	8/7/8769e8f6-15ad-4f1b-bb4d-848ae6b7549e
 Bloodthrone Vampire	creature	2	black	e/e/ee7354fe-fb76-4196-a69b-0916af73bf45
@@ -2111,7 +2137,10 @@ Board the Weatherlight	sorcery	2	white	a/1/a11d10fa-d42d-4867-9e2f-fc8de582d5e7
 Boarded Window	artifact	3	colorless	f/0/f02cf94c-94d3-4c4c-a7ae-b4d48ef5b14e
 Boarding Party	creature	6	red	1/8/186adacf-434b-475b-9b85-749615ae002b
 Boartusk Liege	creature	4	multicolored	3/1/318338f8-f52b-4b9a-8d38-08291bcc2e98
+Body Count	instant	3	black	0/2/024bf289-2802-4f11-aebf-9373ffbd9c46
 Body Double	creature	5	blue	7/4/747e3598-878d-4f23-bb6c-f169f2ef5ebe
+Body Dropper	creature	2	multicolored	0/f/0fcb6d47-dccb-4b69-aed4-7a6215857606
+Body Launderer	creature	4	black	2/4/24d7d77a-35b6-451a-af44-ecaf38facccb
 Body of Jukai	creature	9	green	f/4/f43fe8e0-23ab-4fe7-8a48-1902be142c6a
 Body of Knowledge	creature	5	blue	7/8/786ae686-0790-4ba1-927f-523984331549
 Body of Research	sorcery	6	multicolored	9/8/98b56823-0076-49cc-b5aa-4accb8e2782e
@@ -2234,17 +2263,19 @@ Bookwurm	creature	8	green	5/7/57d230fc-d382-40b4-bdbd-5fe880fa16bf
 Boom // Bust	sorcery	8	red	8/f/8ffdee1b-bb5d-44e6-a90d-6f9e9266d4fd
 Boomerang	instant	2	blue	f/4/f4095675-1e3f-4d3c-b565-5c434d2e5cc0
 Boomflinger	artifact	0	colorless	a/6/a6fb2587-6661-4596-9fcb-15f97aeedd37
-Boompile	artifact	4	colorless	1/2/126fd1f1-03f1-4baa-a16e-487d1863521f
+Boompile	artifact	4	colorless	8/6/86dea2dc-7e94-41e6-a0ef-81aaa10aaf8c
 Boomstacker	creature	3	red	7/4/747788b4-42ab-4e3e-bdbe-eb5040432db1
 Boon of Boseiju	instant	2	green	0/6/06771591-0480-4232-bc67-216b2e0fe738
 Boon of Emrakul	enchantment	3	black	e/4/e4c84a8c-9fd3-4a63-b322-809a748b5ecb
 Boon of Erebos	instant	1	black	4/3/4371083b-c300-4464-a7ea-6168db4e345c
+Boon of Safety	instant	1	white	2/0/2069310a-9fb6-41b7-bbd5-849e3df05632
 Boon of the Wish-Giver	sorcery	6	blue	0/e/0e790851-f0f7-4f1a-80e6-94be649499b6
 Boon Reflection	enchantment	5	white	0/d/0d4032a7-600c-4b30-a012-fe3cde1be9c9
 Boon Satyr	creature	3	green	4/7/477a30f3-3cbe-42a5-9fae-fe5885a8cf25
 Boonweaver Giant	creature	7	white	8/5/85003365-7c5f-4283-995d-e466deef444b
 Booster Tutor	instant	1	black	0/a/0a5718db-e67d-468a-95ba-11a08fcf9fea
 Boot Nipper	creature	2	black	c/f/cff5a5b8-f823-4429-acd8-c4f34a676cb4
+Bootleggers' Stash	artifact	6	green	8/0/80b5b7e1-52c2-4453-b3c0-efe2cebad6ce
 Boots of Speed	artifact	1	red	d/b/db6d9913-3d4f-4f47-ba3a-6586a50ddbd7
 Borborygmos	creature	7	multicolored	7/c/7c4a08e9-06c7-43e9-a855-4f507a35ae8b
 Borborygmos Enraged	creature	8	multicolored	8/6/8644c60f-7d06-4026-bcf3-df054701ca0a
@@ -2267,7 +2298,7 @@ Boris Devilboon	creature	5	multicolored	8/2/82ae30e8-2dcd-46b8-925b-cc24e11fb95d
 Born to Drive	enchantment	3	white	f/f/ffdfad1f-d316-4023-9c79-8c24f1cd31d0
 Boros Battleshaper	creature	7	multicolored	6/c/6c43e449-acf2-4e94-b7cf-8c84d70191da
 Boros Challenger	creature	2	multicolored	9/b/9b37cc84-8f6b-48e7-9d68-eb33247b49f4
-Boros Charm	instant	2	multicolored	2/2/22dc1c3a-0110-4925-a745-e51b20553027
+Boros Charm	instant	2	multicolored	4/3/437b0685-ed50-40b9-ae0d-ec2f75026474
 Boros Cluestone	artifact	3	colorless	3/0/3084f7ac-6b9b-48ad-b39c-3d7b7fb79422
 Boros Elite	creature	1	white	a/0/a03974e6-aced-4664-8c5c-3190bb1eb233
 Boros Fury-Shield	instant	3	white	c/4/c46b2f5c-3c7a-4421-9d6f-81197e93d8d0
@@ -2293,6 +2324,8 @@ Boseiju, Who Shelters All	land	0	colorless	0/1/0180d9a8-992c-4d55-8ac4-33a587786
 Bosh, Iron Golem	creature	8	colorless	0/9/09fb3b1f-c3a0-4da4-9b29-eff81fc1d562
 Bosk Banneret	creature	2	green	2/0/203f41a7-ecf5-4757-9162-01ffd2a42ee9
 Bosom Buddy	creature	4	white	f/9/f9701ab2-acb5-431a-a442-8df33bcb75a3
+Boss's Chauffeur	creature	5	white	1/4/147a0ccf-3408-48c7-b4a8-6d81aed39f18
+Botanical Plaza	land	0	colorless	9/f/9f8a6f93-1fc8-4690-add4-538763277f8e
 Botanical Sanctum	land	0	colorless	8/7/8744471b-a528-47d9-84d0-4526273f55e9
 Bottle Gnomes	creature	3	colorless	a/b/abff7047-d8bc-4ca9-b843-4420296db91a
 Bottle Golems	creature	4	colorless	5/1/513a36a1-b2e3-4779-b8a7-66f01c488bf0
@@ -2302,6 +2335,7 @@ Bottomless Pit	enchantment	3	black	9/1/91f05fc3-da6e-45d4-8566-f4e7bdce1fe5
 Bottomless Vault	land	0	colorless	6/3/639ae988-d1d1-4ead-b0f8-47fc39eb64a0
 Boulder Salvo	sorcery	5	red	f/3/f3b04507-5291-480c-bd2c-0f7bd7f2dae5
 Boulderfall	instant	8	red	6/6/66470bac-cce0-4e79-82f9-9fb77aa950eb
+Bouncer's Beatdown	instant	3	green	5/4/54772e15-d99d-4eec-ba8d-b9202a7e318b
 Bouncing Beebles	creature	3	blue	8/6/8656bdd4-0c45-43f9-b2dc-d11a355ff747
 Bound // Determined	instant	7	multicolored	9/d/9dc20e14-e304-4c14-a87b-322a76e214d5
 Bound by Moonsilver	enchantment	3	white	7/b/7bdf107d-eb67-421c-a7a9-b3e62e03f766
@@ -2322,6 +2356,7 @@ Bounty of the Luxa	enchantment	4	multicolored	9/2/921b65f2-dd91-41a4-990c-088671
 Bow of Nylea	artifact	3	green	5/0/504505be-f58a-45fc-872c-f4a49dc715e1
 Bower Passage	enchantment	2	green	b/9/b9f0048f-aaa0-4597-b898-ee754d0bbe4b
 Box of Free-Range Goblins	sorcery	6	red	6/9/6964c3d5-4bb7-46b1-a057-878af73f2e5f
+Boxing Ring	artifact	2	green	a/d/ade9e358-0379-4ad3-a580-4ed0fe770ed2
 Brace for Impact	instant	5	white	8/d/8d1f1c57-693f-452b-951f-8c8c23f2ee99
 Brackish Trudge	creature	3	black	9/0/90ba37ee-159f-421f-8d37-a7b5f1b562f0
 Brackwater Elemental	creature	3	blue	a/9/a96f2106-3524-4fc0-85df-8cf9d0901ea8
@@ -2366,6 +2401,7 @@ Branded Brawlers	creature	1	red	9/0/90a48065-fbf1-4f2a-993e-7061057a4c45
 Brash Taunter	creature	5	red	e/b/ebb5e613-a803-42f3-840a-7089ac6b7e3d
 Brass Gnat	creature	1	colorless	3/8/386ae7c6-347c-4b29-b7a9-3ca3bb050396
 Brass Herald	creature	6	colorless	7/c/7c0380a4-225f-4a80-8c8b-d0f7e54f1626
+Brass Knuckles	artifact	4	colorless	f/d/fd31ee9e-1af7-4eb4-bda8-11451ebd6927
 Brass Man	creature	1	colorless	7/a/7ab18c6d-2705-473e-b404-75660ff28736
 Brass Secretary	creature	3	colorless	c/5/c5685cff-b607-4a81-aa47-6676ab1a5782
 Brass Squire	creature	3	colorless	4/8/48010648-6f68-41aa-93ae-e02a7de6abb8
@@ -2384,6 +2420,7 @@ Brazen Buccaneers	creature	4	red	b/4/b4bdfdaf-a0ce-4c0b-a3ce-d648877bdd36
 Brazen Dwarf	creature	2	red	3/6/3658e65b-df54-4327-9104-c2f3dd65df85
 Brazen Freebooter	creature	4	red	4/5/45657345-b564-4e5f-a57a-01dc54df7e7c
 Brazen Scourge	creature	3	red	f/7/f7e987cd-94a0-4332-89c4-c7662c8dc001
+Brazen Upstart	creature	3	multicolored	3/a/3ae69722-9cb9-4fb7-830f-a284d4a72027
 Brazen Wolves	creature	3	red	7/b/7b8fe19a-c5a0-4db0-8d0d-daa9a84be1ed
 Breach	instant	3	black	e/a/eada28cb-92bf-47e0-b09d-4709be32dbe6
 Breaching Hippocamp	creature	4	blue	8/8/8841c01e-015e-4541-942a-f8859dd03fea
@@ -2430,6 +2467,7 @@ Briarbridge Tracker	creature	3	green	e/2/e215a7bd-112f-4228-a99e-5a8cb4be5cee
 Briarhorn	creature	4	green	0/e/0e2ec7a0-2594-450f-8f8f-ade5e274652b
 Briarknit Kami	creature	5	green	8/c/8c042f8b-df20-48c1-a291-4d7e1bc5b384
 Briarpack Alpha	creature	4	green	5/8/585c11e2-4c30-436c-9dbd-354b154f6def
+Bribe Taker	creature	6	green	7/0/70aeb0a0-67dc-4cee-9b88-000e98b11d2c
 Briber's Purse	artifact	0	colorless	7/f/7f9951f1-ca51-44a2-8480-602df466f0ab
 Bribery	sorcery	5	blue	e/0/e0b099ef-4b43-4b63-a7fc-cec19cf29f4e
 Bride's Gown	artifact	2	white	b/3/b3e5dbbe-ca99-41a5-901d-511b9f3ccea6
@@ -2487,7 +2525,13 @@ Broken Concentration	instant	3	blue	2/5/252eef1f-0a62-420d-aad8-e3d7f1e07c1b
 Broken Dam	sorcery	1	blue	a/0/a0f7b8b1-f1dc-46a3-8f4a-c6181e8a049f
 Broken Fall	enchantment	3	green	d/4/d43f5349-a3f8-492d-a835-24a9f948741c
 Broken Visage	instant	5	black	9/b/9be199e7-feaa-4f23-b93c-3eab54a02e74
-Broken Wings	instant	3	green	6/2/6201f78e-ff45-4c59-ac85-c8447c14a496
+Broken Wings	instant	3	green	9/e/9eb94908-4f4a-487e-87ac-8d5bdefe9983
+Brokers Ascendancy	enchantment	3	multicolored	7/9/799de0f1-6bf2-4158-8a4f-bedc3d2f6578
+Brokers Charm	instant	3	multicolored	7/4/74c9c315-1cf4-468e-a74a-b5f3be4a63a1
+Brokers Confluence	instant	5	multicolored	6/5/657ff5fc-1a95-46f9-85f7-fc1ad757c8c4
+Brokers Hideout	land	0	colorless	9/8/989b299b-daa9-4bda-94e2-9a2f0e8f2bce
+Brokers Initiate	creature	1	white	a/7/a7867f2d-e89d-429f-9ab8-5337b40b4d8d
+Brokers Veteran	creature	2	blue	9/d/9d4a54bd-5598-4313-b5e6-29fd38da016a
 Brokkos, Apex of Forever	creature	5	multicolored	c/9/c9f07625-fbd8-4581-8568-eb3cfb2a4c1e
 Brontotherium	creature	6	green	a/1/a171f5e2-ed3d-4675-a4fc-953ebb907aa0
 Bronze Bombshell	creature	4	colorless	0/f/0f2ec20d-b862-4f13-989c-aa88efa51cdf
@@ -2637,6 +2681,7 @@ Butcher of the Horde	creature	4	multicolored	4/c/4c76027b-9c8d-4181-9311-270fed0
 Butcher Orgg	creature	7	red	7/f/7f2a29cf-4b2e-44c0-af73-512d6fed0dae
 Butcher's Cleaver	artifact	3	colorless	9/3/9359d59f-872e-4e43-94b6-90d6616f17e0
 Butcher's Glee	instant	3	black	e/0/e046bccf-f714-4bf3-9323-388656dd2cd8
+Buy Your Silence	sorcery	5	white	8/c/8c9ac05f-f47c-4569-a06e-793d28cbb936
 Buzz Buggy	artifact	0	colorless	f/7/f7bac075-aa1f-4c8a-9d82-8b6c1ff9b97a
 Buzzing Whack-a-Doodle	artifact	4	colorless	4/e/4e18540e-6a64-4f0e-89d4-bd67c41194c6
 By Force	sorcery	1	red	6/6/66cdfdb2-b47f-446d-9850-8581bd1d806c
@@ -2665,6 +2710,11 @@ Cabal Therapist	creature	1	black	e/a/eaa8f485-0f3d-4a0b-bcdf-6c27d1d2bce0
 Cabal Therapy	sorcery	1	black	2/a/2afc9aa7-eaf2-453d-942c-23bf216a1844
 Cabal Torturer	creature	3	black	e/b/ebcf8dd7-f45c-4ac2-9507-fa175fe89887
 Cabal Trainee	creature	1	black	d/3/d345d702-b205-4391-985a-6201e707f0ba
+Cabaretti Ascendancy	enchantment	3	multicolored	9/7/9738d616-b38f-4968-89d6-805ae368e2d4
+Cabaretti Charm	instant	3	multicolored	0/8/08f33c8a-8e93-4296-964b-da132a854b3b
+Cabaretti Confluence	sorcery	6	multicolored	3/7/374198ef-91b6-45ad-acc9-adf659b5763b
+Cabaretti Courtyard	land	0	colorless	9/d/9dda1e1c-b330-42e0-8547-97e2afc7615f
+Cabaretti Initiate	creature	1	green	6/c/6c691f62-009b-4178-8e8b-d6e88229a282
 Cache Raiders	creature	5	blue	b/b/bb75ec92-7c8e-47d3-a412-01d0c98321fe
 Cached Defenses	sorcery	3	green	4/1/41ad36cf-5f29-41c4-b2a3-6b8e8c0c493f
 Cackling Counterpart	instant	3	blue	0/2/02ad8a5a-9814-4fb5-90b1-95c0769be456
@@ -2687,6 +2737,8 @@ Calciform Pools	land	0	colorless	2/9/297a2b09-562a-46d8-905d-0b32e854e9d2
 Calcite Snapper	creature	3	blue	a/e/aec0c914-1188-45c9-a68c-c3b915dbebf7
 Calculated Dismissal	instant	3	blue	2/5/252c360d-eb30-417d-9c1d-dab58b6fa305
 Calculating Lich	creature	6	black	1/7/17b2ed72-d0f0-4d8d-bb5e-dce08d157466
+Caldaia Guardian	creature	4	green	f/2/f20015ad-8fda-498f-ac28-1ffb824ab480
+Caldaia Strongarm	creature	5	green	5/8/58b431d2-33c1-49d8-b45d-690c174bb456
 Caldera Hellion	creature	5	red	8/8/88866ce7-0b81-4b6c-a17e-ce5e51a0f2da
 Caldera Kavu	creature	3	red	f/c/fcad32aa-2ce1-402d-a9d8-ad5c81fe4c5b
 Caldera Lake	land	0	colorless	7/f/7f01fe22-e8ff-4106-8ac5-693ef920b2c9
@@ -2695,6 +2747,7 @@ Caligo Skin-Witch	creature	2	black	d/f/df919224-0e49-4098-9ec5-d2c5f0a91053
 Calix, Destiny's Hand	planeswalker	4	multicolored	8/6/86458929-ea21-4de8-84d8-a07398ed3bc0
 Call for Blood	instant	5	black	b/e/be04ed26-8036-4505-83d3-b782e7e1fb45
 Call for Unity	enchantment	5	white	e/e/eeca4557-98aa-433b-a3ee-050e4a3e6d88
+Call In a Professional	instant	3	red	e/a/ead68c0a-eed1-4a9c-a790-56f8a79b444c
 Call of the Conclave	sorcery	2	multicolored	e/4/e45a453b-bc76-4768-88ea-a5117e29a49e
 Call of the Death-Dweller	sorcery	3	black	3/7/37e34017-0aeb-4a93-9edf-596bf3597a0e
 Call of the Full Moon	enchantment	2	red	3/6/369d837a-a19b-457c-8146-cc1766a63ec1
@@ -2703,10 +2756,10 @@ Call of the Nightwing	sorcery	4	multicolored	3/8/3828babb-471b-4a0a-8e92-3102c4d
 Call of the Wild	enchantment	4	green	3/3/3332b35c-fd4f-4195-baee-e759dee6a682
 Call the Bloodline	enchantment	2	black	3/e/3ec85cca-ac2c-4b1b-850b-6a762df72bd0
 Call the Cavalry	sorcery	4	white	5/f/5ffd9de5-c0b9-4d41-ab11-c77ce6f67c60
-Call the Coppercoats	instant	3	white	e/1/e11cb353-d864-4b22-bdaf-1d42c25f0918
+Call the Coppercoats	instant	3	white	e/2/e203daaf-bd68-4251-9106-00299b3ad662
 Call the Gatewatch	sorcery	3	white	4/7/4719ac60-2cff-4abb-b9cc-b677d3ac945c
 Call the Scions	sorcery	3	colorless	9/1/91526a76-8700-4dd5-ba39-6c28e38bb513
-Call the Skybreaker	sorcery	7	multicolored	6/c/6cbcf7d1-ed1c-4d80-b724-7d7e88547bae
+Call the Skybreaker	sorcery	7	multicolored	e/5/e52586f2-dcf2-4605-b354-3ab441a43638
 Call to Arms	enchantment	2	white	a/9/a92f0d4a-23d8-47d4-b910-d142e0eefd3d
 Call to Glory	instant	2	white	7/5/758fcfe4-0347-4ac6-8e29-f945cb1d7295
 Call to Heel	instant	2	blue	1/a/1a78f4d1-001e-4adf-8717-a825425684cc
@@ -2731,7 +2784,7 @@ Callow Jushi	creature	3	blue	c/a/ca03131a-9bd4-4fba-b95c-90f1831e86e7
 Calming Licid	creature	3	white	1/5/155fc239-c2eb-41cc-9a0a-2414da3c3d7b
 Calming Verse	sorcery	4	green	e/c/ec38c856-dc21-450d-9aa6-da16c91a489a
 Caltrops	artifact	3	colorless	8/7/8769b55a-a0a1-4b6f-8c80-669385a34425
-Camaraderie	sorcery	6	multicolored	8/9/890a2fa9-1141-4a4c-85af-05723aba5e39
+Camaraderie	sorcery	6	multicolored	c/a/ca18b625-6767-45b9-bc2c-765f1ba7bd44
 Camel	creature	1	white	e/0/e0078aa8-bfb8-43b0-a6b7-1991596c21e1
 Camouflage	instant	1	green	0/9/09243dc6-c56c-42a8-969b-2ecffe89e1ca
 Campaign of Vengeance	enchantment	5	multicolored	e/e/eeb4800c-639f-479a-99ab-5a44a7d2d76b
@@ -2761,7 +2814,7 @@ Canopy Spider	creature	2	green	c/1/c19e76e5-a60c-4eaa-a90e-aa29eca10055
 Canopy Stalker	creature	4	green	a/3/a3f6a13a-ab38-49d1-8712-f9c9135a23c8
 Canopy Surge	sorcery	2	green	2/e/2e19d68e-7554-4627-a316-beb1f75fa494
 Canopy Tactician	creature	4	green	3/e/3eaf48c9-09bc-4d81-a3a5-432219a71754
-Canopy Vista	land	0	colorless	3/d/3d341014-9f36-477a-89ad-65c9d9449769
+Canopy Vista	land	0	colorless	7/9/79dffd83-05c8-4698-9677-5decb997e29f
 Cantivore	creature	3	white	b/5/b5243fc3-176b-44a3-9f1a-ab069a08757a
 Canyon Drake	creature	4	red	2/2/22f84143-5912-43ca-a274-f26ed0dbadd0
 Canyon Jerboa	creature	3	white	2/6/26b3938e-ebd7-4668-be3a-422c02ff5b08
@@ -2775,6 +2828,7 @@ Capashen Knight	creature	2	white	7/8/78802af4-46b5-4bac-8cdf-5b77d0b19895
 Capashen Standard	enchantment	1	white	1/6/16665386-405e-48c9-8c69-c21b03931c2f
 Capashen Templar	creature	3	white	0/9/0976a193-463a-4bcb-a951-ca73347a5572
 Capashen Unicorn	creature	2	white	e/c/ec3e5741-88d7-4837-9b43-ba8304d9ee74
+Capenna Express	artifact	4	green	b/5/b5530b04-f086-4d09-97e9-eda45f8b1f7b
 capital offense	instant	4	black	4/a/4a8a98f2-c777-4dc0-ab68-2b1df7ce1ddd
 Capital Punishment	sorcery	6	black	0/5/051830bb-1baa-4c11-9177-efcd908fbcaf
 Caprichrome	creature	4	white	e/8/e8c71a1f-191b-45f6-bb34-fba3e981a711
@@ -2863,9 +2917,10 @@ Cartouche of Solidarity	enchantment	1	white	1/e/1ef605df-6dc5-4c1d-9cc3-14353ad1
 Cartouche of Strength	enchantment	3	green	d/6/d6bb237c-4e39-4879-90b4-2f507a90d3d7
 Cartouche of Zeal	enchantment	1	red	3/6/36323cd9-70f9-423c-a0ef-9c2758f7201c
 Carven Caryatid	creature	3	green	5/3/53847a21-aded-4aaa-9bf1-8592e67763ef
-Cascade Bluffs	land	0	colorless	5/2/52e912b4-492f-415b-b0ad-d9f90c6139c6
+Cascade Bluffs	land	0	colorless	8/2/8249778c-d6ea-4a88-90ed-649ff332ffdc
 Cascade Seer	creature	4	blue	1/3/13105c88-2926-40ad-bc7a-09d515aa36c6
 Cascading Cataracts	land	0	colorless	7/7/778739db-4431-4e58-91de-d2619aeef3ce
+Case the Joint	instant	4	blue	0/f/0f9edf04-681d-45f9-975f-704154040506
 Cast Down	instant	2	black	2/1/21c8426e-476a-45e4-b3a9-841da54d966c
 Cast into Darkness	enchantment	2	black	0/c/0c1880d4-90c7-46a2-bbc9-d2b52971d11c
 Cast Out	enchantment	4	white	1/b/1bf09533-3849-4756-8ccf-143196cc17d9
@@ -2874,8 +2929,8 @@ Castaway's Despair	enchantment	4	blue	c/8/c860fde8-9c2b-42a3-986c-1f9d35598211
 Castigate	sorcery	2	multicolored	1/1/112c47e4-5ff8-4ea0-ac14-956e4b94119a
 Casting of Bones	enchantment	3	black	8/8/88442ddf-c12b-4a25-804d-29fef5a90a0c
 Castle	enchantment	4	white	8/7/870ee86b-222b-4d7a-9c5b-ea10e1d73756
-Castle Ardenvale	land	0	colorless	7/f/7f910495-8bd7-4134-a281-c16fd666d5cc
-Castle Embereth	land	0	colorless	8/b/8bb8512e-6913-4be6-8828-24cfcbec042e
+Castle Ardenvale	land	0	colorless	e/e/eed204e1-45bd-4160-aaef-dde33bd9884a
+Castle Embereth	land	0	colorless	a/4/a42a8db8-bc8d-47f6-a1d4-78adfcbdd19e
 Castle Garenbrig	land	0	colorless	e/3/e3c2c66c-f7f0-41d5-a805-a129aeaf1b75
 Castle Locthwain	land	0	colorless	1/9/195383c1-4723-40b0-ba53-298dfd8e30d0
 Castle Raptors	creature	5	white	4/b/4b980a75-8d2d-4d56-be76-48159ef33631
@@ -2959,7 +3014,9 @@ Caves of Koilos	land	0	colorless	e/9/e9c93f28-a523-4998-928c-5fe581dca5a3
 Cazur, Ruthless Stalker	creature	4	green	d/5/d5e857aa-06b7-4bce-b56d-6f6be5cfc77b
 Cease-Fire	instant	3	white	1/6/1646c998-aee5-497f-bd75-24ced1dabef9
 Ceaseless Searblades	creature	4	red	a/7/a7e103a3-555c-4b68-9768-42637bfd2478
+Cecily, Haunted Mage	creature	4	multicolored	a/0/a09ffd51-8ea4-40a6-b64e-58f3acfee533
 Celebrate the Harvest	sorcery	4	green	7/0/70432583-33c1-4d1a-bb94-765f6d71fed3
+Celebrity Fencer	creature	4	white	5/a/5afb5c5c-06e0-4b11-ad07-aef7be6e2cd4
 Celestial Ancient	creature	5	white	b/9/b942e6ca-fd5a-4462-9413-c82483601b61
 Celestial Archon	creature	5	white	c/4/c40cb58f-370f-487a-9a96-bdce173aa3c6
 Celestial Colonnade	land	0	colorless	4/c/4c830a99-595b-4aed-9f6b-85a78917f498
@@ -2976,11 +3033,13 @@ Celestial Mantle	enchantment	6	white	1/3/136dfcf5-130a-4d75-9785-a090215a29b1
 Celestial Messenger	creature	4	blue	8/9/89e92e98-202f-4790-8411-17aebffe19fe
 Celestial Prism	artifact	3	colorless	e/7/e7ca1534-0049-4672-9677-99f1ba00fb78
 Celestial Purge	instant	2	white	c/d/cd38afd4-d7a4-493d-bdea-72be9a1d9a07
+Celestial Regulator	creature	3	multicolored	2/5/25803f0b-4475-447e-abdf-dcd6a98dd654
 Celestial Sword	artifact	6	colorless	2/b/2bc0e8d3-633b-4281-863f-c51c69eed0b6
 Celestial Unicorn	creature	3	white	f/2/f2d68812-8862-4e34-a992-7d6bbadaf316
 Celestine Cave Witch	creature	4	black	4/8/48fafda5-e29c-4006-807d-e591d773847c
 Celestus Sanctifier	creature	3	white	6/7/67547253-ab98-4d3a-bf95-3e109cf60a85
 Cellar Door	artifact	2	colorless	9/7/97bdfb00-7773-4af6-895c-c90088a96b07
+Cement Shoes	artifact	1	colorless	b/1/b1100dba-de2d-481e-b29c-71f6d34663ba
 Cemetery Desecrator	creature	6	black	4/8/48da33b1-d59c-43f1-8e55-480096b674e5
 Cemetery Gate	creature	3	black	4/a/4a7b2cc1-cb0b-4cb8-963f-453a1d5b0e3c
 Cemetery Gatekeeper	creature	2	red	4/5/457086c4-1b4e-4f79-8f2a-10b16174c8bb
@@ -2990,6 +3049,7 @@ Cemetery Prowler	creature	3	green	b/1/b124ccc4-76e3-41a4-92b2-8f1d06ea9cb8
 Cemetery Puca	creature	3	multicolored	e/e/eec3b06b-d8c5-459c-aae5-3e51059cfdf1
 Cemetery Reaper	creature	3	black	9/0/9008e94a-cfec-473f-ae75-57586e45098d
 Cemetery Recruitment	sorcery	2	black	8/8/88531c36-2330-474b-9426-1e4dd0fe4e3e
+Cemetery Tampering	enchantment	3	black	6/c/6c6e8d37-badd-4b9a-94e5-2d50ec78182c
 Cenn's Enlistment	sorcery	4	white	3/7/37bcc0fd-1eea-4eb0-8099-e0e94ffe00b6
 Cenn's Heir	creature	2	white	a/7/a7610d2f-e35f-42fa-a3fb-fcae54bf5a1d
 Cenn's Tactician	creature	1	white	d/9/d998c949-4791-477f-ab8d-e625199623ad
@@ -3015,6 +3075,7 @@ Cephalid Aristocrat	creature	5	blue	b/d/bd9ca63d-7e77-48f3-abdc-2d2f9cb3a0d9
 Cephalid Broker	creature	4	blue	a/5/a5b435ee-82cc-41df-a09f-cf3602e31c23
 Cephalid Coliseum	land	0	colorless	d/5/d5d74112-7244-4c3f-a5eb-b6be671aefe8
 Cephalid Constable	creature	3	blue	8/2/82c5272d-df5b-4c21-9bff-4d6245b8d2a6
+Cephalid Facetaker	creature	3	blue	a/7/a77d91f7-f7c9-47e4-b5c5-46c921335e42
 Cephalid Illusionist	creature	2	blue	d/c/dceb8cf5-b31a-400e-aea5-ad0c3552d697
 Cephalid Inkshrouder	creature	3	blue	2/c/2c3e8c80-690b-4d79-9dee-99d1a3876160
 Cephalid Looter	creature	3	blue	c/b/cb6f1c4e-4fbc-4474-8dd2-5846d417b6ab
@@ -3027,6 +3088,7 @@ Cephalid Snitch	creature	2	blue	3/3/33d989b2-0198-4e5b-8aad-ee939191dd28
 Cephalid Vandal	creature	2	blue	2/5/2500976f-a329-4a51-bcc1-cafe39bc3ccf
 Cerebral Eruption	sorcery	4	red	7/7/77161159-ee2c-485d-8674-d8590ccc62e1
 Cerebral Vortex	instant	3	multicolored	7/7/779cdad3-9d90-4de1-8071-f772fb85142b
+Ceremonial Groundbreaker	artifact	3	multicolored	0/a/0a542616-aa4d-40d9-acad-47bc98bd6281
 Ceremonial Guard	creature	3	red	4/a/4a6c69d1-5295-419f-bb8f-af826bf92cb3
 Ceremonial Knife	artifact	1	colorless	9/c/9ccb4b1e-ef8f-4c5f-8b5b-6148455442f7
 Ceremonious Rejection	instant	1	blue	0/8/08c5ed8e-4804-4042-8a1d-ad24c6846816
@@ -3046,7 +3108,7 @@ Chain of Plasma	instant	2	red	f/9/f94aa774-9036-4016-8880-4bde2710cb90
 Chain of Silence	instant	2	white	9/a/9a60ac8e-11eb-433f-86f9-8e593b38c617
 Chain of Smog	sorcery	2	black	6/b/6bfe64f9-8b03-41f6-a47b-fade397ad9d1
 Chain of Vapor	instant	1	blue	3/8/38f741bf-13ee-4384-98ab-27833ebb9f6d
-Chain Reaction	sorcery	4	red	4/9/491c77ae-ccd9-4eb5-a0f0-bae85b82d50a
+Chain Reaction	sorcery	4	red	5/d/5d996ee5-4a4d-4f1e-9db7-a0f55f73acab
 Chain Stasis	instant	1	blue	f/1/f14f0c52-67c2-4302-82bd-fbb4e3c6d4f4
 Chain to Memory	instant	1	blue	f/a/fa0e1a22-8f27-4c5b-a65c-c35abd2ff05b
 Chainbreaker	creature	2	colorless	0/9/094b023e-d5a3-4a57-adf0-898f3dcc8de2
@@ -3076,13 +3138,13 @@ Chameleon Spirit	creature	4	blue	0/5/05972ea2-b0bc-40fd-bce4-07eebdb150d5
 Champion Lancer	creature	6	white	2/6/26b4171b-2d49-4e06-a2fd-9fe3cfd6ce95
 Champion of Arashin	creature	4	white	9/5/95c360d1-d0f4-42db-90fe-3f3dc98cc27f
 Champion of Dusk	creature	5	black	2/4/24961417-0a22-4eb3-8b90-e26cd2b738ba
-Champion of Lambholt	creature	3	green	f/3/f37f3696-a780-4203-8ae9-06e14235066b
+Champion of Lambholt	creature	3	green	d/8/d8d3b5c7-6963-4d01-846d-34d6107d1c44
 Champion of Rhonas	creature	4	green	b/1/b185b24d-ae33-48ca-966a-511627fdac6d
 Champion of Stray Souls	creature	6	black	f/0/f0efbddb-c076-4552-b417-3608e0696a77
 Champion of the Flame	creature	2	red	a/2/a248363d-40a0-4dc5-a0bb-a826c3ba4499
 Champion of the Parish	creature	1	white	9/2/92273f0a-a7b4-4d36-907b-049a008842a2
 Champion of the Perished	creature	1	black	8/d/8d8e6941-ad6e-4d2f-93c0-be79e75bdf06
-Champion of Wits	creature	3	blue	c/c/cce2fce1-8172-43ed-937d-a543a474ef46
+Champion of Wits	creature	3	blue	4/8/489e339b-3bc6-4221-9734-d796b65910d2
 Champion's Drake	creature	2	blue	7/5/7585316f-ba3d-4472-9a7e-7db6f6dd9d15
 Champion's Helm	artifact	3	colorless	d/c/dcad6846-0b35-4193-b647-16e597357f9b
 Champion's Victory	instant	1	blue	4/5/451ef657-8590-497a-9d98-a732d4de6165
@@ -3102,7 +3164,7 @@ Chandra's Embercat	creature	2	red	3/0/30f9c266-f32e-4483-9709-f83675331688
 Chandra's Firemaw	creature	5	red	7/6/76cf0b50-155f-4e65-9e48-88b378ad93a1
 Chandra's Flame Wave	sorcery	5	red	5/f/5f13b6a7-fa62-4d94-a56c-f2e64c8c1666
 Chandra's Fury	instant	5	red	d/2/d2b85237-98a8-4b52-9cc6-6fd14849b069
-Chandra's Ignition	sorcery	5	red	7/d/7d4c90de-49aa-43ed-a18a-f7f96268e5eb
+Chandra's Ignition	sorcery	5	red	3/1/31d0275d-1a1a-421d-a2ae-9a61697a3a74
 Chandra's Incinerator	creature	6	red	e/d/ed875705-b7b6-4464-b16f-61629ffed04f
 Chandra's Magmutt	creature	2	red	9/1/91d3e366-4da5-42c8-bbd5-a0c178c0da28
 Chandra's Outburst	sorcery	5	red	f/1/f1e849c3-f357-4e81-a580-be5056bed51b
@@ -3132,6 +3194,7 @@ Chandra, the Firebrand	planeswalker	4	red	b/e/beb039db-7367-4af1-8d85-4951f58e27
 Chandra, Torch of Defiance	planeswalker	4	red	f/f/ff8086cd-b868-4f4e-823e-2635ad7ebc07
 Change of Fortune	sorcery	4	red	6/3/63ca5ce5-94e7-43a1-8f2b-f0a4532f617a
 Change of Heart	instant	1	white	a/f/afaf277e-b430-4c96-880c-ae654973478c
+Change of Plans	instant	2	blue	7/c/7cc7f675-3e56-4e5a-9618-9a9ba8e0310d
 Changeling Berserker	creature	4	red	9/f/9f2e8f24-2ee1-4516-bf60-7fe6a0c4baec
 Changeling Hero	creature	5	white	2/4/24f0c586-a1a5-4907-801a-7815c4dceb39
 Changeling Outcast	creature	1	black	0/d/0dc046ef-eeb9-4ef7-8cc5-172b7346355e
@@ -3155,7 +3218,7 @@ Chaos Maw	creature	7	red	8/0/8094908b-1d3a-42df-bc27-8456fbb98e65
 Chaos Moon	enchantment	4	red	a/a/aae0543f-7f8b-4327-b735-ac21244e9936
 Chaos Orb	artifact	2	colorless	7/a/7a601041-926f-40fd-8106-39099b87806f
 Chaos Wand	artifact	3	colorless	4/d/4d50a9d5-4eb7-4eb9-bdf5-5a7703b4c6b6
-Chaos Warp	instant	3	red	9/2/9270e071-7a22-4f38-af2f-fb4933a5784b
+Chaos Warp	instant	3	red	8/5/85ad8ccf-ff98-4184-905f-81b573608a66
 Chaoslace	instant	1	red	4/7/476180df-8b88-4ead-b6c5-6ccb3e8a2cfd
 Chaosphere	enchantment	3	red	b/d/bd41cb92-578b-4fc8-b1e6-56604088fcd5
 Chaotic Backlash	instant	5	red	c/1/c1f96c71-e585-4c99-b054-e53ab12b392c
@@ -3202,7 +3265,7 @@ Chart a Course	sorcery	2	blue	1/a/1a6f256b-943e-4cfb-9fc9-d1ded68b5f97
 Chartooth Cougar	creature	6	red	3/f/3ff581fe-9f1d-4675-9aee-41a748d0f1ff
 Chasm Drake	creature	5	blue	5/e/5e7e246d-92f8-4e6e-89fc-991b888fc1e8
 Chasm Guide	creature	4	red	f/b/fbd0fad7-264d-40fc-a616-a88dc94fa4d7
-Chasm Skulker	creature	3	blue	9/2/92a08fad-56ad-4437-9bb8-6d016c1c714f
+Chasm Skulker	creature	3	blue	e/7/e7d99e57-5d58-4953-8b6f-915c2e69d002
 Chastise	instant	4	white	7/8/78e0d3d9-8c28-46d7-9fab-c115e6c8682f
 Chatter of the Squirrel	sorcery	1	green	5/f/5f7e1991-9ffa-4a57-b8eb-ebe542a47f09
 Chatterfang, Squirrel General	creature	3	green	1/7/1785cf85-1ac0-4246-9b89-1a8221a8e1b2
@@ -3271,7 +3334,7 @@ Cho-Manno's Blessing	enchantment	2	white	5/c/5c9f33c6-5294-4584-854d-c8c0f847aba
 Cho-Manno, Revolutionary	creature	4	white	f/e/fe04dfe7-6376-4c12-9404-0e1ae0942917
 Choice of Damnations	sorcery	6	black	0/5/05939f15-2d95-47df-b66f-131c3e7ea95f
 Choke	enchantment	3	green	e/1/e1ce4bab-6eb1-421f-b425-7bb0076defc7
-Choked Estuary	land	0	colorless	8/4/843c932a-e91c-49f2-bbd2-3a1ff4faa0f8
+Choked Estuary	land	0	colorless	3/f/3fee9474-0c05-47f8-86ca-84638e765321
 Choking Fumes	instant	3	white	1/b/1b9af543-5273-4754-ab7d-75d0b632240f
 Choking Restraints	enchantment	3	white	4/5/4549735d-df63-47db-ad53-0497499fe387
 Choking Sands	sorcery	3	black	e/4/e41c15fb-01a1-446e-9e88-71e8e95d9bce
@@ -3291,6 +3354,7 @@ Chromatic Lantern	artifact	3	colorless	e/3/e3d5ac10-57ac-4215-bcfb-32959b1240d1
 Chromatic Orrery	artifact	7	colorless	3/a/3af78d76-ad5c-44ba-880d-b834bcde5398
 Chromatic Sphere	artifact	1	colorless	e/d/edabc8b2-4413-48e4-8d6f-521b19d839a6
 Chromatic Star	artifact	1	colorless	c/2/c2e8d492-2c67-410b-b556-c157a14c4cec
+Chrome Cat	creature	3	colorless	8/5/85da50ba-2061-40f0-b3af-950b87f812cd
 Chrome Courier	creature	3	multicolored	a/1/a11d8da1-a183-470a-b4ed-2e35ac5ab9a9
 Chrome Mox	artifact	0	colorless	f/3/f340cbf7-5bbe-45b9-a4bf-d1caa500ff93
 Chrome Replicator	creature	5	colorless	1/e/1e01bcb4-e823-4da5-b433-e75be3356367
@@ -3317,7 +3381,7 @@ Cinder Cloud	instant	5	red	f/0/f044c470-50ce-4a6c-b8ab-665357c3c11e
 Cinder Crawler	creature	2	red	a/9/a9406050-d76b-4569-a463-e21acaf84166
 Cinder Elemental	creature	4	red	7/8/78c3c616-1f95-41b1-a624-79d6362d4f16
 Cinder Giant	creature	4	red	d/e/de97c939-2c44-4c43-9d66-1087bcee692b
-Cinder Glade	land	0	colorless	f/5/f502721a-22f4-4c91-a85a-67628b9efbbb
+Cinder Glade	land	0	colorless	9/5/95e3baad-ec4d-4111-9121-994980df4b0c
 Cinder Hellion	creature	5	red	7/f/7f111537-e1b1-4408-ae5d-8bc06c408824
 Cinder Marsh	land	0	colorless	9/f/9fee067d-c31f-4b09-99f5-84d1102f96b0
 Cinder Pyromancer	creature	3	red	b/6/b6125689-0098-4e52-bed8-24840d22cdc1
@@ -3359,6 +3423,7 @@ Citanul Druid	creature	2	green	f/8/f8a130dc-3b1f-4fae-8459-b26bb5647fec
 Citanul Flute	artifact	5	colorless	5/e/5e3e0dff-d9f0-4222-a308-e86581c440cc
 Citanul Hierophants	creature	4	green	9/0/905506cc-f77e-4214-8eb3-6f141997336c
 Citanul Woodreaders	creature	3	green	b/0/b0cd9af6-3729-4c9c-9669-a2800a693b39
+Citizen's Crowbar	artifact	2	white	b/6/b68896f5-1e13-400a-a327-b6c6f00858b7
 City in a Bottle	artifact	2	colorless	9/5/9598b346-a47d-4c4c-9571-156824e86b9c
 City of Ass	land	0	colorless	7/2/726fe2e7-bd1b-4c11-a098-6c8abfbdf06e
 City of Brass	land	0	colorless	4/5/459042ef-0d5b-480f-9b8a-520e13ae9217
@@ -3367,10 +3432,12 @@ City of Solitude	enchantment	3	green	b/e/be499b81-bb2d-4f1d-9deb-c8bfcdca8e13
 City of Traitors	land	0	colorless	a/7/a7a8b6b8-b95f-4014-b17a-a6d44d965995
 Citywatch Sphinx	creature	6	blue	d/3/d34a3b8a-d4fb-4044-8362-aa1b808cfeee
 Citywide Bust	sorcery	3	white	3/3/33d1a51a-abf0-458c-98ae-98fcf4063fd9
+Civic Gardener	creature	2	green	f/5/f58d39d7-62bf-43c8-97b3-0f9069af0e29
 Civic Guildmage	creature	1	white	a/9/a9319039-db2f-47bf-9ef0-8d3a381d54fb
 Civic Saber	artifact	1	colorless	2/9/29c9247e-05f4-44bb-86e3-90a60e880374
 Civic Stalwart	creature	4	white	a/a/aa981489-4301-43f6-b1d7-2aa42e00cf75
 Civic Wayfinder	creature	3	green	5/e/5e9754ec-18d1-4c0f-abdd-49ce2d778083
+Civil Servant	creature	2	multicolored	1/c/1cf5da68-a79b-40a3-93bc-785fb2352b05
 Civilized Scholar	creature	3	blue	7/b/7bf864db-4754-433d-9d77-6695f78f6c09	1
 Clackbridge Troll	creature	5	black	8/5/85929131-4df6-415c-b592-aefb2943c477
 Claim // Fame	sorcery	3	multicolored	d/6/d6bf44f3-3d3d-444b-a2ec-fa223d745b7b
@@ -3408,6 +3475,7 @@ Cleansing Nova	sorcery	5	white	e/7/e75658ef-9ae4-4f4b-ab5d-a7d4b31a9fce
 Cleansing Ray	sorcery	2	white	7/b/7bf94184-e745-469a-9d55-af0ddacbb9cf
 Cleansing Screech	sorcery	5	red	4/6/468bdd9a-554f-4d73-a7e7-721862fe10e3
 Cleansing Wildfire	sorcery	2	red	4/9/492d77e5-acc6-41b8-8930-f39d69234919
+Cleanup Crew	creature	6	green	5/3/5354868b-c96b-4765-b0c8-8895093e4019
 Clear	instant	2	white	c/7/c7cdb977-7d5b-4050-bb01-181f6b363de7
 Clear a Path	sorcery	1	red	3/7/3738b0d1-06c0-4d6d-a307-478d994ff36e
 Clear Shot	instant	3	green	2/7/27476d9c-006d-4227-a5f2-49c7234b84a1
@@ -3469,7 +3537,7 @@ Clockwork Vorrac	creature	5	colorless	7/e/7e876938-1b8e-44cf-ade2-a42f8acdf24c
 Cloister Gargoyle	creature	3	white	2/9/297bf274-d13d-4b75-b251-2d004b16b431
 Cloistered Youth	creature	2	white	f/8/f8b8f0b4-71e1-4822-99a1-b1b3c2f10cb2	1
 Clone	creature	4	blue	5/e/5e648262-3b9b-4c58-8e29-48356e3cb064
-Clone Legion	sorcery	9	blue	e/c/ecc8a1bb-60f4-44a3-b5f0-a2c004966b57
+Clone Legion	sorcery	9	blue	f/5/f5ebe939-fef3-4085-808c-41ff97e83a7e
 Clone Shell	creature	5	colorless	6/c/6c627ec9-f75c-4a9d-8a4f-1f632a67e17b
 Close Quarters	enchantment	4	red	1/b/1b9131c7-4e46-4c01-80b3-a6b055439346
 Closing Statement	instant	5	multicolored	7/8/785e6d07-fe40-4723-b963-02da0a0987c7
@@ -3621,20 +3689,20 @@ Command of Unsummoning	instant	3	blue	e/6/e61b97fc-fa42-40a6-918e-e06383bfcae3
 Command the Chaff	instant	6	blue	f/6/f6bc829f-e29d-40b8-8350-fdb68e43da21
 Command the Dreadhorde	sorcery	6	black	d/e/de7ec307-45e0-4853-85fe-9ce859b188c2
 Command the Storm	instant	5	red	c/4/c4144e98-957e-43ac-b107-8ccf450748df
-Command Tower	land	0	colorless	a/5/a5efe226-a6fc-4fdb-a3d4-2b1ae0d667a8
+Command Tower	land	0	colorless	4/3/43a32bdf-c430-46a0-9d23-8b8e8468391b
 Commandeer	instant	7	blue	7/e/7e6e6204-c622-4efe-ac4f-8195528cec9c
 Commander Eesha	creature	4	white	3/6/3607f6a9-b8d2-4119-9f70-95dcedc0662d
 Commander Greven il-Vec	creature	6	black	a/b/ab0ce69f-a259-4801-9ac3-f6754040434c
 Commander's Authority	enchantment	5	white	0/8/08ef4383-11e7-4426-a04a-058570f46e47
 Commander's Insight	instant	3	blue	a/7/a70d1553-40f4-42ce-a02e-e42525f9d75e
 Commander's Insignia	enchantment	4	white	4/4/44cccb23-a515-4e49-b4ae-a12d81f7d6ef
-Commander's Plate	artifact	1	colorless	1/9/19992dbd-7a6a-43d3-b1db-01716b2eed27
-Commander's Sphere	artifact	3	colorless	5/5/55ac2ca9-b6cf-453a-9d8b-8b7be5695f1e
+Commander's Plate	artifact	1	colorless	1/0/107ea1fe-167f-4a79-b0f1-f76dce2e6b0a
+Commander's Sphere	artifact	3	colorless	e/4/e4330ad8-ce2c-47bd-8956-c5e19bdbf4e0
 Commanding Presence	enchantment	4	white	2/4/24e2f681-918e-4f1f-afb1-0f9587c0d7bf
 Commando Raid	instant	3	red	b/b/bb237330-ac2e-411d-836c-6628f96f3262
 Commence the Endgame	instant	6	blue	2/0/209d70a2-c8c1-4072-ab1f-57804b55a09a
 Commencement of Festivities	instant	2	green	f/1/f1724602-2ae1-40a4-aeb0-51a483a6948c
-Commit // Memory	instant	10	blue	2/f/2fe1dcfb-c765-476f-bc5d-7904eaec00ba
+Commit // Memory	instant	10	blue	e/f/ef94afa5-0110-4a12-bf37-c1d3310f52c4
 Common Bond	instant	3	multicolored	5/9/59965953-1522-4103-9a6c-5534205d34d9
 Common Cause	enchantment	3	white	e/a/eae4c25f-2005-4ac0-a5f0-2fc250520995
 Common Courtesy	enchantment	4	blue	3/5/357cb220-47c4-438d-bc24-abd68ed4273c
@@ -3768,6 +3836,7 @@ Contortionist Troupe	creature	1	green	c/8/c81da535-04e4-4dc8-9e12-7b417aba2f39
 Contraband Kingpin	creature	2	multicolored	4/f/4f1f4f01-a3eb-4ad7-8d4f-4122836fb3fb
 Contract from Below	sorcery	1	black	e/1/e1e33690-b851-404a-9cde-d00235be5aa5
 Contract Killing	sorcery	5	black	d/1/d1f20feb-b1ed-4d80-bef9-f3cc44ffb7b0
+Contractual Safeguard	instant	3	white	f/0/f0428cba-a895-4dbd-b495-8f358bb632cf
 Contradict	instant	5	blue	a/9/a99d4253-7b7f-498f-89b1-543b205967f4
 Contraption Cannon	artifact	4	colorless	0/a/0a2253a4-5ebe-488c-9715-15917408006f
 Control Magic	enchantment	4	blue	8/4/84992800-9bad-4598-afd4-f1e59d2e0956
@@ -3815,7 +3884,9 @@ Coralhelm Guide	creature	2	blue	a/1/a1a6399a-aa58-42a1-920f-2e836db37c3d
 Cordial Vampire	creature	2	black	8/c/8c84150f-e2bf-42a2-b2f7-2b6004b29fa4
 Core Prowler	creature	4	colorless	0/5/05414ba7-0f59-4c73-931c-e599d149d3ba
 Coretapper	creature	2	colorless	5/7/572083a6-e105-43d8-ae72-e1701611f729
+Cormela, Glamour Thief	creature	4	multicolored	2/2/221ac34a-94ed-4c49-afad-b19cac541731
 Cornered Market	enchantment	3	white	0/d/0d4f3c1d-d25e-4263-ab2b-19534c852678
+Corpse Appraiser	creature	3	multicolored	e/0/e0f254bb-ec77-4147-ab9c-559bc7fba8cd
 Corpse Augur	creature	4	black	1/f/1fc6a2f2-42d9-4d2a-aa3b-f6ce973cd409
 Corpse Blockade	creature	3	black	8/4/84234e51-e5d6-43d9-89d0-f0398fc6b7fd
 Corpse Churn	instant	2	black	6/f/6fedb37f-4f3c-477c-84c0-aa864e87c111
@@ -3823,6 +3894,7 @@ Corpse Cobble	instant	2	multicolored	d/f/dfe4f48d-179a-47d7-aed6-9751dd2f7d8c
 Corpse Connoisseur	creature	5	black	3/f/3f4ef04b-5434-480e-82a1-118ed1ff551f
 Corpse Cur	creature	4	colorless	9/c/9c6e19a1-b9ea-4724-96d6-63c4b4967257
 Corpse Dance	instant	3	black	7/6/76ae81ea-13e3-4ab8-b956-4c7b139a5e9c
+Corpse Explosion	sorcery	3	multicolored	c/7/c700eff3-138b-4d4c-ba36-58b98986168c
 Corpse Harvester	creature	5	black	3/9/39cc7fbb-010f-4e7c-b3bf-8853e54bc1b1
 Corpse Hauler	creature	2	black	1/1/11f7bdf8-505e-4ed2-8a3b-aba263afd196
 Corpse Knight	creature	2	multicolored	8/b/8b45117b-8369-48fc-8e5d-8986e662d123
@@ -3838,7 +3910,7 @@ Corrosive Gale	sorcery	1	green	0/4/04a13825-ab9b-4ffd-9b59-6198181891b9
 Corrosive Mentor	creature	3	black	1/4/140457ff-ee7d-48ec-8b91-ef5c2cc1ed74
 Corrosive Ooze	creature	2	green	d/1/d13deb9c-5985-4355-8716-ee1c7b54b8e2
 Corrupt	sorcery	6	black	c/c/cc719eb5-1867-4c5f-a5ce-e97ffa15ac61
-Corrupt Court Official	creature	2	black	9/d/9d3ba2e3-e680-47cd-81c5-555deea7d00f
+Corrupt Court Official	creature	2	black	5/0/505c6215-4006-4c4f-897a-be051cb73fa7
 Corrupt Eunuchs	creature	4	red	5/e/5e084664-2faf-4f7a-9068-d58d3f4b8456
 Corrupt Official	creature	5	black	5/c/5cb652fc-5a21-4e02-a776-a38fb41ad18c
 Corrupted Conscience	enchantment	5	blue	5/d/5d8a8278-0791-4ff2-95b8-71b94298e503
@@ -3872,7 +3944,7 @@ Counterflux	instant	3	multicolored	5/1/5178d975-88b8-4bd3-a5f5-b84f05172683
 Counterintelligence	sorcery	4	blue	e/a/eafbeafb-ef84-4a8d-9ca8-ca305b1feeea
 Counterlash	instant	6	blue	d/3/d3ec2c57-8e67-472d-8f2e-0492d311f130
 Countermand	instant	4	blue	0/7/07815e32-0b64-4c2b-84e6-a72336c45cf5
-Counterspell	instant	2	blue	1/9/1920dae4-fb92-4f19-ae4b-eb3276b8dac7
+Counterspell	instant	2	blue	a/4/a457f404-ddf1-40fa-b0f0-23c8598533f4
 Countersquall	instant	2	multicolored	f/9/f99f864e-a10f-47f4-94c5-4571b5c11b3b
 Countervailing Winds	instant	3	blue	d/e/de1c0ef3-b32c-403a-93cb-29cf05795711
 Countless Gears Renegade	creature	2	white	5/c/5c7cebae-6ba2-4cf1-a442-2c7a4fbc58da
@@ -3882,6 +3954,7 @@ Courageous Outrider	creature	4	white	4/1/4123da54-9947-462e-9862-3eecc459a75b
 Courier Bat	creature	3	black	4/d/4d9a8dc7-1ee9-4731-bd72-3d02f4e7c6c4
 Courier Griffin	creature	4	white	4/d/4d3afc71-f5db-45c3-96b2-8454b7f33542
 Courier Hawk	creature	2	white	9/3/9395663f-c7af-4d51-ba2a-3b76db8c25ec
+Courier's Briefcase	artifact	2	green	2/f/2f375674-7ae2-4430-b1f3-c26fa5b201d1
 Courier's Capsule	artifact	2	blue	3/9/39ae12ff-8039-4aac-aa50-f879376888a1
 Courser of Kruphix	creature	3	green	5/9/59592a53-c5a5-4e0c-8b91-b2431fa84b07
 Coursers' Accord	sorcery	6	multicolored	f/0/f027ceb0-5d2b-4cf6-87ad-e6b9b1e20634
@@ -3949,6 +4022,7 @@ Crash	instant	3	red	7/a/7a26bde3-8392-4476-b347-f223d52554a6
 Crash Landing	instant	3	green	f/8/f8683546-85b7-4658-91be-91ef65fb3fc3
 Crash of Rhino Beetles	creature	5	green	c/8/c87715d6-4ce1-43d8-9909-e1d80c2d099f
 Crash of Rhinos	creature	8	green	d/7/d74e0337-d9ac-4bf2-b2b5-aadc97433030
+Crash the Party	instant	6	green	9/b/9bfaa187-580f-4bb7-bc9b-0d3998098833
 Crash the Ramparts	instant	3	green	2/0/20b52d17-7efb-4c6e-9e6a-4763d1ef1daa
 Crash Through	sorcery	1	red	8/2/8257c205-00cd-4d41-bd58-098575ea2343
 Crashing Boars	creature	5	green	a/2/a2965bd5-4f16-443a-9133-adb92cf0e12b
@@ -3990,7 +4064,7 @@ Creeping Corrosion	sorcery	4	green	0/5/05d5a7b3-18b6-4b1d-85cc-2253e605390c
 Creeping Dread	enchantment	4	black	8/b/8b3376c4-369a-4d63-bd48-966bcfb0c9b9
 Creeping Mold	sorcery	4	green	3/2/32eb65d0-e13f-48ad-b104-d2da4568db9f
 Creeping Renaissance	sorcery	5	green	7/1/71569961-d56c-43f9-ae51-d86561419743
-Creeping Tar Pit	land	0	colorless	1/2/1250441b-8255-4ae1-b064-a75eb24faaf3
+Creeping Tar Pit	land	0	colorless	a/a/aa03698d-6ef8-43d9-9ca7-7ed03a646544
 Creeping Trailblazer	creature	2	multicolored	f/0/f0b96e41-caae-4e22-82f9-df5a054ea3b7
 Creepy Doll	creature	5	colorless	7/6/762a598b-8753-47ec-9dd6-2c3d8882fda6
 Creepy Puppeteer	creature	4	red	0/b/0bd17b9f-fd93-47d4-9cc4-cd333d0004f5
@@ -4001,6 +4075,7 @@ Crested Craghorn	creature	5	red	a/a/aadb40c8-3d54-4705-82dc-54e8d6e315d5
 Crested Herdcaller	creature	5	green	4/4/44c7792e-39e4-486e-827b-b0d01cd15bc3
 Crested Sunmare	creature	5	white	7/3/732fa4c9-11da-4bdb-96af-aa37c74be25f
 Crevasse	enchantment	3	red	a/4/a432d6ae-a17f-484b-ad55-4b4b6674ba8d
+Crew Captain	creature	3	multicolored	9/9/99806615-2f4a-4fe4-82f8-83445ae93a97
 Crib Swap	instant	3	white	6/c/6c53df6a-618d-40d4-a390-44b2e3202d7d
 Crime // Punishment	sorcery	7	multicolored	2/e/2edeab08-86eb-4fa8-ba24-23dacb32e0fd
 Crimson Acolyte	creature	2	white	c/1/c1718028-3009-4bdd-9f6f-59c17edd1344
@@ -4025,7 +4100,8 @@ Cromat	creature	5	multicolored	7/d/7d9e0a23-d2a8-40a6-9076-ed6fb539141b
 Crook of Condemnation	artifact	2	colorless	7/8/78f6d7c2-ee4f-4cd0-a9a2-d8469ff89291
 Crookclaw Elder	creature	6	blue	8/c/8ced7275-3935-4bba-877d-81282bd171fd
 Crookclaw Transmuter	creature	4	blue	a/b/aba5f411-668b-4344-be2f-c8f6cc3255e8
-Crooked Scales	artifact	4	colorless	f/d/fd7084ba-cca6-4fb9-b21b-b79e7d74c5c0
+Crooked Custodian	creature	2	black	7/2/723d6f60-3e8a-4c58-8b3c-9ba59a01c867
+Crooked Scales	artifact	4	colorless	3/3/3352ba84-22cc-40e3-ae76-ca5cef8c2dfb
 Crookshank Kobolds	creature	0	red	7/a/7af6b119-7db4-49dd-aaa4-044b8c133f13
 Crop Rotation	instant	1	green	4/2/4249cc64-f75b-4c76-a41a-5b25873c74bc
 Crop Sigil	enchantment	1	green	8/6/861e8c51-0cda-497a-b289-a9f678f0e328
@@ -4084,7 +4160,7 @@ Crumble	instant	1	green	8/6/86873be9-21eb-496c-b278-4c9847563b0f
 Crumble to Dust	sorcery	4	colorless	6/3/63352c11-807d-4878-a975-02ef451c3184
 Crumbling Ashes	enchantment	2	black	3/e/3e73ac3c-bd5a-4993-be65-76396b7d38ad
 Crumbling Colossus	creature	5	colorless	b/0/b09afa3b-c172-4cd7-b605-bacbfbd07c24
-Crumbling Necropolis	land	0	colorless	6/3/63e44395-9703-4e8b-ac13-5f0daabb6477
+Crumbling Necropolis	land	0	colorless	e/0/e0f698f6-28b6-499e-af63-c223c02c3b4b
 Crumbling Sanctuary	artifact	5	colorless	d/8/d8fa6d6c-c1cd-46f3-8430-94f67be55bf7
 Crumbling Vestige	land	0	colorless	d/4/d491c13c-43e3-4ca3-b888-4edd34dfe14a
 Crusade	enchantment	2	white	b/9/b99452c0-5d1c-4a73-90b6-0ec3ac0af893
@@ -4126,6 +4202,7 @@ Cryptic Caves	land	0	colorless	0/3/03d864b7-8049-4ef7-ae50-ad28df7d87d9
 Cryptic Command	instant	4	blue	3/0/30f6fca9-003b-4f6b-9d6e-1e88adda4155
 Cryptic Cruiser	creature	4	colorless	f/f/ff2061f7-5e51-4862-9650-0005002d04b6
 Cryptic Gateway	artifact	5	colorless	7/f/7f379966-6a0a-434c-8682-1cf528a9a4a1
+Cryptic Pursuit	enchantment	4	multicolored	a/9/a9cab677-6065-46d4-bc00-10e32de1aed7
 Cryptic Serpent	creature	7	blue	6/a/6a636f74-3bac-4b88-a24f-32a66a94e340
 Cryptic Trilobite	creature	0	colorless	a/7/a73c630c-c98d-4f8a-9e6a-2576d5fec4ee
 Cryptolith Fragment	artifact	3	colorless	0/7/078b2103-15ce-456d-b092-352fa7222935	1
@@ -4144,7 +4221,7 @@ Crystal Slipper	artifact	2	red	9/f/9f738ca6-5254-4dbc-9f59-854e81c8dac2
 Crystal Spray	instant	3	blue	8/7/8798a4f1-34bb-449d-a8cc-faf8bda8e0ab
 Crystal Vein	land	0	colorless	1/c/1c28ab69-1a46-45af-a331-1f52f99a9da3
 Crystalline Crawler	creature	4	colorless	0/2/02b90a7c-288d-420a-91b2-bd9ced5767e4
-Crystalline Giant	creature	3	colorless	1/1/1146c418-2176-466e-8a06-f2ef6bf2b1a9
+Crystalline Giant	creature	3	colorless	e/5/e5e0e7fa-d911-449b-8902-921d861f1d13
 Crystalline Nautilus	creature	3	blue	8/8/88a60d25-b97f-40e7-a5ac-c456cee02aeb
 Crystalline Resonance	enchantment	3	blue	9/3/93f20664-c3d0-4dbd-93dc-4f69a0cbff46
 Crystalline Sliver	creature	2	multicolored	0/6/06551990-713c-4b8b-bebb-4e849babb5bb
@@ -4163,7 +4240,7 @@ Cult Guildmage	creature	2	multicolored	0/5/0536c2fa-7402-49a1-9016-dcf5633ca9ef
 Cult of the Waxing Moon	creature	5	green	d/2/d2a13669-4656-476a-8984-ec3d47960907
 Cultbrand Cinder	creature	5	multicolored	f/6/f6b80a10-a9a9-445e-8040-6cc0155271d8
 Cultist's Staff	artifact	2	colorless	8/d/8da8c523-44e8-43e7-8431-28dbed1015ac
-Cultivate	sorcery	3	green	2/c/2c7b84c8-b79d-4d05-8d2e-23657bd6ca7c
+Cultivate	sorcery	3	green	b/d/bd71a79c-59aa-459d-bd38-8c180af0835f
 Cultivator Colossus	creature	7	green	6/2/62dffe04-c431-440d-a8da-33c74b4bb683
 Cultivator Drone	creature	3	colorless	b/b/bbe4bb6f-bec6-49d2-99d7-e3750a0ea03f
 Cultivator of Blades	creature	5	green	c/2/c2e6e8a1-2e69-43de-964d-72f722439d4a
@@ -4197,6 +4274,7 @@ Curious Homunculus	creature	2	blue	2/2/22e816af-df55-4a3f-a6e7-0ff3bb1b45b5	1
 Curious Killbot	creature	2	colorless	5/1/51a2b7e0-1f6c-4c17-9648-2d74d7789442
 Curious Obsession	enchantment	1	blue	0/4/04cf3030-dc92-45ab-9c26-f2e6aef67e56
 Curious Pair // Treats to Share	creature	2	green	7/f/7f78a570-d776-42f2-a609-6da0156c8de7
+Currency Converter	artifact	1	colorless	1/8/187b6719-e5ed-4615-a00b-3313ceca055b
 Curse Artifact	enchantment	4	black	9/f/9fc0d070-8a42-4d5e-8f2b-ceb59147de6f
 Curse of Bloodletting	enchantment	5	red	9/d/9dc4ac6f-0005-47f8-bee9-10429cc542e4
 Curse of Bounty	enchantment	2	green	2/f/2f497641-b73a-4399-bc89-5274c42e17cc
@@ -4250,7 +4328,7 @@ Cursed Scroll	artifact	1	colorless	3/1/31415b9b-fb30-4132-a9a3-795b4573a901
 Cursed Totem	artifact	2	colorless	5/d/5dde91a9-7d2d-4a7b-861a-3d1c16ec79d9
 Curtain of Light	instant	2	white	f/c/fc382831-e338-49bd-a37f-931bf611b165
 Curtains' Call	instant	6	black	d/d/dd71fd53-5c84-4d08-a7f5-16657413ac4c
-Custodi Lich	creature	5	black	8/c/8c4306e0-afdb-4911-9dae-7ea7e6ad9a0a
+Custodi Lich	creature	5	black	5/d/5d77f50f-f63d-47bd-8bf9-01febee315fd
 Custodi Peacekeeper	creature	3	white	a/d/add304ab-7a45-40c4-96eb-e32a285c2a50
 Custodi Soulbinders	creature	4	white	6/a/6a0dd7ba-673e-4f69-8cd3-806784501dc2
 Custodi Soulcaller	creature	3	white	e/2/e29212c9-04e3-4678-be73-f7405a85dadb
@@ -4259,8 +4337,11 @@ Custodian of the Trove	creature	3	colorless	e/b/eb14f061-9506-40fb-b10d-4bada38c
 Custody Battle	enchantment	2	red	b/7/b72257f5-0cf9-45ca-8dc7-a1a93bd7dd1e
 Customs Depot	enchantment	2	blue	0/6/067d8c46-c334-4b00-af06-2e28b6086c58
 Cut // Ribbons	sorcery	4	multicolored	c/6/c6f61e2b-e93b-4dda-95cf-9d0ff198c0a6
+Cut of the Profits	sorcery	2	black	8/0/80e86078-1629-40dc-88a9-102c543255b8
 Cut the Earthly Bond	instant	1	blue	0/6/066f185d-5f81-472a-8aff-2c11ba10d18c
 Cut the Tethers	sorcery	4	blue	4/f/4ff18307-9ef8-4e3a-89e9-cb8c04997222
+Cut Your Losses	sorcery	6	blue	3/1/31184dd0-4080-44c1-a3e0-f6d10a4d1fcb
+Cutthroat Contender	creature	1	black	6/b/6b23b3e4-58cf-4b5d-bdcb-410a403b4987
 Cutthroat il-Dal	creature	4	black	d/4/d4123bab-d61e-4d69-b9ca-1fff3a11335a
 Cutthroat Maneuver	instant	4	black	6/2/62497880-64dc-4911-8513-f95b73086136
 Cyberdrive Awakener	creature	6	blue	2/a/2a2c0a2f-07fb-4cc0-9b99-e5ff4303028d
@@ -4315,8 +4396,9 @@ Dakra Mystic	creature	1	blue	8/e/8e5f71ca-e7d9-4f9a-adf1-40353693deea
 Dalakos, Crafter of Wonders	creature	3	multicolored	5/7/57ea0ba2-3ccf-4313-ad1d-161272c48851
 Damia, Sage of Stone	creature	7	multicolored	9/e/9ecadcd7-f40d-4c4e-b897-366c7bcae5f1
 Damn	sorcery	2	black	e/f/efeae088-9ac5-4d2f-a15c-d8675a471ac5
-Damnable Pact	sorcery	2	black	d/5/d544553a-6b8b-475b-9d10-a932610bf474
+Damnable Pact	sorcery	2	black	1/7/17fa6dc2-5a2e-4758-9ca4-e020eb032d74
 Damnation	sorcery	4	black	9/4/941b65da-b9b3-4e15-bab5-bcbfd20dbe05
+Damning Verdict	sorcery	5	white	5/b/5be40c34-6df0-4471-b99b-850ae2be9923
 Dampen Thought	instant	2	blue	1/7/17c8590d-21f8-4bbf-8b71-1588428e2467
 Dampening Pulse	enchantment	4	blue	4/a/4a4393f6-54d7-4963-a3c0-b3a083c2440c
 Damping Engine	artifact	4	colorless	8/7/87841977-75ff-49c3-b832-3f0cf48b50b2
@@ -4335,6 +4417,7 @@ Dand├ón	creature	2	blue	b/f/bfc43585-55ac-4d58-9e80-b19a7c8c8662
 Dangerous Wager	instant	2	red	6/3/636c4042-703f-4548-9a0f-cb550c468bf9
 Danitha Capashen, Paragon	creature	3	white	c/e/ce5391bc-6b50-49b0-96a1-df944a55d62e
 Danse Macabre	sorcery	5	black	5/1/5151b81b-6d10-40de-9e65-89923e4c03d9
+Dapper Shieldmate	creature	4	white	d/6/d6ce9c33-4ab3-43c9-b6bc-ee2d40d8f9b6
 Daraja Griffin	creature	4	white	0/7/0795a1d6-9caf-472a-a349-fca97bccf8e2
 Darba	creature	4	green	d/8/d82636dc-4b3e-44a8-bc72-dab1275dfb6d
 Daredevil Dragster	artifact	3	colorless	1/9/19bbbc98-0806-4226-8fd1-16b812334cee
@@ -4351,9 +4434,10 @@ Daring Apprentice	creature	3	blue	6/c/6c5becbf-77ac-4bd2-912d-7f7c944c2a0b
 Daring Archaeologist	creature	4	white	3/0/306ebfe1-428d-4f38-950e-b72a44262c25
 Daring Buccaneer	creature	1	red	1/d/1d413b88-8f5d-415f-bd07-169f6c175e6b
 Daring Demolition	sorcery	4	black	c/4/c469b909-7032-4a65-ac6f-e33eb41bbb59
+Daring Escape	instant	1	red	3/d/3d09dbcd-188b-4b52-943e-947cbf2c0002
 Daring Fiendbonder	creature	4	black	2/7/27dd910a-a3ca-46ac-9350-f2a22496f4e6
 Daring Leap	instant	3	multicolored	3/7/37ec6c4b-2de0-4759-a25d-007706cb18cc
-Daring Saboteur	creature	2	blue	9/8/98bcccf7-cec0-4507-b941-e47873861d20
+Daring Saboteur	creature	2	blue	5/4/546c5194-13f4-4860-8438-67732ea761c3
 Daring Skyjek	creature	2	white	5/6/568b513a-7fe9-476d-a2d7-63f5b7ea524b
 Daring Sleuth	creature	2	blue	4/4/440f9f10-6999-4cff-ab98-8aed77813b07	1
 Daring Thief	creature	3	blue	c/9/c9d9378d-e553-48b5-8a23-59a35329eda2
@@ -4418,8 +4502,9 @@ Darksteel Relic	artifact	0	colorless	0/f/0fd8c918-62d9-41be-a3e1-32ddac71b7e7
 Darksteel Sentinel	creature	6	colorless	7/6/768e9dde-59e5-4b50-9b38-b46e2a593107
 Darkthicket Wolf	creature	2	green	f/e/fec37c5a-8223-441c-a8a6-8da1a2dfc3fb
 Darkwatch Elves	creature	3	green	2/1/212a807f-d5d0-4787-b390-3351783a1ae4
-Darkwater Catacombs	land	0	colorless	2/8/28dfe97d-76d5-4c61-9b83-fdd780fbe4c6
+Darkwater Catacombs	land	0	colorless	6/2/622e89db-4717-40cb-bac8-ccdca6c06be8
 Darkwater Egg	artifact	1	colorless	f/b/fb988572-1e1d-4b1d-8dc7-78bda966554e
+Darling of the Masses	creature	4	multicolored	5/2/52aa9815-6b47-4c80-87c7-4277166ea0df
 Darting Merfolk	creature	2	blue	4/3/438e15f7-59bb-4047-af1f-ef92cc1866b8
 Daru Cavalier	creature	4	white	e/b/eb2e9b7e-434e-477f-b3e8-e85ceb913650
 Daru Encampment	land	0	colorless	1/2/12306750-86d6-4f70-820a-365894884e56
@@ -4483,7 +4568,7 @@ Dawnray Archer	creature	3	blue	8/6/86c1ff65-8ad5-42e0-9e4c-1caf83ab86e0
 Dawnstrider	creature	2	green	2/d/2d193a35-8950-4a77-ace3-c4d4085727f4
 Dawnstrike Paladin	creature	5	white	5/4/549ca818-f7bf-47a8-9005-18ddabd3c360
 Dawntreader Elk	creature	2	green	5/2/524fab2b-ff28-4e02-9f25-e038c754b2cf
-Daxos of Meletis	creature	3	multicolored	e/d/ed3f19aa-1131-467f-8ae5-065e14aeb153
+Daxos of Meletis	creature	3	multicolored	d/2/d2eca63b-7fb2-4a69-84dd-aa0a038a2f8a
 Daxos the Returned	creature	3	multicolored	4/a/4abe142e-7e87-464b-be2a-ad2fc7aebd51
 Daxos's Torment	enchantment	4	black	8/8/885284bd-492e-4fc1-921a-a55a069c3fa9
 Daxos, Blessed by the Sun	creature	2	white	0/f/0fd2adb3-a6f4-448e-af2a-15ca92b1de63
@@ -4549,6 +4634,7 @@ Deafening Clarion	sorcery	3	multicolored	1/e/1e115a81-001d-4e17-98af-6a63f2b0967
 Deafening Silence	enchantment	1	white	6/0/6072d9b0-d3c7-46f4-bd24-095bb13c4dea
 Deal Broker	creature	3	colorless	4/2/42dc14d0-60e2-419a-a6cf-ba155c51c310
 Deal Damage	instant	4	red	d/e/de905517-983d-4996-a680-3a5cf91bfe11
+Deal Gone Bad	instant	4	black	3/3/3359f13d-9946-49fa-b621-28b1ea714e55
 Dearly Departed	creature	6	white	2/7/27c38500-1eb5-4ea5-8dcd-53bf4e1ee09c
 Death Baron	creature	3	black	1/1/11641a17-e979-4edb-adba-789f21fd017d
 Death Bomb	instant	4	black	f/8/f8a84715-c5dc-4a19-af6a-796c6ee912c2
@@ -4590,7 +4676,7 @@ Deathbellow War Cry	sorcery	8	red	c/f/cf0f58ac-88ef-445c-a12b-0bb1cf482298
 Deathbloom Thallid	creature	3	black	d/c/dc4513e1-9978-44ce-b7a5-4e2b5b63ad9e
 Deathbonnet Sprout	creature	1	green	a/2/a2cda10b-7cd5-4cf5-87bd-c3b8c6aa2b47	1
 Deathbringer Liege	creature	5	multicolored	3/7/371f5fdf-b436-4a4b-a181-68b08c9f2ea6
-Deathbringer Regent	creature	7	black	3/a/3a379508-90e5-48a3-a6e9-fe4fa638edbc
+Deathbringer Regent	creature	7	black	8/0/8006515a-69de-4713-8318-79c0ef78a6d1
 Deathbringer Thoctar	creature	6	multicolored	f/d/fdffa46e-8802-4479-a669-d33618f75d4f
 Deathcap Cultivator	creature	2	green	f/c/fc4aee46-ac42-4ede-ad06-906e2955a9d3
 Deathcap Glade	land	0	colorless	d/5/d5523659-98a8-4ae2-9ec7-d77e7352c374
@@ -4615,7 +4701,7 @@ Deathmark Prelate	creature	4	black	b/5/b54fb4b2-ecce-4a6c-8d76-4b5879ba836f
 Deathmask Nezumi	creature	3	black	7/4/743e38d1-b1cd-4828-ad3d-529a9f882115
 Deathmist Raptor	creature	3	green	1/c/1c73f83d-ee8f-48eb-9c3d-170f13062c74
 Deathpact Angel	creature	6	multicolored	8/1/81cfc3c5-6d69-443e-a506-76b94178979b
-Deathreap Ritual	enchantment	4	multicolored	7/f/7ff6346a-5154-4c93-9a24-8b1936683517
+Deathreap Ritual	enchantment	4	multicolored	1/0/10a8b65c-d7b3-48b9-9400-158a60310367
 Deathrender	artifact	4	colorless	e/a/ea48de8d-edcd-414e-b630-473af2d95abe
 Deathrite Shaman	creature	1	multicolored	d/1/d14f9fc8-e48c-473f-ba6b-9cffce94bb53
 Deathspore Thallid	creature	2	black	7/4/74c1b368-6fb0-4430-807e-d124f3077361
@@ -4637,7 +4723,7 @@ Decimator of the Provinces	creature	10	colorless	5/8/587cb384-db24-4e3d-a338-230
 Decimator Web	artifact	4	colorless	f/a/fa1fe29f-cf84-45d3-b8fe-e4de1d2bebbf
 Decision Paralysis	instant	4	blue	e/4/e46c7d04-977a-449b-9088-38e07bf62314
 Decisive Denial	instant	2	multicolored	b/2/b2e9d132-95f7-4ee7-9c91-be19e4ad7a5d
-Declaration in Stone	sorcery	2	white	f/6/f685445d-e2af-455f-b3b2-97cf15362f3c
+Declaration in Stone	sorcery	2	white	6/f/6f5513a2-e63d-44df-b8a5-37c298e38e3c
 Declaration of Naught	enchantment	2	blue	2/e/2e67d62f-9629-463b-a445-4181f6fafd0f
 Declare Dominance	sorcery	5	green	7/8/78271f34-f62e-4771-b430-b121097b8fb6
 Decoction Module	artifact	2	colorless	b/0/b08ae769-0070-47a6-aae0-1a3bcfd40d07
@@ -4657,7 +4743,7 @@ Decree of Silence	enchantment	8	blue	f/2/f2fc46e2-5e19-4999-a4cd-1e84697066c1
 Dedicated Martyr	creature	1	white	d/1/d1f95b64-858b-4344-84a2-3afa5c7b9ee9
 Deekah, Fractal Theorist	creature	5	blue	7/5/75d15e8c-1c5a-4aaf-92a5-5d4f500def06
 Deem Worthy	instant	5	red	9/9/99a2ed5f-62b8-4308-a656-f273f62f6ab8
-Deep Analysis	sorcery	4	blue	7/b/7b576264-da33-4272-98cf-70d1af1105b1
+Deep Analysis	sorcery	4	blue	6/4/64904c29-e0e4-4ecd-af0a-89a820899108
 Deep Forest Hermit	creature	5	green	3/2/3287775f-7bec-4e8f-bb8d-daf5ce92e4a8
 Deep Freeze	enchantment	3	blue	0/7/072173bd-e384-4d77-904f-477eecf66be3
 Deep Reconnaissance	sorcery	3	green	1/4/148ce683-3911-4b77-9e07-3985766a3777
@@ -4762,6 +4848,7 @@ Demon of Death's Gate	creature	9	black	5/7/57fab4fc-c8de-47ef-a717-3adb58c2f5b6
 Demon of Loathing	creature	7	black	5/7/57564f6f-7c99-4325-8a0e-22342e73767b
 Demon of Wailing Agonies	creature	5	black	a/c/ace249fc-0d05-4132-8c0c-4abdc3b42119
 Demon's Disciple	creature	3	black	8/3/836f5197-e42b-45e0-8170-1b0a8a5beebd
+Demon's Due	instant	4	black	2/e/2e59fb98-c887-42f1-a620-9e6b40b94cb5
 Demon's Grasp	sorcery	5	black	6/d/6d3b72b0-3043-48c7-a95a-10e632caa8ea
 Demon's Herald	creature	1	black	f/5/f5aa309e-5df3-4419-9e9c-3fd928c1e360
 Demon's Horn	artifact	2	colorless	c/d/cd708b10-472f-44b1-9b62-668da6104ef5
@@ -4795,6 +4882,7 @@ Den Protector	creature	2	green	f/6/f6c1c367-35a9-4932-86a6-d63d3b9b326a
 Denied!	instant	1	blue	1/2/1285c125-e145-4565-a029-352ac6adf688
 Denizen of the Deep	creature	8	blue	3/b/3bf7e928-511c-4a31-b1fb-8c28bd41182a
 Dennick, Pious Apprentice	creature	2	multicolored	3/5/35cf2d72-931f-47b1-a1b4-916f0383551a	1
+Denry Klin, Editor in Chief	creature	4	multicolored	a/c/ac40ca08-50e6-46e6-9d50-c4e84325620d
 Dense Canopy	enchantment	2	green	9/d/9d1480d4-51f8-4233-874c-94502726fe0d
 Dense Foliage	enchantment	3	green	f/6/f6232f04-cd4c-4889-97dc-cccc4a09f9c4
 Deny Existence	instant	3	blue	1/6/16a14eeb-1c85-4029-a047-39a4efef3f74
@@ -4806,6 +4894,7 @@ Depart the Realm	instant	2	blue	2/c/2ce0403d-76ed-4eb0-abdd-74ed28f96137
 Departed Deckhand	creature	2	blue	4/8/48b3c3e3-151f-4f16-bb40-167978180bbc
 Deploy the Gatewatch	sorcery	6	white	a/3/a3aa54d9-9f01-46e4-b4bd-f8bc57b44ac1
 Deploy to the Front	sorcery	7	white	1/0/10744088-b028-43aa-8a77-cd2a430fbfb6
+Depopulate	sorcery	4	white	c/5/c53c1898-9107-4bf8-b249-d0502fb9596d
 Depose // Deploy	instant	6	multicolored	a/b/ab0ba4ef-9e82-4177-a80f-8fa6f6a5bd60
 Deprive	instant	2	blue	2/e/2efecdd9-bd3a-4b79-92da-6485589d5bde
 Depths of Desire	instant	3	blue	6/3/63420437-76a9-40cf-aedc-0ca1e73fcc0b
@@ -4850,7 +4939,7 @@ Deserted Temple	land	0	colorless	d/1/d1fa74b2-f9bd-4617-8b65-878781f3a2fd
 Deserter's Quarters	artifact	2	colorless	8/f/8f7d3b2d-e06e-4d30-9ed8-2a52aa7e31c6
 Desertion	instant	5	blue	b/3/b362151e-4ad6-4ae9-91e5-0e4a69d53ca5
 Desiccated Naga	creature	3	black	2/1/21f31e96-bb66-4b28-b14a-426d1d5839a6
-Desolate Lighthouse	land	0	colorless	8/c/8cd0f1da-8100-4bed-8bfc-947c0705c7ce
+Desolate Lighthouse	land	0	colorless	b/1/b130e223-aa05-433c-90c3-1261c262296b
 Desolation	enchantment	3	black	3/b/3b186460-d2af-4912-ba19-95b2cb5f1639
 Desolation Angel	creature	5	black	4/4/445127d4-8afb-47cf-b2a1-564540b1fdae
 Desolation Giant	creature	4	red	b/7/b74a47b5-100d-424f-8432-7668c50458f8
@@ -4886,6 +4975,7 @@ Detainment Spell	enchantment	1	white	c/4/c467446b-0168-4c7d-9ab6-57ad8b664877
 Detection Tower	land	0	colorless	0/2/02f99756-d334-4dba-a375-ba3d91ecae62
 Detention Sphere	enchantment	3	multicolored	a/f/afee5464-83b7-4d7a-b407-9ee7de21535b
 Detention Vortex	enchantment	1	white	5/4/54ebe581-be17-415a-a160-28d8f4e95636
+Determined Iteration	enchantment	2	red	6/c/6c3d8fc5-bef5-4625-8832-43afa997dbe3
 Detonate	sorcery	1	red	2/3/237eedf5-8a8f-4668-a911-e2bf66f8221e
 Detritivore	creature	4	red	2/e/2ec01f4b-b3df-4e2b-ae93-2f2d0cc279bd
 Deus of Calamity	creature	5	multicolored	a/3/a3b03ce9-a0fb-4b0c-b02d-e4f93ef87445
@@ -4897,13 +4987,14 @@ Devastation	sorcery	7	red	a/d/adfac5be-fc68-4828-8d0b-ce79d5d8a1ad
 Devastation Tide	sorcery	5	blue	2/d/2d493bd6-af71-45be-bd4c-1d8f94bca19e
 Deviant Glee	enchantment	1	black	e/1/e150896e-8745-42ac-894b-8f42a92bd7a7
 Devil's Play	sorcery	1	red	d/4/d46473a7-69f5-492b-845d-c8862a1fec85
+Devilish Valet	creature	3	red	4/5/45d3fc69-6c5e-4ede-9f8d-c1cee096a78a
 Devils' Playground	sorcery	6	red	1/2/1207e6eb-15a7-4ec4-91b3-880375704bb6
 Devilthorn Fox	creature	2	white	3/6/36725a7e-04ef-424a-a1fe-f5f71d9ec0f7
 Devious Cover-Up	instant	4	blue	6/4/648281fe-89fb-4d8d-b944-3af28fb044f6
 Devkarin Dissident	creature	2	green	4/9/490cd287-5f09-442f-9150-4a6ac2cf3e2e
 Devoted Caretaker	creature	1	white	8/d/8d400b63-de3e-4805-a51d-c4c0dfbb7033
 Devoted Crop-Mate	creature	3	white	d/3/d3677f10-b530-4606-b7c8-a72dd2131160
-Devoted Druid	creature	2	green	5/c/5c8a8dbb-cba7-4e1d-8888-73ab6f4aff07
+Devoted Druid	creature	2	green	5/6/56f7c91c-5075-43b7-890d-a49b4a87f9df
 Devoted Grafkeeper	creature	2	multicolored	9/6/965e6bd5-dc32-406c-bc99-ceb15be4d3f2	1
 Devoted Hero	creature	1	white	c/0/c0cdbd28-958a-4955-badd-4848eef3f0fa
 Devoted Paladin	creature	5	white	3/6/3620ed96-1d15-4942-b9e5-9f9a64b0cab4
@@ -4957,8 +5048,9 @@ Didgeridoo	artifact	1	colorless	8/2/828f8f68-abe2-4e39-b3e4-991dceacd5d9
 Didn't Say Please	instant	3	blue	7/7/77500b53-0852-4d6a-bfe3-b1e8ef5a12cd
 Die Young	sorcery	2	black	0/1/0172baf4-cad9-474c-8527-73d6367aa5dc
 Diffusion Sliver	creature	2	blue	f/b/fb110a55-c8f9-4627-82c2-edb10db4f380
-Dig Through Time	instant	8	blue	c/f/cf2a7655-9749-4ff6-b3b3-5a023b74a100
+Dig Through Time	instant	8	blue	2/b/2b0c111a-236f-449a-95b1-274a1dfa546d
 Dig Up	sorcery	1	green	8/f/8f14c947-2452-4fd6-8f1a-391cf5898100
+Dig Up the Body	instant	3	black	9/0/902abe4d-5c19-4c96-b825-e6cd4d954a84
 Digsite Engineer	creature	3	white	d/7/d79b8974-796c-4f88-a0cb-5afbaf26fd24
 Dihada's Ploy	instant	3	multicolored	9/0/9091e8dc-b546-4b74-9dc9-aef55f60d13a
 Diligent Excavator	creature	2	blue	6/5/65212970-770e-4110-aa86-c89128688867
@@ -4981,7 +5073,7 @@ Dimir Informant	creature	3	blue	0/2/0230afeb-5ce8-436e-9afc-73cdd7baf424
 Dimir Keyrune	artifact	3	colorless	2/0/20f79f1a-690f-4ec1-86b8-49aa7ae8ff08
 Dimir Locket	artifact	3	colorless	0/8/08e3dd7a-8378-4368-a5e4-a1ca7899a67b
 Dimir Machinations	sorcery	3	black	1/4/14bfd72a-78c1-4167-89bf-ea1fccccd5b1
-Dimir Signet	artifact	2	colorless	9/0/90934b70-d4af-4a3e-81b4-c3f202b12f31
+Dimir Signet	artifact	2	colorless	7/d/7dc9f4a4-fbbf-448b-a2ee-720868968586
 Dimir Spybug	creature	2	multicolored	7/c/7c18c450-0bfb-4ba6-9212-b5833fce63a2
 Din of the Fireherd	sorcery	8	multicolored	9/b/9bde655f-9f49-42f8-a168-9cbca0592bb8
 Dina, Soul Steeper	creature	2	multicolored	9/c/9cd2b567-0cf7-4441-b3ce-e31141dd91c8
@@ -5027,7 +5119,7 @@ Disappearing Act	instant	3	blue	9/a/9a4a6d56-9bed-444c-aae8-383c315779a0
 Disarm	instant	1	blue	4/2/427c6350-af52-45f1-8024-5f31aa62a0d0
 Disaster Radius	sorcery	7	red	b/a/ba63c385-7eb8-4ddb-ae27-2b5921cd0525
 Discerning Taste	sorcery	3	black	9/f/9f395828-9d6d-4ffa-be92-b681350031b0
-Disciple of Bolas	creature	4	black	8/b/8b70c101-d8b0-4acb-ad65-59bf9860708a
+Disciple of Bolas	creature	4	black	c/0/c0801fd0-1f6c-45ea-94aa-80cf0c017f57
 Disciple of Deceit	creature	2	multicolored	f/b/fbfe88fd-9bb9-42af-8134-96fd264b8405
 Disciple of Grace	creature	2	white	1/d/1d1790cb-34e4-4f23-8a13-1906fd9a956f
 Disciple of Griselbrand	creature	2	black	3/0/30c9c0f0-2668-4163-8158-fada2d953cb3
@@ -5040,6 +5132,7 @@ Disciple of the Old Ways	creature	2	green	3/c/3c62b3ee-db2b-45c3-87d5-5d917ea4ba
 Disciple of the Ring	creature	5	blue	3/d/3d344f86-a02d-4de3-82c1-2586dd9ddbfe
 Disciple of the Sun	creature	5	white	a/d/ad9723a1-7c5f-49ea-a8c6-24ee572d839f
 Disciple of the Vault	creature	1	black	4/c/4c539843-4e3f-47a7-92e1-412eaaa2d9c5
+Disciplined Duelist	creature	3	multicolored	e/2/e23cdb0a-e114-47f8-aceb-c54c4683bbc5
 Discombobulate	instant	4	blue	8/b/8bee0d51-f4a1-4a3a-9ccd-540c3afe62d0
 Discontinuity	instant	6	blue	b/3/b33ba0a8-04e9-4df6-af20-a3ca4470cdcc
 Discordant Dirge	enchantment	5	black	d/4/d48e753c-ba11-4aa3-9a73-584f8a7538f5
@@ -5047,7 +5140,7 @@ Discordant Piper	creature	2	black	a/8/a8cce294-f6ee-4b18-8b65-7d01d0317b00
 Discordant Spirit	creature	4	multicolored	b/e/be67b950-dfe3-4159-aa53-63df25d2a926
 Discover the Impossible	instant	3	blue	8/c/8c201117-9850-4e92-9ecc-e4d71a70a959
 Discovery // Dispersal	sorcery	7	multicolored	a/c/ace631d1-897a-417e-8628-0170713f03d3
-Disdainful Stroke	instant	2	blue	7/6/7691ac89-f8ba-493e-aa11-5674a783dffb
+Disdainful Stroke	instant	2	blue	4/9/492aa24c-61c4-48bc-b7b7-f423be2662da
 Disease Carriers	creature	4	black	4/9/49125cfc-dbae-4543-9d2d-4cc78f45ce9a
 Diseased Vermin	creature	3	black	3/9/39703080-524d-4aa1-8c58-d512c41ae5d4
 Disembowel	instant	1	black	c/1/c1edb79d-0031-4dc6-8881-f6d1fe4acba2
@@ -5163,6 +5256,8 @@ Docent of Perfection	creature	5	blue	3/0/30c3d4c1-dc3d-4529-9d6e-8c16149cf6da	1
 Dockside Chef	creature	1	black	d/8/d80100c3-c81e-4084-8dfe-f8610637fd91
 Dockside Extortionist	creature	2	red	5/7/571bc9eb-8d13-4008-86b5-2e348a326d58
 Dodecapod	creature	4	colorless	c/5/c562b66f-d661-4535-b9da-e1c35a650324
+Dodgy Jalopy	artifact	3	green	9/b/9b5617c2-6d23-4bfb-bc1f-c27f0cfdb022
+Dogged Detective	creature	2	black	d/b/db794d5d-79e3-41a4-97ff-46442d87ca3b
 Dogged Hunter	creature	3	white	b/5/b50d4337-9b71-429b-b6bc-2d70299a6e76
 Dogged Pursuit	enchantment	4	black	6/0/60f6a159-b969-4767-802e-409f8bf286fe
 Dogpile	instant	4	red	2/6/26316b00-22db-4546-8366-8a624f10c1ba
@@ -5230,7 +5325,7 @@ Double Negative	instant	3	multicolored	2/c/2c7e3c58-3cda-4891-8b3d-33bb21568cf5
 Double Play	sorcery	5	green	e/3/e35c66e0-0ca8-447f-b8d9-b03ce7ffaf7f
 Double Stroke	conspracy	0	colorless	b/0/b0ec6d79-8a22-49d5-ac00-7fd60b278a4d
 Double Take	instant	5	blue	7/1/71941f1f-b41e-4ec9-a7c6-61eccaa47b0e
-Double Vision	enchantment	5	red	7/5/754b77b4-4cc4-4e49-a7a4-667401e7e063
+Double Vision	enchantment	5	red	1/b/1b597992-8e11-41a0-ac87-33fffd82b993
 Doublecast	sorcery	2	red	5/5/55a3153e-4259-4e03-bf79-8979d3c0db36
 Doubling Chant	sorcery	6	green	f/7/f71dc232-9b7e-4c0e-ac05-8e48b4936aa9
 Doubling Cube	artifact	2	colorless	3/d/3d946df5-f206-4241-bb55-97db67dc793c
@@ -5312,7 +5407,7 @@ Dragonloft Idol	creature	4	colorless	2/e/2e9fa21a-a92e-4bcd-84fe-a7aa159fd0eb
 Dragonlord Atarka	creature	7	multicolored	c/e/ce0c3b45-cf1d-4d85-9fe3-fb26b4b15dfd
 Dragonlord Dromoka	creature	6	multicolored	9/0/908042f3-0d03-4edf-816a-ec846a1e315f
 Dragonlord Kolaghan	creature	6	multicolored	1/c/1cbf8933-32a1-4892-9bdc-89464ed9ce1b
-Dragonlord Ojutai	creature	5	multicolored	4/7/4789bdb2-612b-4833-a0a3-c08dcc5d5054
+Dragonlord Ojutai	creature	5	multicolored	a/9/a9f39d28-08eb-4eff-ae55-abd377877a27
 Dragonlord Silumgar	creature	6	multicolored	2/e/2eae504d-d4a9-440f-8ceb-df967cc50494
 Dragonlord's Prerogative	instant	6	blue	5/3/53f2d2b3-6e48-413e-ad8f-9ce40c7ff167
 Dragonlord's Servant	creature	2	red	0/3/03a4e477-22d4-49b4-8e36-160bb4810e2b
@@ -5353,7 +5448,7 @@ Drana's Chosen	creature	4	black	1/8/189abe2f-5899-438b-9f54-3c98e50f037a
 Drana's Emissary	creature	3	multicolored	4/e/4e99cd26-3987-4421-a7a4-fe4621af7f12
 Drana's Silencer	creature	6	black	5/9/59224f9a-deb2-4dd4-b2d4-967232c14254
 Drana, Kalastria Bloodchief	creature	5	black	8/f/8f6bbbd5-ecce-48d7-9192-91ed9ceb7fa1
-Drana, Liberator of Malakir	creature	3	black	3/1/31d0c37f-ebce-4362-9400-6b9a6e439247
+Drana, Liberator of Malakir	creature	3	black	3/4/34aa30ab-e1a7-4ce2-ac99-f8d49ef0cdcd
 Drana, the Last Bloodchief	creature	5	black	5/c/5cd4154e-7681-444b-a0f2-33e887791ba7
 Drannith Healer	creature	2	white	f/f/ff5a821c-eaec-4f69-97c7-8299cdebc2f4
 Drannith Magistrate	creature	2	white	9/8/98b0a4a8-9319-451b-9b79-b0bca7a41e91
@@ -5363,7 +5458,7 @@ Draugr Necromancer	creature	4	black	7/6/76d8e0ff-e720-41ca-af69-35585a2d7ae2
 Draugr Recruiter	creature	4	black	6/b/6b0fe66b-0067-4e5c-9b3a-b014b2f0daf2
 Draugr Thought-Thief	creature	3	blue	3/1/31da60a2-d4d3-4954-be59-c7ff61fa2905
 Draugr's Helm	artifact	2	black	f/d/fd4aade3-b1e3-43d1-b4a8-6b55ecdb4327
-Drawn from Dreams	sorcery	4	blue	5/6/5677cd48-de9f-4827-94d7-8a2301945742
+Drawn from Dreams	sorcery	4	blue	d/6/d61e811a-a744-40df-8d98-93f41a7bb0a0
 Drawn Together	enchantment	4	white	5/0/50fa9cd0-2152-4c01-a5d7-d257ae109d0f
 Dread	creature	6	black	9/b/9b608658-9150-439b-b0a0-4a994722b95c
 Dread Cacodemon	creature	10	black	2/5/25344729-19a5-496f-8e6f-ce7b69afdc68
@@ -5381,7 +5476,7 @@ Dread Slag	creature	5	multicolored	e/3/e3cdad60-3a73-49ac-bbbd-679254b6ba9e
 Dread Slaver	creature	5	black	3/d/3d8a3abd-a4a2-48e6-b709-1c0240a76c5e
 Dread Specter	creature	4	black	0/0/00c48e08-9a77-4ba2-8041-90998f7e3812
 Dread Statuary	land	0	colorless	6/e/6e54bace-7484-484e-987e-8d3a9a430ab9
-Dread Summons	sorcery	2	black	8/5/85dd3f34-56c6-4499-9661-8cbadb09c7fc
+Dread Summons	sorcery	2	black	5/f/5fcac17f-8fdc-4cb2-a4c5-ea44155ce852
 Dread Wanderer	creature	1	black	3/4/343fc82d-7d10-4489-8f7e-9995322114e2
 Dread Warlock	creature	3	black	4/f/4f964660-c2db-4995-bb16-65383362cf19
 Dread Wight	creature	5	black	6/5/65d332e2-4b2d-4131-84f7-862cb138c477
@@ -5556,7 +5651,7 @@ Duelcraft Trainer	creature	4	white	6/b/6b75855c-88dc-4491-8045-080debfeb7b5
 Dueling Coach	creature	4	white	4/5/45b3dbb0-0d68-4351-bfc9-a09c50454bf7
 Dueling Grounds	enchantment	3	multicolored	5/2/52760183-bee0-4ce0-96c0-074b88f78980
 Dueling Rapier	artifact	1	red	c/3/c304118a-c83b-490a-b0e2-721734a996ee
-Duelist's Heritage	enchantment	3	white	d/c/dc75cd5d-70e1-4507-b767-feb503d0a10f
+Duelist's Heritage	enchantment	3	white	f/9/f942d684-0cf2-472d-a8be-d1a914a753f5
 Duergar Assailant	creature	1	multicolored	a/6/a6555cbb-97fc-4258-9b11-096c3eaec833
 Duergar Cave-Guard	creature	4	red	f/4/f48fda3d-5e6f-4f32-8fca-030521f6df98
 Duergar Hedge-Mage	creature	3	multicolored	5/c/5c7883b1-dd79-4a03-ae0b-992c735b39b7
@@ -5588,12 +5683,13 @@ Duress	sorcery	1	black	c/0/c0a72721-2a4a-4d48-a7b0-2370b90b8619
 Durkwood Baloth	creature	6	green	d/c/dce39dd1-ca51-420f-a627-1511192d34c2
 Durkwood Boars	creature	5	green	1/8/18de2050-1dac-4bbe-8e75-446f72cfef7c
 Durkwood Tracker	creature	5	green	b/4/b49f5835-c933-4ba7-a3c9-34f4eb01f00d
-Dusk // Dawn	sorcery	9	white	e/9/e9d5aee0-5963-41db-a22b-cfea40a967a3
+Dusk // Dawn	sorcery	9	white	d/b/db0a5840-cbf7-4899-932b-8bdcbbf2e5f8
 Dusk Charger	creature	4	black	0/1/012bdc02-fe5f-4e87-b840-53090f78c649
 Dusk Feaster	creature	7	black	d/3/d34a6fdc-5be9-4cb4-97cc-de63e8a0dde1
 Dusk Imp	creature	3	black	a/7/a7590768-1286-4b85-8b31-80e577e6d733
 Dusk Legion Dreadnought	artifact	5	colorless	a/e/aec26144-9acf-43b7-8614-1a2952df613d
 Dusk Legion Zealot	creature	2	black	1/9/1908d03c-e8ed-43c7-bcae-194d826a152b
+Dusk Mangler	creature	7	black	b/8/b86825b2-5b03-4311-b7d9-f8131b17249d
 Dusk Urchins	creature	3	black	a/d/adce41c5-3a43-4fe0-b84e-8baaad1a0777
 Duskborne Skymarcher	creature	1	white	b/a/baa524bb-0ce7-4c30-93c3-ae15c3b05e92
 Duskdale Wurm	creature	7	green	f/6/f6879321-9a61-4c4f-9513-81ad5684c99e
@@ -5723,6 +5819,7 @@ Eccentric Apprentice	creature	3	blue	3/b/3baa08ac-9a94-4e22-91bb-c6966cd0a0de
 Eccentric Farmer	creature	3	green	b/5/b5339f6e-9ed7-4734-91c9-c2ed59ca1052
 Echo Chamber	artifact	4	colorless	0/6/06425615-6c10-4766-8128-a1a09a35649d
 Echo Circlet	artifact	2	colorless	4/9/49e661c6-bc3e-45b4-ae1c-5002e381faf3
+Echo Inspector	creature	4	blue	d/7/d7e530ea-ba51-4f7a-bf56-b657a48e86ae
 Echo Mage	creature	3	blue	8/b/8b76ba96-9630-44fb-849e-3c3848c03876
 Echo of Eons	sorcery	6	blue	f/f/ff590af2-2d6c-4f16-a9b8-1a6dab6e9ad5
 Echo Storm	sorcery	5	blue	5/4/546da0df-db26-4f50-8b5e-eb09782dd1d1
@@ -5817,6 +5914,7 @@ Electrostatic Field	creature	2	red	7/0/7096c9a6-2e73-41f8-b20a-b29a9f0b760c
 Electrostatic Pummeler	creature	3	colorless	c/5/c565d11b-a57e-4de4-9d18-2be48a2ef742
 Electryte	creature	5	red	8/5/85c3d04f-4010-4db3-9e4e-afa8116b263d
 Elegant Edgecrafters	creature	6	green	3/5/352941f3-951e-428d-bec4-7790c3ea7cb2
+Elegant Entourage	creature	4	green	e/9/e9d3500e-09ba-48b6-933f-25b4625b79aa
 Elemental Appeal	sorcery	4	red	3/a/3a583f30-a3e0-4c4f-81b3-01452edaf22c
 Elemental Augury	enchantment	3	multicolored	6/2/62bbff2a-5109-400a-961b-eacffb9aed67
 Elemental Bond	enchantment	3	green	5/1/516ebdba-0f25-459a-a26b-f6fa928b96e6
@@ -5861,10 +5959,12 @@ Elixir of Vitality	artifact	4	colorless	6/0/60450239-6055-4561-9f8c-565b4e4d9cb1
 Elkin Bottle	artifact	3	colorless	4/9/49301c19-55a0-4146-9474-0b86cd320e31
 Elkin Lair	enchantment	4	red	b/c/bcb625ba-3718-4988-962c-bf2e11eb4c16
 Ellywick Tumblestrum	planeswalker	4	green	b/a/bab81bc0-0369-469e-9296-6d9681697b21
+Elmar, Ulvenwald Informant	creature	3	multicolored	9/5/95d197b3-fc56-43a2-981f-b5b905222b5c
 Eloise, Nephalia Sleuth	creature	5	multicolored	b/f/bf81da34-4c2b-4e54-a60b-46ab41f72431
 Elsewhere Flask	artifact	2	colorless	9/2/9273a17d-114b-4d54-a2a5-1047df8caa9d
 Elsha of the Infinite	creature	5	multicolored	3/b/3b977c0b-07a1-4d16-9fdd-fc0563e0b68e
 Elspeth Conquers Death	enchantment	5	white	e/a/ea20208b-1939-4c69-8cfd-c0a42f9dc427
+Elspeth Resplendent	planeswalker	5	white	7/c/7c606af0-f3d1-44a4-b24e-ee1263569b1f
 Elspeth Tirel	planeswalker	5	white	e/b/ebe9116e-7b04-4f2a-aa67-89a42c6e1801
 Elspeth's Devotee	creature	4	white	0/f/0f82064c-b335-454c-9be6-9fbcb21aa8e5
 Elspeth's Nightmare	enchantment	3	black	3/7/37ccd974-d2bc-4fcf-94a7-0a868a04cb98
@@ -5939,7 +6039,7 @@ Ember Swallower	creature	4	red	e/2/e2715851-9def-42a0-bed4-0923e599e19a
 Ember Weaver	creature	3	green	8/1/81472afe-9e3d-4477-bd88-46bc5a2f3416
 Ember-Eye Wolf	creature	2	red	9/8/98fe1e1e-b14a-4efe-894b-b9da635f007f
 Ember-Fist Zubera	creature	2	red	0/1/0150e3f0-237e-4669-9401-d2cd08e86387
-Embercleave	artifact	6	red	a/a/aaae15dd-11b6-4421-99e9-365c7fe4a5d6
+Embercleave	artifact	6	red	1/9/192a4645-1462-4e43-ac39-bafabbb1250d
 Embereth Paladin	creature	4	red	6/b/6bcfe06b-3bb5-434e-acf4-4bfa8a94141d
 Embereth Shieldbreaker // Battle Display	creature	2	red	6/c/6cc73d16-5ed7-4104-91f6-0997a2080e2e
 Embereth Skyblazer	creature	4	red	1/6/166ee7fc-a0f7-49af-85bf-d5b36bb2bff4
@@ -6035,6 +6135,7 @@ Endbringer's Revel	enchantment	3	black	b/7/b76843b0-0e71-473b-8c9b-6a8bc30255da
 Endemic Plague	sorcery	4	black	1/5/15326971-a53b-45f2-8f1d-1b82935286e1
 Endless Atlas	artifact	2	colorless	2/a/2a39fc25-f9f0-44ab-a94c-9720f8722620
 Endless Cockroaches	creature	3	black	d/e/de7f26a4-da23-4508-b8b4-817a66d7852a
+Endless Detour	instant	3	multicolored	1/3/13798c8c-1aa5-4f95-979b-b971e73d715f
 Endless Horizons	enchantment	4	white	3/2/32385604-dcff-41e4-97a5-fcf230033a87
 Endless Obedience	sorcery	6	black	b/c/bc538d95-6b0e-4cab-b42f-73b51fc1affa
 Endless One	creature	0	colorless	6/4/64820f4f-1f78-4338-beb8-5ed5a447cfe4
@@ -6181,6 +6282,7 @@ Errand of Duty	instant	2	white	8/a/8a7362e2-8dc0-4d76-a4eb-55ed56b1cd66
 Errant Doomsayers	creature	2	white	0/e/0eb5c6e6-7251-4b80-9561-742442d8a497
 Errant Ephemeron	creature	7	blue	3/7/3779a76a-0171-4714-9713-a65dc173a33f
 Errant Minion	enchantment	3	blue	6/1/61648ddb-6efb-43d0-b2b1-418cc957854c
+Errant, Street Artist	creature	1	blue	6/1/61d23407-9fe0-4cbf-b4b5-bc1e132c36e4
 Errantry	enchantment	2	red	8/3/8346e741-61f8-4283-be51-f5f80e9595a5
 Erratic Cyclops	creature	4	red	4/8/48dae537-ff11-438f-8367-46121a88f60f
 Erratic Explosion	sorcery	3	red	4/c/4c6da251-bf6c-4847-88a7-ee1cba30596d
@@ -6209,7 +6311,7 @@ Esix, Fractal Bloom	creature	6	multicolored	9/c/9c381bc2-d26e-4d7e-9a0b-a8f7d2d8
 Esper Battlemage	creature	3	blue	2/c/2cac0076-8bd5-4fe2-bac8-fd102688fdcb
 Esper Charm	instant	3	multicolored	6/8/6804aa61-c2f7-4cd9-a348-8313a4305b5e
 Esper Cormorants	creature	4	multicolored	2/c/2c5068ed-8477-4d8d-9e37-c72474208e2d
-Esper Panorama	land	0	colorless	7/3/73fbd385-c5c4-45da-8a6d-9597bf904294
+Esper Panorama	land	0	colorless	b/8/b89070ab-4fe6-4919-b160-b32100fb4930
 Esper Sentinel	creature	1	white	f/3/f3537373-ef54-4578-9d05-6216420ee349
 Esper Sojourners	creature	3	multicolored	8/9/896d502a-d9c3-4101-92af-a8c9d945f47b
 Esper Stormblade	creature	2	multicolored	e/6/e60ac6f0-fdec-4e2c-86c6-02d36c7bbaf5
@@ -6238,7 +6340,7 @@ Essence Warden	creature	1	green	4/8/48431d2f-4011-48d2-b556-2078c1a45d85
 Estrid's Invocation	enchantment	3	blue	0/4/04c01143-f7fc-4874-87fd-59d1432c2bbb
 Estrid, the Masked	planeswalker	4	multicolored	3/3/3340b83e-72dc-42e2-9f93-92f732c047df
 Estwald Shieldbasher	creature	4	white	6/1/61c7d889-8cc0-4e80-b6d5-d41961820224
-Etali, Primal Storm	creature	6	red	5/e/5ed1070d-fc21-4f4c-8e6e-5e4a2e6e2dce
+Etali, Primal Storm	creature	6	red	4/2/42ba534f-b1d8-4ac6-8318-f8ead5a02370
 Etched Champion	creature	3	colorless	3/0/30fe653b-956a-4e0e-981b-37e1a6b08c2c
 Etched Monstrosity	creature	5	colorless	f/6/f6be7947-b929-408d-ad67-3b07b93dd36e
 Etched Oracle	creature	4	colorless	4/e/4ed3cdb3-f239-4550-9666-4f3725cfa087
@@ -6292,14 +6394,16 @@ Evangel of Heliod	creature	6	white	c/c/ccc00c82-7c2a-4699-8058-e57f690ece96
 Evangelize	sorcery	5	white	0/f/0f58e1aa-587c-4f89-9552-1128c8c2da1a
 Evaporate	sorcery	3	red	a/3/a3c99939-4854-4e28-a142-4cb7f89fe898
 Evasive Action	instant	2	blue	d/8/d8fad630-bd1c-42df-86b5-cc00da28abfd
+Evelyn, the Covetous	creature	5	multicolored	c/0/c0dad61f-36cd-46af-82b7-a02e04efd676
 Even the Odds	instant	3	white	f/7/f704cd76-dca8-4526-b03f-7e3753d8fbb5
+Even the Score	instant	3	blue	c/6/c629217f-4a10-4d92-86f8-22dc4067a724
 Ever After	sorcery	6	black	a/4/a4e6a08b-e0d6-4d41-b143-e09ac53b6249
 Ever-Watching Threshold	enchantment	3	blue	b/7/b711a0aa-90e5-4f16-9dc3-9cc331fc3101
 Everbark Shaman	creature	5	green	0/7/077ae521-a176-4d93-92b1-89ba674f86e4
 Everdawn Champion	creature	3	white	4/6/46c38e2a-3a82-402f-a436-f9ebb2ba2ea4
 Everdream	instant	2	blue	b/7/b71c923f-34ee-4743-98fb-1e6b727ded6d
 Everflame Eidolon	creature	2	red	a/0/a018d5ea-5229-40ca-b7c5-31d3e8ebb894
-Everflowing Chalice	artifact	0	colorless	9/c/9cd8112f-21e0-4272-9f0d-14d1ef989779
+Everflowing Chalice	artifact	0	colorless	b/a/ba721716-e19a-4ac5-9b44-1a18ad51554b
 Everglades	land	0	colorless	5/f/5f82ffe7-c5a2-453d-9820-3c576b6f263c
 Everglove Courier	creature	3	green	1/3/13bf5786-e41a-4839-b8a0-5c7a413b23d0
 Everlasting Lich	creature	5	black	1/4/148379af-f2d2-4435-a6cb-9ea6dfa2d8ce
@@ -6319,10 +6423,11 @@ Evincar's Justice	sorcery	4	black	a/1/a1014917-1f9f-4ddc-a067-506c600c3d36
 Eviscerate	sorcery	4	black	6/2/62ba90b8-3a30-4058-b8d3-72900b1f4fe0
 Eviscerator	creature	5	black	1/6/167e7f67-8d44-4134-b7b9-54ccdfb8675c
 Evolution Charm	instant	2	green	7/2/723d21cb-f506-4ad4-89d8-ecfdaed5952f
-Evolution Sage	creature	3	green	9/6/969bf351-c7df-4eb0-8065-9b8d5233f8f3
+Evolution Sage	creature	3	green	2/4/245cb567-5d71-49ca-8670-46197ccdac8a
 Evolution Vat	artifact	3	colorless	4/e/4ed874e4-87ca-41f0-af0a-a803194d78c9
 Evolutionary Escalation	enchantment	2	green	3/9/399d4b05-d671-4462-9d5d-4cfe3457727e
-Evolutionary Leap	enchantment	2	green	c/2/c27f3193-3083-409e-99d8-10f5b1afe9f1
+Evolutionary Leap	enchantment	2	green	4/d/4d007d3c-3356-4394-9bcd-2b2c1031c20b
+Evolving Door	artifact	3	green	0/1/01bc3b04-46b7-43df-9b29-1502b9f18bbf
 Evolving Wilds	land	0	colorless	e/8/e80fe230-745d-42ae-a1f5-a8cc950783d0
 Evra, Halcyon Witness	creature	6	white	f/2/f2be6765-a251-4035-a4ad-601e5ae23d33
 Exalted Angel	creature	6	white	c/2/c2213eac-cea4-4dfd-90c4-c1f466967e2e
@@ -6349,6 +6454,7 @@ Executioner's Swing	instant	2	multicolored	2/1/2122586d-9b23-47c2-8b00-e673aa031
 Exemplar of Strength	creature	2	green	d/3/d30501c5-f6d9-47b3-b12b-8bd1c5ea6a9b
 Exert Influence	sorcery	5	blue	c/3/c35e9d13-ee4b-42f1-a154-18ab32947ad3
 Exhaustion	sorcery	3	blue	a/e/ae593a2e-42d9-47e3-b6cb-f2e2133944d5
+Exhibition Magician	creature	3	red	c/b/cbb4479f-3157-44b4-b18b-7553c7513118
 Exhilarating Elocution	sorcery	4	multicolored	8/4/8468417d-7ef5-43e0-9190-e88f3eed9e82
 Exhume	sorcery	2	black	5/f/5f1cdcba-a04a-4a2f-8bc1-0dd7fa03754d
 Exhumer Thrull	creature	6	black	c/8/c8c53fda-3768-4cc5-8ca3-a60805c340ba
@@ -6360,7 +6466,8 @@ Exorcist	creature	2	white	1/8/184b7d52-e991-4668-9f6a-bcded97f51ac
 Exoskeletal Armor	enchantment	2	green	e/1/e111fcab-17f7-4a02-b4eb-606ba18812b3
 Exotic Curse	enchantment	3	black	1/e/1eff81c4-c402-437d-aace-dfe875d9857d
 Exotic Disease	sorcery	5	black	4/e/4e9624e5-79a2-41de-997b-12d871d4be66
-Exotic Orchard	land	0	colorless	d/9/d9ed9f21-5dc4-484d-bc31-8efc81254744
+Exotic Orchard	land	0	colorless	7/e/7ebb6c13-e495-4953-a036-b99426e507ef
+Exotic Pets	instant	3	multicolored	9/0/902f1ed8-5c10-45e4-8f2f-182e800faab4
 Expanded Anatomy	sorcery	3	colorless	c/5/c5642b9d-0daa-4e6b-ad48-f88dd37d6574
 Expansion // Explosion	instant	6	multicolored	e/0/e0644c92-4d67-475e-8c8e-0e2c493682fb
 Expedite	instant	1	red	b/8/b86c0628-0b61-44f2-91cc-1c3c309631ce
@@ -6373,6 +6480,7 @@ Expedition Raptor	creature	5	white	d/0/d078cf23-0489-494d-a280-7180bf2d5c43
 Expedition Skulker	creature	2	black	2/9/2966b1f0-3d30-4d92-87e5-f39ceacefbd2
 Expel	instant	3	white	b/e/be517a58-b7ee-4213-98a5-8c19e1b2def6
 Expel from Orazca	instant	2	blue	6/4/64f5119f-3921-48a5-a8fb-0cb1bbabde30
+Expendable Lackey	creature	1	blue	9/5/9515329a-0738-4b23-a326-ff417f47da77
 Expendable Troops	creature	2	white	f/3/f31d7d1b-a219-4653-be99-a885bc9b2e2f
 Experiment Five	creature	1	green	6/b/6b0751d5-94ce-4b9d-81ff-774c30aa9174
 Experiment Kraj	creature	6	multicolored	c/b/cb7f42a1-0996-4799-ad3a-9525c8e31343
@@ -6383,7 +6491,7 @@ Experimental Overload	sorcery	4	multicolored	6/f/6f1bace4-a327-4eb6-a6ef-8394e76
 Experimental Synthesizer	artifact	1	red	c/4/c47931c9-685d-4b83-8299-bc347224b4e8
 Exploding Borders	sorcery	4	multicolored	f/2/f247aaaf-4d65-4dfc-bab2-3c1331762647
 Exploration	enchantment	1	green	c/e/ce4c6535-afea-4704-b35c-badeb04c4f4c
-Explore	sorcery	2	green	5/9/59c33065-1bdd-4257-9e74-1f2aacf063c5
+Explore	sorcery	2	green	f/b/fbfb4b80-69fe-4d43-a155-0109ddbe86f5
 Explorer's Scope	artifact	1	colorless	1/e/1ef03100-f095-43e4-a697-2f473779b5a9
 Explosion of Riches	sorcery	6	red	d/a/da2f3dd5-a943-447b-8c76-8f69f06cefa4
 Explosive Apparatus	artifact	1	colorless	6/0/608f431b-a05c-4610-94f7-928d87b2c056
@@ -6415,8 +6523,11 @@ Extra Arms	enchantment	5	red	2/8/28efa11c-6aeb-4c22-bbb3-b41f26d65c65
 Extract	sorcery	1	blue	9/7/97f99a3d-d811-4666-aac8-5957068157dc
 Extract Brain	sorcery	2	multicolored	3/4/344e9383-5481-4abe-a59d-3a0145b7cca2
 Extract from Darkness	sorcery	5	multicolored	c/b/cbf32d5c-8d86-4e38-8d70-9ec369edac6e
+Extract the Truth	sorcery	2	black	2/b/2bdb9df1-4475-45e7-bc9c-40937c8c1722
+Extraction Specialist	creature	3	white	b/4/b404d6c7-0b65-4c6a-b141-9dffbeb120db
 Extractor Demon	creature	6	black	c/8/c8d09723-3729-44b7-8f3d-3de47c135849
 Extraplanar Lens	artifact	3	colorless	6/2/622a6523-3b12-4657-a656-00a57a3ae59c
+Extravagant Replication	enchantment	6	blue	6/a/6a6f55d7-d689-43eb-a59a-b8be88269ee6
 Extravagant Spirit	creature	4	blue	9/9/99243564-9dbd-420c-922d-c17854c99d2a
 Extremely Slow Zombie	creature	2	black	b/2/b23561cc-007c-483a-ae08-9e87ef7774c7
 Extricator of Sin	creature	3	white	b/6/b6867ddd-f953-41c6-ba36-86ae2c14c908	1
@@ -6473,7 +6584,7 @@ Faceless Haven	land	0	colorless	e/3/e3cd82e5-6072-4334-a493-01ca4ad6b4eb
 Faces of the Past	enchantment	3	blue	0/f/0f6dc35b-eb26-498f-ae35-0e860871446e
 Facet Reader	creature	2	blue	b/1/b1199596-ae77-4192-ae70-3e2ebd009b64
 Facevaulter	creature	1	black	a/1/a1a25f62-0ef5-4941-b9af-1ce1a63fb5e8
-Fact or Fiction	instant	4	blue	3/9/39b41cb3-ca3d-4389-8f66-e1f77f5fb683
+Fact or Fiction	instant	4	blue	5/e/5ee2bd1f-9e2f-4d7c-87ab-7a5987b3d9de
 Fade Away	sorcery	3	blue	a/6/a6f9103e-dcc2-4f7a-a8ca-eaa831f5f83b
 Fade from Memory	instant	1	black	5/6/56b34afa-0183-49aa-aa5f-03e070020136
 Fade into Antiquity	sorcery	3	green	5/5/55174ab7-9f2e-42e5-a61b-57458cfd33f3
@@ -6499,7 +6610,7 @@ Faerie Squadron	creature	1	blue	4/c/4c707c81-dbbd-43be-a79a-7bc92a584839
 Faerie Swarm	creature	4	blue	9/0/90598bb2-d96c-4f74-864b-1947b7d39e58
 Faerie Tauntings	enchantment	3	black	3/3/33727782-dafd-4a7c-96dd-6ffaf667cc6b
 Faerie Trickery	instant	3	blue	d/e/defb9f0b-195e-4aeb-92c1-8f827ad6724b
-Faerie Vandal	creature	2	blue	0/4/04692219-8850-4b05-aa60-64f32b0daade
+Faerie Vandal	creature	2	blue	7/6/7645247b-e65a-4912-ac22-e6a0fa806dd7
 Failed Inspection	instant	4	blue	9/9/994e2332-fcd6-49da-9e1f-cdaac9030a9f
 Failure // Comply	instant	3	multicolored	b/9/b9623c8c-01b4-4e8f-a5b9-eeea408ec027
 Fain, the Broker	creature	3	black	2/6/26acb9db-1a2f-4b08-b121-88f953e597e5
@@ -6518,6 +6629,8 @@ Faithful Mending	instant	2	multicolored	5/0/50752ca9-ea85-4c4b-9bf5-4f8759a7dcec
 Faithful Squire	creature	3	white	7/5/758abd53-6ad2-406e-8615-8e48678405b4
 Faithless Looting	sorcery	1	red	1/d/1d6e5cc9-bd48-41b6-ac20-5a3e38aecdc5
 Faithless Salvaging	instant	2	red	c/6/c6ed4077-4ed5-48fb-91c9-a9195d652978
+Fake Your Own Death	instant	2	black	b/4/b4e117a8-3291-4f9a-ab00-c820c8e2aa00
+Falco Spara, Pactweaver	creature	4	multicolored	a/e/ae25db8c-3d10-4196-b002-9d2aabd5f4de
 Falcon Abomination	creature	3	blue	f/0/f0668413-859d-4ec4-a4d8-17ec7f5b1b8b
 Falconer Adept	creature	4	white	f/b/fb4733e6-6fe2-4460-ac9f-82feb583d790
 Falkenrath Aristocrat	creature	4	multicolored	5/7/57ac7f19-bf6f-4a87-ad39-6eb2553d2202
@@ -6542,7 +6655,7 @@ Fallen Askari	creature	2	black	0/0/00107210-313f-49c1-84ff-92628f75b764
 Fallen Cleric	creature	5	black	7/6/7652dc61-9170-4895-a0bf-c32a1ee0350e
 Fallen Ferromancer	creature	4	red	7/b/7b200986-f553-4156-8f5e-37678db09687
 Fallen Ideal	enchantment	3	black	7/5/7504f857-29e5-4c8e-944d-1b02fe7792c2
-Fallen Shinobi	creature	5	multicolored	9/0/900c9dfd-ece1-4b09-a801-0fa05e1994b9
+Fallen Shinobi	creature	5	multicolored	e/d/ed9110d1-508f-4c87-a49e-6ec00039d924
 Falling Star	sorcery	3	red	f/2/f2b9983e-20d4-4d12-9e2c-ec6d9a345787
 Falling Timber	instant	3	green	6/e/6e54c84d-ccc9-4c52-b02c-e0392e8fe447
 Fallow Earth	sorcery	3	green	4/4/44b02b12-415c-49f4-9f60-fa53beb4216f
@@ -6552,6 +6665,7 @@ False Cure	instant	2	black	e/f/ef397db1-2d99-4cb0-a6e9-6f72d615ebad
 False Dawn	sorcery	2	white	1/6/1695e0ba-005a-4652-aea7-e1d1f9ff5d66
 False Defeat	sorcery	4	white	5/c/5ca71ce3-8633-428a-8d9e-9b807b77a8e2
 False Demise	enchantment	3	blue	9/e/9e844464-cf1b-4a34-ac37-3a4da858c6bf
+False Floor	artifact	4	colorless	e/6/e6c8cc86-229b-45c3-bb68-f613636a55be
 False Memories	instant	2	blue	3/a/3a45ea90-03af-446e-9df3-ef64e9613f2c
 False Mourning	sorcery	1	green	6/1/61bdfefb-f2e2-409c-b5e1-66d24ab3ee5d
 False Orders	instant	1	red	a/5/a59c24d9-804b-45d0-b60c-cfc7a6af7ef5
@@ -6562,6 +6676,7 @@ Falter	instant	2	red	e/2/e279126c-0512-4ee6-ad83-6fdfc7ae46c5
 Falthis, Shadowcat Familiar	creature	3	black	8/4/84537fea-ad81-4a9a-99d4-722a938adc7d
 Familiar Ground	enchantment	3	green	a/2/a26e990d-726c-4b3b-84b4-9c15a5c4be8c
 Familiar's Ruse	instant	2	blue	6/1/6179d2a5-4694-4dcc-9261-9f5201c53a67
+Family's Favor	enchantment	3	green	a/f/afb85bc6-7799-48c6-98c0-04dd7ced4058
 Famine	sorcery	5	black	a/5/a56410a7-6f99-4bdf-9385-f23571c263c3
 Famished Foragers	creature	4	red	f/d/fdbe6937-ceda-4367-a101-562fd5e0e09d
 Famished Ghoul	creature	4	black	e/4/e413b65a-700d-44eb-a880-5a0118d2ebac
@@ -6599,7 +6714,7 @@ Farmstead Gleaner	creature	3	colorless	3/5/3588cfcb-ad86-410e-8025-b5668833a754
 Farrel's Mantle	enchantment	3	white	a/f/af092da3-8713-4a59-86d3-827b942d6456
 Farrel's Zealot	creature	3	white	5/4/54252fd2-21a6-40d1-8515-697f18c78a06
 Farrelite Priest	creature	3	white	e/1/e11bf79b-a951-4d0c-acdf-d8ba5290a648
-Farseek	sorcery	2	green	7/5/75e4e808-1511-40ca-984b-f95fb8f5daf0
+Farseek	sorcery	2	green	2/7/2745f337-6b03-4001-9e24-e91d8ffd0b59
 Farsight Adept	creature	3	white	5/9/5949bb9a-b4e8-4992-a12d-8e31953aff0d
 Farsight Mask	artifact	5	colorless	4/8/48bde648-810a-4859-bbdd-265e932e1f7f
 Fascination	sorcery	2	blue	6/b/6b23b3f9-d363-4113-a477-ea8ff86ee6e3
@@ -6612,6 +6727,7 @@ Fatal Attraction	enchantment	3	red	9/3/930ff9ec-6b97-445e-b274-7c8c5fe0c0fc
 Fatal Blow	instant	1	black	6/8/6890c3aa-9321-4c41-9b16-cff4e6364350
 Fatal Frenzy	instant	3	red	4/e/4e2fe87d-e886-4e30-8ff2-3886199f0461
 Fatal Fumes	instant	4	black	9/6/967aa636-a11d-4c5c-ba85-648734b295c2
+Fatal Grudge	sorcery	2	multicolored	e/c/ec7de8d6-edad-4845-9868-781351480258
 Fatal Lore	sorcery	4	black	2/4/24ba0b83-9671-4ee7-996d-57a3616b9c66
 Fatal Mutation	enchantment	1	black	5/7/57cf9f50-8858-44a6-8bd5-0ce1e281a584
 Fatal Push	instant	1	black	6/e/6e9d8fe4-fd9b-4923-92bf-7dd6b8fa02e7
@@ -6636,7 +6752,7 @@ Fathom Fleet Captain	creature	2	black	3/6/36cd7467-ff8c-4a92-ae55-6894213d6c0b
 Fathom Fleet Cutthroat	creature	4	black	6/5/65a7004c-1952-41df-b645-b34bcbc3e401
 Fathom Fleet Firebrand	creature	2	red	5/2/52280963-ba5b-4735-b5cb-67866f8624c9
 Fathom Fleet Swordjack	creature	4	red	5/3/53c267b7-dbd6-43c5-9741-10f635bff4b1
-Fathom Mage	creature	4	multicolored	c/b/cbb9c5be-4bca-4c59-bbfc-50378e0404df
+Fathom Mage	creature	4	multicolored	2/2/22be6c55-f95e-498e-b6d2-65b7ed57d2d3
 Fathom Seer	creature	2	blue	6/c/6c0f831e-2eb0-499f-9502-418c04ac34a0
 Fathom Trawl	sorcery	5	blue	c/d/cd9c0bd7-f8a9-4d13-9a06-acc8bfb3d68b
 Fatigue	sorcery	2	blue	6/6/660fb109-dd65-4410-99b9-a2a14f8ea202
@@ -6680,7 +6796,7 @@ Feebleness	enchantment	2	black	2/6/265960a9-bea6-4111-b9a7-b6a37194b1c5
 Feed the Clan	instant	2	green	7/7/77831010-ac49-4456-ac6a-989cb024856f
 Feed the Pack	enchantment	6	green	9/8/9831e3cc-659b-4408-b5d8-a27ae2738680
 Feed the Serpent	instant	4	black	9/9/99a1a75b-20cf-4db9-a244-cc54411446c4
-Feed the Swarm	sorcery	2	black	5/f/5f782dca-4e1b-4b02-81c7-9df633053e78
+Feed the Swarm	sorcery	2	black	0/c/0c8edbe0-cc47-4c83-89be-b2e10c996665
 Feedback	enchantment	3	blue	d/6/d678d5a0-824e-4531-93cd-34046b4e87ef
 Feedback Bolt	instant	5	red	a/3/a370375c-14bf-4381-9359-f2e600867e7c
 Feeding Frenzy	instant	3	black	a/6/a6d74c30-ebca-4684-ad84-3ca19193ad88
@@ -6697,7 +6813,7 @@ Felhide Petrifier	creature	3	black	4/d/4d6cce01-a0cb-4059-a0ad-fbf7d9b998b8
 Felhide Spiritbinder	creature	4	red	b/b/bbbbe4ce-d6a6-428d-aeee-1c316f358777
 Felidar Cub	creature	2	white	e/a/ea76a183-e15c-4968-b29d-91c074aa8681
 Felidar Guardian	creature	4	white	b/8/b8adc1ba-969c-4597-ba96-7469669bf0bb
-Felidar Retreat	enchantment	4	white	4/5/45340647-4d3e-4be1-b0e6-e40cc56a438b
+Felidar Retreat	enchantment	4	white	5/4/541b9ee6-4008-4b92-a88f-ff9013048cdd
 Felidar Sovereign	creature	6	white	f/d/fd8c65bc-6cd0-4b77-83a9-069f34acbfea
 Felidar Umbra	enchantment	2	white	7/1/712d4bfe-563e-4f99-a11c-62a73ec7dc0e
 Feline Sovereign	creature	3	green	8/4/84a9485a-d356-4cbe-b257-b62008a21328
@@ -6706,9 +6822,9 @@ Fell Flagship	artifact	3	colorless	2/7/2774bdb6-7a02-43c9-9e6f-75d0b09570ca
 Fell Shepherd	creature	7	black	a/f/afd27b8d-3c1f-401b-aad1-268a7aa79f0f
 Fell Specter	creature	4	black	9/0/90c4b3bb-90b1-4241-a9ca-fdd7a0e0f0ac
 Fell Stinger	creature	3	black	2/7/27347849-6c07-42c0-bee4-74f93d7ad511
-Fell the Mighty	sorcery	5	white	a/8/a898ca85-ce74-486c-98a8-557eb315d150
+Fell the Mighty	sorcery	5	white	7/2/72d1ad18-607f-4fe4-ba72-26ed1da4cd3d
 Fell the Pheasant	instant	2	green	3/3/33d3cc84-7cb6-4de2-9018-4695a3b1e099
-Fellwar Stone	artifact	2	colorless	b/b/bb2f8ecb-a2d6-4500-b3c0-3a8a1c55a9fe
+Fellwar Stone	artifact	2	colorless	6/8/68c3d065-0519-4472-ae6e-23f58af5e859
 Femeref Archers	creature	3	green	6/1/61df49d2-1324-460b-8c72-6b6fe8b03c15
 Femeref Enchantress	creature	2	multicolored	2/0/20ba72c7-7957-4d02-b41e-c0132fe1f2e6
 Femeref Healer	creature	2	white	9/0/90dedd5e-e2ee-46ec-8541-27f1548b2a2a
@@ -6772,7 +6888,7 @@ Festival Crasher	creature	2	red	6/2/626b0477-6165-443a-8a75-dfeac26ac9f9
 Festival of the Guildpact	instant	1	white	d/1/d15fc49c-07a9-4e55-a977-24f7b7c2df1a
 Festival of Trokin	sorcery	1	white	f/5/f5bd783b-d4cd-4a53-8fec-a5ead7c14738
 Festive Funeral	instant	5	black	9/0/90a90af0-eb40-40da-bf4b-f0af687c6430
-Fetid Heath	land	0	colorless	7/1/713d95ae-4217-4544-9e00-06854fd0c6c7
+Fetid Heath	land	0	colorless	8/3/83583d80-35e9-4a39-839f-d01197a474e2
 Fetid Horror	creature	4	black	4/b/4be39d50-1e36-4dac-a923-81fc9f229b8d
 Fetid Imp	creature	2	black	5/6/56a95546-c45a-4da5-b1e8-d5658b5b7d53
 Fetid Pools	land	0	colorless	a/e/ae703d94-6f1f-463b-ab25-1b3f462e7e78
@@ -6829,6 +6945,7 @@ Fiery Temper	instant	3	red	6/a/6a21886b-93eb-4b77-aa37-5ae6570b0770
 Fifty Feet of Rope	artifact	1	colorless	b/a/ba7ebe7b-732f-4245-a194-e087c3878f61
 Fight as One	instant	1	white	5/c/5c62ea13-9bd5-46ce-a861-68cf9a2c6f8c
 Fight or Flight	enchantment	4	white	4/6/46bde162-3737-4b93-a27a-63b909a4183d
+Fight Rigging	enchantment	3	green	8/6/86fd3454-efe7-4feb-a6ad-069ae2fdbd18
 Fight to the Death	instant	2	multicolored	5/5/5552ca9b-0245-4f91-9646-a5b5443863a2
 Fight with Fire	sorcery	3	red	7/2/72c94d7a-cad7-438f-bc96-e6a7158ab0e6
 Fighter Class	enchantment	2	multicolored	d/5/d54a8329-b940-42c9-8ace-1d74407d14cb
@@ -6939,6 +7056,7 @@ Firmament Sage	creature	4	blue	9/d/9db186a1-3dc5-4ed2-8cd4-1e4f13094885
 First Come, First Served	enchantment	2	white	b/8/b8affab3-be32-4b9b-b4d1-8d2d7299580b
 First Day of Class	instant	2	red	0/9/091eb13d-9318-4b12-9f94-6276b11981d1
 First Pick	instant	4	green	1/6/16c5fb06-7371-421e-bab6-e0a5c3123948
+First Responder	creature	4	green	3/6/3688a806-9bff-4106-a14e-81d00bc6c87c
 First Response	enchantment	4	white	0/2/0270f9f2-9afe-4bbb-b14c-0e2da7f54dfc
 First Sliver's Chosen	creature	5	white	7/f/7f5c4368-4f2e-4f5f-8944-8b0d49ab3e38
 First Volley	instant	2	red	d/6/d6e5e360-ed47-40c1-8ad7-57645c2854ca
@@ -6996,7 +7114,7 @@ Flamekin Brawler	creature	1	red	4/2/42da4ec7-9d30-4c4e-9220-db0f4172bf9c
 Flamekin Harbinger	creature	1	red	2/7/2796424c-f6c5-4851-87fb-145a58fe1f60
 Flamekin Herald	creature	3	red	d/2/d2616030-01f2-43b1-98ba-f7e5a5a75379
 Flamekin Spitfire	creature	2	red	9/a/9a7878e5-fcb0-4de5-8dda-fcdb4b138ec1
-Flamekin Village	land	0	colorless	0/f/0fe90c85-c9ef-4ceb-9dc3-4d428b4157d5
+Flamekin Village	land	0	colorless	9/3/930e6064-3d4b-40f1-850d-daa15cea756b
 Flamerush Rider	creature	5	red	c/0/c074adc3-50f1-4443-ae9b-47f8d9fdf3a2
 Flames of the Blood Hand	instant	3	red	a/7/a79701b4-d220-4c3e-b96c-7a77a22ba899
 Flames of the Firebrand	sorcery	3	red	5/8/584cdb52-08f8-425b-8407-8192b1dc6843
@@ -7031,6 +7149,7 @@ Flashfires	sorcery	4	red	2/7/277e0846-237e-4117-bdd4-d2e4ae450d43
 Flashfreeze	instant	2	blue	8/1/81db0226-23de-4180-9926-b61fa910820e
 Flatten	instant	4	black	a/2/a2acae67-5238-40bb-a173-6fc858264a6c
 Flavor Judge	creature	2	white	a/b/abce5940-e84f-4f9f-89a9-13da1cd7fd43
+Flawless Forgery	sorcery	5	blue	1/c/1c808629-ee2b-4f3e-a316-7182fbc38d34
 Flawless Maneuver	instant	3	white	c/9/c972abe6-c732-4745-bde4-8b51698f05be
 Flaxen Intruder // Welcome Home	creature	1	green	0/6/06bd1ad2-fb5d-4aef-87d1-13a341c686fa
 Flay	sorcery	4	black	a/6/a6fe155f-bfb2-49d8-83f0-ab1047a961d1
@@ -7051,6 +7170,7 @@ Fleet Swallower	creature	7	blue	7/e/7edbde38-1653-4eb5-b196-8881375781cb
 Fleet-Footed Monk	creature	2	white	0/3/03cd972d-1cc1-4fb1-9b4e-a88ea115cf7f
 Fleetfeather Cockatrice	creature	5	multicolored	1/1/1139236e-5d71-4fc1-937d-ba1efadee031
 Fleetfeather Sandals	artifact	2	colorless	2/2/2222f499-09f9-45a6-8255-9de79df76f1c
+Fleetfoot Dancer	creature	4	multicolored	2/4/2473d738-fe15-402a-ad24-0d6e5c4dfda3
 Fleetfoot Panther	creature	3	multicolored	0/2/02db0f8e-5f87-427f-a3ff-0f261da679cd
 Fleeting Aven	creature	3	blue	2/4/246a2758-0096-43b9-8193-d6ae5b41b6e6
 Fleeting Distraction	instant	1	blue	b/0/b0d06dc5-62be-4fb9-ad73-93176693ad8e
@@ -7096,7 +7216,7 @@ Flood of Tears	sorcery	6	blue	4/4/440383de-d56a-47dd-ba8a-fae61f57f83b
 Flood Plain	land	0	colorless	8/4/84503325-1e80-4f29-819d-be1d5eb05bd7
 Floodbringer	creature	2	blue	0/0/0058be07-a8a1-448e-8c3d-61718cb384ec
 Floodchaser	creature	6	blue	7/1/71265bb0-bf51-4d9d-b94c-c90adf65c55b
-Flooded Grove	land	0	colorless	c/4/c45d763d-75f5-4d96-ae7c-9eb869d4dead
+Flooded Grove	land	0	colorless	6/8/680477b2-9406-4108-acbd-dadce03d36b1
 Flooded Shoreline	enchantment	2	blue	4/9/49db9f58-380f-496e-9d3d-6776d30fb564
 Flooded Strand	land	0	colorless	8/c/8c2996d9-3287-4480-8c04-7a378e37e3cf
 Flooded Woodlands	enchantment	4	multicolored	d/e/de89e9e1-485b-42e5-9728-5d6f948999e1
@@ -7182,10 +7302,11 @@ Fool's Demise	enchantment	5	blue	3/e/3ed39bd7-d059-4a44-9f03-0f628dcdb119
 Fool's Tome	artifact	4	colorless	8/3/83be257c-8945-46be-8b58-fb2881084026
 Foot Soldiers	creature	4	white	b/a/baff03f3-a8ca-4c35-ae71-43b5d237b519
 Footbottom Feast	instant	3	black	1/5/1584404b-c086-4734-89e5-8a10c3f29504
-Footfall Crater	enchantment	1	red	f/1/f1b75aac-54e3-4181-bac5-5a142757ec05
+Footfall Crater	enchantment	1	red	f/0/f080d1bb-282b-4008-ab58-1a82e4bb7766
 Foothill Guide	creature	1	white	4/0/409adb7b-6dcb-4e7f-a5dd-c0adf12140a4
 Footlight Fiend	creature	1	multicolored	8/c/8c604697-5c81-4329-9b16-f19bd90ba08c
 Footsteps of the Goryo	sorcery	3	black	c/a/ca7bedbe-8b87-402f-9a0c-83e46ae10279
+For the Family	instant	1	green	0/5/052be93c-1970-4d05-a3d1-e87a6e51c423
 Foratog	creature	3	green	5/d/5d621fad-3a50-4910-a302-23ae9e77ebde
 Forbid	instant	3	blue	2/9/29df5ef7-d679-4543-bdb7-3984155c87e0
 Forbidden Alchemy	instant	3	blue	0/7/079cfabe-f072-42c7-82ee-4fcebdc8529c
@@ -7219,7 +7340,7 @@ Forceful Denial	instant	5	blue	2/7/27c75157-2670-4804-8853-a6867c83c40a
 Forcemage Advocate	creature	2	green	1/a/1ad217fe-9309-4c67-8a6a-cfb8b1ce91f1
 Forebear's Blade	artifact	3	colorless	5/2/52212fd5-551e-4bc1-9dac-6361e27c27ad
 Foreboding Fruit	sorcery	3	black	c/5/c5f79ec4-3722-4fda-824b-e80dc7608d01
-Foreboding Ruins	land	0	colorless	a/9/a94ac59a-4348-45e9-b158-039fb4bf6867
+Foreboding Ruins	land	0	colorless	3/9/39fe4a43-22a9-4c05-8c57-bca3a61e935e
 Foreboding Statue	creature	3	colorless	a/2/a27b9d82-f613-4789-9e8b-f37db5597027	1
 Forerunner of Slaughter	creature	2	colorless	a/3/a38aba41-a83f-47ef-9fc9-ea3424fc6d64
 Forerunner of the Coalition	creature	3	black	b/4/b499fc26-26b0-4b0f-9c62-5ed599baf41d
@@ -7235,13 +7356,14 @@ Forethought Amulet	artifact	5	colorless	7/0/700f53d3-0a84-4c55-8495-786f0f0783db
 Forever Young	sorcery	2	black	7/8/7873c1f9-572c-4740-82f8-cf3cbc7318d0
 Forfend	instant	2	white	a/4/a410e333-60f2-4e19-ad0f-5259d4feab37
 Forge Armor	instant	5	red	2/8/2873b6d5-af76-498c-bc2d-a26c36be3cbd
+Forge Boss	creature	4	multicolored	5/0/5052247d-ef72-47f0-973d-2be98bf754c1
 Forge Devil	creature	1	red	b/d/bd7308e6-4303-4f01-928b-f154b376e1a5
 Forge of Heroes	land	0	colorless	8/2/826ff8c2-8a1d-45f5-a7e2-d8bf826fcadc
 Forgeborn Oreads	creature	4	red	b/8/b80038ed-4206-4e44-943e-f332e4ce2f14
 Forgestoker Dragon	creature	6	red	4/f/4fd44170-ded7-4895-8950-bfa9d19e471d
 Forget	sorcery	2	blue	d/f/df3115a9-ad65-4213-9320-6f39c11676f3
 Forging the Tyrite Sword	enchantment	3	multicolored	3/c/3ce46100-461d-424e-afa4-7a0bb7d0a822
-Forgotten Ancient	creature	4	green	1/3/13ecbd14-bf93-4beb-afb0-6355fe9092a6
+Forgotten Ancient	creature	4	green	c/2/c23e3732-4589-4ea7-8125-a5434861b9f5
 Forgotten Cave	land	0	colorless	0/8/084bf9fe-78d2-4fef-8514-ed64d6c771e6
 Forgotten Creation	creature	4	blue	4/6/46dd9e0d-1961-4998-95d6-3f54b30b79b4
 Forgotten Harvest	enchantment	2	green	9/f/9fefbace-03cb-43db-a221-0be2b8784357
@@ -7271,7 +7393,7 @@ Forsaken Wastes	enchantment	3	black	c/9/c9dbfc7c-164d-47b8-8f05-987864fca89b
 Forsworn Paladin	creature	1	black	4/a/4acaf396-f950-42da-85ab-149ffb31fee6
 Fortified Area	enchantment	3	white	8/f/8f89968f-0182-4639-96fd-0dc94b6ad926
 Fortified Rampart	creature	2	white	5/0/5095e2ab-a7f5-45bc-8b2f-31198ea27bba
-Fortified Village	land	0	colorless	d/3/d38ec179-6b1c-41f6-9538-a84ba26ce4ad
+Fortified Village	land	0	colorless	3/9/39060644-f5a6-4802-b0fc-b49b1c92d5a0
 Fortify	instant	3	white	b/4/b47af529-6ba1-4900-a6f6-7647c9632e11
 Fortifying Draught	instant	1	green	6/7/6789b717-a000-464a-a39b-32c1aeefe560
 Fortifying Provisions	enchantment	3	white	9/8/98ce113c-53da-4fab-b7c9-fc3df248b65e
@@ -7330,7 +7452,7 @@ Frankie Peanuts	creature	4	white	4/4/440c3e8b-d9c6-46cd-9f39-86db077fb89d
 Frantic Inventory	instant	2	blue	8/f/8f14abb0-0e9f-448e-85d7-6cb71f756c56
 Frantic Purification	instant	3	white	0/4/04f156d1-2655-42aa-a785-d8eb15cb5422
 Frantic Salvage	instant	4	white	a/f/aff909bc-0bda-4e8a-b7a3-ebc963552246
-Frantic Search	instant	3	blue	5/b/5b87a025-ab29-4375-9338-536636051640
+Frantic Search	instant	3	blue	5/7/57ab2d8f-6804-46fb-9dec-5fd230333ffd
 Fraying Omnipotence	sorcery	5	black	f/0/f0fa0ad8-854a-4b4e-9f87-e1dfaa11253c
 Fraying Sanity	enchantment	3	blue	7/9/79e5c1ab-eebd-41ca-a1ca-29b00370f6e8
 Frazzle	instant	4	blue	6/8/68b7f705-4d64-4551-8d76-826d91324e9e
@@ -7339,6 +7461,7 @@ Free-for-All	enchantment	4	blue	6/3/630efac8-3033-4c2d-9127-b3b2f78bb136
 Free-Range Chicken	creature	4	green	c/7/c70124c3-7188-418f-bc7d-fb6294d79a56
 Freed from the Real	enchantment	3	blue	c/4/c47ee6f6-50c1-4f56-b9ce-4c309bfb92ca
 Freejam Regent	creature	6	red	d/6/d6b5147f-b422-47d3-98a0-dcc2d6f4e17a
+Freelance Muscle	creature	5	green	5/7/570f7c90-109b-4d6d-8205-d158753719e8
 Freewind Equenaut	creature	3	white	2/8/28fd10fc-11de-4fd9-a8af-855f116d71d0
 Freewind Falcon	creature	2	white	3/3/33dc0244-319c-4e15-9083-8d21ad0364d8
 Frenemy of the Guildpact	creature	2	green	0/4/04cb52b3-af5e-4808-98c8-baec5e1aecc8
@@ -7512,8 +7635,9 @@ Gaea's Revenge	creature	7	green	5/0/50fad73f-c6eb-46d7-8971-9be4d7d7b75f
 Gaea's Skyfolk	creature	2	multicolored	8/a/8a564432-c2b3-4cf6-b4bc-2e2600b92911
 Gaea's Touch	enchantment	2	green	0/e/0e1ae3d6-6d96-4db6-bbc4-cee91bae6cf7
 Gaea's Will	sorcery	0	green	4/8/488996b2-06c8-4866-bf0d-4664640c2be1
-Gahiji, Honored One	creature	5	multicolored	5/7/573efd66-afe0-4555-b064-1528fd84c577
+Gahiji, Honored One	creature	5	multicolored	c/6/c658f583-c115-43c7-9986-2c6010549313
 Gainsay	instant	2	blue	e/6/e658939a-fa5a-4497-b35c-b6fbfa3f6882
+Gala Greeters	creature	2	green	3/c/3c1baaa2-bd0b-4627-b93a-0753e0acd0f2
 Galazeth Prismari	creature	4	multicolored	0/6/06c9158c-064b-4d12-b860-d2c1450d1897
 Gale Force	sorcery	5	green	2/6/26c5c233-a373-4ac4-9b99-81ed97df1f9b
 Gale Swooper	creature	4	white	d/2/d2e3b99c-e48e-4f4d-ba7a-e9218137b432
@@ -7540,11 +7664,11 @@ Galvanic Juggernaut	creature	4	colorless	7/a/7a006dd2-8a7f-4eef-a6aa-b6bcc0b56ed
 Galvanic Key	artifact	2	colorless	9/3/934936d1-f470-47fa-ac28-344020c9fc76
 Galvanic Relay	sorcery	3	red	0/6/06373318-e548-4664-b227-17e3b6fd0a88
 Galvanoth	creature	5	red	2/3/23f2e251-1a90-433e-b63a-1a361f5dc6b3
-Gamble	sorcery	1	red	c/0/c01c9474-90a1-4c2e-bd90-471ff4fd04e5
+Gamble	sorcery	1	red	9/2/924db286-fb3e-40dd-b5e2-f8128701685d
 Game of Chaos	sorcery	3	red	0/8/08265332-2c0e-4c42-8c51-83ac20462eed
 Game Plan	sorcery	6	blue	b/c/bc068891-c251-4eee-b5ca-342d9df33bdc
 Game Preserve	enchantment	3	green	1/b/1bb62356-72bb-4dc1-a2f9-45a3aca62e41
-Game Trail	land	0	colorless	4/d/4d0376e3-a1ae-4935-b392-2cb4ccd0d9a7
+Game Trail	land	0	colorless	5/b/5b9d142b-bc3f-4d2d-8ca0-24148813300d
 Game-Trail Changeling	creature	5	green	7/b/7bc76a7f-516f-4d0b-b024-39d5c8096a9f
 Gamekeeper	creature	4	green	b/4/b4ddb801-06a5-4562-b691-ccf9b55bb064
 Gang of Devils	creature	6	red	4/4/4478151a-5c4e-49dc-9405-2481395ed28f
@@ -7573,7 +7697,7 @@ Garruk's Gorehorn	creature	5	green	3/9/3928bbce-87b7-4b28-9af4-20362935c909
 Garruk's Harbinger	creature	3	green	9/e/9e0fa0b6-5f3f-4669-84e8-2c38c9593d88
 Garruk's Horde	creature	7	green	9/b/9b501b60-e541-430e-b7e2-b51c287093db
 Garruk's Packleader	creature	5	green	d/a/dafeafa0-b937-4387-8626-449a810486b4
-Garruk's Uprising	enchantment	3	green	7/d/7de1015f-8371-4fa6-817f-d10d11d50093
+Garruk's Uprising	enchantment	3	green	9/8/98795a31-7b54-4ad1-ac87-3f58e71dbeb7
 Garruk's Warsteed	creature	5	green	d/6/d6099863-8d3d-44bf-8d3b-dc3602119617
 Garruk, Apex Predator	planeswalker	7	multicolored	a/3/a3957b43-4d7e-41f9-b7a1-6f57d6603ab8
 Garruk, Caller of Beasts	planeswalker	6	green	a/9/a96d0c67-e9f4-46d9-bd74-13a8606fdfe3
@@ -7607,17 +7731,19 @@ Gather Specimens	instant	6	blue	b/b/bbadf982-f22e-4f4f-b5c9-ac387f25c15f
 Gather the Pack	sorcery	2	green	9/a/9a4f5b00-ac50-485f-a38a-b9f409307d5c
 Gather the Townsfolk	sorcery	2	white	7/6/76f66ee8-8289-4780-aaec-feabd8ea9e3d
 Gatherer of Graces	creature	2	green	6/8/68d75367-88e7-44e6-9234-590dc143fd1d
+Gathering Throng	creature	3	white	2/9/290347b9-d3cc-4882-8da6-9d8b8677f276
 Gatstaf Arsonists	creature	5	red	6/a/6ab67098-d3d5-4799-ae03-c734244f370e	1
 Gatstaf Shepherd	creature	2	green	5/7/57f0907f-74f4-4d86-93df-f2e50c9d0b2f	1
 Gauntlet of Might	artifact	4	colorless	4/0/407650c3-9388-45c3-a599-6929c7d6e5bd
 Gauntlet of Power	artifact	5	colorless	1/4/14e870a0-5699-4f42-b67a-8dbd24e0c9c2
 Gauntlets of Chaos	artifact	5	colorless	6/2/6279176a-3b27-4be7-878c-2745941e12d6
 Gauntlets of Light	enchantment	3	white	d/a/da0d5436-b881-45ac-b8ec-248d88714021
+Gavel of the Righteous	artifact	2	colorless	9/7/97aa0173-ed1e-4b5a-a7a1-7d93dca8e189
 Gavi, Nest Warden	creature	5	multicolored	8/0/80bc07d5-bdbb-4a6d-8958-0c172ea80245
 Gavony Dawnguard	creature	3	white	5/8/58891dae-1c59-4f53-82ec-5b4c47133182
 Gavony Ironwright	creature	3	white	0/5/05d8de75-b169-4426-94a4-b19cdfdffd89
 Gavony Silversmith	creature	4	white	2/c/2c53b007-96aa-4db6-8c3e-529d1e845b19
-Gavony Township	land	0	colorless	7/4/74d53774-f654-4c86-9261-b676d332e41e
+Gavony Township	land	0	colorless	e/3/e39a449a-5681-49af-a58d-d15d470d0735
 Gavony Trapper	creature	1	white	5/a/5a1309ea-4411-4116-841f-5aef8611400c
 Gavony Unhallowed	creature	4	black	1/8/186ed5a8-12d4-4b47-aa7f-5c6c86543008
 Gaze of Adamaro	instant	4	red	4/4/44cab92a-54d8-496c-8a97-7f3448f5b1e9
@@ -7670,7 +7796,7 @@ General's Kabuto	artifact	4	colorless	1/3/1382c339-256f-4ba1-a4cc-6307d0859964
 General's Regalia	artifact	3	colorless	f/b/fb99d982-8ab1-4d6a-ba24-58ac23a9b9e7
 Generated Horizons	enchantment	4	green	c/a/ca470050-d2d0-4b1a-ae53-9069750f068e
 Generator Servant	creature	2	red	5/1/51d8683f-2195-40ae-9f18-8a10b3c7897c
-Generous Gift	instant	3	white	f/2/f2bb6b0c-45e8-43ff-8fd6-78fbf6979b68
+Generous Gift	instant	3	white	c/f/cf80a8e3-1905-413c-a510-54fef2afde69
 Generous Patron	creature	3	green	5/9/59ea095b-af0e-4178-b6f4-816abb635fc0
 Generous Stray	creature	3	green	3/2/3289db66-231f-4370-aca6-644d75bee293
 Generous Visitor	creature	1	green	d/1/d1066ccd-a932-4d05-98da-11ae4675364e
@@ -7709,6 +7835,7 @@ Gerrard, Weatherlight Hero	creature	4	multicolored	c/8/c835a37a-776a-44ef-a252-4
 Gerrymandering	sorcery	3	green	a/e/aea8ab0f-6898-4312-9989-915d6357515f
 Get a Life	instant	1	white	2/7/2757b582-d995-45f9-9482-0792b0f0784d
 Get the Point	instant	5	multicolored	8/2/821c4ab5-eb75-445a-bbec-e50af54dba7a
+Getaway Car	artifact	3	colorless	8/a/8a6d2fa3-3f5a-4b6f-8b7e-6a8bf65c07ad
 Geth's Grimoire	artifact	4	colorless	0/a/0a21d76d-d86c-4348-be45-f65167d2b5a9
 Geth's Verdict	instant	2	black	7/a/7a20b5a2-8613-49ed-b5cc-7cae9d0e0850
 Geth, Lord of the Vault	creature	6	black	9/2/920d56a4-fc94-43d8-9d65-361b66172a5f
@@ -7771,7 +7898,7 @@ Ghosthelm Courier	creature	3	blue	c/d/cd6cc30a-9ed4-4f36-95cb-6f0a2b8dce02
 Ghostly Changeling	creature	3	black	6/3/63e2df81-11d2-4ca5-a3ec-38efdc2630d4
 Ghostly Flame	enchantment	2	multicolored	6/3/6314344b-6493-4142-9c76-da9b90b8d3e1
 Ghostly Flicker	instant	3	blue	4/8/485ab561-9c2a-4f99-9317-8726bcdae364
-Ghostly Pilferer	creature	2	blue	a/3/a36bccf0-3b69-45b1-8229-48df93b9c6a1
+Ghostly Pilferer	creature	2	blue	4/9/49be3f34-f140-46ec-a59d-bed4dcc34ad4
 Ghostly Possession	enchantment	3	white	c/1/c11eb854-4c03-4abd-aaf1-9718608a34b3
 Ghostly Prison	enchantment	3	white	8/1/8169d44d-b15a-47e0-b417-24f2f4945d0f
 Ghostly Sentinel	creature	5	white	d/e/de867066-df5c-4412-9d51-56626b6d0220
@@ -7793,7 +7920,8 @@ Ghoulraiser	creature	3	black	8/5/850ccdcb-2cd7-4f27-aa9b-917a62a5e94d
 Ghouls' Night Out	sorcery	5	black	f/5/f532dce5-66b7-4f42-87c3-c7cb8d47d10e
 Ghoulsteed	creature	5	black	6/b/6b8f7cfd-88db-4cc1-b65f-3462332a2873
 Ghoultree	creature	8	green	a/4/a413c65e-5965-429b-8c25-11f8b73cba03
-Giant Adephage	creature	7	green	4/f/4fe2d4dd-983a-41d5-addb-67e748b5e339
+Giada, Font of Hope	creature	2	white	b/a/bae077bd-fc8d-44d7-8c75-8dc8699c168e
+Giant Adephage	creature	7	green	b/8/b8705797-6d1f-4cec-b748-74ba402e606c
 Giant Albatross	creature	2	blue	e/2/e26334fc-d8ee-4b8c-ac50-5a304fae6c60
 Giant Ambush Beetle	creature	5	multicolored	0/f/0f6782d0-5399-4853-ae6f-0d05372dbf34
 Giant Badger	creature	3	green	1/0/10e9dd66-8580-4c96-9ab9-cc392dc6ee74
@@ -7880,6 +8008,7 @@ Gilded Drake	creature	2	blue	8/d/8de3fdae-cc2c-4a14-b15b-4fe1a983dfbf
 Gilded Goose	creature	1	green	3/0/30377bf0-d9b1-4c14-8dde-f74b1e02d604
 Gilded Light	instant	2	white	8/f/8ff59aa2-5e97-4e6c-b568-470ac2371bd7
 Gilded Lotus	artifact	5	colorless	a/4/a487e208-8493-4bca-8c44-284d89c66b15
+Gilded Pinions	artifact	2	colorless	d/c/dca8554a-f74c-4d2d-95b6-ef6e74431d7c
 Gilded Sentinel	creature	4	colorless	0/1/01cc1a59-76bf-4721-b4a7-ef746f3d3990
 Gilder Bairn	creature	3	multicolored	0/c/0ca006ff-3a95-4821-bdb2-2d80e64b4abf
 Gilt-Blade Prowler	creature	3	black	3/2/32a8cf47-cfe4-4a11-a57d-bebeb2fae437
@@ -7894,6 +8023,7 @@ Gimme Five	instant	1	white	5/8/587ddc67-99ac-490d-93e1-e90a72b55ade
 Gingerbread Cabin	land	0	colorless	b/1/b11f5296-5f7d-41ca-a67d-e976273d7386
 Gingerbrute	creature	1	colorless	c/1/c1195ec5-979b-4c4a-9c04-62bb53c2b011
 Gird for Battle	sorcery	1	white	7/7/77238879-6dc7-46ff-8354-89e60c2a04e9
+Girder Goons	creature	5	black	4/b/4bfd6449-31a1-4572-8f9c-3f6f4670dc9d
 Gisa and Geralf	creature	4	multicolored	3/7/377a5f75-222b-43e1-8998-18c6cfa44b24
 Gisa's Bidding	sorcery	4	black	e/0/e01e904c-7d8e-447b-90cb-1f4ae3fb304d
 Gisa, Glorious Resurrector	creature	4	black	6/3/63461076-a13d-488d-bd82-ceac441341c8
@@ -7926,6 +8056,7 @@ Gladewalker Ritualist	creature	3	green	8/0/8053b888-a680-4318-88c3-0924e596e780
 Glaive of the Guildpact	artifact	2	colorless	e/1/e19723ad-7bd2-49ee-a57a-ece99018f4e8
 Glamer Spinners	creature	5	multicolored	5/c/5cfc402e-8e84-4d47-9638-e94b12f3f667
 Glamerdye	instant	2	blue	8/2/829a0a1c-761f-4a7f-b59a-c889d995f446
+Glamorous Outlaw	creature	6	multicolored	4/5/452abab0-cf23-4b9d-831a-7b9fa1fd582a
 Glare of Heresy	sorcery	2	white	8/e/8ed3d16f-f0c6-4080-8913-758208b08234
 Glare of Subdual	enchantment	4	multicolored	e/1/e1b6e40f-02d6-498f-bb3b-6a9e19ed46f6
 Glarecaster	creature	6	white	7/e/7e505e8e-51aa-4415-81e6-cf022279edb0
@@ -7989,7 +8120,9 @@ Glitterfang	creature	1	red	a/1/a1519521-7f53-4f13-a104-daf52e8c7234
 Glittering Frost	enchantment	3	green	c/6/c60fbc33-6198-4661-967e-cc94f2788e4a
 Glittering Lion	creature	3	white	a/b/ab4be296-33a6-46b1-9748-5b0d335f40ee
 Glittering Lynx	creature	1	white	a/3/a3f26c7e-c525-4191-a542-b81343ae95bb
+Glittering Stockpile	artifact	3	red	9/7/973685e8-3df1-436b-b5c2-01573a92b61e
 Glittering Wish	sorcery	2	multicolored	0/c/0c89645b-5e53-48c0-b4bb-9f22332c7658
+Glittermonger	creature	4	green	1/a/1a3d70d2-0604-41b3-8dd1-bfeb05832271
 Global Ruin	sorcery	5	white	3/3/336474b4-2cf5-44c0-b72c-f75f1a7ed928
 Gloom	enchantment	3	black	f/5/f5a8573d-0e2d-4a7f-a47f-7e1bc472d4fa
 Gloom Pangolin	creature	3	black	3/f/3f135dd7-2a4f-4c83-9a90-76bcab3cc33d
@@ -8115,9 +8248,9 @@ Goblin Digging Team	creature	1	red	b/c/bc8fdbaa-bf48-4ed9-b3fd-c2c5d497a0be
 Goblin Diplomats	creature	2	red	4/a/4ad346cb-c3e5-4aea-8de6-bb62827e25a9
 Goblin Dirigible	creature	6	colorless	d/2/d2ed2990-e5bf-4567-9a41-1846108a8aeb
 Goblin Dynamo	creature	7	red	9/4/9462cb4e-a38c-4a41-bad2-4ea3b22b0edb
-Goblin Electromancer	creature	2	multicolored	0/a/0ae987da-e4b5-4b82-843c-6aaa87262fc8
+Goblin Electromancer	creature	2	multicolored	e/c/ecb1edcf-f8bf-4ccb-9182-844289140a36
 Goblin Elite Infantry	creature	2	red	a/a/aa052041-14db-4a3f-86ad-683c1f162cd7
-Goblin Engineer	creature	2	red	a/5/a55c4d47-5252-40af-961d-c08bc688028a
+Goblin Engineer	creature	2	red	9/4/944ca6e7-084b-424a-80c1-e88de192fd98
 Goblin Festival	enchantment	2	red	a/c/ac067eb8-427f-4bfa-b392-0bb41ac8370e
 Goblin Fire Fiend	creature	4	red	6/4/64d3b2d2-4ec2-495d-833d-7476cbfc80f6
 Goblin Firebug	creature	2	red	2/3/2370d319-d1d2-4bca-9275-ff72fb400709
@@ -8267,6 +8400,7 @@ Golden Wish	sorcery	5	white	d/c/dc409ded-41f3-4f14-8199-72a9fe98bac0
 Golden-Tail Disciple	creature	3	white	d/6/d631e7da-bd71-424a-a349-9bce0fd16b1f
 Goldenglow Moth	creature	1	white	8/d/8d6e31cb-98c5-4145-bdef-666f3cea7eab
 Goldenhide Ox	creature	6	green	d/1/d107c72f-483a-4af9-b86f-681669d99c46
+Goldhound	creature	1	red	c/0/c059e4b4-1542-4b5c-810a-9f0abac5792b
 Goldmane Griffin	creature	5	white	6/7/67edcb9b-f56b-4a34-b4bd-d22ee929041a
 Goldmaw Champion	creature	3	white	4/4/44d4cd64-8560-48f5-b0bc-f75286c1c91c
 Goldmeadow Dodger	creature	1	white	5/3/5305b5c6-2af6-4b5c-9a57-0a2d2628e2f4
@@ -8366,6 +8500,7 @@ Grand Abolisher	creature	2	white	b/4/b4c4f694-618a-43ed-8781-2a51a234ba8e
 Grand Arbiter Augustin IV	creature	4	multicolored	3/3/337fd1aa-1c85-4aee-923b-c457e43cda72
 Grand Architect	creature	3	blue	1/4/14ce909d-a53e-4711-a9fd-b110433d460f
 Grand Coliseum	land	0	colorless	0/e/0ea85b58-a396-4ee9-ba77-afc0b0742cf1
+Grand Crescendo	instant	2	white	e/0/e09ff04d-cdcc-4798-b89a-9ad08ef52ad9
 Grand Master of Flowers	planeswalker	4	white	8/c/8ca4ffff-404e-4e8e-8fd6-4e64d4828fc7
 Grand Melee	enchantment	4	red	9/a/9a0d3142-4224-4b51-885d-33c8938418c1
 Grand Warlord Radha	creature	4	multicolored	9/8/986981fa-a744-45d8-81c7-68ef335c79e2
@@ -8395,7 +8530,7 @@ Grasping Scoundrel	creature	1	black	b/a/bacf349e-be1d-49c5-af94-3d4391cfef08
 Grasping Thrull	creature	5	multicolored	5/6/56f82d97-ce50-490c-ad7f-46d70a73e454
 Grassland Crusader	creature	6	white	c/1/c129f361-8769-4f9a-9745-eb5d0c085b88
 Grasslands	land	0	colorless	6/6/66de370b-3be5-420b-b619-2709565c7206
-Grateful Apparition	creature	2	white	7/d/7dcb1f9d-105d-48c6-bd66-d7e8839de9e1
+Grateful Apparition	creature	2	white	2/f/2f6d50f3-5f5f-4bf3-b132-e527b70be33f
 Gratuitous Violence	enchantment	5	red	7/3/73a5760c-e412-4bb4-b176-cfd0e8fc8f95
 Grave Betrayal	enchantment	7	black	4/7/47b38c68-8e72-4afc-bb5e-0b40880fdda9
 Grave Birthing	instant	3	colorless	0/e/0e996a30-3a4d-4a26-8386-f9eb9c999dc0
@@ -8416,7 +8551,7 @@ Grave Upheaval	sorcery	6	multicolored	3/2/32b25bb5-723d-4af0-8661-60178f00f92b
 Grave-Shell Scarab	creature	5	multicolored	2/3/23f7c7d0-a48b-4153-8386-a9ab71e01dbe
 Gravebane Zombie	creature	4	black	d/f/df21b384-6073-477e-bd95-fc94ca2f2f2c
 Gravebind	instant	1	black	4/7/4782fd4f-2474-4d0d-8301-e0b52af93746
-Graveblade Marauder	creature	3	black	8/5/85880be1-65b2-432f-8788-79716e4c8066
+Graveblade Marauder	creature	3	black	1/8/188692aa-a326-43c9-845b-9fdc17a05d55
 Graveborn Muse	creature	4	black	3/d/3d460b79-f1a5-41c4-a5b3-61f703fd97df
 Gravebreaker Lamia	creature	5	black	4/0/408a2073-d068-44bc-b596-5a3a3a446ee1
 Gravecrawler	creature	1	black	c/1/c1a6d1c9-7779-4165-ad82-f7c4c5fe529c
@@ -8441,6 +8576,7 @@ Gravewaker	creature	6	black	d/3/d3c5eb7a-abb2-46bd-8fbd-19af63e70c9c
 Graveyard Busybody	creature	6	blue	b/9/b913bbbd-a4c5-4e90-98ff-74be2c907d87
 Graveyard Dig	sorcery	2	multicolored	c/e/ce757886-c121-4e11-a7ac-2e63913f5b1c
 Graveyard Marshal	creature	2	black	4/d/4dc5f62c-2d29-4a94-8501-13dc6a93c5a1
+Graveyard Shift	sorcery	5	black	3/9/394d7fb3-44ee-409f-a992-27e5aabd9c2b
 Graveyard Shovel	artifact	2	colorless	1/a/1a4b8888-a10c-48b1-ba19-c041e5667b29
 Graveyard Trespasser	creature	3	black	d/a/daa2a273-488f-4285-a069-ad159ad2d393	1
 Gravitational Shift	enchantment	5	blue	b/a/bad32b9f-0aa4-4036-90e6-c087cffd52e7
@@ -8498,7 +8634,7 @@ Greener Pastures	enchantment	3	green	5/5/55c3222e-ac18-4f57-9c9e-50deb0a69db3
 Greenhilt Trainee	creature	4	green	3/7/370f8ef5-c809-43cc-903a-077fad33cd30
 Greenseeker	creature	1	green	4/2/423d0c1d-1791-4c80-86d1-f87f3c6a8611
 Greenside Watcher	creature	2	green	e/8/e825cb2d-98d7-423d-9ba1-b4d04027027e
-Greenwarden of Murasa	creature	6	green	5/b/5b03132c-0bb7-48f9-babd-6e106d8f202c
+Greenwarden of Murasa	creature	6	green	3/4/3460149e-8511-4387-83b9-1e4365ff6ea2
 Greenweaver Druid	creature	3	green	7/4/747099f7-ce5b-4366-a8a4-f3d80100f66e
 Greenwheel Liberator	creature	2	green	1/a/1ad9bf0f-4271-497f-8d67-3c7bf09342dc
 Greenwood Sentinel	creature	2	green	f/f/ffa93223-5a6d-4999-b64f-d81edfe317ea
@@ -8550,6 +8686,7 @@ Grim Tutor	sorcery	3	black	9/2/928558ab-e29a-44cb-ac2f-88443571f41a
 Grim Wanderer	creature	2	black	e/3/e339f0f7-a79d-4947-a9c4-b9a0949dd06a
 Grimclaw Bats	creature	2	black	1/3/132d6ed5-0bbc-465e-bc30-3174c910b435
 Grimdancer	creature	3	black	8/1/819257c8-9806-48bd-ba49-e117ca31de54
+Grime Gorger	creature	4	multicolored	f/2/f22f9db1-1cc6-4fad-8e5f-fdb1e6872402
 Grimgrin, Corpse-Born	creature	5	multicolored	a/8/a8648734-ed6c-471f-91a1-6b710bbaf370
 Grimlock, Dinobot Leader	creature	4	multicolored	f/1/f1bb8fb5-32f2-444d-85cb-de84657b21bd	1
 Grimoire of the Dead	artifact	4	colorless	0/d/0d8aac24-564a-420f-bb05-c67c3b0e2187
@@ -8570,6 +8707,7 @@ Griptide	instant	4	blue	7/7/77480b11-2470-401a-be19-710ea32b719d
 Griselbrand	creature	8	black	c/f/cf2a5c2e-7fe1-45eb-b01c-891ab961186f
 Grisly Ritual	sorcery	6	black	5/3/53cdf2ab-3acd-49bd-8273-84c1cfc92883
 Grisly Salvage	instant	2	multicolored	d/5/d5b4768f-fe15-4632-8bc5-bac35dc0e9e8
+Grisly Sigil	sorcery	1	black	6/3/6322e12d-b932-4ca1-a51d-e2a928140cc7
 Grisly Spectacle	instant	4	black	3/c/3ce3816e-0f81-40b6-a592-ba2c65243c6d
 Grisly Survivor	creature	3	black	0/3/035ee44d-63ef-45b7-b36b-38ac341a2ca7
 Grisly Transformation	enchantment	3	black	4/e/4eb0ce84-560f-4e39-a0ab-7bd710d541cc
@@ -8581,7 +8719,7 @@ Grixis Battlemage	creature	3	black	4/d/4dbd260c-a625-42a4-8192-27e42e18ac0f
 Grixis Charm	instant	3	multicolored	2/0/20332354-a294-4448-a66f-533e6b546df6
 Grixis Grimblade	creature	2	multicolored	9/d/9dbcb812-15ad-4878-9968-cfa65a352703
 Grixis Illusionist	creature	1	blue	e/c/ec7bd811-a49d-4d5d-9a58-2c35465ed606
-Grixis Panorama	land	0	colorless	1/f/1f95488c-83ae-430c-97ef-1335ba09b12d
+Grixis Panorama	land	0	colorless	e/4/e49dd5f0-1afa-4301-acdb-28424e2553b9
 Grixis Slavedriver	creature	6	black	8/0/8049cd41-bec4-425e-b750-939a1ba905fe
 Grixis Sojourners	creature	4	multicolored	0/c/0cde5f43-0b91-45c9-9382-20ea6328266f
 Grizzled Angler	creature	3	blue	1/e/1eb4ddf4-f695-412d-be80-b93392432498	1
@@ -8810,7 +8948,9 @@ Hallowed Moonlight	instant	2	white	9/4/94fd0c0f-4a6a-47cf-9f50-df0bbf19aae4
 Hallowed Respite	sorcery	2	multicolored	f/2/f2877523-6321-47e6-8be4-755ec21676c6
 Hallowed Spiritkeeper	creature	3	white	d/c/dc8037d5-79fa-47e3-9d3b-eb29643ecae7
 Halls of Mist	land	0	colorless	b/9/b926a189-90b6-47bb-b5d6-b033e57007b4
+Halo Fountain	artifact	3	white	0/e/0ee79399-715c-4c46-9fa1-e76b1087f009
 Halo Hunter	creature	5	black	5/f/5f96344c-4b1f-42a6-bbf2-dc5cf11cdb02
+Halo Scarab	creature	2	colorless	2/e/2eead159-b9a1-4c64-affe-c77b0a9e4775
 Halt Order	instant	3	blue	7/f/7fed18af-7301-4d03-ba7c-e94f07f078b3
 Halvar, God of Battle // Sword of the Realms	creature	4	white	9/7/97502411-5c93-434c-b77b-ceb2c32feae7	1
 Hama Pashar, Ruin Seeker	creature	3	multicolored	4/7/47b8eb2e-73ac-4ad6-9ab6-4f8da7b41020
@@ -8882,6 +9022,7 @@ Hardened Berserker	creature	3	red	e/6/e6dbda48-1216-4cbf-8360-46196c5f4ff5
 Hardened Scales	enchantment	1	green	0/1/01c4a294-d8b5-4237-af09-f592029c917a
 Hardened-Scale Armor	enchantment	3	green	7/0/708e7438-b449-490e-820f-9ecd3199541b
 Hardy Veteran	creature	2	green	b/8/b84bae7f-3c5f-4fea-a92e-30add776e85d
+Hargilde, Kindly Runechanter	creature	4	multicolored	5/9/59e1fa94-056a-4570-97b3-17e964077965
 Harm's Way	instant	1	white	9/c/9c59d43e-0e07-4601-b6df-178010ea909f
 Harmattan Efreet	creature	4	blue	d/8/d8fc0ba3-6ffa-4fd4-b332-88da41b8778a
 Harmless Assault	instant	4	white	a/7/a77fef2c-227e-474e-896e-c0ebe227f494
@@ -8891,7 +9032,7 @@ Harmonic Prodigy	creature	2	red	2/2/22579ac0-ad3f-4000-a65a-46a17a7f1aa5
 Harmonic Sliver	creature	3	multicolored	c/1/c1cfc5db-3fc0-428e-8d4b-f6ea6caea36d
 Harmonious Archon	creature	6	white	c/7/c7093834-9627-4da2-9322-c03bfd5b3a71
 Harmonious Emergence	enchantment	4	green	c/9/c92ff968-b436-4313-8375-8a3bb41f9892
-Harmonize	sorcery	4	green	f/d/fdcb8138-0d0c-43bd-a3d3-1a57c0a19764
+Harmonize	sorcery	4	green	9/3/9390fbe8-944d-4a4f-90f3-cc7b355e1382
 Harmony of Nature	sorcery	3	green	e/3/e3fa08d9-d41b-4696-b81a-42c8eebdeb49
 Harness by Force	sorcery	3	red	9/b/9bde89c1-aafa-43d9-adbf-671fa2b52d4f
 Harness Infinity	instant	7	multicolored	f/7/f74120ce-9f11-449f-bb72-04fe2a27a9f6
@@ -8951,6 +9092,7 @@ Haunting Misery	sorcery	3	black	9/3/939b83ba-8ba8-4b98-8a13-a037ba7805e9
 Haunting Voyage	sorcery	6	black	2/a/2ac5bca0-35fe-47be-a78c-d5eac68a3bfa
 Haunting Wind	enchantment	4	black	a/2/a2f6ef2f-a3a2-4e1f-b7eb-59abc8414114
 Haven of the Spirit Dragon	land	0	colorless	6/3/637ea3f0-d3ec-4cd4-8725-b845c50a6b96
+Havengul Laboratory	land	0	colorless	8/2/823b019e-10c0-4712-8167-d4f37a71e782	1
 Havengul Lich	creature	5	multicolored	e/c/ecbeb845-a7b7-4020-b28a-61f83e78dcc2
 Havengul Runebinder	creature	4	blue	c/b/cbd27e6f-24e5-4e90-9612-27d8dcd29325
 Havengul Skaab	creature	6	blue	4/c/4c7ff97f-fb06-4a61-98cd-50965a6522d4
@@ -9130,6 +9272,7 @@ Henge of Ramos	land	0	colorless	0/5/0582b42f-5ae5-4be2-ba2d-ed62b3cb20c5
 Henge Walker	creature	3	colorless	9/9/9925f0bc-8685-4e38-8864-0ad3a9549ab5
 Hengegate Pathway // Mistgate Pathway	land	0	colorless	7/e/7ef37cb3-d803-47d7-8a01-9c803aa2eadc	1
 Henrika Domnathi	creature	4	black	9/4/946ca338-5f43-4cff-bd93-1b28449c5fdc	1
+Henzie "Toolbox" Torre	creature	3	multicolored	e/e/ee228dcc-3170-4c24-80bc-28bcee07cb43
 Herald of Anafenza	creature	1	white	e/8/e8bf6ed4-48f3-419f-bafd-d1ee4d798482
 Herald of Anguish	creature	7	black	3/1/31a69ebe-4229-4067-8414-381b123fe63c
 Herald of Dromoka	creature	2	white	8/9/8987b2af-66d6-4271-a139-37e544cdec62
@@ -9188,7 +9331,7 @@ Heron-Blessed Geist	creature	5	white	8/3/83bacf4a-4e99-4008-97e4-3a82dddd4e45
 Heronblade Elite	creature	3	green	3/6/36938a8e-8da0-4f27-86c3-6032aa7642b5
 Hesitation	enchantment	2	blue	e/3/e3ce5dbc-3597-42e8-859a-cac105c8102e
 Hewed Stone Retainers	creature	3	colorless	2/5/250bc19c-b882-42ae-b516-fe876d0d047d
-Hex	sorcery	6	black	c/5/c5c84b30-4b52-43b4-a17b-120fc62a4dd2
+Hex	sorcery	6	black	d/f/dfbfaad0-b194-4d54-b381-2b9b2da701fa
 Hex Parasite	creature	1	colorless	4/3/43502078-5349-4e29-8e7d-277654a9a71e
 Hexdrinker	creature	1	green	8/9/89f5cc05-5d9d-4709-b3c5-a6249c294acc
 Hexplate Golem	creature	7	colorless	9/5/95e41926-726c-4c3c-8b06-109f0ac0833e
@@ -9228,6 +9371,7 @@ High Seas	enchantment	3	blue	f/1/f12eb6a6-14cc-4ad6-9684-ff33a39ba09f
 High Sentinels of Arashin	creature	4	white	2/0/2002d263-3fe0-481a-b389-84e281b009d7
 High Tide	instant	1	blue	4/a/4af611e3-45d6-4aee-bf48-56598b14a242
 High Troller	creature	4	red	8/9/896e3f4e-720a-45f1-a2a8-bb9c960a9e11
+High-Rise Sawjack	creature	3	green	2/3/2399c6d7-57f9-4100-ad64-3c8897a438f7
 High-Speed Hoverbike	artifact	2	colorless	7/c/7c619116-1eae-439d-9b1f-639643458a23
 Highborn Ghoul	creature	2	black	f/b/fbe999ed-b419-440c-9189-1046f43d7b87
 Highborn Vampire	creature	4	black	2/4/24c40082-516e-4381-a4cc-e61c5a9a6cac
@@ -9286,6 +9430,7 @@ Hivestone	artifact	2	colorless	6/9/69e62171-713c-49c0-8e16-b193ff181dcd
 Hivis of the Scale	creature	5	red	e/e/ee84e61e-d99a-489b-a3b1-cb45fc81bce6
 Hixus, Prison Warden	creature	5	white	d/0/d0c21a35-4b70-4de4-93ff-c0ccabdc39e0
 Hoar Shade	creature	4	black	7/2/72242dff-15ca-4da0-b3ae-9984d037b31f
+Hoard Hauler	artifact	4	red	1/9/19f190e9-52f3-4e34-8fb6-88174c189ee7
 Hoard Robber	creature	2	black	b/7/b723d9cd-05f5-4894-9f2b-52a434a3019c
 Hoard-Smelter Dragon	creature	6	red	2/f/2f4c5867-73c4-4e10-bbf5-6a69df879547
 Hoarder's Greed	sorcery	4	black	9/6/9666a328-cc51-4be1-abef-06bbe41dd866
@@ -9302,6 +9447,7 @@ Hogaak, Arisen Necropolis	creature	7	multicolored	0/0/0049e68d-0caf-474f-9523-da
 Hoisted Hireling	creature	3	black	2/9/293106ab-da9b-4932-8227-96b7e55e7d26
 Hokori, Dust Drinker	creature	4	white	5/a/5a03f5d5-d5c3-4a7d-8d44-e60b498b4ed5
 Hold at Bay	instant	2	white	f/f/ffeb407d-6a42-488a-9869-83da3047e45d
+Hold for Ransom	enchantment	2	white	5/3/53e74a99-11d9-40b8-b1d6-8f68a3f490fa
 Hold the Gates	enchantment	3	white	4/8/48fd52d0-0e41-48d5-b96f-4c6409788c18
 Hold the Line	instant	3	white	d/2/d20ee9c8-6d58-42fc-8b27-bfd0ea6d4374
 Hold the Perimeter	conspracy	0	colorless	0/0/00717f7c-0778-4a02-b6c0-b3c3f07e75a9
@@ -9366,7 +9512,7 @@ Hooded Hydra	creature	2	green	a/e/aecc699c-c955-4167-b8cf-35faa7ce94b4
 Hooded Kavu	creature	3	red	5/4/5464b80a-22fe-42c7-a839-31667712fb2d
 Hoodwink	instant	2	blue	8/d/8d505fbb-ec85-475b-a0e1-6670627ec017
 Hoof Skulkin	creature	3	colorless	e/a/ea91be37-aca0-484a-ab94-0186073269d2
-Hoofprints of the Stag	enchantment	2	white	5/6/56b90c9f-b717-4a2a-a62d-e878ab7caa81
+Hoofprints of the Stag	enchantment	2	white	4/7/47f70c41-25b2-468c-b679-8bbc7eaf913b
 Hookhand Mariner	creature	4	green	5/4/54a4b031-0919-44aa-a35e-68da7a27235a	1
 Hooting Mandrills	creature	6	green	c/e/ce579036-4960-4ed6-9e75-b19d27a96032
 Hope Against Hope	enchantment	3	white	a/6/a6f7c6f5-159a-40ed-823a-8740a1ce373e
@@ -9423,6 +9569,7 @@ Hostile Desert	land	0	colorless	9/0/90b7872c-0702-43f8-841c-22ff7923ca29
 Hostile Hostel	land	0	colorless	a/c/ac83c27f-55d6-4e5a-93a4-febb0c183289	1
 Hostile Minotaur	creature	4	red	0/e/0e1263ea-adc9-442b-b13e-9afb69596372
 Hostile Realm	enchantment	3	red	e/1/e172b353-7a16-4831-b735-206230b22e59
+Hostile Takeover	sorcery	5	multicolored	b/d/bd7df727-50ea-4ea8-bdb9-d7ef16199d8a
 Hostility	creature	6	red	9/b/9b54945a-d355-40fd-b1fd-9ecb2d696de5
 Hot Fix	sorcery	6	multicolored	7/9/79f3b4c8-76c2-4f50-87bc-4e863796309c
 Hot Soup	artifact	1	colorless	9/9/99d720f0-6ea5-42b0-851b-52ca70f68190
@@ -9574,6 +9721,7 @@ Hyperion Blacksmith	creature	3	red	4/4/44d499a9-fe7c-4a1a-9eb3-a7fd9f85ae08
 Hypersonic Dragon	creature	5	multicolored	9/9/99dc07bf-7c55-442b-9260-5ea74a42af41
 Hypervolt Grasp	enchantment	3	red	f/d/fdaa3c6e-1f8a-4580-8e03-e670f50ab958
 Hypnotic Cloud	sorcery	2	black	6/2/62e55607-4c1f-46ab-aae7-391b65a125c4
+Hypnotic Grifter	creature	1	blue	6/9/69af30b3-d4b0-453a-891f-4506e06b5e14
 Hypnotic Siren	creature	1	blue	3/b/3b2f562f-00d1-41da-a6ac-bc019cce7fe7
 Hypnotic Specter	creature	3	black	8/0/8034cac3-d696-43f0-97fa-0c0efbae9edd
 Hypnotic Sprite // Mesmeric Glare	creature	2	blue	7/a/7acbd812-b994-4e68-8f95-04222796e994
@@ -9632,10 +9780,10 @@ Icy Manipulator	artifact	4	colorless	c/a/cae4f75e-d0a2-4e1e-bf2b-b62423c7f7b5
 Icy Prison	enchantment	2	blue	3/9/39a7e496-8d2e-49db-b298-475d9017537a
 Ideas Unbound	sorcery	2	blue	1/b/1b0fe46d-08d6-48c3-be0d-650d8d3d66af
 Identity Crisis	sorcery	6	multicolored	9/3/930d0de1-39af-4b08-81a3-2cca8aae5d40
-Identity Thief	creature	4	blue	9/8/9865100f-dddc-407e-a379-2c285475ec89
+Identity Thief	creature	4	blue	a/3/a32e1511-2495-454a-9a04-4f3c0d9a75d0
 Idle Thoughts	enchantment	4	blue	7/9/797f80be-019d-4e44-a48d-43c6e52d2ab5
 Idol of Endurance	artifact	3	white	4/d/4d60e84e-be05-49da-9720-4225abe9d003
-Idol of Oblivion	artifact	2	colorless	b/1/b13f6c2f-c4f3-4fd4-b6f9-997c69c9ff06
+Idol of Oblivion	artifact	2	colorless	9/f/9f800b59-640c-447a-b0d1-3904bc91b61f
 Idyllic Grange	land	0	colorless	c/a/ca2c611c-3a6f-44b0-9daa-837a465845e0
 Idyllic Tutor	sorcery	3	white	f/0/f06edd53-f3ac-44b0-a087-5670ba8f0fa5
 Ifh-B├¡ff Efreet	creature	4	green	c/0/c0b10fb7-8667-42bf-aeb6-35767a82917b
@@ -9663,12 +9811,14 @@ Ill-Gotten Inheritance	enchantment	4	black	3/d/3d44b342-f611-4836-a9d5-83b00a243
 Ill-Tempered Cyclops	creature	4	red	5/1/51fbc294-301f-4c77-b1b6-54201baa2c1c
 Ill-Tempered Loner	creature	4	red	f/3/f3d1e90b-0c99-46da-b4f6-4b7be27dbd5c	1
 Illicit Auction	sorcery	5	red	9/7/97d68c39-cfdd-4883-9058-d648d073ae36
+Illicit Shipment	sorcery	5	black	1/f/1f7cced2-390b-499f-ace3-e52fd53d4712
 Illness in the Ranks	enchantment	1	black	9/8/989a68c1-3b76-4c2d-9db3-23c45be3f9ff
 Illuminate	sorcery	1	red	c/e/ceef2761-7301-42de-8f54-49b8cd1e457b
 Illuminate History	sorcery	4	red	9/8/98739789-80b5-4224-a2e4-09e00654aa9d
 Illuminated Folio	artifact	5	colorless	7/3/73d473d9-f52e-4357-b25a-e8bdcc833f09
 Illuminated Wings	enchantment	2	blue	7/f/7f98e703-a0d3-497f-840a-aa026b02d47f
 Illumination	instant	2	white	e/b/eb28f6e5-c9ef-416e-b315-967d857e7600
+Illuminator Virtuoso	creature	2	white	5/2/52ba20d9-9423-4114-8734-1dac307483c8
 Illuna, Apex of Wishes	creature	5	multicolored	9/f/9fc99c81-d112-4811-9bba-77a14d904692
 Illusion // Reality	instant	4	multicolored	8/e/8e7dd90a-4f93-43aa-b503-18289fdd571e
 Illusion of Choice	instant	1	blue	a/b/ab54f283-92b6-4738-b2cd-fecb43750a4d
@@ -9768,7 +9918,7 @@ Improvised Armor	enchantment	4	white	8/d/8d7d5d79-73d8-4f1a-9dda-4de5f41539d9
 Improvised Weaponry	sorcery	3	red	2/9/29d5fd00-c616-4079-a91e-4da0bcaf9120
 Imps' Taunt	instant	2	black	7/9/79d6ed64-9f5c-4233-85a9-028b8e5949c3
 Impulse	instant	2	blue	b/d/bda887f9-ea83-435e-b9d6-48f979a5fdb7
-Impulsive Maneuvers	enchantment	4	red	d/9/d9b404c0-9ce1-4491-82fd-6dba7e6895cd
+Impulsive Maneuvers	enchantment	4	red	a/4/a43acc1c-82e9-4234-aac5-bbc8e3ee42c0
 Impulsive Pilferer	creature	1	red	5/5/55ba9bea-5549-45cf-896c-501a1c81fd5a
 In Bolas's Clutches	enchantment	6	blue	d/7/d72bf6b4-ac70-4be0-86de-cb3c47244dbc
 In Garruk's Wake	sorcery	9	black	c/6/c6d60af9-d006-4441-974e-117599283ee3
@@ -9776,11 +9926,13 @@ In Oketra's Name	instant	2	white	c/c/ccf535ef-79ee-4a31-a614-f6c77fea72b5
 In Search of Greatness	enchantment	2	green	a/c/ac0e50fa-5114-4f96-89f4-000906da7c76
 In the Eye of Chaos	enchantment	3	blue	7/3/733933dd-c871-4f75-8b08-d7c010dddbe6
 In the Web of War	enchantment	5	red	f/1/f12b7124-d9d0-480c-b622-777a74d4f679
+In Too Deep	enchantment	2	blue	7/4/74654ccb-c81c-4677-8c3d-cc5857ef0732
 Inaction Injunction	sorcery	2	blue	5/3/5342ec3c-9d26-474a-9df5-c21ac90bb233
 Inalla, Archmage Ritualist	creature	5	multicolored	7/c/7c6e803a-451c-4aa6-97a2-400077f32c47
 Iname as One	creature	12	multicolored	4/e/4e13f122-0dfe-42f3-9815-9ae1a29fca99
 Iname, Death Aspect	creature	6	black	2/d/2dd67e11-3dad-4e59-b15d-02911e53fbbf
 Iname, Life Aspect	creature	6	green	b/e/be027e3c-8891-46f0-bca7-d28a94ca281a
+Incandescent Aria	sorcery	3	multicolored	7/7/77e2ed9e-ee1d-440a-94b4-d4b17d30b800
 Incandescent Soulstoke	creature	3	red	0/2/024e80e3-a36f-4c07-99d3-5dd8a2d8998f
 Incarnation Technique	sorcery	5	black	9/6/9655deda-f02b-47a0-89a3-2904b11b84aa
 Incendiary	enchantment	1	red	8/5/854f4775-29b1-4ed1-94d9-db5930a35157
@@ -9804,8 +9956,9 @@ Increasing Savagery	sorcery	4	green	c/5/c59b2ab3-c5e3-4599-9af0-3fa7a9544b97
 Increasing Vengeance	instant	2	red	2/a/2a362d78-76a1-4dbc-80cc-0360e98ba280
 Incremental Blight	sorcery	5	black	b/a/bacfdba6-93df-438c-988f-ca3c6dbfeb08
 Incremental Growth	sorcery	5	green	e/9/e90aaa61-3281-4e8f-9eb3-548896d0c14d
+Incriminate	sorcery	2	black	1/9/198ec497-4e95-4386-9ca4-35d2d3f59733
 Incubation // Incongruity	sorcery	4	multicolored	0/9/099b1265-11a5-48e2-9529-24fa3ea46377
-Incubation Druid	creature	2	green	b/d/bd3071c4-6269-4c6b-9324-3d2284ec616d
+Incubation Druid	creature	2	green	c/0/c0e7322c-97b2-49c6-8ed0-8af96362f580
 Incubator Drone	creature	4	colorless	e/0/e0855762-7068-4111-a6bf-fe6d5b092c74
 Incurable Ogre	creature	4	red	5/a/5ad3381e-ae2f-40cf-8a7b-62375e9f453e
 Incursion Specialist	creature	2	blue	2/9/290e56e0-e699-413a-9d6a-e740bf460b35
@@ -9824,14 +9977,16 @@ Indomitable Archangel	creature	4	white	2/3/23f4b149-fad5-4ba2-a484-dd29d97d120d
 Indomitable Creativity	sorcery	3	red	e/d/edd00e45-2ae1-4cd0-92a1-155c95f8dc72
 Indomitable Might	enchantment	4	green	0/6/063b156b-7e05-4b49-a40a-54d713004ebf
 Indomitable Will	enchantment	2	white	f/5/f5ba5d4b-5dbb-43d6-8f44-a2f80944df98
-Indrik Stomphowler	creature	5	green	b/3/b32eeb51-f54f-4500-a3eb-b6113d19149e
+Indrik Stomphowler	creature	5	green	1/f/1fa77af1-96e1-445b-a935-a5eb4c23e954
 Indrik Umbra	enchantment	6	multicolored	3/f/3f1f1be3-8360-479b-ac87-7700275fbf0b
 Induce Despair	instant	3	black	9/c/9cd60569-5345-47ae-8fa4-2f41e1d58593
 Induce Paranoia	instant	4	blue	b/c/bc462b75-8b08-47a3-be22-d7b5c062ec5b
 Induced Amnesia	enchantment	3	blue	a/4/a4ee56f1-9f08-459f-8517-0fe7bc645fa3
+Indulge // Excess	sorcery	3	red	d/6/d653b755-1e09-45c4-8d44-8a950151ca51
 Indulgent Aristocrat	creature	1	black	3/7/37f6200d-caaf-49ca-b021-48186e404ace
 Indulgent Tormentor	creature	5	black	a/f/af042ca9-c57d-4477-965e-182fc557ca6b
 Indulging Patrician	creature	3	multicolored	6/4/642e0c48-1f77-41e0-abbe-f570b757cd66
+Industrial Advancement	enchantment	4	red	8/1/81f1416c-48bd-4168-aacd-a9b0a3afb8bc
 Ineffable Blessing	enchantment	2	green	6/5/65b25c91-892d-48d6-b42e-045d16d35316
 Inertia Bubble	enchantment	2	blue	7/2/72b2d227-68b3-40e8-bef7-45ea43e17318
 Inescapable Blaze	instant	6	red	4/6/46651efd-0906-4350-a1b8-52e3f8aff45d
@@ -9872,7 +10027,7 @@ Inferno Hellion	creature	4	red	6/c/6c59a4db-5806-40da-8752-cec05af6bf51
 Inferno Jet	sorcery	6	red	9/9/99fe94af-e782-4533-96e2-9fc520c95768
 Inferno of the Star Mounts	creature	6	red	c/7/c788c6a6-20d9-4a93-a898-330b085226c4
 Inferno Project	creature	7	red	c/a/ca760378-fa30-47ac-b3e0-7dc2e72b3422
-Inferno Titan	creature	6	red	1/1/116eafca-668b-4864-bb7b-9d615c93c059
+Inferno Titan	creature	6	red	b/c/bce726fa-cf09-4709-89f9-31f954620449
 Inferno Trap	instant	4	red	8/c/8c8e6ca4-9678-4032-aca5-c74aac7cd897
 Infest	sorcery	3	black	3/c/3cb0c0b8-fc83-42b1-ab26-1222c4a0596c
 Infestation Expert	creature	5	green	0/9/0936761c-7cdc-49ef-8a0d-ed79219f1056	1
@@ -9912,7 +10067,7 @@ Ink-Eyes, Servant of Oni	creature	6	black	5/5/55ed38fc-dc1f-4a03-8869-147f7eb864
 Ink-Treader Nephilim	creature	4	multicolored	d/2/d29bb432-1ca6-4305-b6d3-d7afe06c6c69
 Inkfathom Divers	creature	5	blue	d/7/d79a7e3b-2b7f-4577-8895-6f20a41214b1
 Inkfathom Infiltrator	creature	2	multicolored	2/8/28854f0f-48d3-4a54-8811-c6329ad2e88e
-Inkfathom Witch	creature	2	multicolored	1/3/136cd9f2-fb9a-4b28-a711-0bb0ff170194
+Inkfathom Witch	creature	2	multicolored	f/e/fe2837c6-8fb8-4ab6-97f3-3602a92374ec
 Inkling Summoning	sorcery	3	multicolored	0/4/04a8a5b8-9743-4d1a-89e9-61bdf180b2e0
 Inkmoth Nexus	land	0	colorless	e/c/ec50c1c3-885e-47d3-ada7-cc0edbf09df1
 Inkrise Infiltrator	creature	2	black	c/b/cbb6e447-5f40-4039-8a17-257b4a55382c
@@ -9967,6 +10122,7 @@ Inspiring Bard	creature	4	green	0/b/0b33db66-d205-4164-b168-6084df562ebb
 Inspiring Call	instant	3	green	f/7/f751824c-a9ca-41ce-826f-5553a701c939
 Inspiring Captain	creature	4	white	e/a/eac9c0ee-97a1-4c31-8a42-30408ef3a49c
 Inspiring Cleric	creature	3	white	3/1/31b8f1da-c8ea-41d5-b1ad-b714c22d3683
+Inspiring Overseer	creature	3	white	3/5/35d9da1d-8678-4252-b0f8-9960795642f0
 Inspiring Refrain	sorcery	6	blue	a/6/a66076f9-c1b0-4718-8609-3e2efe6114ab
 Inspiring Roar	sorcery	4	white	1/2/1287d422-d6b0-43eb-8e89-3d6a0201100d
 Inspiring Statuary	artifact	3	colorless	4/0/40e2564f-0066-41e0-a767-13ef33a17024
@@ -9984,7 +10140,7 @@ Insubordination	enchantment	2	black	d/2/d2544c9d-adc2-4d67-8850-9af38e73ea1e
 Insufferable Syphon	artifact	0	colorless	0/7/0741c7b2-0e1e-42ed-aa97-5b3ba123d44f
 Insult // Injury	sorcery	6	red	e/e/eeac671f-2606-43ed-ad60-a69df5c150f6
 Insurrection	sorcery	8	red	2/e/2e7df217-8622-45f7-90e3-2230ac9d30f3
-Intangible Virtue	enchantment	2	white	5/3/535764b9-67b2-4123-a4be-2aa72fcd8a33
+Intangible Virtue	enchantment	2	white	7/a/7a1572f1-7333-4526-b311-5b0bfe37c053
 Integrity // Intervention	instant	5	multicolored	4/a/4a82084e-b178-442b-8007-7b2a70f3fbba
 Intellectual Offering	instant	5	blue	6/3/63de9e39-3c16-452f-9f06-4c1298752f57
 Intercessor's Arrest	enchantment	3	white	e/8/e83f2148-bb5d-4236-8d12-150deed0577e
@@ -10028,7 +10184,7 @@ Invasive Surgery	instant	1	blue	6/e/6e644e38-39bf-40bd-9be1-5eb80f472e81
 Inventive Iteration	enchantment	4	blue	e/a/ea6d3242-8059-4203-aa06-58a6a3925eda	1
 Inventor's Apprentice	creature	1	red	f/7/f737109b-15fb-4b92-9007-99a33ae68628
 Inventor's Goggles	artifact	1	colorless	8/f/8fc62d61-2bc0-4b84-a0e9-5a01fcd4ef92
-Inventors' Fair	land	0	colorless	2/7/275471e3-ded1-40ac-91ef-369dce5764d9
+Inventors' Fair	land	0	colorless	f/9/f917de1f-76f1-4859-a9f3-bcda6a9ca130
 Invert // Invent	instant	7	multicolored	0/5/054a4e4f-8baa-41cf-b24c-d068e8b9a070
 Invert the Skies	instant	4	multicolored	d/6/d6d0a6f9-478f-43c7-8591-3b601c12ed01
 Inverter of Truth	creature	4	colorless	8/8/88c9d8c5-333b-4281-b923-b4a060927bbc
@@ -10052,6 +10208,7 @@ Invoke the Ancients	sorcery	5	green	b/5/b5c02102-3be7-462f-ab9c-ff404255002d
 Invoke the Divine	instant	3	white	7/2/7213d9e1-e9c6-45d8-bb7f-336c41e7b6f7
 Invoke the Firemind	sorcery	3	multicolored	d/f/df4863dc-3545-4ee7-a3c8-beed109a7f38
 Invoke the Winds	sorcery	5	blue	a/d/ad7b423a-bfd1-47aa-bd2c-64a169b96924
+Involuntary Employment	sorcery	4	red	a/f/af7626e2-0041-4ac5-97b3-2db8dcb094d4
 Invulnerability	instant	2	white	d/6/d66d1f00-e857-4bc3-a36d-a33669d281e9
 Inzerva, Master of Insights	planeswalker	5	multicolored	b/4/b47e59bb-8d47-46a7-8ce5-b2060b4e3c19
 Ion Storm	enchantment	3	red	3/f/3f02fc34-a2f6-456a-a8e5-da5a7327f954
@@ -10164,7 +10321,7 @@ Izzet Guildgate	land	0	colorless	c/6/c60c576b-a1ea-41d2-a1d8-4417c11ed48e
 Izzet Guildmage	creature	2	multicolored	0/e/0eaf3018-ae27-4e2e-b6da-dbdebd58fc2b
 Izzet Keyrune	artifact	3	colorless	8/3/83e4e83b-cbb8-4efd-b6c4-4459a29177ac
 Izzet Locket	artifact	3	colorless	a/3/a32ecc71-b924-4414-94ee-c6cb0ba752e5
-Izzet Signet	artifact	2	colorless	a/3/a3407b0e-4c4d-4a1c-a5eb-2723ab576e1b
+Izzet Signet	artifact	2	colorless	9/3/932dff99-8cc1-4ce5-951c-974bd2632dd2
 Izzet Staticaster	creature	3	multicolored	1/9/190ac2fe-532d-4d7e-9d74-07ae6850aac8
 Jabari's Banner	artifact	2	colorless	3/d/3d51a496-1ca6-4286-bdbe-990d43196a25
 Jabari's Influence	instant	5	white	c/9/c9f764d7-4c18-40ef-8373-ef1e2a88007e
@@ -10197,6 +10354,7 @@ Jack-o'-Lantern	artifact	1	colorless	2/1/21b589ab-45a0-480a-a891-581c34f8a9bf
 Jackal Familiar	creature	1	red	0/a/0a47a2dc-f7f2-4103-9ebe-8cd8b83915ae
 Jackal Pup	creature	1	red	b/b/bb02ff74-e73f-467e-ac26-429d279a8e95
 Jackalope Herd	creature	4	green	c/b/cb80105c-d2c0-4f8c-9302-5e6152a60f54
+Jackhammer	artifact	2	red	d/7/d74ba9fe-2dcb-4da7-ba64-cd932edb5b24
 Jackknight	creature	2	white	3/d/3d84953b-c59c-45f8-aedd-e68bff7c7ce3
 Jacob Hauken, Inspector	creature	2	blue	6/b/6b4529c3-8edb-4909-b910-806450a39d2e	1
 Jacques le Vert	creature	4	multicolored	e/e/ee5a45b1-169b-468e-9251-424c09cd7f0f
@@ -10220,6 +10378,7 @@ Jagged Lightning	sorcery	5	red	5/1/51f724db-0427-44f9-963d-ae2356c928f4
 Jagged Poppet	creature	3	multicolored	e/7/e796a838-3599-4769-b90b-9bbbaad76fcb
 Jagged-Scar Archers	creature	3	green	7/1/71c4346a-a330-49ca-909e-08fd8aec7b3f
 Jagwasp Swarm	creature	4	black	b/d/bd4e933b-de65-4089-877f-c598004b8e7e
+Jailbreak	sorcery	2	white	5/8/5884d98e-3e02-48ae-9904-4ebbf1e90f6d
 Jalira, Master Polymorphist	creature	4	blue	1/f/1f9719c8-2dfe-4141-9ede-2ee3a282b5e9
 Jalum Grifter	creature	5	red	9/b/9b5d0ead-7798-49a2-8106-418db1d4fd69
 Jalum Tome	artifact	3	colorless	2/4/24814552-c407-447a-a782-22c69c5b912b
@@ -10241,6 +10400,7 @@ Jasmine Seer	creature	4	white	a/6/a6641dd2-5b9c-4089-8a71-a3a1a9c29f8b
 Jaspera Sentinel	creature	1	green	1/a/1a68615d-9808-479d-aa80-50651246954e
 Jawbone Skulkin	creature	1	colorless	3/a/3a88f807-96ce-432f-aaf5-d0097d234a4b
 Jaws of Stone	sorcery	6	red	5/b/5b018d93-a1c5-4729-b9c7-01d6ca5130f6
+Jaxis, the Troublemaker	creature	4	red	7/8/78127c0c-672f-4e4b-9c23-6a5f237228fd
 Jaya Ballard	planeswalker	5	red	8/5/85169934-1033-49d7-8d42-45e982077a23
 Jaya Ballard, Task Mage	creature	3	red	2/8/2890840e-da0b-40ba-b3c2-7e4af39922b3
 Jaya's Greeting	instant	2	red	e/c/ec66f169-5cf9-4d7c-a5ab-c64fc4801358
@@ -10256,7 +10416,7 @@ Jeering Instigator	creature	2	red	7/2/72777ccf-1cd8-45e8-8dfb-0a42550b5607
 Jegantha, the Wellspring	creature	5	multicolored	1/d/1d52e527-3835-4350-8c01-0f2d5d623b9c
 Jelenn Sphinx	creature	5	multicolored	5/e/5e868618-c1b0-4ab9-96b2-6435e52b8b07
 Jeleva, Nephalia's Scourge	creature	4	multicolored	8/3/83f9aeb8-05ba-49d9-a834-62f42fcd295b
-Jenara, Asura of War	creature	3	multicolored	d/6/d643c335-e3a7-461d-a024-095795ab6770
+Jenara, Asura of War	creature	3	multicolored	4/b/4bcf5b5f-b908-4975-91f7-c4c6f819e0a6
 Jerrard of the Closed Fist	creature	6	multicolored	7/f/7f841918-813b-4784-ab57-907185b0a355
 Jerren, Corrupted Bishop	creature	3	black	0/f/0f6e668d-2502-4e82-b4c2-ef34c9afa27e	1
 Jeska's Will	sorcery	3	red	4/e/4e91d96d-cc69-439b-b876-a7d57039022c
@@ -10277,7 +10437,11 @@ Jester's Mask	artifact	5	colorless	d/a/daa1ba0c-cb89-4bb2-8a35-6a4a4eecccf7
 Jester's Scepter	artifact	3	colorless	7/1/7118c2e0-04d6-4a71-8ffd-b9365b154050
 Jester's Sombrero	artifact	2	colorless	6/e/6e68f012-307f-4ffb-909e-1284fb39e64f
 Jet Medallion	artifact	2	colorless	7/f/7f85698a-821f-452d-9e31-e525c0100f2d
+Jetmir's Fixer	creature	2	multicolored	3/e/3e5aa701-28e8-47fa-8c26-4da2f943f582
+Jetmir's Garden	land	0	colorless	2/6/26d40e03-6de4-4373-9fbf-04c1dd79e995
+Jetmir, Nexus of Revels	creature	4	multicolored	f/9/f9c69d75-651f-4b75-b65d-79999d2069f6
 Jetting Glasskite	creature	6	blue	2/4/24f01503-03d3-4d74-b9d0-b973f7d66094
+Jewel Thief	creature	3	green	7/3/736e498e-1245-40c1-96a4-c9bcfd1cfe1f
 Jewel-Eyed Cobra	creature	3	green	8/f/8f8db60d-3adf-45e1-b4d0-3b5e24f5e01d
 Jeweled Amulet	artifact	0	colorless	3/4/34f7bad2-d28f-42d2-9246-fe3545ef49a7
 Jeweled Bird	artifact	1	colorless	d/7/d78e61e5-9313-4c83-af38-98849aea4e42
@@ -10302,6 +10466,7 @@ Jihad	enchantment	3	white	b/6/b6c7705a-2987-4ef1-92b1-2c55d989ec6f
 Jilt	instant	2	blue	a/0/a010d2b1-960d-4032-a47a-61fe0998bee3
 Jin-Gitaxias, Core Augur	creature	10	blue	1/4/14a360b6-c7b4-4b25-8288-b3bb8d527bda
 Jin-Gitaxias, Progress Tyrant	creature	7	blue	c/5/c57b4876-5387-4f73-b8e2-8e7bdca8b0bc
+Jinnie Fay, Jetmir's Second	creature	3	multicolored	c/5/c5f9326a-2a41-45b3-97c3-548f0bdc0882
 Jinx	instant	2	blue	f/8/f81fca41-2315-4d12-b05c-d921a4c3c19e
 Jinxed Choker	artifact	3	colorless	9/8/987910b0-0419-45ff-bda6-c6683fd00e49
 Jinxed Idol	artifact	2	colorless	7/6/763cb2dc-c8ea-4bfc-a576-ae1641057bf7
@@ -10315,11 +10480,13 @@ Johnny, Combo Player	creature	4	blue	f/8/f8fc7a61-226c-426a-9b99-21d87aca2f6f
 Johtull Wurm	creature	6	green	6/4/64a22e88-f7b1-48c8-a199-e57edcd50654
 Join Shields	instant	5	multicolored	d/3/d3a5c2e5-7914-4edc-960a-75f3dfb5afc4
 Join the Dance	sorcery	2	multicolored	5/6/56b30a99-601b-40b9-b012-30fa4be5fd3c
+Join the Maestros	sorcery	5	black	f/f/ff2665f7-6cf8-4f9b-810e-17e264753225
 Join the Ranks	instant	4	white	e/2/e27e2eb4-d48b-43c3-bd19-e1748f310c54
 Joiner Adept	creature	2	green	6/1/61751365-3acf-4eb8-b1f9-358ebccccf94
 Joint Assault	instant	1	green	6/5/6516c7c6-d49b-49c5-8968-563622c2c8c1
 Jokulhaups	sorcery	6	red	3/b/3bf0d325-5928-4593-8faa-64ffa414cb48
 Jokulmorder	creature	7	blue	a/8/a8bd1c2f-dab8-4f22-9400-a0e45618757a
+Jolene, the Plunder Queen	creature	4	multicolored	6/1/61c217d9-21d5-45ef-938a-138192a901f4
 Jolrael's Centaur	creature	3	green	3/1/31588ea3-31d2-4118-9b9f-4ce820c16a15
 Jolrael's Favor	enchantment	2	green	8/2/8275ecd7-f119-4cca-bef1-626a3272dd2c
 Jolrael, Empress of Beasts	creature	5	green	0/1/01084157-60e5-4693-bbec-be60b0b4e04f
@@ -10371,7 +10538,7 @@ Jump	instant	1	blue	2/e/2edd7be9-9334-4684-b642-1aaf2000e054
 Jund Battlemage	creature	3	red	e/e/ee8c962f-11b0-48f7-bbba-a2212e41990f
 Jund Charm	instant	3	multicolored	d/f/df91979c-fb60-433b-8780-366ce1effd9c
 Jund Hackblade	creature	2	multicolored	6/1/61e3b73a-598b-4854-b811-2fd40fbce2d0
-Jund Panorama	land	0	colorless	b/b/bb3f7107-acee-4369-b217-164ae9b79ed9
+Jund Panorama	land	0	colorless	5/0/50d8346a-e0b5-41eb-be89-7d1eb0e84f28
 Jund Sojourners	creature	3	multicolored	8/9/893c08b2-1391-4aaf-b79c-d1125b232f73
 Jungle Barrier	creature	4	multicolored	a/f/afe5c401-1cb7-477a-803e-a4eaf51cf118
 Jungle Basin	land	0	colorless	d/4/d4929e39-fccc-450b-bb18-f5ad56a397bd
@@ -10380,7 +10547,7 @@ Jungle Delver	creature	1	green	5/1/51ab0316-c0c2-44c8-b841-4f796e347b74
 Jungle Hollow	land	0	colorless	d/e/deadca61-0be9-4eeb-ba12-bc73a49bae74
 Jungle Lion	creature	1	green	6/1/613ceee3-92c7-46f1-8267-d6229ab15df5
 Jungle Patrol	creature	4	green	9/1/91c343b8-bbfd-4bc5-b80a-4bc4565cdd40
-Jungle Shrine	land	0	colorless	5/7/57e7fedd-3e02-462d-b13e-32c34eedd069
+Jungle Shrine	land	0	colorless	2/5/256b65d6-f50d-4b5c-afae-77935b33f7de
 Jungle Troll	creature	3	multicolored	5/9/59fb9591-399a-4196-a52d-f2954d287a10
 Jungle Wayfinder	creature	3	green	9/1/912e221b-528f-4ce5-acf3-f93b385bff4a
 Jungle Weaver	creature	7	green	5/f/5f46870b-3d8d-4aae-8d59-6bd88a50b37c
@@ -10489,6 +10656,7 @@ Kami of the Waning Moon	creature	3	black	2/3/23a395a6-b1f5-4b7f-87cc-c77b4d497e9
 Kami of Transience	creature	2	green	7/d/7d038a59-e589-45f4-b5ef-6d2f9875d560
 Kami of Twisted Reflection	creature	3	blue	8/a/8aaf1b2f-933f-4ad3-a816-2797d96ff37f
 Kami's Flare	instant	2	red	b/e/bef5d58e-b490-4682-9a44-12cd61a94c0f
+Kamiz, Obscura Oculus	creature	4	multicolored	7/4/74b8ae28-e169-46be-8180-ebdaf80efd81
 Kangee's Lieutenant	creature	3	white	a/0/a0f431b3-6f4e-40a5-b9d1-f2c67b70544d
 Kangee, Aerie Keeper	creature	4	multicolored	3/a/3afd7e8e-4fcc-4003-9791-7baf10ef1880
 Kangee, Sky Warden	creature	5	multicolored	9/9/99988f41-99b4-4423-be5f-9dc4ec7d813b
@@ -10517,7 +10685,7 @@ Karma	enchantment	4	white	c/f/cf9df1cc-9de3-42a6-9c28-f2d8db75322a
 Karmic Guide	creature	5	white	f/5/f550f0dd-9e20-4faf-a374-9d1c5830a52f
 Karmic Justice	enchantment	3	white	e/a/ea141e39-8124-4d72-a154-eb76e71be1dc
 Karn Liberated	planeswalker	7	colorless	4/b/4b0c6662-4dde-40a2-97e0-0318478c0367
-Karn's Bastion	land	0	colorless	b/9/b9d895af-7e8c-419f-bc5d-5596083fbfb6
+Karn's Bastion	land	0	colorless	a/7/a72a437d-2b69-4dad-a537-aab24168dd3c
 Karn's Temporal Sundering	sorcery	6	blue	7/a/7a64c1a4-02ce-49d2-97f2-970b8c33672d
 Karn's Touch	instant	2	blue	0/7/07845861-f974-43b7-829c-79a4a41ac3e3
 Karn, Scion of Urza	planeswalker	4	colorless	0/7/07a3d9e8-8597-498b-869c-cff79e0df516
@@ -10590,7 +10758,7 @@ Kazarov, Sengir Pureblood	creature	7	black	2/a/2aff7077-496b-46ca-b9d7-a8c1772f9
 Kazuul Warlord	creature	5	red	d/a/da42df13-eded-48e2-ad1a-ff74d718ce3c
 Kazuul's Fury // Kazuul's Cliffs	instant	3	red	7/5/75240bbc-adc7-48ff-9523-c79776d710d3	1
 Kazuul's Toll Collector	creature	3	red	7/3/7377e5a7-b479-48cc-8fbb-01af87c62566
-Kazuul, Tyrant of the Cliffs	creature	5	red	a/b/ab4e66a7-332d-4f98-b0da-3e9e965534fd
+Kazuul, Tyrant of the Cliffs	creature	5	red	5/f/5fdc43b5-d7fe-40cd-b36f-7ee7694daf2e
 Kederekt Creeper	creature	3	multicolored	7/0/701498e5-1d4d-42f4-9dd0-5d4cf78f0e68
 Kederekt Leviathan	creature	8	blue	9/7/97e04b01-ba98-4b69-976e-9ab8be3b5f7a
 Kederekt Parasite	creature	1	black	8/7/878c7d8c-4df0-43ac-8197-d89c8be5e70d
@@ -10662,7 +10830,7 @@ Keral Keep Disciples	creature	4	red	7/b/7b862e46-f5a2-4fce-98b5-2c5aa49ec648
 Keranos, God of Storms	creature	5	multicolored	a/b/ab70c262-37a9-4dcd-80bb-d4422368eade
 Keruga, the Macrosage	creature	5	multicolored	a/9/a90ee952-de7a-420f-993c-a38db89bc8ac
 Keskit, the Flesh Sculptor	creature	3	black	a/8/a8f5ffe8-b4ed-4db8-8f0f-97aaeb659689
-Kess, Dissident Mage	creature	4	multicolored	3/6/3651483f-6077-4b4e-b2c7-9d57f22c65dc
+Kess, Dissident Mage	creature	4	multicolored	e/8/e83e6d7a-3af0-4955-8004-2310f051e306
 Kessig Cagebreakers	creature	5	green	e/9/e9bf3f93-a06f-4364-bb8e-b2b1eb77dcc3
 Kessig Dire Swine	creature	6	green	9/2/9235ac46-dac9-46e6-9c7f-a69caaee1a2e
 Kessig Flamebreather	creature	2	red	3/0/303ad78a-b02a-44dc-afe6-7f95781a5062
@@ -10672,7 +10840,7 @@ Kessig Naturalist	creature	2	multicolored	8/a/8ab5f2e6-0e0a-4f7d-a959-3d07948ff3
 Kessig Prowler	creature	1	green	f/8/f89f116a-1e8e-4ae7-be39-552e4954f229	1
 Kessig Recluse	creature	4	green	6/9/695b8abe-796e-4d9b-aad3-4e03e925d2a7
 Kessig Wolf	creature	3	red	3/2/3255480b-c1cf-43d9-a40e-43e38112bb18
-Kessig Wolf Run	land	0	colorless	b/1/b1140b05-49cf-49d5-a9a6-dfb2f0d1ec55
+Kessig Wolf Run	land	0	colorless	2/3/23809d14-5f52-43c5-ab7a-0db9f9ab7b3c
 Kessig Wolfrider	creature	1	red	1/8/180b1a4f-c071-4742-9c57-9d775be0ed4f
 Kestia, the Cultivator	creature	4	multicolored	6/d/6d49d5e5-fca7-47ec-89f0-282641413245
 Kethis, the Hidden Hand	creature	3	multicolored	f/e/fe28de73-76f3-4a9e-a020-dbe5921b9be5
@@ -10705,12 +10873,13 @@ Kick in the Door	sorcery	1	red	2/2/222102d0-fed3-41fd-87b0-f6d22766d7fd
 Kiki-Jiki, Mirror Breaker	creature	5	red	a/9/a9814393-05f0-4b99-a599-0c62f0dc9c1d
 Kiku's Shadow	sorcery	2	black	3/8/38700c7d-2f24-47e4-a899-d294daed5549
 Kiku, Night's Flower	creature	2	black	0/7/07e18994-d08b-4a8e-abfb-b5531fd6f816
-Kill Shot	instant	3	white	1/9/1977d0d0-a7cc-48b8-ab61-199de54fb591
+Kill Shot	instant	3	white	6/1/61b0b9a3-8f50-4fba-9978-409f3369afa6
 Kill Switch	artifact	3	colorless	a/9/a94cfd63-7f2b-4c0a-8dcb-f22cf83e1e27
 Kill! Destroy!	instant	3	black	4/9/49dd5a66-101d-4f88-b1ba-e2368203d408
 Kill-Suit Cultist	creature	1	red	b/3/b37c96bb-6844-4c73-8b32-099bde7bd9f1
 Killer Bees	creature	3	green	e/4/e4e748b0-4041-4266-a777-e1b8a5533e80
 Killer Instinct	enchantment	6	multicolored	c/8/c808a8ec-895c-4777-9e11-e83ce34eddef
+Killer Service	enchantment	3	green	3/2/320e941a-5b5b-467c-af35-c1e6b43c9cc6
 Killer Whale	creature	5	blue	d/9/d932f6d3-4918-4a41-836c-4eaa6cfac049
 Killian, Ink Duelist	creature	2	multicolored	2/3/23ef4f09-2aa1-4a03-b2e2-66d1522f1e46
 Killing Glare	instant	1	black	f/7/f7a4d87d-b844-4f20-8b14-4fd32c53dea5
@@ -10800,6 +10969,7 @@ Kitsune Loreweaver	creature	2	white	c/1/c11d4490-fe4f-4526-befd-f4c9c22c76a6
 Kitsune Mystic	creature	4	white	f/2/f2ddf1a3-e6fa-4dd0-b80d-1a585b51b934
 Kitsune Palliator	creature	3	white	e/b/eb981f8b-4f03-4fd2-a255-b10635958bfd
 Kitsune Riftwalker	creature	3	white	f/5/f545d9d0-52d8-4b90-a8bb-178f4ba3c4b7
+Kitt Kanto, Mayhem Diva	creature	4	multicolored	9/b/9b9850d6-49d3-45ec-9a45-75aa0fce9ee5
 Kiyomaro, First to Stand	creature	5	white	3/b/3b3351bb-5c4e-498b-b6c9-94f571baffd5
 Kjeldoran Dead	creature	1	black	d/3/d3f7b614-6075-4b7c-acc7-ab63185b570b
 Kjeldoran Elite Guard	creature	4	white	a/7/a73bc4b6-f7d0-494c-9e60-48279c11b7b6
@@ -10866,6 +11036,7 @@ Knightly Valor	enchantment	5	white	c/6/c6f463b5-188f-4ecc-8cbf-0f200515bb09
 Knights of the Black Rose	creature	5	multicolored	b/f/bfb6ba17-6bc0-4626-a604-8b32618a54c5
 Knights of Thorn	creature	4	white	a/e/ae541c73-9903-49e6-997a-db4701135145
 Knights' Charge	enchantment	3	multicolored	6/b/6b86f7db-ae1d-49fe-a9c5-488bbf3afac7
+Knockout Blow	instant	3	white	9/b/9b00bbec-61d0-464c-bf82-4ecf5ddb3451
 Knollspine Dragon	creature	7	red	e/d/ed0b7440-c3d8-452a-a3ec-b9d9b991ccec
 Knollspine Invocation	enchantment	3	red	8/1/8157aade-9dfc-402d-8e1f-468bf2bccb9c
 Knotvine Mystic	creature	3	multicolored	f/6/f6372fa0-e9c8-45d0-a3b8-72eb191c6b26
@@ -10885,7 +11056,7 @@ Kodama of the North Tree	creature	5	green	2/d/2d9b5c33-63c4-4ddd-9f04-37bb36970b
 Kodama of the South Tree	creature	4	green	1/2/120c05f1-5ec3-4a0f-8628-6919e393104a
 Kodama of the West Tree	creature	3	green	e/f/ef1e1dff-b559-441d-8df3-b6a418066aca
 Kodama's Might	instant	1	green	d/0/d0ef91bb-ec25-463f-9fc9-f0f9c0652cf5
-Kodama's Reach	sorcery	3	green	b/f/bf1c9d24-f5f6-43ff-85c3-034b76e1bf1b
+Kodama's Reach	sorcery	3	green	1/7/1744bb12-297c-43e3-bf97-a82edd3684f7
 Kogla, the Titan Ape	creature	6	green	3/c/3c35ca79-eb72-427a-a8ed-404b2214389a
 Kokusho, the Evening Star	creature	6	black	a/b/ab56cedb-1bcd-48a5-8503-a8e324e236ad
 Kolaghan Aspirant	creature	2	red	a/a/aa17972e-c16b-4dec-a108-1c3fb0138a4e
@@ -10980,10 +11151,11 @@ Krenko's Command	sorcery	2	red	8/0/80979d0c-d833-46d8-9f7c-b188801fe336
 Krenko's Enforcer	creature	3	red	a/3/a3aaaa79-b8d1-40b2-a63c-f682b99a680b
 Krenko, Mob Boss	creature	4	red	c/d/cd9fec9d-23c8-4d35-97c1-9499527198fb
 Krenko, Tin Street Kingpin	creature	3	red	f/5/f51d53fc-8e62-45fd-b2cd-8f93d7f9e1fa
-Kresh the Bloodbraided	creature	5	multicolored	d/4/d485fe46-ed24-4b55-8ddc-ac2fdf4eec93
+Kresh the Bloodbraided	creature	5	multicolored	8/b/8b4b3c5f-32ea-4208-86d4-bb86e3b8d7d5
 Kris Mage	creature	1	red	4/3/4389fbcd-182a-4cac-b14f-aa971948cf8e
 Kronch Wrangler	creature	2	green	8/f/8f41d22a-ee37-4d69-a9ca-98c91315b9e6
 Krond the Dawn-Clad	creature	6	multicolored	a/7/a73cf77b-3d11-47ea-9779-586ee00bf608
+Kros, Defense Contractor	creature	4	multicolored	1/2/12e71d52-5c75-4798-9fe7-8a34a2bf0c9a
 Krosan Adaptation	enchantment	1	green	3/f/3f0b511e-3f36-479d-818a-83420e7080b4
 Krosan Archer	creature	4	green	e/1/e188562f-8219-4fb0-ac2c-5618cfb00bca
 Krosan Avenger	creature	3	green	0/a/0afd6911-32b5-410a-afb0-fd3d2996fe59
@@ -11093,6 +11265,7 @@ Lagac Lizard	creature	4	red	b/4/b47e9cfa-5547-4ef3-9e36-8d0f36dfa59a
 Lagonna-Band Elder	creature	3	white	6/8/68b9df54-e78e-4a86-a8b1-b735ec08a812
 Lagonna-Band Storyteller	creature	4	white	c/3/c3a87498-2c2c-411a-aa71-d594b2c6cb26
 Lagonna-Band Trailblazer	creature	1	white	3/8/38a6f533-6acb-4c24-ae9d-fe4977230156
+Lagrella, the Magpie	creature	3	multicolored	d/d/dd20f271-26c8-429f-a422-e7d95f3bda74
 Laid to Rest	enchantment	4	green	1/4/141f7948-3140-40f2-95dd-ab6c79f2a821
 Lair Delve	sorcery	3	green	6/0/604948d8-6224-45ca-9ebb-d716644bbfd0
 Lair of the Hydra	land	0	colorless	b/6/b670bb0f-680f-4036-bdb6-ac73e866a398
@@ -11233,7 +11406,7 @@ Leaf-Crowned Elder	creature	4	green	c/6/c666dc97-8780-4982-b9e7-7d4a358f922c
 Leafcrown Dryad	creature	2	green	8/2/8202e426-ad91-4d2e-9373-7a829b58fff5
 Leafdrake Roost	enchantment	5	multicolored	5/f/5f74cf11-8deb-4623-9c1e-1e86e98bd831
 Leafkin Avenger	creature	4	multicolored	7/b/7bd3a903-23e0-4b5a-9c7e-390d5ced8371
-Leafkin Druid	creature	2	green	8/9/8968a942-72f6-42ad-ae9d-418a1dff0ab3
+Leafkin Druid	creature	2	green	9/d/9dc9111f-1ca6-4953-9f1e-cca55fa8c569
 League Guildmage	creature	2	multicolored	7/4/7439118d-4869-486e-8930-6e00db2634b2
 Leap	instant	1	blue	0/8/0841423d-7a27-4bc5-9ac2-0ba47648c6f1
 Leap of Faith	instant	3	white	7/b/7ba52aed-440c-4b32-8f25-0c5364441712
@@ -11251,6 +11424,7 @@ Leave in the Dust	instant	4	blue	0/4/049955c6-63f5-4f80-8c60-34c890f3c71a
 Leave No Trace	instant	2	white	5/8/58466d46-7225-42ff-8471-6d489be32cf3
 Ledev Champion	creature	3	multicolored	b/c/bc4f508b-a48d-4462-9d89-ee2ead3a0847
 Ledev Guardian	creature	4	white	c/b/cbeb4ae3-2a7a-44e1-923b-20c772fd1b8b
+Ledger Shredder	creature	2	blue	7/e/7ea4b5bc-18a4-45db-a56a-ab3f8bd2fb0d
 Leech Bonder	creature	3	blue	a/8/a86562c6-91bd-4866-a2a9-0062ffdf07ce
 Leech Fanatic	creature	2	black	3/0/307f9fe7-241b-4eb6-a059-be5384b4a1b6
 Leech Gauntlet	creature	2	black	9/7/97986b67-5ae4-492f-a9e0-81f57a829d86
@@ -11310,6 +11484,7 @@ Lesser Gargadon	creature	4	red	b/2/b27a1067-8dff-485a-8781-39d61585c521
 Lesser Masticore	creature	2	colorless	c/4/c4c7cba5-6111-40ce-828a-e811301bb283
 Lesser Werewolf	creature	4	black	b/a/baae02e4-7db9-4a7b-a4ee-ecb22fcb77bd
 Lethal Exploit	instant	2	black	8/d/8d8edf8f-c2bd-4fd1-8abf-d3162e068b17
+Lethal Scheme	instant	4	black	6/5/65864680-9520-4eb3-9774-fa478e54a290
 Lethal Sting	sorcery	3	black	b/d/bd7a7363-03ba-466e-9d61-2dc5ecdcc630
 Lethal Vapors	enchantment	4	black	f/9/f96acfea-009a-4ac9-8746-64f65199024f
 Lethargy Trap	instant	4	blue	3/5/351aa3f2-864a-4921-a01c-8712560087bb
@@ -11370,16 +11545,18 @@ Life Burst	instant	2	white	7/f/7f8eee50-efd2-45fd-b815-051167ef4541
 Life Chisel	artifact	4	colorless	5/0/50052f9a-d667-4a96-a9b1-b4169ee495e6
 Life from the Loam	sorcery	2	green	d/7/d7447c11-05a1-44e4-831a-0bacf97d447d
 Life Goes On	instant	1	green	3/8/3888197f-5da4-4413-9cad-b37a12ba1e60
+Life Insurance	enchantment	5	multicolored	d/d/dda58066-d96f-452f-ab83-8635ec478d63
 Life Matrix	artifact	4	colorless	c/9/c99a3abc-e2a3-4eee-8f72-b1b25dcd1d0b
+Life of the Party	creature	4	red	3/0/30cfd6c9-9eed-493b-bd1d-113cb7935f61
 Life of Toshiro Umezawa	enchantment	2	black	f/7/f7f4adf7-b871-417b-8904-7f024ca21486	1
 Life's Finale	sorcery	6	black	f/f/ffd3fbd2-87c7-4f08-baaa-91d61c1114da
-Life's Legacy	sorcery	2	green	5/d/5d964629-6d1d-4253-ac23-92f2199323b4
+Life's Legacy	sorcery	2	green	b/f/bf0e70d2-5f1a-441b-99b9-d003fa15b999
 Lifebane Zombie	creature	3	black	9/8/98370735-5303-40d4-9e80-cdb40dee18e2
 Lifeblood	enchantment	4	white	4/e/4ecb1362-9a67-4d4c-8d69-9ac2ebf4d0b0
 Lifeblood Hydra	creature	3	green	4/d/4d01469a-d085-4797-95ba-b2877c039469
 Lifecraft Awakening	instant	1	green	6/3/63bc60c8-f0a3-4bbf-b570-7d98d0a3e2b0
 Lifecraft Cavalry	creature	5	green	b/2/b2a92a03-4e1d-4b79-ad75-a29db2ea5495
-Lifecrafter's Bestiary	artifact	3	colorless	b/7/b7fbf696-0e8a-47bc-a284-752e8554a99b
+Lifecrafter's Bestiary	artifact	3	colorless	4/5/457d1102-9ba7-47d1-bced-cc8a28e38ad9
 Lifecrafter's Gift	instant	4	green	f/a/fa000086-e4aa-4bb6-8e66-f4c96e875749
 Lifeforce	enchantment	2	green	e/1/e1ca1cc3-e588-4ef7-b846-d5dba3c875a0
 Lifegift	enchantment	3	green	2/7/27eaba1c-3137-4419-bf90-eb287a7c736e
@@ -11392,6 +11569,7 @@ Lifespinner	creature	4	green	c/6/c6a83083-f7c6-4ddf-aee9-538a1778697d
 Lifespring Druid	creature	3	green	0/1/01abad84-abb9-4c8e-94f8-12d2a6627188
 Lifetap	enchantment	2	blue	6/3/634dd3bd-d29b-4481-990b-f320e60c4f91
 Lifted by Clouds	instant	3	blue	a/5/a5f08f3d-82ef-4c3f-af2d-a3c834e22b99
+Light 'Em Up	sorcery	2	red	e/e/ee31d56a-9b7e-4de0-81cb-3b7c76b6fbd5
 Light from Within	enchantment	4	white	6/a/6afda091-ed14-4bc5-8896-bdb7c95a499e
 Light of Day	enchantment	4	white	3/d/3d5af047-7d98-4ba9-9ce1-c67563c19866
 Light of Hope	instant	1	white	b/c/bcb00599-e082-49b0-88f3-ef91b75595e4
@@ -11422,7 +11600,7 @@ Lightning Dart	instant	2	red	5/4/54d05157-d154-4203-bf3e-add110cb1cee
 Lightning Diadem	enchantment	6	red	9/2/9223ac16-e6fc-4ba6-91d9-7ff27cc17271
 Lightning Dragon	creature	4	red	3/4/342fc7bc-657f-43a3-9558-f516fa545a09
 Lightning Elemental	creature	4	red	5/f/5f2a959e-7c17-4226-afcb-bc0bb5a4492b
-Lightning Greaves	artifact	2	colorless	1/e/1e5d9c01-f8db-43ef-bb50-f9e38e99f8d0
+Lightning Greaves	artifact	2	colorless	2/0/205430f6-2d00-4dce-98c7-3d24a8ae73fc
 Lightning Helix	instant	2	multicolored	3/e/3e897af5-d450-4a7c-a02a-543914c2c680
 Lightning Hounds	creature	4	red	3/8/38c82a1d-5db1-4090-b446-cc5bc6dc811d
 Lightning Javelin	sorcery	4	red	e/d/ed008d47-e0fd-4039-8846-6d013975a942
@@ -11515,7 +11693,7 @@ Lithomancer's Focus	instant	1	white	d/d/dd5a1376-88b3-4bdc-9ce9-e90617e6c55e
 Lithophage	creature	5	red	b/f/bff49651-3673-4670-9807-3ef3a42b8f8f
 Littjara Glade-Warden	creature	4	green	a/9/a92dde51-310e-4f28-bd3b-d43b639785ec
 Littjara Kinseekers	creature	4	blue	c/1/c119f836-0707-49e2-b6d4-25f849d054a4
-Littjara Mirrorlake	land	0	colorless	6/b/6bf2bb3e-828f-4d53-9d0a-26bbc5e7f3cc
+Littjara Mirrorlake	land	0	colorless	c/f/cf1f38de-44b3-42fa-9288-d7c1832ff75f
 Little Girl	creature	0.5	white	9/0/90f17b85-a866-48e8-aae0-55330109550e
 Liturgy of Blood	sorcery	5	black	f/b/fbe00ed2-d316-46f8-a5cf-6aad93fe88a0
 Liu Bei, Lord of Shu	creature	5	white	b/8/b804c879-fe23-4d7f-9e7d-1da41b5c0973
@@ -11555,7 +11733,7 @@ Llanowar Empath	creature	4	green	4/4/4465aff0-5481-4a38-80c5-a5427de9d2b1
 Llanowar Envoy	creature	3	green	1/a/1a667bba-ecf0-4212-8ca3-75d4db6abce2
 Llanowar Knight	creature	2	multicolored	e/6/e6c75d89-e432-49aa-a407-555b223b7eff
 Llanowar Mentor	creature	1	green	e/0/e0f894e7-adf7-4fe5-811a-8e2d8c8a88d6
-Llanowar Reborn	land	0	colorless	b/7/b77f3af2-0ebd-47b4-8011-fc402a887744
+Llanowar Reborn	land	0	colorless	1/a/1adb1d4a-b8e4-465f-ab1e-691a7c5e89d3
 Llanowar Scout	creature	2	green	c/8/c8026d80-2e91-46f9-ae97-1f137848236c
 Llanowar Sentinel	creature	3	green	b/d/bda18561-4767-4f8e-bc6d-9117d1a480b1
 Llanowar Tribe	creature	3	green	4/0/407c1b95-dc0c-4154-a441-fe25537df45c
@@ -11603,7 +11781,7 @@ Long Rest	sorcery	3	green	0/6/0615e930-3b6b-4b2f-a09c-0730d491545c
 Long Road Home	instant	2	white	5/0/504698a9-1512-4288-b5ef-392d41ebcd05
 Long-Finned Skywhale	creature	4	blue	7/7/772e9472-c710-474e-b8e9-54662330a592
 Long-Forgotten Gohei	artifact	3	colorless	6/7/67ced123-3eb4-405e-b26d-30644f35a5b0
-Long-Term Plans	instant	3	blue	7/e/7e0422d9-9694-45b6-9c2b-2ca31198cebf
+Long-Term Plans	instant	3	blue	d/2/d236e528-2cb1-4de5-a4fd-b80516e4a1f9
 Longbow Archer	creature	2	white	8/a/8ac3672e-ebab-4bb1-bf4d-5020047296d8
 Longhorn Firebeast	creature	3	red	b/f/bf0dcf33-8d3f-429c-8ad8-a65d07d7c790
 Longshot Squad	creature	4	green	8/7/87ad2799-854c-498e-b83b-c3bc063b97ee
@@ -11618,7 +11796,7 @@ Looming Shade	creature	3	black	8/4/84a6703c-38d4-4c86-b5b0-ebfde81bb1bf
 Looming Spires	land	0	colorless	b/8/b88177a2-de41-417d-a8f1-07edf005b453
 Loopy Lobster	creature	3	blue	e/f/ef2c9489-8800-4d04-aedc-d9c4b0ea9c6a
 Loose Lips	enchantment	1	blue	b/3/b3a2f131-e0d1-4583-929f-c009aee8bc20
-Looter il-Kor	creature	2	blue	0/d/0d891cb5-c575-4c63-b053-a2315947c3e0
+Looter il-Kor	creature	2	blue	9/b/9b43cfff-e14d-4792-8a5b-98fca88456e0
 Lorcan, Warlock Collector	creature	7	black	5/f/5f6f90ae-340c-4eb7-b091-58db550be742
 Lord Magnus	creature	6	multicolored	2/a/2a02aabb-c464-4672-b37b-d5d713ef8939
 Lord of Atlantis	creature	2	blue	8/4/846572ce-c8fd-402c-9212-8288336c75e8
@@ -11632,6 +11810,7 @@ Lord of the Unreal	creature	2	blue	b/0/b09140f6-fa75-4bee-9ca0-3a71cd2b5a7b
 Lord of the Void	creature	7	black	7/5/75b83fe5-fd00-4532-bc67-07836abfc99c
 Lord of Tresserhorn	creature	4	multicolored	5/f/5fc9497a-42bf-4d78-afaf-67645514ade4
 Lord Windgrace	planeswalker	5	multicolored	2/1/213d6fb8-5624-4804-b263-51f339482754
+Lord Xander, the Collector	creature	7	multicolored	e/e/ee0a078d-045f-401b-a561-dcb1ad02bf62
 Lore Broker	creature	2	blue	c/7/c7935b2b-aebe-44b3-b91b-52978bb4ded5
 Lore Drakkis	creature	3	multicolored	8/3/83e035ca-eccd-4b63-817c-f2c676b9c98d
 Lore Seeker	creature	2	colorless	9/b/9b8c78c8-b3fa-4a67-bf6c-cf708dedf42e
@@ -11732,7 +11911,7 @@ Lumengrid Gargoyle	creature	6	colorless	c/2/c200239c-d28e-4c55-a7bc-64a1d138cc2f
 Lumengrid Sentinel	creature	3	blue	4/8/48068b80-9a98-45d0-8224-ee298cbf708f
 Lumengrid Warden	creature	2	blue	0/a/0a03ba5a-ac27-4fce-9eaf-b029ab26f9e1
 Luminarch Ascension	enchantment	2	white	b/3/b3770d86-4496-4c06-aab1-2917cfec100e
-Luminarch Aspirant	creature	2	white	f/e/fe964e7e-e2c5-4263-889d-0a531eb51442
+Luminarch Aspirant	creature	2	white	d/c/dcd27fa3-f6b6-4137-9b6c-4cba7187664c
 Luminate Primordial	creature	7	white	b/0/b0747b12-c75a-4fdf-a881-f2383a23ccdd
 Luminesce	instant	1	white	e/3/e34fc636-439f-4ce0-8189-5d00b0cf6b1a
 Luminescent Rain	instant	3	green	5/f/5f9903cc-350c-44cf-9c0b-5df7922ed766
@@ -11775,6 +11954,8 @@ Lust for War	enchantment	3	red	9/c/9c8fa150-383d-448c-8e14-f24f65e13770
 Lutri, the Spellchaser	creature	3	multicolored	f/b/fb1189c9-7842-466e-8238-1e02677d8494
 Lux Cannon	artifact	4	colorless	a/1/a13b7fee-100b-444e-9f13-45b36fd10295
 Luxa River Shrine	artifact	3	colorless	9/f/9f43dc6f-910c-42a1-b329-038e20dfb264
+Luxior, Giada's Gift	artifact	1	colorless	1/8/1833662b-ccf3-4c16-9767-666d6407aa65
+Luxurious Libation	instant	1	green	b/3/b3e0e818-db6a-453a-a1f0-a7fade6509d3
 Luxury Suite	land	0	colorless	8/1/81298b0b-9d47-4777-998e-0c17821ef536
 Lyev Decree	sorcery	2	white	7/7/773cf2aa-4337-4d14-8a8e-ff8b1fdec1b5
 Lyev Skyknight	creature	3	multicolored	1/1/11cbeb3b-1579-4318-a024-4a2c06896eaf
@@ -11814,6 +11995,12 @@ Maelstrom Muse	creature	4	multicolored	5/5/5516e81e-16ea-411c-9df0-ed3b03670220
 Maelstrom Nexus	enchantment	5	multicolored	e/5/e514b13d-2d22-4d9e-a501-b0667f02edac
 Maelstrom Pulse	sorcery	3	multicolored	6/7/676ab73f-2759-43b6-9ae8-ca33a55ebf80
 Maelstrom Wanderer	creature	8	multicolored	9/8/98aeab2a-69b5-4b4f-9de4-5401d01c26e2
+Maestros Ascendancy	enchantment	3	multicolored	4/6/469a0f03-7874-453d-b9e4-275c13244f4a
+Maestros Charm	instant	3	multicolored	3/d/3dcdedb6-3c24-4a29-b9b9-27cc47d8ee56
+Maestros Confluence	sorcery	6	multicolored	c/8/c823c045-5331-4fe3-ba20-cdfef12c44e9
+Maestros Diabolist	creature	3	multicolored	7/2/7206db10-e248-420d-bf92-4d57bc72da56
+Maestros Initiate	creature	3	black	d/b/db94f2a9-53be-449e-8240-77f013cdd7e3
+Maestros Theater	land	0	colorless	5/1/51eb4a44-a5c8-49ed-b440-2462626bb638
 Maga, Traitor to Mortals	creature	3	black	2/5/2563fd68-afdd-466f-8137-0769565674bf
 Magda, Brazen Outlaw	creature	2	red	0/7/079e6263-e54c-4899-a336-5315909b9322
 Mage Duel	sorcery	3	green	9/2/92325638-0321-4409-8910-2287c64c182e
@@ -11821,6 +12008,7 @@ Mage Hunter	creature	4	black	5/6/56fcbe4a-2d98-4fa9-a6c3-e28255171a4d
 Mage Hunters' Onslaught	sorcery	4	black	e/d/ed85140f-f0e0-4ac1-a67f-26d17ff95e31
 Mage il-Vec	creature	3	red	0/4/04e3e38b-2191-4b92-ae5d-bb9397d24a27
 Mage Slayer	artifact	3	multicolored	e/3/e3226808-493e-4df2-9446-cb7cb47aaf2c
+Mage's Attendant	creature	3	white	0/c/0cce08e8-340b-4a67-9884-4cbf01d63790
 Mage's Guile	instant	2	blue	3/0/301cb538-a931-4916-927b-4986046b1158
 Mage-Ring Bully	creature	2	red	1/a/1a129f22-dd7e-4b2c-a514-a2ac55bb5661
 Mage-Ring Network	land	0	colorless	8/7/873951e4-a35b-4163-9827-8d8284416165
@@ -11893,17 +12081,20 @@ Magus of the Scroll	creature	1	red	6/0/6060cada-52bf-4ef2-8a26-8ba04dded458
 Magus of the Tabernacle	creature	4	white	d/d/dd520f8c-93fb-4cf3-8dd5-d05abbd86c74
 Magus of the Unseen	creature	2	blue	8/6/86da04e9-b94d-42af-add3-02baf772bd33
 Magus of the Vineyard	creature	1	green	6/3/63005c92-fc0b-45dc-b488-489350527453
-Magus of the Wheel	creature	3	red	4/2/42fda8b4-17d6-4a34-9108-b4b4a9ad9378
+Magus of the Wheel	creature	3	red	0/f/0f6966e9-212a-48d1-8206-7cdc0073c17c
 Magus of the Will	creature	3	black	2/4/24c41068-59d8-4ef4-aae4-a93b0a9ee19e
 Mahamoti Djinn	creature	6	blue	3/7/37f1d02c-8258-45e8-97f3-67b610081092
 Mairsil, the Pretender	creature	4	multicolored	8/7/87b71b08-668c-4b32-8243-8def1a9acf26
 Maja, Bretagard Protector	creature	5	multicolored	c/c/cc3707f1-ed9d-412e-a7be-b6d8b554bd6c
 Majestic Auricorn	creature	5	white	8/d/8df320c9-449a-457e-8688-f611aceb3352
 Majestic Heliopterus	creature	4	white	0/a/0a012af0-c54e-4658-8a3b-b81cc8835e1b
+Majestic Metamorphosis	instant	3	blue	b/c/bcaebea6-9e3f-4ac7-abe1-5445912f5b44
 Majestic Myriarch	creature	5	green	4/5/457d66b3-f059-4b2f-91b0-96568e1b17f5
 Major Teroh	creature	4	white	3/2/3229ca5a-5340-48b8-bd46-b0b924c8faf7
 Make a Stand	instant	3	white	3/a/3a948ef4-145f-4bea-b4af-5daa951b338c
 Make a Wish	sorcery	4	green	d/0/d0a8508d-25a7-4fb2-8aa3-349275f80c42
+Make an Example	sorcery	4	black	b/4/b4ed0e64-c7d8-49a2-9d00-21076484da0a
+Make Disappear	instant	2	blue	3/f/3f2d6a21-ea77-484b-9e3a-1bd49806f907
 Make Mischief	sorcery	3	red	a/2/a2049072-5901-4edd-8305-ce55f256bca5
 Make Obsolete	instant	3	black	e/0/e0a96feb-accc-4c30-8ecd-7d9272ebd45b
 Make Your Mark	instant	1	multicolored	7/e/7e937830-3804-44e8-b9d0-3e5f5cf39eab
@@ -12052,7 +12243,7 @@ March of Souls	sorcery	5	white	f/0/f07dd0f1-b80b-4af0-ae76-907ec55ec7d5
 March of Swirling Mist	instant	1	blue	1/0/100171d8-7436-44c8-b4cb-0101ffa05c25
 March of the Drowned	sorcery	1	black	3/4/34304279-188f-402f-a2bd-d9682b57e631
 March of the Machines	enchantment	4	blue	3/2/3245f858-b5c3-42dd-8ec2-3f775ad9e1ec
-March of the Multitudes	instant	3	multicolored	2/c/2cc2b646-0181-4f0a-a141-00ca56069a06
+March of the Multitudes	instant	3	multicolored	6/5/65c7067d-61ec-4558-b0d4-0048d2d86743
 March of the Returned	sorcery	4	black	9/8/983f7521-16e3-4057-a482-7d86392daa57
 March of Wretched Sorrow	instant	1	black	0/5/050a604e-6146-4e2e-88a5-863ecb3dfa1f
 Marchesa's Decree	enchantment	4	black	4/1/413bec4e-e2ce-46f1-b038-6e359cd78b53
@@ -12076,6 +12267,7 @@ Mardu Strike Leader	creature	3	black	c/9/c93fd5f0-fb62-42cc-8c7d-c0368e191c4b
 Mardu Warshrieker	creature	4	red	2/f/2f4122e5-4c40-4598-b666-aeebf22d57b6
 Mardu Woe-Reaper	creature	1	white	0/b/0bf14a32-b97b-48c7-8395-d9c3626735c1
 Marhault Elsdragon	creature	6	multicolored	b/2/b2617094-1216-4541-8057-34568defe3a1
+Mari, the Killing Quill	creature	3	black	c/e/ce26ccff-91dc-4564-8b5d-d9adf1c55821
 Marionette Master	creature	6	black	d/d/dd21a925-c76f-4c1d-b5b8-8d3352730e5f
 Marisi's Twinclaws	creature	4	multicolored	d/4/d406058e-4d51-42bd-b7c0-664216745ff8
 Marisi, Breaker of the Coil	creature	4	multicolored	c/3/c366e1c0-f62d-41ce-baec-de11dbc1c5f4
@@ -12125,7 +12317,7 @@ Marshaling the Troops	sorcery	2	green	5/6/56e4df87-7908-4274-a07f-81d42be89f18
 Marshdrinker Giant	creature	5	green	0/4/04d1fbb7-aa02-4f56-8be7-88a3ba55f7d2
 Marshland Bloodcaster	creature	5	black	0/2/024ab7f9-1891-4c71-9fcf-cf124b1c6d10
 Marshmist Titan	creature	7	black	0/9/093d2e4c-f2c4-4d4e-a1b7-200327ce23b0
-Martial Coup	sorcery	2	white	4/2/42f30b99-5177-48e9-be0a-ab04bbc4586b
+Martial Coup	sorcery	2	white	8/5/85a09100-e438-4ac0-b6c7-2dfbdf934c8d
 Martial Glory	instant	2	multicolored	0/5/058fa9b2-cf11-44e8-84b4-0ac8f54c5035
 Martial Impetus	enchantment	3	white	e/7/e73d6ae2-ac26-43fd-a786-9d6bde261bb9
 Martial Law	enchantment	4	white	2/1/21078b6f-a39d-4ec8-879e-ad10d97c3ff6
@@ -12155,9 +12347,11 @@ Mask of Immolation	artifact	2	red	b/e/be2f4165-f87f-454b-b955-e4477c864e95
 Mask of Intolerance	artifact	2	colorless	f/6/f623ae51-5f15-4153-b2ed-d03b57b7db54
 Mask of Law and Grace	enchantment	1	white	6/b/6bd97150-b405-4bb5-b5a8-fceda4a45ebb
 Mask of Memory	artifact	2	colorless	b/a/ba275c02-8581-46a0-9c7c-8baa0fdb4982
-Mask of Riddles	artifact	2	multicolored	8/c/8cc0c40f-1d6c-4940-9c0a-566458a8ab04
+Mask of Riddles	artifact	2	multicolored	b/f/bf483e4c-4a6e-4b78-8e5d-c8b17f7bb433
 Mask of the Mimic	instant	1	blue	0/9/09891c87-eb74-4174-ad46-11a7f79de859
+Mask of the Schemer	artifact	3	blue	5/d/5df2a854-5807-4ce2-b2ef-cbd8aa3f86b5
 Masked Admirers	creature	4	green	b/8/b8cc3361-046c-4908-8b8d-a0502bfc173a
+Masked Bandits	creature	6	multicolored	0/3/03757415-6b58-42d3-9452-a862e90647ee
 Masked Blackguard	creature	2	black	d/6/d61b4b71-3cbb-4422-8ce7-657ca3bb6a82
 Masked Gorgon	creature	5	black	0/d/0d62728b-b834-4fa8-aed5-6348033ee69c
 Masked Vandal	creature	2	green	f/0/f0a9c72a-e450-41e3-80e5-06f2f1171245
@@ -12180,6 +12374,7 @@ Master Biomancer	creature	4	multicolored	5/4/543f4929-1967-4464-ac45-4dc452cb000
 Master Decoy	creature	2	white	d/a/da7ad113-b04f-4611-b1cd-494cd2a8c5ac
 Master Healer	creature	5	white	c/6/c6a4a15d-9f16-4aa1-adc0-5d4c85991062
 Master of Arms	creature	3	white	a/c/ac97ff43-c0b6-4f67-ad09-5ba8710c681a
+Master of Ceremonies	creature	4	white	d/1/d152cfa8-00b7-4aa0-855e-bbd57a5f4b23
 Master of Cruelties	creature	5	multicolored	7/b/7b4d8ab5-252c-4727-817d-6f18cbaedd91
 Master of Death	creature	3	multicolored	b/9/b9775175-6763-4826-afc8-dc520a235c36
 Master of Diversion	creature	3	white	2/b/2bec89b3-640e-4093-a6e9-5639610769b9
@@ -12239,6 +12434,7 @@ Maximize Velocity	sorcery	1	red	f/e/fed08b50-9601-4571-83bd-58d5ae11eb04
 Mayael the Anima	creature	3	multicolored	3/0/309d95ad-e46c-4407-894d-d4cfdc7017f8
 Mayael's Aria	enchantment	3	multicolored	b/f/bfd6f5dc-2fa6-450a-a1b1-6b6e31773365
 Mayhem Devil	creature	3	multicolored	1/7/17416926-168b-49b3-9231-acbb8f8a1d13
+Mayhem Patrol	creature	2	red	5/0/50162cdd-ba30-48df-93ff-197c7f4a2913
 Mayor of Avabruck	creature	2	green	d/d/dd8ca448-f734-4cb9-b1d5-790eed9a4b2d	1
 Maze Abomination	creature	6	black	d/d/dd84659f-4209-42a2-800a-61706470ce54
 Maze Behemoth	creature	6	green	0/a/0a7c9678-dea7-4219-bac0-9e1cef531f54
@@ -12267,6 +12463,7 @@ Meditation Puzzle	instant	5	white	a/9/a95d3cf2-c3c1-43ba-a8e1-1d9286181252
 Medomai the Ageless	creature	6	multicolored	b/5/b5f4b3cf-2c78-42c9-9873-3758c7f7bb7d
 Medomai's Prophecy	enchantment	2	blue	3/d/3d2bd7b4-28de-4d9e-86c5-a46bd608cb02
 Meekstone	artifact	1	colorless	c/9/c9714ce0-7fc3-4bf3-ad65-68555a9d2f35
+Meeting of the Five	sorcery	8	multicolored	d/6/d6c3c08f-ae9d-4932-ba0e-65652b8b318b
 Megantic Sliver	creature	6	green	7/7/7745f6a9-400c-4200-9732-86c54247de46
 Megatherium	creature	3	green	c/5/c58a1e43-a173-45d6-ac55-363664bf6e1b
 Megatog	creature	6	red	2/e/2e9734b1-c5fb-4b2b-bada-c45c3a725e01
@@ -12425,16 +12622,19 @@ Meteor Swarm	sorcery	3	red	b/8/b8f5e669-4e69-4763-bbb9-e9685bde912c
 Meteoric Mace	artifact	6	red	2/8/28cb7e94-01df-4e80-9b24-bc303a27ffd6
 Meteorite	artifact	5	colorless	e/c/ec3a2c95-4e7a-43c5-90bd-6f1de7c82a5c
 Metrognome	artifact	4	colorless	d/7/d71f153d-2d07-4a8a-b725-747bb96afe00
+Metropolis Angel	creature	4	multicolored	6/3/633c7e38-fdad-461c-9ecb-3e89d5b80f24
 Metropolis Sprite	creature	2	blue	f/c/fce74849-2e08-4d08-b387-4693f1b9f653
+Mezzio Mugger	creature	5	red	7/6/768e84a3-41b9-4f54-ae29-e5c7ae109e9a
 Miara, Thorn of the Glade	creature	2	black	7/b/7bdb9bfe-5e56-429d-af23-7548532e2406
 Miasmic Mummy	creature	2	black	4/0/405c096c-a94b-4817-8c7f-f0551f6513e3
 Michiko Konda, Truth Seeker	creature	4	white	9/9/99c56bf0-ad9f-4419-902c-f3a3880c716c
 Michiko's Reign of Truth	enchantment	2	white	7/4/74f12c23-5c15-4ae6-8f4d-c5e6c1878817	1
 Midlife Upgrade	sorcery	4	white	b/b/bb6e37a1-0dfd-4b8a-83d1-8f6d99123516
 Midnight Arsonist	creature	4	red	4/d/4d322638-9775-42f4-b75e-d2e1a08bd75d
+Midnight Assassin	creature	3	black	0/2/02a4a5b3-0477-4709-8bce-3e01f54001b6
 Midnight Banshee	creature	6	black	c/7/c7da8f15-ea21-46fd-b24f-f8af4d5d5f1d
 Midnight Charm	instant	1	black	3/3/33f51f18-41af-4a2c-a353-48bebd697599
-Midnight Clock	artifact	3	blue	1/0/106fc548-a50c-4c0a-820d-b4fc0d4a0495
+Midnight Clock	artifact	3	blue	c/3/c3b04d8a-f651-4538-bc40-6f2c8e13fb99
 Midnight Covenant	enchantment	2	black	5/d/5d797e91-3fc7-4f62-8cd8-dbd5f445e69c
 Midnight Duelist	creature	1	white	2/3/2371bd0c-ca38-4a62-b525-bef4d1ca0646
 Midnight Entourage	creature	4	black	2/8/2838c6dd-d816-4363-a861-f2f8052d1430
@@ -12462,7 +12662,7 @@ Might Weaver	creature	2	green	d/b/dbd09923-4a4b-4ac6-a487-6e00d17183cb
 Mightstone	artifact	4	colorless	b/2/b28ba599-5299-4831-a118-1712ada10ef6
 Mighty Emergence	enchantment	3	green	8/e/8ee66318-4dbb-49a3-a3c8-ee0e1a9f02b7
 Mighty Leap	instant	2	white	f/0/f0f53a0a-8d12-4271-afaf-7445573a4296
-Migration Path	sorcery	4	green	d/3/d345ca63-16a3-4988-93f5-d0e00e8d6ab0
+Migration Path	sorcery	4	green	7/5/754b1dfa-66c6-464a-aaea-688ffdc95ca2
 Migratory Greathorn	creature	4	green	6/a/6a2a287b-b83f-444f-84f7-e388beb616c2
 Migratory Route	sorcery	5	multicolored	a/e/ae79df80-b1f0-4035-807d-0364208dbd75
 Mijae Djinn	creature	3	red	f/a/fa722c84-9257-4ed1-ace7-7e0953bc9ced
@@ -12483,7 +12683,7 @@ Millikin	creature	2	colorless	5/1/513ba8b6-9583-405f-84a5-9d2ca42f9597
 Millstone	artifact	2	colorless	5/9/599cb68b-38b4-430f-a792-009ad9c5361b
 Mimeofacture	sorcery	4	blue	f/4/f4ada33a-5b7c-426a-8416-4ce01bccaa5c
 Mimic	artifact	2	colorless	9/d/9da96aab-cf84-4150-b9d0-a4b84fcf585f
-Mimic Vat	artifact	3	colorless	f/9/f99c44c1-daff-43a2-9a8e-ec4be217a81a
+Mimic Vat	artifact	3	colorless	d/f/dfa8757b-ef7d-44b8-ae80-45c436e85c1e
 Miming Slime	sorcery	3	green	8/0/80d816cd-9ca6-4118-893e-5c6b167d9d81
 Mina and Denn, Wildborn	creature	4	multicolored	3/7/374b5d57-fd20-4062-9ec2-24ac557d9dde
 Minamo Scrollkeeper	creature	2	blue	8/2/821c99d3-389a-4138-99a2-0c4a4b243fe7
@@ -12619,7 +12819,7 @@ Mirror Entity	creature	3	white	6/7/6733ee04-a282-43ea-830f-1ba806331c7b
 Mirror Gallery	artifact	5	colorless	0/0/00beba34-54cc-4a30-8424-71a1215647a6
 Mirror Golem	creature	6	colorless	d/9/d9467839-b2a2-4cfe-a60e-12766e2ba983
 Mirror Image	creature	3	blue	5/b/5b3ffc69-f21b-410e-8993-8c1b4669fc19
-Mirror March	enchantment	6	red	5/0/50a27943-f08c-4cbd-affb-8e59411b3d4f
+Mirror March	enchantment	6	red	6/f/6f114552-e33b-42c0-a27a-eb1a08646d88
 Mirror Match	instant	6	blue	0/e/0e0b8b4c-75ce-4b1d-8943-c54555e9f015
 Mirror Mirror	artifact	7	colorless	2/a/2abf208d-5fe6-4030-a19d-7505832dab3b
 Mirror Mockery	enchantment	2	blue	f/8/f837b050-70a6-46f0-963d-4badb37a42a1
@@ -12653,6 +12853,7 @@ Mise	instant	1	blue	0/0/0039b1f3-6bcd-4578-af5b-e13fb2036ef2
 Misers' Cage	artifact	3	colorless	f/4/f4c00691-26b1-4e7a-bdf5-4b15f0eb45ce
 Misery Charm	instant	1	black	2/b/2be66eaf-222b-4c40-a9fa-aad56b9218e0
 Misfortune	sorcery	4	multicolored	b/1/b14cc32a-eb4f-4690-aceb-160780743ebe
+Misfortune Teller	creature	4	black	6/7/671634e1-8b32-453e-82b7-21864f988866
 Misfortune's Gain	sorcery	4	white	8/0/80abd7c1-8f7a-4279-b76f-251a02624345
 Misguided Rage	sorcery	3	red	7/4/74b5e00a-fef0-4711-9112-2fd067321890
 Mishra's Bauble	artifact	0	colorless	4/5/45bbbf9b-8fee-4c32-a513-02dac6ac8a39
@@ -12710,7 +12911,7 @@ Mistvein Borderpost	artifact	3	multicolored	5/d/5d0588a8-6039-42d6-98ee-8fea16f6
 Mistwalker	creature	3	blue	9/2/92f64b49-327c-473b-a492-f020a322aed7
 Misty Rainforest	land	0	colorless	8/8/88231c0d-0cc8-44ec-bf95-81d1710ac141
 Mitotic Manipulation	sorcery	3	blue	2/a/2abd4521-62c8-4b2f-a406-a8ddfa8f475a
-Mitotic Slime	creature	5	green	a/0/a0ff5e36-9e0b-4a34-9ae3-1fb520a58fac
+Mitotic Slime	creature	5	green	8/a/8aacf055-e36f-4428-8a3c-f73fa4b4307c
 Mizzium Meddler	creature	3	blue	7/6/762d568d-a2d6-449b-85c2-a92755efe4c3
 Mizzium Mortars	sorcery	2	red	7/0/708557e2-c1b4-4e45-b568-17763b7a9924
 Mizzium Skin	instant	1	blue	d/9/d9859344-4efc-4b87-a3fb-147e496cee68
@@ -12743,7 +12944,7 @@ Mockery of Nature	creature	9	colorless	3/1/3118737f-2fd9-4fe5-bd0f-43c9ef2166e2
 Moderation	enchantment	3	multicolored	c/4/c41b3d7a-f8e1-46b8-a689-6125dcd9cb17
 Modular Monstrosity	creature	7	colorless	a/1/a1498cb2-9f95-4c24-924b-a9a98e54f24c
 Mogg Alarm	sorcery	3	red	f/2/f246e128-0a43-478a-a232-51020fab76d5
-Mogg Assassin	creature	3	red	1/1/1124725d-e643-43a1-873e-255636c7f334
+Mogg Assassin	creature	3	red	3/a/3ac8843e-6d9a-4db8-aa08-f83127cab355
 Mogg Bombers	creature	4	red	1/6/16064ad4-eec2-4c32-b66d-a2bdb1a6191f
 Mogg Cannon	artifact	2	colorless	5/e/5ee64a77-5308-45c7-b865-400820968c74
 Mogg Conscripts	creature	1	red	7/3/73719325-b091-4464-b0b0-77dfbb19562a
@@ -12933,9 +13134,10 @@ Mossbridge Troll	creature	7	green	5/3/537c39cc-44d3-4869-9e76-dd9c2c68ee90
 Mosscoat Goriak	creature	3	green	c/2/c23139d4-0db5-4683-8d49-f4600fbe29e2
 Mossdog	creature	1	green	2/b/2bbe0201-3df3-4d0c-8aa4-8f35f12c322c
 Mossfire Egg	artifact	1	colorless	1/f/1fd66433-b0e9-453d-9a27-ea0efb158dac
-Mossfire Valley	land	0	colorless	4/f/4f29515c-8554-404a-b3a2-3d868659b687
+Mossfire Valley	land	0	colorless	7/6/76d4c1aa-2ea7-4fec-bd88-6e31c419ad0b
 Mosstodon	creature	5	green	0/5/05afd921-ef3b-40fe-a1a8-582ee94ed3f0
-Mosswort Bridge	land	0	colorless	c/b/cbc74505-4d75-4bae-bf43-ec08731dfdd9
+Mosswort Bridge	land	0	colorless	c/a/cad76383-289a-4ee7-a153-f7a276babe26
+Most Wanted	enchantment	3	green	5/7/573c0f68-9ed8-4657-b709-b7f3804aaa68
 Mothdust Changeling	creature	1	blue	1/8/18acffb1-c1e8-4729-a350-64823b2f9d29
 Mother Bear	creature	2	green	e/f/efae4d84-8134-461a-a352-a5bdff7259a7
 Mother Kangaroo	creature	5	green	9/3/933630cb-e812-436e-a35e-8247557f72a3
@@ -12975,6 +13177,7 @@ Mox Pearl	artifact	0	colorless	c/8/c84e8a0e-49a7-46f6-8a37-910e32753528
 Mox Ruby	artifact	0	colorless	2/1/21b7cbae-6647-4f36-b02d-5535ac88b1a6
 Mox Sapphire	artifact	0	colorless	f/7/f7d82f1d-631e-4668-9d10-7bf0ee515267
 Mox Tantalite	artifact	0	colorless	d/c/dcd05b01-dc73-4dd2-970a-32ec6e153c86
+Mr. Orfeo, the Boulder	creature	4	multicolored	9/7/97caaa92-2a7d-4f79-8d42-86733c902072
 Mtenda Griffin	creature	4	white	1/6/162dd988-0beb-48e4-9eaa-a08ddb835648
 Mtenda Herder	creature	1	white	5/1/51f30a3d-1421-4706-b17f-39a9ec7a0d8b
 Mtenda Lion	creature	1	green	c/b/cb05cf5b-2a0d-432a-b8e7-10335c2a18e8
@@ -12987,7 +13190,7 @@ Mudbrawler Cohort	creature	2	red	8/f/8fcb1f26-9a2a-40bd-b291-4ef8ce375cdf
 Mudbrawler Raiders	creature	4	multicolored	c/b/cbe4af47-d913-4c19-a027-501e2c78758c
 Mudbutton Clanger	creature	1	red	b/c/bc5e2771-ae35-4aff-a92d-7fc7f3ca915f
 Mudbutton Torchrunner	creature	3	red	2/0/20c19ccf-999b-4c7d-ae5b-f93555d08a7a
-Muddle the Mixture	instant	2	blue	4/c/4cc785b0-0a77-4b02-b0b4-2bda2fc621cc
+Muddle the Mixture	instant	2	blue	7/9/79fc4b92-0efe-4370-a2b3-2155c458a966
 Mudhole	instant	3	red	9/9/993d31bc-7355-4dfc-ac4e-ababaa0dc529
 Mudslide	enchantment	3	red	6/5/65acce56-8674-471e-9d5e-91b7e3f672c1
 Mugging	sorcery	1	red	3/d/3d36724e-0669-43f9-9d10-f67562b8c6bc
@@ -13019,7 +13222,7 @@ Murasa Pyromancer	creature	6	red	6/0/60daf59f-ffba-403b-8028-787ff33f2d6c
 Murasa Ranger	creature	4	green	c/4/c4a3c02b-b576-4099-9016-15449f93bb09
 Murasa Rootgrazer	creature	2	multicolored	e/7/e70b3b78-9bdc-449b-82a9-c2fc3dd7f120
 Murasa Sproutling	creature	3	green	f/5/f53472b7-53da-4833-b7f9-204706dfb721
-Murder	instant	3	black	4/4/440bfb8c-f29a-4c11-9fcb-ee935dead03f
+Murder	instant	3	black	1/c/1c13ac76-7cd9-456f-9b89-92bfa07c64c5
 Murder Investigation	enchantment	2	white	0/7/07d8d6f7-ed22-4e01-9aeb-c6bc0065c89c
 Murder of Crows	creature	5	blue	e/8/e8844c22-7ea4-4f2e-9066-e1df027e3fe3
 Murderer's Axe	artifact	4	colorless	6/9/696dcb79-4915-424f-ba8f-5363ae3395a6
@@ -13096,16 +13299,17 @@ Myr Superion	creature	2	colorless	2/9/290c6036-02a3-43fa-b0d4-af3818794c3c
 Myr Turbine	artifact	5	colorless	7/1/71a76840-47f7-4e1e-b68b-00cb7da98cdf
 Myr Welder	creature	3	colorless	e/f/eff75f16-413c-4618-b766-67bd8ff4d161
 Myriad Construct	creature	4	colorless	d/b/db9b1de4-9aba-4145-804d-2072f258af3b
-Myriad Landscape	land	0	colorless	8/7/87459013-c5b6-40b7-bcb7-c508c3ee36ee
+Myriad Landscape	land	0	colorless	1/5/1577b698-f2e7-448d-b8a8-3d2329dd3f46
 Myrsmith	creature	2	white	2/1/218a4867-e04f-498a-b384-9d7c6d44fb4f
 Mysteries of the Deep	instant	5	blue	1/9/1907b1e9-ae1e-43fb-9033-3c4322277fff
 Mysterious Egg	creature	1	colorless	c/d/cdfac3c3-7f38-49d6-bd88-dc0f5001116f
+Mysterious Limousine	artifact	5	white	a/5/a58cb742-0ba7-4795-9772-25d4db0bc4ce
 Mysterious Pathlighter	creature	3	white	1/0/1028aa10-aded-4aeb-b70f-d7a9003ae846
 Mysterious Tome	artifact	3	blue	c/a/caa57b63-bb11-45e8-8795-de92ca61f4f1	1
 Mystic Archaeologist	creature	2	blue	d/e/de19d2db-604b-4d5f-8184-9bb0a31c7405
 Mystic Barrier	enchantment	5	white	f/f/ffb70bd4-e876-4242-b5b4-bb7493710f0f
 Mystic Compass	artifact	2	colorless	d/e/de53ba3a-f2f7-4ea6-a2f6-dd5b87029e58
-Mystic Confluence	instant	5	blue	5/0/5045f15f-6bf9-43a9-a09c-904992625948
+Mystic Confluence	instant	5	blue	9/5/95982d63-f825-4e6f-86e5-252394a29476
 Mystic Crusader	creature	3	white	2/7/27ce1baf-8a89-4884-b0f7-19311bfc8c4c
 Mystic Decree	enchantment	4	blue	8/b/8b069e6a-2c0e-4fc9-8e19-08bf1245a6c0
 Mystic Denial	instant	3	blue	1/2/1296ddc4-300d-44f6-95d8-1b392613d379
@@ -13157,7 +13361,7 @@ Nacre Talisman	artifact	2	colorless	0/6/06912236-8225-4eb0-8086-c6a163c69892
 Nadaar, Selfless Paladin	creature	3	white	8/7/878a0d8c-11c1-4c65-9051-78e036ac496f
 Nadier's Nightblade	creature	3	black	1/1/11fbba08-0d93-4750-9dd6-d6a2779c6cf3
 Nadier, Agent of the Duskenel	creature	6	black	4/7/47c5948b-b021-4d07-8003-9c11db690bc0
-Nadir Kraken	creature	3	blue	7/8/7817e039-e509-4b6f-b5a3-deb3769bbdc8
+Nadir Kraken	creature	3	blue	7/9/793f0ac2-39b8-4cb2-aeac-f901bf5bd7ea
 Nafs Asp	creature	1	green	0/d/0db4a4ef-20a8-415f-8d7d-a6740b482f73
 Naga Eternal	creature	3	blue	0/f/0f244233-f2e8-48f8-9106-e7cd186efd51
 Naga Oracle	creature	4	blue	9/0/9060b7b5-3ef1-443e-8f8a-450cc42c43a6
@@ -13252,7 +13456,7 @@ Navigator's Ruin	enchantment	3	blue	e/b/eb082e5e-770a-4c5a-8976-ee394ab73c86
 Naya Battlemage	creature	3	green	4/f/4fe73f62-2e80-4d5f-b7b5-c54c895a3e4d
 Naya Charm	instant	3	multicolored	8/d/8d999a15-34a4-4a1e-862e-569b91948786
 Naya Hushblade	creature	2	multicolored	5/e/5eed1b7f-0672-4066-9e21-c5252f6dc482
-Naya Panorama	land	0	colorless	4/b/4ba615a5-ad3a-4ad1-ab5f-69d7a3e4cf34
+Naya Panorama	land	0	colorless	6/a/6a546a28-8df5-4080-9f50-af86d84a066f
 Naya Sojourners	creature	5	multicolored	7/e/7e2de336-8c61-45b1-affd-6322530b91ca
 Naya Soulbeast	creature	8	green	f/0/f0e4b468-096b-4f80-9e78-022fe24a7e45
 Nazahn, Revered Bladesmith	creature	6	multicolored	8/f/8f21a5b4-1cfa-466b-8a16-a8b11f20b818
@@ -13362,7 +13566,7 @@ Nest Robber	creature	2	red	5/7/576d3845-f45a-4db0-9f7c-845cedb64c49
 Nested Ghoul	creature	5	black	c/0/c035ff58-9df3-4db4-b9d0-97d58080ecfe
 Nested Shambler	creature	1	black	9/8/9851f290-f502-49f8-9b48-67f7966d4e34
 Nesting Dragon	creature	5	red	8/b/8b027eb1-9010-4700-a941-fa024a688d3e
-Nesting Grounds	land	0	colorless	c/f/cf559d4e-07a7-4ca4-b76a-d0615222cb60
+Nesting Grounds	land	0	colorless	e/f/eff98f9d-ec73-4e77-b639-17da8f833852
 Nesting Wurm	creature	6	green	5/d/5da697da-7026-4dea-b494-8314d789160f
 Netcaster Spider	creature	3	green	0/7/07c95074-32c8-426e-b615-8ad5427c6c1c
 Nether Horror	creature	4	black	c/2/c217b672-c724-4fc2-936c-b3f0feaf6ea0
@@ -13412,6 +13616,7 @@ New Frontiers	sorcery	1	green	f/d/fd1f6cfa-9576-4bb8-83db-33c2b147206d
 New Horizons	enchantment	3	green	f/7/f7df29a3-c40f-4cd8-a6fe-c1b95085cfed
 New Perspectives	enchantment	6	blue	2/8/286be1fb-8ed2-4228-9df8-0ea413714778
 New Prahv Guildmage	creature	2	multicolored	6/9/698b47d1-c72e-4dc3-b28b-7421e0163f22
+Next of Kin	enchantment	3	green	5/1/51a4414b-3cab-463f-a2b5-e49104f251da
 Nexus of Fate	instant	7	blue	f/1/f163cfbf-6df6-4af5-9fe4-23b0d511586a
 Nexus Wardens	creature	3	green	6/8/68cb4e56-bcad-43a3-8600-a3594047205a
 Neyith of the Dire Hunt	creature	4	green	0/c/0c1eed0f-9692-44c0-b1ad-afa691165d52
@@ -13439,6 +13644,7 @@ Nicol Bolas, Planeswalker	planeswalker	8	multicolored	9/e/9e80f2fc-06d4-4ce9-b23
 Nicol Bolas, the Deceiver	planeswalker	8	multicolored	7/4/74239d78-1608-4b27-b2fd-8c7453f6b86b
 Nicol Bolas, the Ravager	creature	4	multicolored	7/b/7b215968-93a6-4278-ac61-4e3e8c3c3943	1
 Night // Day	instant	4	multicolored	e/8/e8f109f1-9798-4bd3-b51a-49f173251dfd
+Night Clubber	creature	3	black	5/9/59fd3f8a-a13b-4a0a-bb27-b9246949ea7b
 Night Dealings	enchantment	4	black	5/8/58d012ee-9523-469f-8ddb-f4b664093c13
 Night Incarnate	creature	5	black	c/6/c665b8b7-166f-4651-9a76-9e89695343ee
 Night Market Aeronaut	creature	4	black	2/6/2637f860-01dd-4559-97b3-71c2e7cdbca4
@@ -13461,7 +13667,7 @@ Nightmare Incursion	sorcery	6	black	7/c/7cccd244-9fd4-4f58-85da-af6d235ef7bb
 Nightmare Lash	artifact	4	colorless	7/f/7f8e3fa6-494c-412f-90cc-36d45cd2b175
 Nightmare Moon	creature	6	black	5/6/5646ea19-0025-4f88-ad22-36968a1d3b89	1
 Nightmare Shepherd	creature	4	black	4/a/4a46eec7-bb79-441c-959f-eea599e5c341
-Nightmare Unmaking	sorcery	5	black	9/5/95c0ff1b-bd97-4115-8486-62a18bab2610
+Nightmare Unmaking	sorcery	5	black	4/4/44dc5937-4186-4ebf-a3cb-053c270370f3
 Nightmare Void	sorcery	4	black	1/d/1dc1d70d-c6ab-4ff7-9665-a92c0b4606fe
 Nightmare's Thirst	instant	1	black	f/1/f12efbc0-ce88-4622-ad07-2808e651ac5a
 Nightmarish End	instant	3	black	4/b/4bab0e0a-7eb9-4422-a1d4-82cc05b4374d
@@ -13509,6 +13715,7 @@ Nimana Skitter-Sneak	creature	4	black	e/a/ea080141-6262-4595-8058-b2969b3f016b
 Nimana Skydancer	creature	3	black	e/7/e72eaa0f-cbec-45a1-b390-cbbedf5a02f2
 Nimble Birdsticker	creature	3	red	4/f/4ff9bcbd-48fe-4a74-aae5-a447c99aa64b
 Nimble Innovator	creature	4	blue	f/6/f6dbf333-23b5-47d9-9e55-1e8fbd5a72cb
+Nimble Larcenist	creature	3	multicolored	0/1/0150d4c7-2c90-4a71-b2d3-3d9a0079fea1
 Nimble Mongoose	creature	1	green	b/3/b356bf24-0c6b-457e-b53e-263a0100f611
 Nimble Obstructionist	creature	3	blue	8/3/832426d7-be22-4092-b614-7fa417af03bd
 Nimble Trapfinder	creature	2	blue	1/e/1ee1a550-b7e7-48e0-bd96-a41986dbd879
@@ -13634,7 +13841,7 @@ Now I Know My ABC's	enchantment	3	blue	9/5/95c790e6-340f-42c2-af88-e458b7b9690c
 Noxious Bayou	land	0	colorless	d/f/df362eee-2ead-4a47-8b23-66dd4113d9f9
 Noxious Dragon	creature	6	black	0/1/01afdb32-d9a8-42d4-9ad2-4608ffd661f0
 Noxious Field	enchantment	3	black	1/0/10c84d09-555c-472b-b445-5dd5a44cd555
-Noxious Gearhulk	creature	6	black	9/f/9f86e5fe-8723-4494-b4cc-b7ac3a047bd1
+Noxious Gearhulk	creature	6	black	8/2/82db9fb9-51c0-4d06-a589-e4ea17589857
 Noxious Ghoul	creature	5	black	7/d/7d67511b-c130-44d5-8536-4278a695627c
 Noxious Grasp	instant	2	black	8/e/8e5758cc-1f84-455d-a983-8ec471727eaf
 Noxious Groodion	creature	3	black	b/6/b6cb3d78-1a60-4e9b-b387-afeb58677536
@@ -13734,6 +13941,7 @@ Oathsworn Vampire	creature	2	black	4/0/405f82d6-2991-4958-a563-572f0d298346
 Ob Nixilis of the Black Oath	planeswalker	5	black	b/f/bf472be9-f375-455e-a800-7af5258f4e59
 Ob Nixilis Reignited	planeswalker	5	black	c/8/c8a33481-f7dc-475e-a797-4a962954a64d
 Ob Nixilis's Cruelty	instant	3	black	9/4/94db72a8-57f7-4f17-9f09-cae90ef50304
+Ob Nixilis, the Adversary	planeswalker	3	multicolored	8/0/80226520-6b0a-48ea-a868-a29eb3fbd403
 Ob Nixilis, the Fallen	creature	5	black	e/5/e5769888-78e0-4d06-b6b6-b4602f7cd462
 Ob Nixilis, the Hate-Twisted	planeswalker	5	black	1/4/14916e2d-73af-4747-a927-d2d4cb3e32db
 Ob Nixilis, Unshackled	creature	6	black	1/0/109b28dc-c0d1-4b88-b18e-074ac0464e03
@@ -13752,13 +13960,19 @@ Obliterate	sorcery	8	red	c/8/c85f9623-5900-473c-a3b1-f98473b9a545
 Oblivion Crown	enchantment	2	black	0/c/0cd5486b-c6f4-4cfc-9590-8ffc78b48b0a
 Oblivion Ring	enchantment	3	white	b/f/bff31eba-8ab3-403e-8d82-37a18b279bec
 Oblivion Sower	creature	6	colorless	2/2/22e07a4d-8096-4532-bb00-e6e66f1c6843
-Oblivion Stone	artifact	3	colorless	c/f/cfbbeaf1-92ac-4ea4-8733-2da6af870542
+Oblivion Stone	artifact	3	colorless	f/0/f0cd5548-ce7b-493a-8119-62f000839e4d
 Oblivion Strike	sorcery	4	colorless	2/4/24e30acf-b30f-4bb3-b80e-dc7e9559da51
 Oblivion's Hunger	instant	2	black	f/a/faf65512-8228-48f4-ba7b-d861b66d28c9
 Oboro Breezecaller	creature	2	blue	a/3/a382a9b8-0b19-46c2-a547-a22d6e23d0ac
 Oboro Envoy	creature	4	blue	a/0/a0309dcb-6c13-4ffe-b44d-3b735c8277d2
 Oboro, Palace in the Clouds	land	0	colorless	f/f/ffc2d68e-6543-43ec-b67a-afff1325a32f
 Obosh, the Preypiercer	creature	5	multicolored	4/5/451507de-9c42-43ee-b9ba-1f69e9aa29d2
+Obscura Ascendancy	enchantment	3	multicolored	9/8/98a11e5e-d2a9-4490-90f3-a643fc7ed7c3
+Obscura Charm	instant	3	multicolored	9/9/9961562d-cad9-40e5-afae-3ebce77a2260
+Obscura Confluence	instant	4	multicolored	a/c/ac75648d-a7f8-4bf6-8ba4-c5bd89ba4529
+Obscura Initiate	creature	3	blue	6/7/67774a11-158b-437c-ac16-2d42fbb5c223
+Obscura Interceptor	creature	4	multicolored	0/8/08886346-2405-47ee-997f-c0fb7776c783
+Obscura Storefront	land	0	colorless	1/0/1016b884-9a4c-41de-bd65-14271f4f6f9a
 Obscuring Aether	enchantment	1	green	0/b/0bff71e3-b309-4659-9d43-7a0d8ada1efc
 Obscuring Haze	instant	3	green	c/1/c1ae35e6-5401-481a-8104-24f53e3d160f
 Observant Alseid	creature	3	white	e/1/e1410d10-476a-4ed2-ae44-75383ed0e359
@@ -13800,6 +14014,7 @@ Offalsnout	creature	3	black	7/3/737679bd-b38f-402e-a6b2-7964da0f8d2f
 Offering to Asha	instant	4	multicolored	2/6/260fe443-ca03-42b1-bcee-86e5173c1aaf
 Offspring's Revenge	enchantment	5	multicolored	7/8/78619ffb-f514-4f9f-9d77-3ab49e045f7c
 Oggyar Battle-Seer	creature	5	multicolored	a/3/a38329f1-af6e-47b8-86e4-f2a39e1edbf8
+Ognis, the Dragon's Lash	creature	4	multicolored	6/3/636058c3-bacc-4a66-8988-832ab0cc9be6
 Ogre Arsonist	creature	5	red	b/6/b67e28b2-9d25-4873-8db2-1f0853ab0c47
 Ogre Battledriver	creature	4	red	1/8/180f4220-bd76-4a2f-b9e1-414729cd1db2
 Ogre Berserker	creature	5	red	b/6/b6969d4d-c311-4663-bcd6-77a4d6458335
@@ -13879,6 +14094,7 @@ Omen of the Hunt	enchantment	3	green	7/d/7d4ebdea-78d4-4034-921b-735bdb11a716
 Omen of the Sea	enchantment	2	blue	a/5/a5f30ecd-d009-4d44-aef4-c926ed55a521
 Omen of the Sun	enchantment	3	white	8/6/86586fe3-1a6e-4648-b3ff-b0d9340e66ff
 Omenspeaker	creature	2	blue	1/b/1b635abe-ad7e-44b8-b3fe-6e365db87c29
+Ominous Parcel	artifact	1	colorless	e/1/e1691374-e9f2-4a8b-abdb-0bb1dbc96715
 Ominous Roost	enchantment	3	blue	d/a/daf2b49a-56f9-4093-960f-9ec7af8983b5
 Ominous Seas	enchantment	2	blue	c/e/ce8965f2-756a-4461-a643-db024a11c2de
 Ominous Sphinx	creature	5	blue	2/3/2361bd3b-9ae0-4198-9296-6d278feff042
@@ -13974,7 +14190,7 @@ Oracle of Mul Daya	creature	4	green	5/d/5de097e5-e960-4404-a370-defe93ce892f
 Oracle of Nectars	creature	3	multicolored	b/0/b09f27f4-58c0-4fe0-a985-f5a1bb6a68cd
 Oracle's Attendants	creature	4	white	1/1/11a180a4-bffc-4f4f-ae34-3afa4a565960
 Oracle's Insight	enchantment	4	blue	5/3/533d455a-88c9-4e41-b31e-5dcf821c6f6f
-Oracle's Vault	artifact	4	colorless	4/3/43fcc4a5-3ab0-4344-85af-d80aae293b75
+Oracle's Vault	artifact	4	colorless	0/3/0314bea5-4e04-4e74-9832-3e935eb90ee1
 Orah, Skyclave Hierophant	creature	4	multicolored	2/3/2336c8bf-fcad-41f9-9041-80b8aa3cd79a
 Oran-Rief Hydra	creature	6	green	f/f/ff8c4bff-d37a-44b0-958f-91f4de6745c9
 Oran-Rief Invoker	creature	2	green	d/6/d68a25a7-ac43-4aac-a417-91bf72040160
@@ -14076,7 +14292,7 @@ Orochi Ranger	creature	2	green	e/8/e8dc216f-4447-4370-b31a-18304507669b
 Orochi Sustainer	creature	2	green	5/f/5fb40d7a-f2d3-4c9a-a1ab-6b08bd143fe5
 Oros, the Avenger	creature	6	multicolored	f/c/fc4d7aa2-ee1b-435c-8876-44111fafc97a
 Orvar, the All-Form	creature	4	blue	7/f/7f36775e-9e48-49cc-a771-d58481712edc
-Orzhov Advokist	creature	3	white	0/c/0cf0aff6-ad6f-4475-b714-6b4afce7d868
+Orzhov Advokist	creature	3	white	9/9/99cd8a1a-6f32-47fe-94a6-85cfcd97150f
 Orzhov Basilica	land	0	colorless	f/c/fc063704-f0d3-46b5-9340-f80d431ce5dc
 Orzhov Charm	instant	2	multicolored	8/c/8ca44265-5e1b-4fbf-9002-52b2ce9b7448
 Orzhov Cluestone	artifact	3	colorless	3/3/338ee065-a4a6-4120-b0bd-3e940f458294
@@ -14088,16 +14304,18 @@ Orzhov Keyrune	artifact	3	colorless	f/d/fd5c0f38-916a-4f6c-b678-7447cb0709e0
 Orzhov Locket	artifact	3	colorless	7/6/761e7188-bad1-4775-84a2-15da9a42a57c
 Orzhov Pontiff	creature	3	multicolored	f/2/f2b5813b-955b-469a-b287-65325c589b59
 Orzhov Racketeers	creature	5	black	2/9/29b89f68-72ba-493d-95c4-eb37751fbd3d
-Orzhov Signet	artifact	2	colorless	8/b/8bb7d748-c95f-4028-a86e-cf42494be362
+Orzhov Signet	artifact	2	colorless	2/4/24e74993-602f-4f1c-a464-69e9485a0d75
 Orzhova, the Church of Deals	land	0	colorless	9/0/9015cc09-56c9-4d8f-b241-a0cfaec7e1f1
 Osai Vultures	creature	2	white	d/a/da915d3c-8d43-44c2-9052-08c1cd2afa7b
 Osgir, the Reconstructor	creature	4	multicolored	5/8/5815fe6e-e26b-4918-a090-55d6442722c1
+Oskar, Rubbish Reclaimer	creature	5	multicolored	e/d/ed87e25f-9dad-4858-92bc-e859fd2be2a4
 Ostiary Thrull	creature	4	black	2/6/26407330-d7a1-4915-b7c6-e08e166cf638
 Ostracize	sorcery	1	black	a/b/abdaffcc-59f6-4489-88bf-1061ad6b0512
 Oswald Fiddlebender	creature	2	white	b/b/bba1650f-eddf-49a9-820e-489cb8d5b6fa
 Otarian Juggernaut	creature	4	colorless	7/5/752420dc-d69a-4c9d-b563-f8928a4a0920
 Otawara, Soaring City	land	0	colorless	4/8/486d7edc-d983-41f0-8b78-c99aecd72996
 Otepec Huntmaster	creature	2	red	c/3/c334e6f3-1378-4429-b4f1-fa8ed7ab7123
+Othelm, Sigardian Outcast	creature	3	multicolored	b/8/b867fb22-4f2a-47aa-9432-1bcc5e731947
 Otherworld Atlas	artifact	4	colorless	4/6/46e4aa67-4643-42ff-8172-200498686494
 Otherworldly Gaze	instant	1	blue	9/c/9cebee20-869e-45ed-9ddc-843faf4032ad
 Otherworldly Journey	instant	2	white	5/c/5cd220e4-2e2a-437e-aa4e-1007247c8e4d
@@ -14108,6 +14326,7 @@ Ouphe Vandals	creature	3	green	8/9/896e08f8-7608-4137-9a58-f6eda8f84313
 Our Market Research Shows That Players Like Really Long Card Names So We Made this Card to Have the Absolute Longest Card Name Ever Elemental	creature	3	green	5/c/5c1f3f52-cb9b-4b2a-bb02-6175897ae76e
 Oust	sorcery	1	white	c/b/cbe02056-74b5-4e73-8af6-5d7bf3064146
 Out of Bounds	instant	4	blue	8/b/8b457672-902b-42c0-9d53-a3c21be2f500
+Out of the Way	instant	4	blue	2/2/2201ade5-8add-49f2-8045-ae351aaf061c
 Out of Time	enchantment	3	white	0/5/053d6b3b-72d4-4a55-a79e-0a601aecf108
 Outbreak	sorcery	4	black	f/4/f43c30d9-23a5-4872-925d-3427f5f57995
 Outflank	instant	1	white	6/6/663e0208-81c3-4a76-bcc2-bc59cf8ca649
@@ -14118,7 +14337,7 @@ Outlaws' Merriment	enchantment	4	multicolored	5/d/5d7585ab-a364-471c-8ef1-318e45
 Outmaneuver	instant	1	red	4/a/4a5a69fa-71ff-4e4f-9406-7cfebccb3384
 Outmuscle	sorcery	4	green	4/0/40d0ddcc-e6df-4fe1-9ac9-f895885ccc84
 Outnumber	instant	1	red	a/1/a1214fc4-26ac-4a57-b894-6fd634d4d4fd
-Outpost Siege	enchantment	4	red	a/8/a8645f34-b830-4429-8fca-9458d1e3dccc
+Outpost Siege	enchantment	4	red	e/d/ed9f3f18-c1fe-4ec9-bf06-eb73751c5d22
 Outrage Shaman	creature	5	red	8/b/8bf2b2fb-d521-42ea-a6de-f80054b8a4a6
 Outrider en-Kor	creature	3	white	d/e/de9b2506-ead4-49ff-a733-66f3f13dbe17
 Outrider of Jhess	creature	4	blue	d/3/d3b681c8-6d20-4e43-95f8-e83d34626145
@@ -14136,7 +14355,7 @@ Overeager Apprentice	creature	3	black	8/2/8227e2fc-259d-4470-8522-d550746dbc4a
 Overflowing Insight	sorcery	7	blue	f/6/f6b3dd8f-902e-45b8-a422-370705621294
 Overgrown Arch	creature	2	green	a/7/a71dddf5-8f72-4018-9cc8-5f63a17f1ee5
 Overgrown Armasaur	creature	5	green	c/e/cec16eaa-ae9c-4301-a813-3db0328ca270
-Overgrown Battlement	creature	2	green	5/0/50974264-b509-4df9-802b-623805a4cbee
+Overgrown Battlement	creature	2	green	1/3/137852ce-3699-4dd0-8ead-9b267e9bb900
 Overgrown Estate	enchantment	3	multicolored	c/1/c1c48c58-3532-4022-9eec-1a870385cbf3
 Overgrown Farmland	land	0	colorless	8/4/84a76e0f-49fc-4087-8859-98f4a4deacdf
 Overgrown Tomb	land	0	colorless	e/f/eff1f52c-5c43-4260-aaa0-6920846a191c
@@ -14200,7 +14419,7 @@ Painbringer	creature	4	black	3/f/3f993815-af2f-4fa0-8848-979fc8c72d9a
 Painful Lesson	sorcery	3	black	d/5/d54b51da-bc5a-4ef3-a6a3-e0b1e343c67c
 Painful Memories	sorcery	2	black	b/d/bdec2ddc-3a91-4872-b4c0-e75af6cbb184
 Painful Quandary	enchantment	5	black	f/e/fecf3dae-1a0c-4cf3-b9bd-ec2ad6acaa1b
-Painful Truths	sorcery	3	black	b/b/bb641fee-e929-4980-adf8-0d451a860b76
+Painful Truths	sorcery	3	black	7/7/770be468-5247-491d-8029-f57111814d60
 Painiac	creature	3	red	3/3/33292b84-331d-490f-b96e-43341b367df0
 Painsmith	creature	2	black	7/9/79301fd4-2f00-4ff5-993f-a6af2440064b
 Painted Bluffs	land	0	colorless	8/b/8b373131-2a1d-4710-8a11-c1b366a174d4
@@ -14261,6 +14480,7 @@ Paradoxical Outcome	instant	4	blue	1/7/17e50157-bf49-4c5f-9b8a-bf73484e63a5
 Paragon of Eternal Wilds	creature	4	green	9/7/97c3fcca-480f-4acf-b74f-0f37b46fa799
 Paragon of Fierce Defiance	creature	4	red	3/a/3ad97067-2b6b-4e60-817c-6414e2739806
 Paragon of Gathering Mists	creature	4	blue	5/a/5afc32ed-c1a9-4c37-bfe0-562818c046fc
+Paragon of Modernity	creature	4	colorless	9/3/939450d7-1107-4645-ad23-68749b1ec4c2
 Paragon of New Dawns	creature	4	white	3/6/361c66c3-b4eb-48aa-a967-255a8db60977
 Paragon of Open Graves	creature	4	black	3/3/33d7de75-b6e1-44f5-ae1c-e095b41e8d0b
 Paragon of the Amesha	creature	3	white	d/2/d21c4772-fa03-4b71-a95e-1ad8466d25da
@@ -14301,6 +14521,9 @@ Parhelion Patrol	creature	4	white	e/e/eef126f2-7e72-4338-8021-3ad95e4ab982
 Pariah	enchantment	3	white	5/1/51b2136c-392c-436d-9263-b3236adc4a10
 Pariah's Shield	artifact	5	colorless	c/c/cc316f1e-84ce-4013-a150-d537f964a604
 Parish-Blade Trainee	creature	2	white	9/8/9845cdf2-e5ba-44a0-8136-72a1eb03a6a1
+Park Heights Maverick	creature	3	green	f/2/f2ecac25-c187-40c6-af50-e7ce0ff9e921
+Park Heights Pegasus	creature	2	multicolored	b/b/bba250e8-1ceb-40f5-95f1-fb00a2a723eb
+Parnesse, the Subtle Brush	creature	5	multicolored	3/6/36458554-b8b8-4768-a138-eba615b480af
 Paroxysm	enchantment	2	red	5/3/53320321-4f02-40ee-8171-2375b1d4ed66
 Part the Veil	instant	4	blue	d/8/d870e607-1607-46f3-bc9f-925d0164bcf9
 Part the Waterveil	sorcery	6	blue	8/3/83fe992f-0441-42be-89f9-2387b4bc24ce
@@ -14313,17 +14536,18 @@ Past in Flames	sorcery	4	red	2/b/2b7472f4-37b0-439f-b4ac-80706d40d191
 Patagia Golem	creature	4	colorless	c/6/c66c9c30-35c4-4813-a766-a54a418baf8b
 Patagia Tiger	creature	5	white	b/e/be398100-89e2-432b-8017-74fb7e4dbc26
 Patagia Viper	creature	4	green	d/5/d5e565b4-d5ca-4a29-8bb4-0063bae2a85c
+Patch Up	sorcery	3	white	2/c/2ce30c92-c5f2-45d2-819e-177390bc26f5
 Patchwork Automaton	creature	2	colorless	7/a/7a4e1580-dd26-4f4b-ac98-3e6fa7b879d5
 Patchwork Crawler	creature	2	blue	6/b/6bb86ebf-f145-43c1-8f05-f4b55ded59b6
 Patchwork Gnomes	creature	3	colorless	3/0/3002ccef-5322-4f99-9fce-3b4303347240
-Path of Ancestry	land	0	colorless	9/2/92031493-b21f-4029-a01b-0a5c1ddb4776
+Path of Ancestry	land	0	colorless	c/d/cdeb7d54-053f-45ee-8062-c3c1f40d27ce
 Path of Anger's Flame	instant	3	red	0/4/046fd4b1-d3a4-4859-a0d4-0e8341e6c6c7
 Path of Bravery	enchantment	3	white	6/d/6d389a05-2e1a-471d-a865-1c3b68a03e01
 Path of Discovery	enchantment	4	green	a/d/ad9d5518-34ea-418d-b34d-74d773db8bcb
 Path of Mettle	enchantment	2	multicolored	6/6/66d9d524-3611-48d9-86c9-48e509e8ae70	1
 Path of Peace	sorcery	4	white	1/5/15eb7a24-bf1a-415e-b377-eca76456e278
 Path of Peril	sorcery	3	black	f/0/f0c5449a-d63b-4b22-9432-8f0365c3c4d9
-Path to Exile	instant	1	white	e/9/e9d36855-c38a-4bba-a642-cff3f81e057e
+Path to Exile	instant	1	white	2/9/29a0554d-82ba-4cbb-8114-ed4d1776ef61
 Path to the Festival	sorcery	3	green	1/5/153f545d-bdbf-42c7-837a-a7076bbe5027
 Path to the World Tree	enchantment	2	green	6/0/606da75d-382a-47a8-9739-644438594700
 Pathbreaker Ibex	creature	6	green	4/6/4608ea44-e1b2-42de-a0a2-e6d6d24d89d0
@@ -14430,6 +14654,7 @@ Perpetual Timepiece	artifact	2	colorless	b/b/bbc87a27-93d9-4ce0-a022-0309242c1e8
 Perplex	instant	3	multicolored	0/d/0db57459-29f0-4ef6-b256-56955036c0ef
 Perplexing Chimera	creature	5	blue	f/9/f9cff40b-9cae-47d0-8df4-c287a17a33e4
 Perplexing Test	instant	5	blue	3/1/31f2cbcc-d5b8-4659-ae51-e567c555a743
+Perrie, the Pulverizer	creature	4	multicolored	d/4/d438237b-c6f7-44d0-a3e6-6ec7d7465d33
 Persecute	sorcery	4	black	5/4/54af13f6-7a7b-431d-9dda-6492d135563f
 Persecute Artist	sorcery	3	black	5/a/5acfbc21-ffd7-4253-9f79-a1a3217f243a
 Persist	sorcery	2	black	9/0/90f390c3-af1c-424f-9721-e26e9321e5a3
@@ -14463,6 +14688,7 @@ Petrified Field	land	0	colorless	e/a/eaeaf9f2-d196-4607-a704-06f2315d8cc5
 Petrified Plating	enchantment	3	green	1/1/1195c459-5e06-4f4e-aa6e-58fefa712684
 Petrified Wood-Kin	creature	7	green	a/5/a56fbf32-f08f-4882-b8d4-41ccb60cba63
 Pewter Golem	creature	5	colorless	2/8/28aa6682-bf11-4959-9d07-423a55f35199
+Phabine, Boss's Confidant	creature	6	multicolored	f/0/f0f238f6-3578-4e16-bfd0-2f5a452e46fe
 Phage the Untouchable	creature	7	black	d/4/d497a5a3-65fb-4c12-b3f2-8ce4cf4e0f6f
 Phalanx Formation	instant	3	white	7/e/7e9aaba1-e480-4667-b3c9-d5665a3b4806
 Phalanx Leader	creature	2	white	9/6/96d22985-4354-4015-bd74-0ddf4f0cdf17
@@ -14700,14 +14926,14 @@ Plains	land	0	colorless	c/c/cc3db531-3f21-49a2-8aeb-d98b7db94397
 Planar Ally	creature	5	white	a/9/a9e7457a-8ab4-4f3c-a2d8-2da4d81b7470
 Planar Birth	sorcery	2	white	c/7/c7cacdff-aa83-4644-b2f0-ce8c89dddfbf
 Planar Bridge	artifact	6	colorless	9/9/991397cf-5c7d-4e8a-8f46-8e2e0ed29eff
-Planar Chaos	enchantment	3	red	5/d/5dae5e16-d2fc-488c-9c53-d35c377d6a00
+Planar Chaos	enchantment	3	red	a/7/a7ce1d3e-6335-447b-8a70-1c906fef1547
 Planar Cleansing	sorcery	6	white	5/e/5eddac86-947e-48c1-9f02-4634a7918c98
 Planar Collapse	enchantment	2	white	e/e/ee22cf3c-51b0-4790-ab13-985cbe900c3b
 Planar Despair	sorcery	5	black	3/a/3a92d454-3f23-45bf-921f-25b0da4ce138
 Planar Gate	artifact	6	colorless	d/d/dd27f0fe-c032-4f61-9f3d-98a6d2e2c426
 Planar Guide	creature	1	white	7/0/7087cb1e-f2e2-4b75-bacf-bc4153e398e3
 Planar Incision	instant	2	blue	9/1/9163cb04-ee28-4127-b53a-89c546996d7d
-Planar Outburst	sorcery	5	white	5/b/5b72535d-16dc-4b03-a18e-0da4a7cc901e
+Planar Outburst	sorcery	5	white	3/d/3d45dfee-810e-4359-96ad-8d423ab86178
 Planar Overlay	sorcery	3	blue	1/3/1315fef0-234e-44f5-a7a3-bf3db78943c3
 Planar Portal	artifact	6	colorless	8/7/8743b2ce-0e18-42c9-aee4-f13197a9c481
 Planar Void	enchantment	1	black	b/0/b035c718-ac11-4c97-a9bb-0cd88dc71904
@@ -14724,6 +14950,7 @@ Plant Elemental	creature	2	green	8/9/892594db-1d66-4c45-bd54-608a9972ca77
 Plargg, Dean of Chaos // Augusta, Dean of Order	creature	2	red	5/b/5bd9b5cf-f018-48af-a081-995ce8ecc539	1
 Plasm Capture	instant	4	multicolored	3/7/37fa090d-b756-4de3-8dcb-c20c5fcd4c6a
 Plasma Elemental	creature	6	blue	0/3/035a8a69-1e48-4c44-b407-cc8acc8ba94c
+Plasma Jockey	creature	4	red	7/4/741ed811-cbcd-4178-a874-dc79d2a5d6f1
 Plate Armor	artifact	3	white	a/d/ad447e50-cfb1-40df-ae01-a65c46f2f572
 Plateau	land	0	colorless	2/f/2ff721e2-b12a-4cd1-b846-fccd61c6b69b
 Plated Crusher	creature	7	green	a/5/a5f38436-9edf-42a1-83ba-0f5210b2cb86
@@ -14782,7 +15009,7 @@ Polymorph	sorcery	4	blue	8/3/83d274f4-452b-4ff2-b026-83667e9ba98f
 Polymorphist's Jest	instant	3	blue	f/5/f5f935cb-4ec2-4131-878b-f8e557d848b9
 Polymorphous Rush	instant	3	blue	2/f/2ff5f703-339f-430c-b342-77bcc2c63222
 Polyraptor	creature	8	green	f/8/f8965a3a-93fe-4021-a665-b6013bdc86f7
-Ponder	sorcery	1	blue	9/c/9cee2eb1-f60e-4626-ba4a-b543142ca950
+Ponder	sorcery	1	blue	4/4/44dcfc0c-b23d-48be-bf3a-a6fc6806c5e1
 Pondering Mage	creature	5	blue	d/0/d05c1d37-3edd-46c8-8eb9-abbad9211fee
 Pongify	instant	1	blue	a/1/a1501dea-4e0e-49b0-86b5-e8a01f77077d
 Pontiff of Blight	creature	6	black	c/4/c421b851-f61a-4db6-9063-d1d5289a7d78
@@ -14797,7 +15024,7 @@ Porphyry Nodes	enchantment	1	white	d/f/dfe6f333-ccb4-44ea-be59-bba6335acf99
 Port Inspector	creature	2	blue	e/f/ef25d969-68d9-4580-bb29-f72bd5646a3d
 Port of Karfell	land	0	colorless	b/b/bb9465a6-d009-4ecd-9fd1-d046547de902
 Port Razer	creature	5	red	e/0/e0d0527b-bb28-4986-9843-040d06bd9def
-Port Town	land	0	colorless	d/f/df75dbb7-b042-49f9-8c8d-fc81139a9d9c
+Port Town	land	0	colorless	0/3/0392196d-cd02-47e4-be7f-588ebee859fe
 Portable Hole	artifact	1	white	8/0/80fca8c0-ae3e-439e-b202-228b9f360e9a
 Portal Mage	creature	3	blue	e/9/e9f6cb64-07e3-44ca-986c-fd10ab74cc8a
 Portal of Sanctuary	artifact	3	blue	3/7/37c66692-2880-4ea2-abaf-8926c6950826
@@ -14826,7 +15053,7 @@ Pouncing Wurm	creature	4	green	8/e/8e48a2f3-9c30-4187-868e-33dbf5e279fc
 Powder Keg	artifact	2	colorless	4/d/4d9715c2-9036-4ae2-a5b4-1b190d50c963
 Power Armor	artifact	4	colorless	2/0/20bc8710-3d56-45fb-81e7-383a274a2374
 Power Artifact	enchantment	2	blue	e/4/e48bc89e-6da5-43da-b4e0-60d5f850199c
-Power Conduit	artifact	2	colorless	b/0/b0f5c84f-1924-4a4a-84c1-00dcb756e9c9
+Power Conduit	artifact	2	colorless	b/4/b4634637-ba33-4849-b647-d33018a02f39
 Power Depot	land	0	colorless	0/3/032eba04-0a63-4823-85e1-64861330a8d7
 Power Leak	enchantment	2	blue	9/9/99f235d7-8f6b-4d17-bc36-6f2cb6d5deec
 Power Matrix	artifact	4	colorless	a/5/a578599c-7d90-4881-b59a-9cf64b90d917
@@ -14847,7 +15074,7 @@ Pradesh Gypsies	creature	3	green	2/3/2338aeec-63f6-4cc1-833e-77d44994a7ca
 Praetor's Counsel	sorcery	8	green	b/6/b6d5bf06-f735-4e9f-9460-e6cdf501662f
 Praetor's Grasp	sorcery	3	black	9/5/9588be49-d9b5-4491-a5a0-10bcadc9f8b3
 Prahv, Spires of Order	land	0	colorless	2/a/2a315f63-96ad-4a5f-8eb4-d81361797348
-Prairie Stream	land	0	colorless	7/1/71c171ea-e048-4dd5-8357-b905de2b9906
+Prairie Stream	land	0	colorless	4/0/40e52996-863b-46ee-893a-6ecb29f23106
 Prakhata Club Security	creature	4	black	f/e/fe944e35-31d1-4dbf-993e-7840c606d387
 Prakhata Pillar-Bug	creature	3	colorless	9/c/9c91b356-b5d8-4239-bb45-dec7f673868d
 Pramikon, Sky Rampart	creature	3	multicolored	8/5/8569ad47-a243-402d-899f-4e6b17ea4e1e
@@ -14883,7 +15110,7 @@ Preeminent Captain	creature	3	white	3/2/32faaece-2775-4ab5-8376-d9f68959d5ac
 Preemptive Strike	instant	2	blue	c/2/c2314bf1-b22d-48c2-860f-e1081f56296b
 Preferred Selection	enchantment	4	green	5/9/59ce9668-78ef-44a5-ba9c-49fa740b8cb5
 Premature Burial	sorcery	2	black	b/4/b42f83e3-631b-432e-8d2f-f62d3207e95e
-Preordain	sorcery	1	blue	1/4/1453f92e-df2d-4789-aa1b-a5b5c51567d4
+Preordain	sorcery	1	blue	d/1/d10b9be3-d4ff-4e3c-b0d5-5ab2c4e6d684
 Prepare // Fight	instant	6	multicolored	f/5/f59ea6f6-2dff-4e58-9166-57cac03f1d0a
 Prescient Chimera	creature	5	blue	f/4/f4bb655d-8d62-4a79-9a9d-7384d1cb2cc0
 Presence of Gond	enchantment	3	green	b/b/bba661af-c4a8-4230-830e-a9ee22b25d6b
@@ -14935,7 +15162,7 @@ Primal Clay	creature	4	colorless	1/e/1e51f1b3-d8a3-4746-b0db-67d5ec71fb17
 Primal Cocoon	enchantment	1	green	3/a/3a75889d-8746-4516-934b-efce9c48dc70
 Primal Command	sorcery	5	green	9/2/92144021-7425-44e1-a32b-13252f1b7036
 Primal Druid	creature	2	green	e/9/e928f694-c53b-46c5-8390-fa24b53f559c
-Primal Empathy	enchantment	3	multicolored	6/5/656c2277-7420-4e4d-bed5-3683ec1c70de
+Primal Empathy	enchantment	3	multicolored	b/8/b8099a93-c59d-40a9-96e2-f3dd2a6dd8b8
 Primal Forcemage	creature	3	green	0/5/0503078a-c5a8-4292-a573-82d062870c7f
 Primal Frenzy	enchantment	1	green	f/5/f5e2d822-09d0-42e5-ad91-67c66e947b3d
 Primal Growth	sorcery	3	green	6/6/6664675f-1ef6-49ba-8f08-cfeac2f38ec7
@@ -15001,6 +15228,7 @@ Prized Amalgam	creature	3	multicolored	6/3/634cedb6-8b00-4f4b-8790-541188955295
 Prized Elephant	creature	4	white	0/1/01597ede-94e7-44a4-93c2-7fd1db11e92a
 Prized Griffin	creature	5	white	8/7/877bd423-83ff-4a28-b0d2-447a7821bb8c
 Prized Unicorn	creature	4	green	b/a/baac1604-379f-4f03-97ae-9ec10921167c
+Prizefight	instant	2	green	5/4/544c810b-5f90-4535-aa76-14f8c6b9428a
 Prizefighter Construct	creature	5	colorless	8/e/8e389c92-b54b-46b3-a7ab-b8a5a2a7d380
 Probe	sorcery	3	blue	a/2/a2a58d18-3d52-4178-86b2-7590d4164e76
 Problematic Volcano	enchantment	3	red	9/c/9c070dd0-d349-4eca-b066-cb1383227a03
@@ -15010,13 +15238,14 @@ Prodigal Pyromancer	creature	3	red	c/f/cf16600a-c2a5-49e4-89e2-260cfaf58b52
 Prodigal Sorcerer	creature	3	blue	4/0/4035304a-b75f-4e97-8c2e-533eeedb9b9e
 Prodigious Growth	enchantment	6	green	b/a/ba2b0966-4e9e-44dc-9145-3c1e644578bc
 Prodigy's Prototype	artifact	3	multicolored	b/e/be046e0a-6509-450b-b34f-29d5a5e3472e
-Profane Command	sorcery	2	black	8/5/857b6766-4df9-47e7-aa51-8ade7989bf57
+Profane Command	sorcery	2	black	7/0/7005bb21-0cec-4c19-a95b-99a1bac25aa4
 Profane Memento	artifact	1	colorless	f/2/f2c97632-3cf1-4b79-9d18-d8991654dcca
 Profane Prayers	sorcery	4	black	b/c/bc8320ef-af97-4cf6-9aaf-17818174d842
 Profane Procession	enchantment	3	multicolored	1/d/1d94ff37-f04e-48ee-8253-d62ab07f0632	1
 Profane Transfusion	sorcery	9	black	c/0/c04d8edb-7350-4ab5-b721-390784c66329
 Profane Tutor	sorcery	0	black	2/a/2afc6f7d-ab59-4d64-bd11-6bd0fd4bfcd2
 Profaner of the Dead	creature	4	blue	8/7/87630910-47cc-4347-b126-fd779e7dadc0
+Professional Face-Breaker	creature	3	red	4/2/42acbf52-b137-44f0-a815-2817fe8d2da2
 Professor of Symbology	creature	2	white	f/4/f427cf73-9f5e-4ef5-bc4f-29ffbfda9d57
 Professor of Zoomancy	creature	4	green	8/3/8347f2e8-ef70-4879-860a-12f7cab25902
 Professor Onyx	planeswalker	6	black	0/1/013eeb99-1b66-4fba-ad96-78deee901ea4
@@ -15049,6 +15278,7 @@ Prophetic Titan	creature	6	multicolored	4/6/468b92ae-eb84-4548-a5e5-a07c79b77f7f
 Prosper, Tome-Bound	creature	4	multicolored	d/7/d743336e-d5c7-4053-a23d-92ec7581f74e
 Prosperity	sorcery	1	blue	6/9/69ebc3a4-94b8-45aa-a3bf-21cd435ff5cf
 Prosperous Innkeeper	creature	2	green	0/9/096d3c0c-98e2-4cfc-a6e1-fddb0359c63f
+Prosperous Partnership	enchantment	3	multicolored	a/5/a50267d1-f4b7-494f-b50b-cfb08b760b47
 Prosperous Pirates	creature	5	blue	5/d/5d778bde-f927-419e-8052-6230562bdedd
 Prosperous Thief	creature	3	blue	d/a/da3f683e-5a28-4ae7-b53b-851b957123ba
 Prossh, Skyraider of Kher	creature	6	multicolored	8/8/889c1a0f-7df2-4497-8058-04358173d7e8
@@ -15058,6 +15288,7 @@ Protean Raider	creature	3	multicolored	4/1/41ed9247-16c0-4ca4-9b46-d3da5a375e4c
 Protean Thaumaturge	creature	2	blue	7/4/749bfd81-c61b-4901-8efb-72611fd08244
 Protect // Serve	instant	5	multicolored	9/b/9b8acd7d-f3e2-4358-91ab-40901b68d64c
 Protection of the Hekma	enchantment	5	white	1/5/15d01e04-7c40-4af0-b5bd-5fa267d10378
+Protection Racket	enchantment	3	black	7/7/7723cf0b-de49-44f6-a52e-6e339a080457
 Protective Bubble	enchantment	4	blue	7/a/7ab1db58-66b6-4b92-9dcd-e044fa383469
 Protective Sphere	enchantment	3	white	e/f/ef5ef13e-1cf0-42a9-95d0-30ade254d6a8
 Protector of the Crown	creature	6	white	2/4/24447332-4bc5-420d-972c-6d472669cfa3
@@ -15086,6 +15317,7 @@ Psionic Blast	instant	3	blue	8/a/8a1dff82-de5c-4b1d-b87f-6ddb4551f820
 Psionic Entity	creature	5	blue	6/6/6641a587-c066-4f0a-a951-b91d3f749eb2
 Psionic Gift	enchantment	2	blue	8/6/862fc18f-90d2-430d-aff2-47c1483dee9d
 Psionic Sliver	creature	5	blue	2/5/2559ca03-4442-47c5-bd6e-84e71cfa6ca5
+Psionic Snoop	creature	3	blue	b/1/b1e04834-7335-4b25-bedf-b7739c5c3aad
 Psychatog	creature	3	multicolored	6/7/6757bf0e-489f-4be2-9e41-463b59f00dd1
 Psychic Allergy	enchantment	5	blue	f/e/fec3275e-4491-43a8-9f23-d7b48177c103
 Psychic Barrier	instant	2	blue	1/c/1cba7d67-5c6c-4738-8907-7cce503e3180
@@ -15098,6 +15330,7 @@ Psychic Membrane	creature	3	blue	4/f/4ffd5a69-05b6-4fc4-8186-503a2e204330
 Psychic Miasma	sorcery	2	black	f/d/fd9c3267-7988-416c-85a4-0e314e42ddb9
 Psychic Network	enchantment	1	blue	6/0/60dfba09-9e75-4fb9-a163-40e3149f7785
 Psychic Overload	enchantment	4	blue	b/3/b32d0779-ef2a-42be-ad67-cee9b06122de
+Psychic Pickpocket	creature	5	blue	9/5/956b90ca-1012-4132-bf2f-bc3825ed16ac
 Psychic Possession	enchantment	4	blue	e/8/e8364ce0-4c11-4af0-9f4b-e4c20d640dfc
 Psychic Puppetry	instant	2	blue	9/e/9e341d6b-f4b0-4347-8055-f5fab756334c
 Psychic Purge	sorcery	1	blue	b/1/b1103d4d-b50a-4e2c-b18a-a181bc819881
@@ -15121,9 +15354,11 @@ Psychotrope Thallid	creature	3	green	e/2/e2803fdc-2ae1-438c-b5b1-559817e85fdb
 Pteramander	creature	1	blue	2/8/280f2a85-1900-460b-a768-164fc2dea636
 Pterodon Knight	creature	4	white	4/1/41f00a04-1336-4830-a6c2-514848afefd2
 Pteron Ghost	creature	2	white	1/a/1aff26fc-e6d3-4135-96b9-0da7cb8b6dae
+Public Enemy	enchantment	3	blue	0/e/0e69ba61-8c16-4112-9601-fac978b88667
 Public Execution	instant	6	black	2/5/2503fe09-5b18-4bff-9431-1de4c161cafe
 Puca's Mischief	enchantment	4	blue	8/3/8380bd90-35f2-4936-995b-af6427f61752
 Puffer Extract	artifact	5	colorless	8/3/83093cdf-0b12-419c-a748-21acf166e195
+Pugnacious Pugilist	creature	5	red	d/9/d98022d2-3b46-41f4-8f31-0a238d881ac6
 Pull from Eternity	instant	1	white	3/d/3d218091-d218-41ad-b666-c8ab3de7160a
 Pull from the Deep	sorcery	4	blue	a/0/a051b622-fa1d-4694-aef7-0fcdd7bff8d2
 Pull from Tomorrow	instant	2	blue	f/1/f1eccf27-c934-45fb-87ae-67006cd4e0ed
@@ -15154,7 +15389,7 @@ Puppet Master	enchantment	3	blue	b/4/b401d253-4e51-42db-91cc-ac8cc3d06ae6
 Puppet Strings	artifact	3	colorless	5/3/53e0bb82-c64a-4ae6-962a-7a0c45329159
 Puppet's Verdict	instant	3	red	0/5/052b743a-456d-49c3-881e-4f30c7645fa5
 Puppeteer	creature	3	blue	b/0/b0814958-2fec-443e-b27e-cd2416ccbf95
-Puppeteer Clique	creature	5	black	c/3/c348dba8-5ca1-4d5b-a374-6dc2114d1c58
+Puppeteer Clique	creature	5	black	1/7/172afdb2-8c79-416d-86ce-836c0d2cac49
 Pure // Simple	sorcery	6	multicolored	b/3/b3a5d913-0b78-4918-87cf-0bb33b9d120e
 Pure Intentions	instant	1	white	b/2/b231d818-df57-4e2d-9603-babe0c2c4568
 Pure Reflection	enchantment	3	white	b/b/bbff85a6-a51b-424e-a86b-da52c9b3a9da
@@ -15207,6 +15442,7 @@ Pyre Hound	creature	4	red	c/d/cd970484-49b3-442a-806a-cabc56526ee1
 Pyre of Heroes	artifact	2	colorless	a/e/ae9a8e44-f5de-497d-be48-adf1bcbaec97
 Pyre Spawn	creature	6	red	8/0/80255777-de00-4ffa-a8a0-f522bf4198fb
 Pyre Zombie	creature	3	multicolored	6/c/6c030108-2995-4fb0-9b80-efdfdd0f11e0
+Pyre-Sledge Arsonist	creature	3	red	3/3/33c5fd3e-3799-4535-8c33-9c567f4f5709
 Pyreheart Wolf	creature	3	red	9/7/9722f20c-e0d9-4165-8cd5-4abadc5378eb
 Pyretic Hunter	creature	5	red	0/f/0f17be2c-f8c7-41b3-b8fa-30b9e4e826c9
 Pyretic Ritual	instant	2	red	1/e/1e577638-a7ed-4bcc-90fb-0cffe87d5a28
@@ -15286,7 +15522,9 @@ Questing Beast	creature	4	green	e/4/e41cf82d-3213-47ce-a015-6e51a8b07e4f
 Questing Phelddagrif	creature	4	multicolored	3/b/3b05a233-2601-41cb-9091-8f4a2a254209
 Question Elemental?	creature	4	blue	7/2/72ec2c53-2958-46d0-8322-b673cf0b79d4
 Queue of Beetles	creature	4	red	9/8/9822f3d1-30bc-4504-96a2-a6bd2c587ba9
+Queza, Augur of Agonies	creature	4	multicolored	7/e/7edb7a26-82be-4efd-9a5c-a3816e1ee2d6
 Quick Sliver	creature	2	green	3/0/30a60b2d-aeeb-4dbf-bf1a-20a274fe323f
+Quick-Draw Dagger	artifact	3	colorless	d/6/d64110f4-c4b6-4966-a23a-8da7d1983499
 Quick-Stick Lick Trick	artifact	0	colorless	8/e/8eccf9ee-3909-49d4-b489-fe0798d1a3a1
 Quickchange	instant	2	blue	3/f/3f90c1a1-679d-45c5-a1d4-53dad05e45fa
 Quicken	instant	1	blue	e/6/e6209bbf-5861-4755-abb6-0f04def9527e
@@ -15309,7 +15547,7 @@ Quiet Contemplation	enchantment	3	blue	5/d/5dc7c9d5-904e-4ab6-9773-5c4f1c6d34c4
 Quiet Disrepair	enchantment	2	green	1/9/1953c142-040d-4a17-b441-db749f4f9235
 Quiet Purity	instant	1	white	e/c/ecd4d7cd-12a9-49f2-912d-2a6024112d13
 Quiet Speculation	sorcery	2	blue	c/d/cd12fd06-26c5-42d8-936c-fe10b778a561
-Quietus Spike	artifact	3	colorless	5/5/554f2444-78bd-4312-a1d7-00cadcac7559
+Quietus Spike	artifact	3	colorless	7/d/7dc8e9cc-1aac-4709-9629-9f4318c86cb0
 Quill-Slinger Boggart	creature	4	black	c/3/c3a15a9d-46d7-4181-8131-50ba46a11c7b
 Quilled Slagwurm	creature	7	green	1/2/12c597b9-5024-42bd-b500-5ef6a3accda6
 Quilled Sliver	creature	2	white	7/2/72486240-eabb-4b37-99cc-ab13413683fa
@@ -15327,6 +15565,7 @@ Quirion Trailblazer	creature	4	green	c/2/c2b258c1-5fb4-4072-bb32-ad364df1874a
 Qumulox	creature	8	blue	3/5/357aa2a1-4f72-4890-aa46-d212292ab837
 R&D's Secret Lair	land	0	colorless	9/b/9bfdc6a9-0a44-43ef-b065-02ef5d6110dc
 Rabbit Battery	creature	1	red	5/d/5d33a5b7-797b-4079-8d62-edd124c0fb5a
+Rabble Rousing	enchantment	5	white	2/0/206c8529-56df-4ed9-97bc-6c9b5e2a04c4
 Rabble-Rouser	creature	4	red	c/6/c6877862-f7c5-493d-baaf-41a91d4c7982
 Rabid Bite	sorcery	2	green	e/f/effe3fab-6d13-4603-8a21-8a3c2a0d9e08
 Rabid Bloodsucker	creature	5	black	e/d/ed20b43d-7cad-4dc3-a128-46247ef4b612
@@ -15335,6 +15574,7 @@ Rabid Rats	creature	2	black	e/d/ed8c028e-6656-47ef-97fb-de99f8833d5f
 Rabid Wolverines	creature	5	green	9/9/99121a2b-c735-47be-b01e-cdf59809e7f3
 Rabid Wombat	creature	4	green	1/f/1f29a24b-0c45-4192-a855-4c414c016bb8
 Racecourse Fury	enchantment	1	red	1/5/15d13d35-b5f7-4d3d-a1fa-84178b28acae
+Racers' Ring	land	0	colorless	2/a/2a11bdb2-a269-4038-85f3-69fbd02982e9
 Rack and Ruin	instant	3	red	a/4/a46e8f6a-3a1a-4c30-9348-4b31882267eb
 Rackling	creature	4	colorless	1/0/10f82f2e-a6db-491b-b253-82c34cd6c940
 Radha, Heart of Keld	creature	3	multicolored	2/b/2bbd37b1-49cb-4295-9a1f-fb85368a8f12
@@ -15359,6 +15599,11 @@ Radiating Lightning	instant	4	red	9/3/9395fce4-11bf-4934-8323-5be4862c9779
 Radical Idea	instant	2	blue	c/9/c9570734-5e9b-46ff-b606-9759b5195756
 Radjan Spirit	creature	4	green	5/0/504e4e18-a70c-47d6-8331-2ca3c6210a98
 Raff Capashen, Ship's Mage	creature	4	multicolored	9/2/9250189d-357d-41cb-8dcf-45bed6599b40
+Raffine's Guidance	enchantment	1	white	f/3/f36e25fa-9ab4-4832-afb9-827c4b6ba732
+Raffine's Informant	creature	2	white	4/e/4e64ff87-2099-4360-94f6-164277b7b514
+Raffine's Silencer	creature	3	black	4/b/4ba72399-c827-43f3-b072-08597dbafb2d
+Raffine's Tower	land	0	colorless	a/2/a2c56479-4bee-4edb-80d7-4af010b7c793
+Raffine, Scheming Seer	creature	3	multicolored	7/1/716a44b4-f6b0-4f14-a270-6442aed3251f
 Rafiq of the Many	creature	4	multicolored	2/4/249c188d-c11d-46f7-a2d8-a67df4ba401b
 Rafter Demon	creature	4	multicolored	b/f/bf8dad4d-bc4f-46fb-892c-dbf6481cdc46
 Rag Dealer	creature	1	black	1/8/18ef007a-fcf4-4293-933e-4f9f7f602002
@@ -15407,6 +15652,7 @@ Rain of Embers	sorcery	2	red	2/d/2d5391a9-6c30-4f9b-b746-a4427a3e63fc
 Rain of Filth	instant	1	black	1/c/1cf07d5a-6618-48e2-a9f0-669b75bb6e85
 Rain of Gore	enchantment	2	multicolored	9/d/9dd62003-e345-48b6-9f93-fc111924c318
 Rain of Revelation	instant	4	blue	d/a/da367981-9d6f-419f-9f58-f969b6183336
+Rain of Riches	enchantment	5	red	1/c/1c5241c1-ffe9-4490-b4df-7e91c372c27c
 Rain of Rust	instant	5	red	1/3/13a6ecc6-83c8-408b-8600-687cdb383ca9
 Rain of Salt	sorcery	6	red	4/7/4792293a-e11d-4c5e-bbd9-6f09e69ee617
 Rain of Tears	sorcery	3	black	5/8/5811f4ee-f352-4b41-8f56-da0cb7f3f11b
@@ -15442,7 +15688,7 @@ Rakdos Ringleader	creature	6	multicolored	6/b/6b54fbe8-324a-4066-bed1-dda1dca319
 Rakdos Riteknife	artifact	2	colorless	7/f/7fb6e10a-3df1-4c6f-bf4c-d4a2a0467c60
 Rakdos Roustabout	creature	3	multicolored	5/e/5ed534af-e16a-4d1d-8884-938fc7e13ca8
 Rakdos Shred-Freak	creature	2	multicolored	3/a/3aed1803-7936-4329-bb8a-7cdb0de23633
-Rakdos Signet	artifact	2	colorless	7/a/7a2af4c1-9546-4760-8aac-315b61127304
+Rakdos Signet	artifact	2	colorless	c/8/c814aaf3-09c7-4983-adf6-448edc0cf391
 Rakdos the Defiler	creature	6	multicolored	5/a/5a4c4be4-06ae-4737-a3b0-818edadaf2e0
 Rakdos Trumpeter	creature	2	black	2/8/2822aff3-9985-424b-9f19-b49e987c25e4
 Rakdos's Return	sorcery	2	multicolored	d/7/d72981c0-1632-4d64-9341-2a76047d9b36
@@ -15452,6 +15698,7 @@ Rakeclaw Gargantuan	creature	5	multicolored	a/1/a158bb17-d2e0-416d-840a-5e25fb5a
 Raking Canopy	enchantment	3	green	d/f/df529b30-9ac6-4944-9d21-ecf6d64a8845
 Raking Claws	instant	2	red	6/e/6eb0d9a2-f9bb-4d8e-a1ca-896c42f8ad56
 Rakish Heir	creature	3	red	0/d/0da15652-8207-4be1-b821-3fb3dad66e37
+Rakish Revelers	creature	5	multicolored	9/c/9c74197a-367c-40a4-9eb5-6943490bba09
 Rakka Mar	creature	4	red	5/d/5d569b01-af52-41a6-9ce4-02ed2e057038
 Raksha Golden Cub	creature	7	white	8/7/8736fd50-312e-47e2-8337-997c2acf48d9
 Rakshasa Deathdealer	creature	2	multicolored	a/b/ab4e0b33-dad1-4443-a7c7-a7bab067d04a
@@ -15501,7 +15748,7 @@ Rampaging Hippo	creature	6	green	4/c/4c97229f-2fc8-439a-a18b-efa09b366b70
 Rampaging Monument	creature	4	colorless	b/5/b5fbe445-a788-4624-8ecf-8bc06c3ca8f8
 Rampaging Rendhorn	creature	5	green	1/2/12c1b820-0f06-41f6-804f-5c98f60c1529
 Rampant Elephant	creature	4	white	7/5/752642d2-3dad-4f58-b154-beb5982141dc
-Rampant Growth	sorcery	2	green	0/4/0442b365-c970-478b-b418-ae02d83ca8e1
+Rampant Growth	sorcery	2	green	c/2/c29e97e7-5a3d-4754-a859-0e7318e7c1d2
 Rampant Rejuvenator	creature	4	green	1/6/16b06b17-f256-428f-9bed-f115af270f27
 Rampart Crawler	creature	1	black	8/b/8b60f86f-c78a-4dfb-bb18-e9bcf21b26c4
 Rampart Smasher	creature	4	multicolored	2/f/2fb9a632-a56b-48fb-bc24-14572b6a8a55
@@ -15639,6 +15886,7 @@ Read the Bones	sorcery	3	black	c/d/cd83e1b7-0333-463f-84c7-19aa9fe908ef
 Read the Runes	instant	1	blue	2/c/2c65088f-bbbd-4e8d-b482-58181069bef2
 Read the Tides	sorcery	6	blue	5/3/5360fe8c-41b0-4409-b03e-072f129fb352
 Ready // Willing	instant	6	multicolored	2/2/22081f95-dc8e-41ed-b609-b6a22ee5428b
+Ready to Rumble	sorcery	5	red	1/6/16998689-345d-41e3-a368-e97b696ed689
 Reality Acid	enchantment	3	blue	a/8/a8510381-e05c-4cc4-98aa-c9327e18ec02
 Reality Anchor	instant	2	green	2/1/21204f62-c253-4d88-a4cd-7c0f6f0513e0
 Reality Heist	instant	7	blue	5/b/5bc954d7-322a-45b8-9e25-6e9a97fbde61
@@ -15786,6 +16034,7 @@ Refresh	instant	3	green	0/0/0084ba4e-98eb-4eb4-b23e-c5ab4d7d95cb
 Refreshing Rain	instant	4	green	c/5/c5e24850-bd9b-40ab-878f-b8a554da1956
 Refurbish	sorcery	4	white	c/e/ce3a5ca7-bda2-4f85-8c67-198751301a2d
 Refuse // Cooperate	instant	7	multicolored	c/a/ca4caa4e-6b8f-4be8-b177-de2ebe2c9201
+Refuse to Yield	instant	2	white	a/7/a7b597b3-5792-49e4-9bcb-74012e4e9cb6
 Regal Behemoth	creature	6	green	6/4/644e5b24-394a-43f1-8384-186d6108f540
 Regal Bloodlord	creature	5	multicolored	6/5/65a75d3a-58cb-4ee0-88d3-52099cb57ac3
 Regal Caracal	creature	5	white	c/d/cd349f95-3eae-4ef2-abf8-e911bb8e93e5
@@ -15806,7 +16055,7 @@ Regrowth	sorcery	2	green	b/9/b929963b-a6c9-4160-ba76-9e647eccb285
 Reidane, God of the Worthy // Valkmira, Protector's Shield	creature	3	white	3/6/3606519e-5677-4c21-a34e-be195b6669fa	1
 Reign of Chaos	sorcery	4	red	9/2/9285b14a-fc8e-457a-b803-202e05be41e5
 Reign of Terror	sorcery	5	black	7/b/7bd83049-aec1-4911-bc70-39adba04b174
-Reign of the Pit	sorcery	6	black	6/1/6184cdb2-1cf8-4b41-ace1-b3e58c314ee8
+Reign of the Pit	sorcery	6	black	3/0/3074a8e8-765c-4f32-9bc1-a3f865448ef9
 Reincarnation	instant	3	green	7/e/7ee379cd-b3fb-487b-846c-eab02902de79
 Reinforced Bulwark	creature	3	colorless	4/3/437a91e7-f98e-4ed8-9ab7-f4db62979f5b
 Reinforced Ronin	creature	1	red	8/9/89a18961-8f0b-4e98-9de4-aba97e91ad9a
@@ -15824,7 +16073,7 @@ Rejuvenating Springs	land	0	colorless	5/1/51e69910-0d90-48a0-af29-3cddaeec5151
 Rejuvenation Chamber	artifact	3	colorless	b/9/b97f86ce-4758-4ae3-af29-b08a4d771652
 Reki, the History of Kamigawa	creature	3	green	8/6/86317339-5a39-41eb-8aee-5ea926da8cd4
 Rekindled Flame	sorcery	4	red	1/3/131c6377-4ed4-4a76-a9cb-be7ad17d76fd
-Rekindling Phoenix	creature	4	red	d/a/daccec32-84c6-4de4-9b00-c497a6ba5de8
+Rekindling Phoenix	creature	4	red	1/a/1a9945ec-0996-434e-b177-97203eabaf24
 Reknit	instant	2	multicolored	1/0/10bde9be-0ad8-4f42-a9a9-838bc476c7a6
 Relearn	sorcery	3	blue	c/5/c5f0f0cb-5f77-4887-a5be-463d5e5c47c6
 Release the Ants	instant	2	red	9/c/9ce93fb7-3873-4855-99ad-e93f8f45078e
@@ -15857,7 +16106,7 @@ Relic Vial	artifact	3	colorless	4/b/4b9ae607-e0bc-4415-ad58-65944848bbe9
 Relic Ward	enchantment	2	white	f/0/f0459667-b7da-43bd-b981-0e515432d147
 Relief Captain	creature	4	white	0/4/04c0d1a1-4010-440d-b0b4-3daa4290ffa6
 Reliquary Monk	creature	3	white	2/4/243e9386-2a7f-406a-9ed3-77d4bf1b50fd
-Reliquary Tower	land	0	colorless	6/4/642054bb-e581-4d8f-b452-908dde035987
+Reliquary Tower	land	0	colorless	e/f/ef4e383e-ca2c-40d0-b510-8cf9a2e10176
 Rem Karolus, Stalwart Slayer	creature	3	multicolored	b/3/b31e307a-9689-4e11-8c5f-96b7a4b50bed
 Remand	instant	2	blue	d/c/dc595c63-af05-4c05-80e8-e1a90df26b0f
 Remedy	instant	2	white	5/7/57cdfb23-3c62-4312-a503-e30be384e3ab
@@ -15938,9 +16187,10 @@ Research // Development	instant	7	multicolored	5/d/5d48ee48-aaeb-4907-b9dc-32f22
 Research Assistant	creature	2	blue	4/a/4ac8a7c0-d935-4a60-ac32-dde73f5c75da
 Research the Deep	sorcery	2	blue	9/2/927bab71-a208-4ff2-b6c9-51b63468db38
 Research Thief	creature	5	blue	d/0/d0ef159d-657a-4566-b9e0-f545df230025
+Reservoir Kraken	creature	4	blue	5/3/53cf9152-da16-4289-9a2d-331e7b9cb839
 Reservoir Walker	creature	5	colorless	8/a/8afe3be3-b0bc-4617-b4de-f60d14f1b91d
 Reset	instant	2	blue	1/c/1c829d83-d5b8-4be7-80f7-55b42f52b309
-Reshape	sorcery	2	blue	8/f/8f8a8f14-bced-4388-b263-5e70431b191f
+Reshape	sorcery	2	blue	9/5/9574f9a0-e062-47bf-b8ad-895d02852be8
 Reshape the Earth	sorcery	9	green	a/d/ada14bc8-4549-4a73-8cbb-9a43698deb36
 Resilient Khenra	creature	2	green	0/3/033a69fb-2af9-426c-b1d6-3e5b18c78c9a
 Resilient Wanderer	creature	4	white	5/e/5e5a61de-ee4e-4097-b342-b5f2c976e16e
@@ -15958,6 +16208,7 @@ Resounding Scream	sorcery	3	black	6/4/64d27eb7-2d3b-4daf-9cf6-c254fdacceb0
 Resounding Silence	instant	4	white	5/b/5b3b0908-5408-41fd-8e69-2bc785e19304
 Resounding Thunder	instant	3	red	6/8/680b7955-d939-4195-aba8-b46a8c925616
 Resounding Wave	instant	3	blue	f/3/f3eca679-076d-42f0-9ec0-b8116a94e373
+Resourceful Defense	enchantment	3	white	9/1/91f4dfc0-7478-4e47-89b4-685b72197ef0
 Resourceful Return	sorcery	2	black	3/2/32f57d0b-ab6a-4074-885d-678659729b8a
 Respite	instant	2	green	d/9/d9b5c747-43d6-4c5f-9ca3-feaf004a88cb
 Resplendent Angel	creature	3	white	5/8/586854d1-edfd-4c66-873d-df459324dbfd
@@ -16025,7 +16276,9 @@ Reveille Squad	creature	4	white	8/f/8f6385bb-18f9-461b-b541-3c2a5e59189b
 Reveka, Wizard Savant	creature	4	blue	a/9/a952236e-3085-4e6e-8639-355976b7c8f5
 Revel in Riches	enchantment	5	black	5/7/57d549d2-566b-41f4-9747-00cfa9b955bf
 Revel of the Fallen God	sorcery	7	multicolored	e/1/e1d2c774-aab9-4747-af91-da792ed7cfe1
+Revel Ruiner	creature	4	black	e/3/e3fbe7f0-8a91-4832-8953-54ab3669372c
 Revelation	enchantment	1	green	d/4/d467517a-1e6f-4c1f-adb5-bf60df1284e2
+Revelation of Power	instant	2	white	7/e/7e010b11-8f3e-4792-afe4-0a376650b6c4
 Revelsong Horn	artifact	2	colorless	1/0/10a4801c-fa69-47a0-bdfa-f5f110fd0976
 Revenant	creature	5	black	3/0/307a8465-9e33-4441-b512-a112e8524328
 Revenant Patriarch	creature	5	black	5/2/52f23f01-67f0-49d3-b907-6203976cdf4d
@@ -16084,6 +16337,7 @@ Rhox Maulers	creature	5	green	f/9/f91e25c0-8f10-4829-86d1-f6df105b46bd
 Rhox Meditant	creature	4	white	b/7/b74f4f8d-2191-4743-aac6-cdcb4a68379c
 Rhox Oracle	creature	5	green	2/8/281f04d5-af45-4494-ac11-a605d3a06643
 Rhox Pikemaster	creature	4	white	b/3/b3684a28-e819-4909-912e-dec4a9cf1b11
+Rhox Pummeler	creature	6	green	c/9/c99f5b02-16b9-4672-b0ec-f77662e9de76
 Rhox Veteran	creature	4	white	6/3/6384e266-d0dc-4af1-b3ab-ecaf9be2553c
 Rhox War Monk	creature	3	multicolored	8/4/84d52069-b094-4c99-8ac4-a2d7ecd5deb6
 Rhys the Exiled	creature	3	green	8/5/85004079-f9fa-4a05-904d-a77782c4165c
@@ -16144,6 +16398,7 @@ Righteous Indignation	enchantment	3	white	c/1/c1fb6335-cfd8-438c-b936-09b850d61b
 Righteous Valkyrie	creature	3	white	0/2/02fb5f9f-8750-4eb5-a03a-6dacc60e0b90
 Righteous War	enchantment	3	multicolored	b/b/bbcacb8e-1aff-4807-b70c-a17d6703d279
 Righteousness	instant	1	white	d/2/d2910df2-e288-4fa0-9859-c5ca35da2d55
+Rigo, Streetwise Mentor	creature	3	multicolored	6/7/67c6aef6-d846-4e02-a5f9-6eb0b2212208
 Riku of Two Reflections	creature	5	multicolored	7/0/70dd138f-391a-4956-bc2a-fe186429c71a
 Rile	sorcery	1	red	8/9/89f51602-0ab8-4acd-9734-16ef05953970
 Rime Dryad	creature	1	green	7/a/7a93e6ce-1295-41f8-b454-2dfe321481a6
@@ -16223,13 +16478,13 @@ Rishadan Dockhand	creature	1	blue	f/c/fc488a4c-2885-4727-8317-da93aee8fced
 Rishadan Footpad	creature	4	blue	5/1/51865d7a-7075-47a2-9b1e-9dabee9602ad
 Rishadan Pawnshop	artifact	2	colorless	2/c/2c5fc9fc-a0f9-4f56-8368-2d7e1fec5ba0
 Rishadan Port	land	0	colorless	d/2/d2507bc2-da17-4e46-b4c5-ba0080ce2c6f
-Rishkar's Expertise	sorcery	6	green	4/b/4b5882ab-d9c7-4d85-98c4-7edfb19980b0
-Rishkar, Peema Renegade	creature	3	green	c/0/c0bbcf3b-5b7c-4846-b30c-100542ce2204
+Rishkar's Expertise	sorcery	6	green	7/4/74201f17-37f5-4e1c-93e6-2762c472b3b3
+Rishkar, Peema Renegade	creature	3	green	5/f/5fcd6cd6-ec95-406c-92f7-c063254fb19a
 Rising Miasma	sorcery	4	black	4/f/4f9a8e87-3b8b-4dbf-9c1e-0a3290a33a0b
 Rising Populace	creature	3	white	e/d/edcacc28-aacf-4d40-b8cc-f8c028380340
 Rising Waters	enchantment	4	blue	e/c/ec9c84db-cf45-43e1-b38f-8bbf53cf088b
 Risk Factor	instant	3	red	4/e/4eda89d9-9bd1-4a55-ac02-f9a0625d8e5b
-Risky Move	enchantment	6	red	0/b/0b09315c-d6ff-4fdb-8774-c6402b45e959
+Risky Move	enchantment	6	red	d/1/d10de061-c4f9-4550-ad97-71b69b6f5e18
 Risona, Asari Commander	creature	3	multicolored	5/1/51d8f1fa-ca92-4e2e-91e8-195bdad82def
 Rite of Belzenlok	enchantment	4	black	1/e/1ed7cca3-79be-44ca-bf10-2ae1c0835ed1
 Rite of Consumption	sorcery	2	black	f/6/f62d999c-c81e-4bea-aefd-0d12251dcdd1
@@ -16239,7 +16494,7 @@ Rite of Oblivion	sorcery	2	multicolored	f/e/fe1f8d52-565e-4900-8357-fd29f2022dc1
 Rite of Passage	enchantment	3	green	b/e/bea92a0c-f73f-4e85-9d87-6401aa1b052e
 Rite of Replication	sorcery	4	blue	7/9/7935570c-f7e0-4add-864a-4c804b26555e
 Rite of Ruin	sorcery	7	red	8/9/89e7fec3-94b5-411e-aeb0-44a64f517986
-Rite of the Raging Storm	enchantment	5	red	8/9/89baf482-96ad-4410-8927-e503a471f80d
+Rite of the Raging Storm	enchantment	5	red	0/0/0018e4ea-8c46-4bb0-ade1-6b2a4f67c471
 Rite of the Serpent	sorcery	6	black	0/8/0837a158-b6d1-4dda-b173-b29d58ec27fb
 Rite of Undoing	instant	5	blue	2/0/20afe614-a367-461a-a67b-02d5ed634cc5
 Rites of Flourishing	enchantment	3	green	a/b/ab014d5a-aec5-4ea8-bfb4-1392f43c1b30
@@ -16276,11 +16531,18 @@ River of Tears	land	0	colorless	a/8/a8de9ac4-e03f-4d08-b836-83f461159bd3
 River Serpent	creature	6	blue	9/5/951b9269-22fa-4d92-b3d3-43f79fbb2388
 River Sneak	creature	2	blue	2/b/2be32ffc-dc1d-4bb2-926f-51d110392b06
 River's Grasp	sorcery	4	multicolored	1/2/1209bb9d-8aeb-4d7c-85bb-d9e9a24e36ac
-River's Rebuke	sorcery	6	blue	4/c/4c54cdaa-d72f-4613-adaf-d4353703ef3e
+River's Rebuke	sorcery	6	blue	f/c/fc2a70b1-bce6-43c3-94e1-ab9a7bb2638a
 Riverfall Mimic	creature	2	multicolored	b/c/bc5ed3ce-d7f7-4275-baef-edc5127475d7
 Riverglide Pathway // Lavaglide Pathway	land	0	colorless	2/6/2668ac91-6cda-4f81-a08d-4fc5f9cb35b2	1
 Riverwheel Aerialists	creature	6	blue	0/a/0a00b8fa-b6fa-4717-9887-07c85cc10494
 Riverwise Augur	creature	4	blue	c/c/cc1c3923-aeb0-4f53-a210-10542534b121
+Riveteers Ascendancy	enchantment	3	multicolored	2/1/21235916-2379-470c-b9ee-84246043d703
+Riveteers Charm	instant	3	multicolored	7/8/784a5915-bc42-49d6-8a1b-45da7749f03a
+Riveteers Confluence	sorcery	5	multicolored	e/b/eb15ba71-c3b3-4a9f-b000-bd788514211c
+Riveteers Decoy	creature	2	green	2/d/2d21701b-6a99-4e1c-82b2-0219f170b09f
+Riveteers Initiate	creature	2	red	e/2/e2e65a50-d2bc-43a0-a9d4-0e846d170f78
+Riveteers Overlook	land	0	colorless	1/d/1d161f81-c01a-4c91-b025-52dcb1881638
+Riveteers Requisitioner	creature	2	red	8/a/8ab5152d-767a-47d5-acfc-f439810aaeea
 Riveting Rigger	creature	3	white	3/b/3bfcd4ec-d3bc-4aeb-824d-dc79543f8700
 Rix Maadi Guildmage	creature	2	multicolored	e/b/eb737465-5de8-4015-befe-2bf386da2a89
 Rix Maadi Reveler	creature	2	red	c/4/c40396da-18e2-42ca-a78c-4838a38f68b8
@@ -16288,7 +16550,7 @@ Rix Maadi, Dungeon Palace	land	0	colorless	f/8/f8429762-e756-43e0-81b4-9d0a34270
 Road // Ruin	instant	3	multicolored	f/3/f336b4d4-9a84-4a87-a8ea-a83a842890ee
 Road of Return	sorcery	2	green	e/7/e718b21b-46d1-4844-985c-52745657b1ac
 Roadside Reliquary	land	0	colorless	8/0/8002de90-93fb-48ea-a849-40fdad0aef5a
-Roalesk, Apex Hybrid	creature	5	multicolored	d/e/de14b4fd-fb4e-4986-9123-69ae68b5050a
+Roalesk, Apex Hybrid	creature	5	multicolored	a/5/a52a5f4b-d2e1-405e-82b4-ea35ab851c42
 Roaming Ghostlight	creature	5	blue	8/c/8cbac0e4-f79f-476d-b410-d19ab3696606
 Roar of Challenge	sorcery	3	green	8/3/83456f8f-8a1a-403c-816b-25e454ba1edf
 Roar of Jukai	instant	3	green	6/6/66b70649-12f8-47b9-9959-40323684a777
@@ -16300,6 +16562,7 @@ Roaring Earth	enchantment	2	green	8/c/8cbdd88e-c532-4fc0-a1fe-8aa0c26d1092
 Roaring Primadox	creature	4	green	4/9/49f985df-177f-4535-b681-f9bc74045b39
 Roaring Slagwurm	creature	7	green	0/3/0338c6fe-54f6-4be0-a70d-b15e5403d842
 Roast	sorcery	2	red	a/4/a4da49b6-69eb-4dea-b52e-26dd69e05d0c
+Rob the Archives	sorcery	2	red	a/3/a3ec95f6-88c8-4daf-882f-8b4bc73452c3
 Robber Fly	creature	3	red	7/d/7d5cf073-2ba0-463e-bcd4-979ad18e28fc
 Robber of the Rich	creature	2	red	0/e/0ecbe097-ba51-42e5-957c-382eb66c08f0
 Robe of Mirrors	enchantment	1	blue	9/9/9948fcc3-6e95-4b39-accd-a4083fff1244
@@ -16309,6 +16572,7 @@ Roc Charger	creature	3	white	4/9/4932c635-b729-4348-92de-2c1b207ea460
 Roc Egg	creature	3	white	a/8/a84a12d7-ffb3-4c05-973f-e00fbc2ab6c4
 Roc Hatchling	creature	1	red	2/5/25857884-6bb7-4a8e-a08b-fa610af8a5c3
 Roc of Kher Ridges	creature	4	red	4/a/4a4aa139-842f-45b9-82ba-d184f0b24bc5
+Rocco, Cabaretti Caterer	creature	3	multicolored	b/6/b6cf8b35-2a81-40fd-b383-becb81bef806
 Rock Badger	creature	5	red	4/9/49dc08b0-491f-470c-b920-2ca961d0d569
 Rock Basilisk	creature	6	multicolored	7/9/79949237-dcce-4ac1-bdc6-7c6d8b5f5fde
 Rock Hydra	creature	2	red	c/e/ce2414c5-5956-4934-bed7-7c32ca3a9595
@@ -16336,7 +16600,8 @@ Rogue Kavu	creature	2	red	8/e/8e565859-fb56-4287-a1c5-c50cfff4e8e6
 Rogue Refiner	creature	3	multicolored	6/1/618652b4-7ce9-4994-9d16-68d2cc8644ef
 Rogue Skycaptain	creature	3	red	9/7/97aebf3b-e77d-4d18-b58b-117ae91792e2
 Rogue's Gloves	artifact	2	colorless	7/9/794fe9d4-2af4-40b0-bbb2-8015b6206972
-Rogue's Passage	land	0	colorless	5/8/58c76a0c-f13c-483c-bb7b-9af21d7fc924
+Rogue's Passage	land	0	colorless	3/8/38f6e656-7272-4232-8366-6f26fcbe2e21
+Rogues' Gallery	sorcery	3	black	8/b/8b9b1fce-585f-442c-99a6-3b9767d68f13
 Rohgahh of Kher Keep	creature	6	multicolored	e/a/ea0891f0-83ce-4eb7-b0a9-cbc8168bafff
 Roil Elemental	creature	6	blue	6/6/66139c73-8e14-433d-bcb6-ae3e518bcdfb
 Roil Eruption	sorcery	2	red	8/6/86572747-8faa-4242-b059-07d11e6be1cd
@@ -16364,6 +16629,7 @@ Ronom Hulk	creature	5	green	e/5/e5b4b14c-e6fa-4cd2-9be7-fa2a2df05de1
 Ronom Serpent	creature	6	blue	3/b/3bf81a39-0a6e-4253-81eb-a24f48253343
 Ronom Unicorn	creature	2	white	b/3/b3275ed0-30b2-4d30-aa03-0dbda913f530
 Roofstalker Wight	creature	2	black	8/f/8f43fb78-497b-4a05-84cd-d2aca4b2db1b
+Rooftop Nuisance	sorcery	3	blue	d/7/d7a84781-b40c-41e0-a0b9-86e466c9b12d
 Rooftop Storm	enchantment	6	blue	8/0/80cdee59-0ead-4b95-a348-c1e360d781ab
 Rookie Mistake	instant	1	blue	b/1/b19de7a5-c291-405b-a2e6-8d3ac56e6570
 Roon of the Hidden Realm	creature	5	multicolored	f/8/f8ff4b08-fa1a-4564-b427-ea89e54a0e7b
@@ -16402,6 +16668,7 @@ Rootwater Shaman	creature	3	blue	c/a/caa1b84b-efda-4324-9106-0d1d00385cdc
 Rootwater Thief	creature	2	blue	3/8/38addef3-1dd7-41a1-9706-3be5c86a58c9
 Rootweaver Druid	creature	3	green	9/8/987e0ffe-ea75-4985-b6a3-b874bef78719
 Rorix Bladewing	creature	6	red	8/f/8f2e7e50-e0b7-474b-a07d-35071011a70c
+Rose Room Treasurer	creature	4	red	2/1/2167439d-792d-471e-9137-ee46dbf7a82d
 Rosemane Centaur	creature	5	multicolored	e/5/e516b8f2-8c79-42c9-8e49-8e4f461c7ebe
 Rosethorn Acolyte // Seasonal Ritual	creature	3	green	2/a/2a0d430f-da84-4752-940c-8457c525aac9
 Rosethorn Halberd	artifact	1	green	c/a/cae858a9-8329-4d42-ae60-bef31a246fce
@@ -16464,7 +16731,7 @@ Ruby Medallion	artifact	2	colorless	a/d/ad5b8a3c-8c75-4af4-975b-031e39d69da3
 Rude Awakening	sorcery	5	green	0/1/019897e4-d3ba-43b1-9bd9-2ebba6e3b349
 Ruff, Underdog Champ	creature	4	white	1/4/143052c4-a59a-4bb7-afff-ac38b23d820f
 Rugged Highlands	land	0	colorless	5/8/58d511be-60e0-4755-abec-18eebb530605
-Rugged Prairie	land	0	colorless	2/2/225cd301-7d04-480d-94ed-52537d944c6f
+Rugged Prairie	land	0	colorless	b/a/ba25f6c3-c599-442a-89fc-6ae3ab20ad8f
 Ruham Djinn	creature	6	white	a/4/a46c7718-1ecc-418c-b213-13be9de5cb7f
 Ruhan of the Fomori	creature	4	multicolored	7/f/7fa40fde-2c11-4dec-b788-01f8d90198df
 Ruin Crab	creature	1	blue	7/3/738ce273-c938-42d2-83b2-c4f5f4000b0b
@@ -16497,11 +16764,13 @@ Rumbling Sentry	creature	5	white	4/f/4f93f3c9-b317-40c1-87f5-0038c09b646d
 Rumbling Slum	creature	4	multicolored	9/d/9d8fd566-0460-4f2f-99c2-8999ce6f2c61
 Rummaging Goblin	creature	3	red	2/5/254391a3-c12a-4944-9da5-ae166094480f
 Rummaging Wizard	creature	4	blue	a/d/ad96e158-bf2b-4f3e-9692-0f79efdd94f5
+Rumor Gatherer	creature	3	white	f/8/f8b87807-cac5-4e33-a8ed-a9ced0cd83a1
 Run Afoul	instant	1	green	b/d/bd328139-0dc1-403b-ad79-b1cf3479ac33
 Run Aground	instant	4	blue	9/e/9ed573c6-2b95-4052-8b43-106cbaacb721
 Run Amok	instant	2	red	4/4/44c8136f-2826-476c-a103-7094670506a6
 Run Ashore	instant	6	blue	7/e/7eed5a2d-d7a4-4f64-a96b-04c5d4206c5a
 Run Away Together	instant	2	blue	d/7/d747d5f2-d3b0-44f9-92f0-781839386850
+Run Out of Town	instant	4	blue	7/c/7cf00112-0844-49db-a061-d0eb488de68a
 Run Wild	instant	1	green	9/3/939a7354-162c-489d-955d-4df17b930e1c
 Runaway Carriage	creature	4	colorless	6/c/6c8ce5d3-0184-4cfb-a41d-3d58229b2a5f
 Runaway Steam-Kin	creature	2	red	d/8/d8c9c111-fbc7-44e1-94bd-1ca164370623
@@ -16672,12 +16941,12 @@ Said // Done	sorcery	3	blue	4/3/43ab3ed2-2b50-4488-a21f-60965222970a
 Sailmonger	creature	4	blue	1/4/142479d8-8956-44a2-8c54-9dd6dc1774c0
 Sailor of Means	creature	3	blue	2/1/212e9011-a9b7-4a60-bb47-ce5c3c147280
 Sakashima of a Thousand Faces	creature	4	blue	7/1/714c3a1f-7b30-4ed8-8f38-6176758741fb
-Sakashima the Impostor	creature	4	blue	7/e/7e56f614-cba4-49d9-b5fc-7566abba4a10
+Sakashima the Impostor	creature	4	blue	9/a/9ab09047-f76b-4d3a-843b-73f798e8f03e
 Sakashima's Protege	creature	6	blue	c/c/cce06cd4-099b-445f-af95-76564ee24668
 Sakashima's Student	creature	4	blue	9/1/91b0a6cb-1c2e-4122-8874-a48e69e1c464
 Sakashima's Will	sorcery	4	blue	c/a/ca9fd318-ffb2-40d0-b1e0-e951d7735f78
 Sakiko, Mother of Summer	creature	6	green	7/7/774ec405-5127-4475-8c74-b8858bd84379
-Sakura-Tribe Elder	creature	2	green	5/3/53754cb3-0294-41e0-90d7-a35710ea30e4
+Sakura-Tribe Elder	creature	2	green	5/2/5218dc75-da9e-497f-a797-a11457cdbf48
 Sakura-Tribe Scout	creature	1	green	9/c/9cbdda50-8a27-4094-849d-b6f66def82ce
 Sakura-Tribe Springcaller	creature	4	green	b/2/b2ca7687-ba90-4479-8c6e-ece3f29fff12
 Salivating Gremlins	creature	3	red	0/c/0cbec0d9-42b4-4aff-8d55-0721c8911de3
@@ -16725,6 +16994,7 @@ Sanctuary Cat	creature	1	white	9/6/96865440-01ad-40f2-90d7-9ecd0b4efecc
 Sanctuary Lockdown	enchantment	3	white	1/3/1387b7be-f69e-4919-9070-a89654c656f3
 Sanctuary Raptor	creature	3	colorless	c/c/ccbdb1eb-2546-4c1a-bfab-ef61bdadd364
 Sanctuary Smasher	creature	6	red	c/c/cc634c10-42c5-4bdc-bc22-f862ae285492
+Sanctuary Warden	creature	6	white	4/d/4dfdab77-d7c3-4e6a-bb4b-55153bd2fd4d
 Sanctum Custodian	creature	3	white	2/7/27a64b98-9002-48fe-a3e5-4449050c87e1
 Sanctum Gargoyle	creature	4	white	7/6/7678e008-f054-485d-ae21-6b97f83dd824
 Sanctum Guardian	creature	3	white	1/6/166cd9d3-7750-4f41-bffd-8f6739204d2e
@@ -16767,7 +17037,7 @@ Sandstone Warrior	creature	4	red	7/d/7df10856-6e72-4225-8185-abe359768575
 Sandstorm	instant	1	green	c/a/ca9af432-3997-426a-b532-52333c3c50c4
 Sandstorm Charger	creature	5	white	8/2/824d42b7-9991-4033-aa12-d0c53f557395
 Sandstorm Eidolon	creature	4	red	4/9/49e61ce3-e2cc-401c-b998-8baf8836e83a
-Sandwurm Convergence	enchantment	8	green	e/4/e47bd2c5-e3db-4fde-a695-9e67a7e937be
+Sandwurm Convergence	enchantment	8	green	f/d/fdd90a01-c466-47f4-9229-7bf5cbac8cea
 Sangrite Backlash	enchantment	2	multicolored	f/a/fa56b15e-d02d-4306-82a6-ced778fee90f
 Sangrite Surge	sorcery	6	multicolored	1/6/16b4527e-e449-45d0-a551-634e2ceb21c4
 Sangromancer	creature	4	black	9/c/9cdebdfd-a29b-4482-ab83-012d5faba2e4
@@ -16780,6 +17050,7 @@ Sanguine Guard	creature	3	black	2/c/2c1fa0c5-8eef-484e-9d5f-38e87d99ed73
 Sanguine Indulgence	sorcery	4	black	a/b/abfcd08a-cfb5-4d34-b950-f57a88c5cb8e
 Sanguine Praetor	creature	8	black	8/2/8291b1a9-2d04-4dd7-b8c5-3b1018aa0d2f
 Sanguine Sacrament	instant	2	white	f/9/f9fae153-d86a-42b5-9c1c-6dbd56118ecb
+Sanguine Spy	creature	3	black	2/d/2d52ea1e-5b66-47c7-9a6d-95f5996565d8
 Sanguine Statuette	artifact	2	red	7/0/706fafd4-443f-4e16-972e-86c16f22670a
 Sanitarium Skeleton	creature	1	black	7/c/7c33d20d-8d1c-4cf7-a7ad-3dab9758fafe
 Sanity Gnawers	creature	3	multicolored	c/0/c088d28d-16c2-4dd2-b036-946dfdb8ec98
@@ -16852,7 +17123,7 @@ Savage Gorger	creature	3	black	a/2/a25ea81f-9786-4622-978d-b082fb72622c
 Savage Gorilla	creature	5	green	3/2/32ad3f87-9f25-455f-9933-3b0b0eaad467
 Savage Hunger	enchantment	3	green	0/3/0367fac8-6990-4544-ac7d-ed363b55a9cf
 Savage Knuckleblade	creature	3	multicolored	c/c/cc527b03-2202-4d37-8da6-9c7697531980
-Savage Lands	land	0	colorless	c/2/c281afba-c239-46e7-b8ba-04a01d24ca04
+Savage Lands	land	0	colorless	0/5/05bd2945-af12-4f36-b2b3-47d766af521e
 Savage Offensive	sorcery	2	red	3/5/356744f3-e444-4f4e-bf00-80bb6b2ef76f
 Savage Punch	sorcery	2	green	3/a/3ab7f94b-6fb1-4be8-8498-7d9522a6d4ee
 Savage Silhouette	enchantment	3	green	8/b/8b8547e0-2928-4edc-a15a-a613cb4d1eac
@@ -16948,17 +17219,19 @@ Scavenger Folk	creature	1	green	8/a/8a3ebda6-7eea-4a65-9fc1-9fc453ff39bb
 Scavenger Grounds	land	0	colorless	7/8/78748ac8-4726-4156-a97e-023f80fef610
 Scavenging Ghoul	creature	4	black	d/f/df0baaa9-c42b-413a-b10d-95689e4ddb50
 Scavenging Harpy	creature	3	black	b/0/b0e237c5-45b4-49df-adb9-62b9f3b62986
-Scavenging Ooze	creature	2	green	4/8/487116ab-b885-406b-aa54-56cb67eb3ca5
+Scavenging Ooze	creature	2	green	6/7/67d93e17-13fd-4cf5-a53c-a7b6c57a8351
 Scavenging Scarab	creature	4	black	0/2/023603c1-3f1e-42d1-81e1-535547ef6ee0
 Scent of Brine	instant	2	blue	d/1/d117bf8d-23ec-4f9d-99d0-3a990c5f7075
 Scent of Cinder	sorcery	2	red	c/0/c030eca0-bc5f-403b-8600-1f295fc85fee
 Scent of Ivy	instant	1	green	a/5/a56b4894-b959-4d00-b631-95d26eb85a4e
 Scent of Jasmine	instant	1	white	c/0/c0dae0cf-9696-498c-8d28-dc8c239faec7
 Scent of Nightshade	instant	2	black	5/8/582468a6-0ea9-411e-a694-13977d47c877
+Scepter of Celebration	artifact	3	green	4/0/404b786c-b64c-4935-b0d3-4dd7a2d14c37
 Scepter of Dominance	artifact	3	white	8/8/888bc7ca-f9fa-4da4-b466-b9dc273d5319
 Scepter of Empires	artifact	3	colorless	5/4/54f1aaef-94cc-45ab-99c9-8ffdcf331a7b
 Scepter of Fugue	artifact	2	black	2/1/21f7e17c-45df-45e9-8dcf-7fc90fa4d65d
 Scepter of Insight	artifact	3	blue	8/a/8ac51021-e66c-4cd1-b54f-031b69d9699f
+Scheming Fence	creature	2	multicolored	a/f/af7ef030-7bae-4820-b51a-8fad57a8ff2f
 Scheming Symmetry	sorcery	1	black	0/1/01acc50b-856d-442d-9880-1a892b40643b
 Schismotivate	instant	3	multicolored	9/8/98510af3-a884-417a-8cd9-991890d42919
 Scholar of Athreos	creature	3	white	9/5/95a36e06-39f3-47d0-b6a9-43728afceb4a
@@ -17082,10 +17355,11 @@ Sculptor of Winter	creature	2	green	9/d/9dab2ca2-0039-4eac-a7dc-68756362737d
 Scurrid Colony	creature	2	green	c/9/c9c0a096-870d-443c-92d3-f7ec1f362616
 Scurry Oak	creature	3	green	0/f/0fb48c2e-ee0f-4fae-9c22-247870c10d5b
 Scute Mob	creature	1	green	2/8/28d10cf2-c40d-4748-add0-f9cdd606030c
-Scute Swarm	creature	3	green	6/1/61f42823-8a48-4b81-a037-664ba1c69f29
+Scute Swarm	creature	3	green	a/c/acd42ebf-6dee-44cc-a023-a7f9b67cfa2f
 Scuttlegator	creature	6	multicolored	d/8/d886fd9a-7800-41f1-b692-32a439b045da
 Scuttlemutt	creature	3	colorless	5/f/5fbd8e7c-13cb-4aea-a3cb-c7ed29d43163
 Scuttletide	enchantment	2	blue	3/8/38e4ce27-aba2-4a3f-8de7-d442323d8be2
+Scuttling Butler	creature	3	colorless	0/e/0edbece0-8444-4634-a47b-7c88d1b8325e
 Scuttling Death	creature	5	black	5/b/5b26172d-3c33-4535-9af8-721061a43b97
 Scuttling Doom Engine	creature	6	colorless	7/a/7ad0dfdd-2075-4a42-976b-e493246bc61c
 Scuttling Sliver	creature	3	blue	e/0/e0e63efe-b5ec-426e-8860-a881c495c39e
@@ -17160,7 +17434,7 @@ Searing Touch	instant	1	red	e/9/e9091667-d5a8-4978-9023-032ff65f9642
 Searing Wind	instant	9	red	6/1/61afd3c5-7103-4247-8bb9-747532ae4265
 Seascape Aerialist	creature	5	blue	3/6/3690efc8-de2b-4476-87da-d8ed9572dc84
 Seashell Cameo	artifact	3	colorless	9/e/9efdbcad-e2e4-4f54-ade5-920b1853109e
-Seaside Citadel	land	0	colorless	4/f/4f35d808-51c7-42b1-bbd5-1cd452432cd6
+Seaside Citadel	land	0	colorless	8/1/816ce96f-9180-4f95-a7cd-334f4a159fa7
 Seaside Haven	land	0	colorless	9/c/9c940a6b-3c5e-4ce2-92b6-63e2cb575c15
 Seasinger	creature	3	blue	c/5/c5266aa1-e2ea-46b9-91ab-b94a7bb7e9f9
 Season of Growth	enchantment	2	green	6/5/65b9a718-01b9-46b2-85eb-55f6206ee5e4
@@ -17198,7 +17472,9 @@ Secrets of the Key	instant	1	blue	9/b/9b022ba8-07b6-4993-99c8-89c6dcb19e60
 Secure the Scene	sorcery	5	white	d/6/d6467d96-e43a-4b1e-b6ce-578d991077b5
 Secure the Wastes	instant	1	white	9/1/915d2f5f-b228-4190-ade9-52e2a8056847
 Security Blockade	enchantment	3	white	e/6/e6250b31-8592-48b2-a877-3637c9ee7d49
+Security Bypass	enchantment	2	blue	5/c/5c155be9-8432-4e35-b586-96b6339d27ae
 Security Detail	enchantment	4	white	5/b/5b89d34b-1a67-4f5c-a731-54b56c5233ff
+Security Rhox	creature	4	multicolored	0/0/0050dd40-9a18-41e4-97e6-fce5bf220ccf
 Sedge Scorpion	creature	1	green	9/8/9864f811-db2e-4d6d-ad59-a491a790bdd4
 Sedge Sliver	creature	3	red	0/a/0af3c6b1-9139-46a3-ad41-91aabbdda55f
 Sedge Troll	creature	3	red	4/9/49dcda11-4200-4ee2-b353-2321282463be
@@ -17253,10 +17529,11 @@ Seismic Stomp	sorcery	2	red	4/8/4889cf72-3ae9-4880-81b8-4a14c0bfba2e
 Seismic Strike	instant	3	red	9/7/972d0b03-8602-4ada-86b9-4262941bae67
 Seismic Wave	instant	3	red	e/5/e55b8ffb-c2e4-4676-9051-ff6c686cad0b
 Seizan, Perverter of Truth	creature	5	black	e/1/e1e61750-f7d7-4e6d-9d68-e1e357868a8d
-Seize the Day	sorcery	4	red	0/e/0ee67808-abe3-4755-83a0-03681ad5f82f
+Seize the Day	sorcery	4	red	6/1/610b3a04-76ba-4388-8808-53f7d91b1ac1
 Seize the Initiative	instant	1	white	6/d/6d745f35-944a-4157-a351-baa06f67b725
 Seize the Soul	instant	4	black	2/9/29bf245f-e8e0-4d32-8cd7-06d832609910
 Seize the Spoils	sorcery	3	red	b/3/b3b7a69c-75d2-49a6-ab56-ef608d0b0208
+Seize the Spotlight	sorcery	3	red	3/b/3b4df2f7-8d17-4484-85a3-b8f3e4dd0c7c
 Seize the Storm	sorcery	5	red	5/3/532e079f-55b7-4b92-b489-aed4d3becae7
 Seizures	enchantment	2	black	d/a/da369c86-7e17-43d8-b626-b6842e3d2d50
 Sejiri Merfolk	creature	2	blue	6/a/6ae04d82-56f5-4c72-b1c1-40c7d9640b7c
@@ -17300,7 +17577,7 @@ Seller of Songbirds	creature	3	white	2/a/2a41edbe-4c5a-4535-a082-235dc3ffe60a
 Selvala's Charge	sorcery	5	green	4/2/426b63f9-5788-45d2-b934-1579320bc775
 Selvala's Enforcer	creature	4	green	0/0/000ba9c3-cd88-47c1-966a-00466569a9bf
 Selvala's Stampede	sorcery	6	green	8/5/85d6e48e-3d26-4915-9739-25edbd80bdf1
-Selvala, Explorer Returned	creature	3	multicolored	9/a/9a9fd6b0-bb47-4ab5-968d-3051c0d7a082
+Selvala, Explorer Returned	creature	3	multicolored	c/b/cb1ad2b7-bdf1-4c37-9591-edaa271e9fa4
 Selvala, Heart of the Wilds	creature	3	green	f/b/fb87782d-e9c7-440b-bd96-aa043d18e185
 Semblance Anvil	artifact	3	colorless	0/3/0380b46d-1660-404d-9d11-705d8809ea46
 Semester's End	instant	4	white	e/f/ef4743f7-28db-4d72-bfce-09cfbe413514
@@ -17400,7 +17677,7 @@ Serrated Scorpion	creature	1	black	b/c/bc8f0242-35e1-4409-9321-56e742e8fef4
 Serum Powder	artifact	3	colorless	c/8/c8753b80-aa9e-4f82-9a02-6b3997169dbb
 Serum Raker	creature	4	blue	f/1/f157d08a-7cd7-4120-a8bb-1b50fa0ba99b
 Serum Tank	artifact	3	colorless	0/a/0a2ad5c8-0dca-4082-97b9-3d788f553cdf
-Serum Visions	sorcery	1	blue	8/4/8405a6c8-1dfb-4ac5-b44c-bce9e4bcc38c
+Serum Visions	sorcery	1	blue	5/c/5c75ec73-0f6a-4392-b058-ab40a07dcd3a
 Servant of Nefarox	creature	3	black	e/0/e00a2b22-a473-44ae-919f-29bc8be05543
 Servant of the Conduit	creature	2	green	9/c/9ce9cf30-4baa-4f28-84e8-b9b1168a40e0
 Servant of the Scale	creature	1	green	c/a/ca887c41-a8ee-4751-a902-87149c29a9df
@@ -17429,11 +17706,12 @@ Settle the Wreckage	instant	4	white	9/c/9cbd346e-098a-4cf6-a72f-468376fd2e8f
 Seven Dwarves	creature	2	red	4/6/464adbae-70ea-48e1-b8ae-b404766f7a5a
 Seven-Tail Mentor	creature	4	white	9/d/9d77d1e6-c804-46f7-ba00-6df6bca2ae08
 Sever Soul	sorcery	5	black	d/f/df1cb775-3a45-4f2c-9c45-febda6434c59
-Sever the Bloodline	sorcery	4	black	f/a/fa151bd1-770b-49fe-9db5-aae373fab934
+Sever the Bloodline	sorcery	4	black	2/2/22bfced7-8fbf-44d2-a439-7ac7c8c7e365
 Severed Legion	creature	3	black	8/2/82633f38-5af1-429e-8c9d-db536af85309
 Severed Strands	sorcery	2	black	b/c/bce654d6-fcf1-40a8-8bdb-5c37e561f7dc
 Sevinne's Reclamation	sorcery	3	white	7/e/7e68f4df-88ce-4e09-a03c-7edf40bff167
 Sevinne, the Chronoclasm	creature	5	multicolored	2/c/2c209efe-b4dc-44a3-bd45-d647f5680cbe
+Sewer Crocodile	creature	6	blue	a/0/a06ac58b-6d72-4eb4-a1c9-61b5314c7769
 Sewer Nemesis	creature	4	black	3/1/315e4fa6-66e6-40b3-b78f-4d3e75b87213
 Sewer Rats	creature	1	black	4/2/42fe08c3-5024-486c-ba03-19d371ceccb0
 Sewer Shambler	creature	3	black	0/a/0ae7ba14-c901-4266-ae31-812e001916d3
@@ -17454,6 +17732,7 @@ Shadow Guildmage	creature	1	black	9/6/960c2137-f2de-46c6-9b63-bbb208d3cfa8
 Shadow Kin	creature	4	blue	0/0/00ca621f-c409-4255-828b-c9957e82c06f
 Shadow Lance	enchantment	1	white	0/2/02b5590f-d964-49cb-8e2e-94b067112c8e
 Shadow of Doubt	instant	2	multicolored	7/d/7dbd0e3c-b26d-4080-b7cf-1c64fce09668
+Shadow of Mortality	creature	15	black	4/0/40cbb0db-94e9-4988-b900-ced4f9e6d4ed
 Shadow of the Grave	instant	2	black	9/b/9b0205cb-c163-4332-9624-394e1024bf6a
 Shadow Rider	creature	4	black	5/b/5bfdec24-e689-4cca-a546-a8f5d0929f8d
 Shadow Rift	instant	1	blue	5/7/57c11175-9feb-4801-9b46-d577d5ecef40
@@ -17463,17 +17742,17 @@ Shadow Stinger	creature	3	black	0/9/093e0b1e-2cd9-4743-9c0e-b8f3fbc41798
 Shadowbane	instant	2	white	0/f/0fbe8fa5-5ca8-43ce-863e-61802126e485
 Shadowbeast Sighting	sorcery	4	green	1/b/1b12e978-4deb-4ccc-8ae6-462bc4598c90
 Shadowblood Egg	artifact	1	colorless	0/4/044bbf15-e71d-4f47-bac3-bba8021118bd
-Shadowblood Ridge	land	0	colorless	7/4/7480c855-f8db-4c15-8abf-6bb2f1dd834c
+Shadowblood Ridge	land	0	colorless	5/b/5bf29166-4314-4464-a810-9c7487e98107
 Shadowborn Apostle	creature	1	black	2/0/202c2323-6589-457a-af51-5528a98e7b30
 Shadowborn Demon	creature	5	black	3/8/3884c05b-c10e-4f1d-a8bd-8b5118657972
 Shadowcloak Vampire	creature	5	black	f/4/f48084a8-afd0-4360-a42d-f8d11e2a767c
 Shadowed Caravel	artifact	2	colorless	b/2/b28ab3ed-32cd-4168-9763-96884491aaa1
 Shadowfeed	instant	1	black	1/9/19ccd8c7-7472-47df-9d3e-1b5fb1431118
 Shadowgrange Archfiend	creature	7	black	d/e/de4e445f-4d54-44a8-a5f5-ef02b3d57251
-Shadowmage Infiltrator	creature	3	multicolored	3/1/31120987-4b68-4d0e-917f-b8f2ca050090
+Shadowmage Infiltrator	creature	3	multicolored	c/2/c2ac3ee0-3adf-4e81-9194-cb0e9faf2826
 Shadows of the Past	enchantment	2	black	3/5/35139a18-28c7-4a8f-986a-47e909cc23eb
 Shadows' Verdict	sorcery	5	black	5/2/52470883-b44d-415b-9324-8074e66f79ae
-Shadowspear	artifact	1	colorless	9/3/939c6e19-4b27-4023-bb9c-ae440f91e21c
+Shadowspear	artifact	1	colorless	7/6/769326d4-60af-4b19-85d9-d96d3acdb56e
 Shadowstorm	sorcery	1	red	3/6/367c4ad6-973d-47ba-9431-312f9f2996f6
 Shadowstorm Vizier	creature	2	multicolored	e/a/ea72b393-e47c-46de-a458-624ef0227486
 Shadrix Silverquill	creature	5	multicolored	a/b/ab701909-83d6-4d39-9a84-e6a9b2cb38d6
@@ -17483,6 +17762,7 @@ Shah of Naar Isle	creature	4	red	c/e/cee5e9e3-e3ae-4e1b-a8fb-48c523631105
 Shahrazad	sorcery	2	white	0/0/0014def3-4063-4929-ac51-76aef1bb2a68
 Shaile, Dean of Radiance // Embrose, Dean of Shadow	creature	2	white	9/3/938cee8f-ac2c-49a5-9ff7-1367d0edfabe	1
 Shake the Foundations	instant	3	red	b/5/b5bd4bdd-3a2a-40d9-9f86-fefe0a462cd2
+Shakedown Heavy	creature	3	black	c/e/ce418184-a672-46bc-a17d-c559614defb5
 Shalai, Voice of Plenty	creature	4	white	d/b/db827ee7-6f2e-4e10-aac0-120fc2b69fbd
 Shaleskin Bruiser	creature	7	red	f/c/fc2de8a4-0d84-4f7c-bbe4-3a31172186ab
 Shaleskin Plower	creature	4	red	4/2/42658b33-9a12-403b-bc7d-807fbe1f1a36
@@ -17493,7 +17773,7 @@ Shaman of Spring	creature	4	green	8/e/8e974df6-d78a-43ea-ada5-17c53fcca97b
 Shaman of the Great Hunt	creature	4	red	b/f/bfbd8cd1-465c-4501-94ba-5a3402f30ded
 Shaman of the Pack	creature	3	multicolored	d/a/da9705e2-40e5-4ec9-8aef-2eab28d5a66f
 Shaman's Trance	instant	3	red	d/f/dfc33a4f-9ec2-4324-82a1-a4b9700572f2
-Shamanic Revelation	sorcery	5	green	b/9/b95f36ad-2fb0-448c-b74f-a2a104240d8d
+Shamanic Revelation	sorcery	5	green	b/3/b3784eff-ab7b-4fd4-9a07-fbc852d116bf
 Shamble Back	sorcery	1	black	f/6/f6913dce-05f5-4e1b-9dd9-67eb347b5be8
 Shambleshark	creature	2	multicolored	0/7/07855a17-4e68-4257-af7f-275c9fb0a9b8
 Shambling Attendants	creature	8	black	8/f/8f67eea7-9086-4e6a-b08b-a67aefe8c5b2
@@ -17546,6 +17826,7 @@ Shattered Dreams	sorcery	1	black	1/e/1eb957bd-99e4-431e-b163-c25e9b7850d9
 Shattered Ego	enchantment	1	blue	1/9/191d1ab9-cd9e-4351-9acd-d7a57b963253
 Shattered Perception	sorcery	3	red	0/f/0f5223b4-e0d1-4fc6-a363-ebcdfeee56d1
 Shattered Sanctum	land	0	colorless	a/d/ad44c9aa-eb8f-4200-8dfe-2af728d80083
+Shattered Seraph	creature	7	multicolored	c/c/cc75ba0d-230e-4ca4-bb40-bd05af2a4457
 Shattergang Brothers	creature	4	multicolored	a/1/a1b922ce-c398-43d4-9f79-2d15f28eae2f
 Shattering Blow	instant	2	multicolored	a/7/a77058d9-d2b5-424a-bfe2-070b754051cb
 Shattering Pulse	instant	2	red	8/9/89d3b846-6071-4d65-86ba-da08c4bd0aa1
@@ -17586,6 +17867,7 @@ Shepherd of the Flock // Usher to Safety	creature	2	white	c/0/c0b4f0ce-0d18-4546
 Shepherd of the Lost	creature	5	white	f/f/ff23b1c2-7b99-4504-8944-ada264725524
 Shessra, Death's Whisper	creature	4	multicolored	6/0/60ca5fef-af21-4e2b-9efa-61e08a638a1f
 Shield Bearer	creature	2	white	3/1/318ff2da-d309-469c-8e2f-fa3c7517a15a
+Shield Broker	creature	5	blue	a/3/a319afae-019c-408d-a57b-b7bf0b1598bd
 Shield Dancer	creature	3	white	1/d/1d885360-1ce1-4b80-8928-29437731993f
 Shield Mare	creature	3	white	d/2/d21e0516-4430-4292-850b-f5c524d7f8f8
 Shield Mate	creature	1	white	b/4/b49261bb-66b5-4226-9001-02d045fbcbce
@@ -17666,7 +17948,7 @@ Shivan Meteor	sorcery	5	red	c/b/cb5a98f0-ceb4-4e23-b2ec-1c4f4e4e22aa
 Shivan Oasis	land	0	colorless	6/d/6d11de19-fb40-4dc6-ad61-3b7e95163c0b
 Shivan Phoenix	creature	6	red	1/1/112aa0e2-7e4a-4ae8-bedb-d84b4116df5e
 Shivan Raptor	creature	3	red	0/f/0fc45153-3cb1-43bc-b694-06f6a74b3eb7
-Shivan Reef	land	0	colorless	8/8/8886f31a-f12b-4ffa-992c-1f3b28e72da5
+Shivan Reef	land	0	colorless	0/7/070ed235-1452-4bdb-ba63-0743a59f4d8d
 Shivan Sand-Mage	creature	4	red	d/2/d21beb25-09a4-4d7f-84e3-87178e1721eb
 Shivan Wumpus	creature	4	red	7/9/7958a1e5-b671-4ecb-95de-240ffaf5021e
 Shivan Wurm	creature	5	multicolored	4/b/4bc72997-78b0-47aa-a029-bf55f77c3e73
@@ -17842,7 +18124,7 @@ Silent Sentinel	creature	7	white	7/3/73798b01-fcbc-4dc0-9fde-6a618da185f2
 Silent Skimmer	creature	4	colorless	9/b/9b715fc0-9c36-4619-8d65-6d1064ed8a32
 Silent Specter	creature	6	black	b/f/bfd891ba-cf6a-4b83-a421-3a7c346ada31
 Silent Submersible	artifact	2	blue	a/e/ae2f3dee-1768-4562-9333-a50b9ee7570f
-Silent-Blade Oni	creature	7	multicolored	f/0/f0016f82-f428-4ee4-bf60-0199b22b8453
+Silent-Blade Oni	creature	7	multicolored	d/c/dc4997f0-dd2e-4f68-8bc0-13d7b2455323
 Silent-Chant Zubera	creature	2	white	2/7/272dfee6-9c90-4409-9289-f451261909e7
 Silhana Ledgewalker	creature	2	green	d/1/d1c7e82b-2df1-4d28-860b-33528f37c625
 Silhana Starfletcher	creature	3	green	f/a/fa9c7e09-8384-4866-af92-ba56bd307d9c
@@ -17938,6 +18220,7 @@ Singe-Mind Ogre	creature	4	multicolored	a/b/ab1564d7-43fe-4072-91a6-622713848b7e
 Singing Bell Strike	enchantment	2	blue	7/f/7fd07489-13c0-4744-a222-ce90ace4ae5b
 Singing Tree	creature	4	green	3/0/3003bf1e-8085-45d8-882b-c449109e7631
 Single Combat	sorcery	5	white	c/e/ce0e7c6a-e628-4327-a16f-2062c5a662df
+Sinister Concierge	creature	2	blue	4/3/434a43a4-cd03-4ddf-8e36-edff02be33b2
 Sinister Concoction	enchantment	1	black	8/1/815ca911-ccc1-4466-8d12-054b8d241992
 Sinister Possession	enchantment	1	black	7/f/7f54c15b-fec0-49a6-8a49-d1af4eeee40e
 Sinister Sabotage	instant	3	blue	6/c/6cbef36d-7170-424f-8fb1-8e7e112b7f0b
@@ -17979,6 +18262,7 @@ Six-y Beast	creature	4	red	7/0/706e573e-3e3b-4684-b51c-8b583fddc549
 Sixth Sense	enchantment	1	green	e/5/e564db6b-0b8b-4c67-9135-5da76d2225fe
 Sizzle	sorcery	3	red	d/f/dfdfe2a9-1323-4f15-b2ce-d8dd404b914d
 Sizzling Barrage	instant	2	red	1/b/1bf5843a-a01f-4d1c-b8fe-c586d5160f6e
+Sizzling Soloist	creature	4	red	9/5/958dfd59-7dbd-45e0-b6e1-e432c78b6878
 Skaab Goliath	creature	6	blue	d/1/d151fe63-3b3a-4cd4-9a2d-d80e7434e63c
 Skaab Ruinator	creature	3	blue	4/4/44c40cdc-a11a-47df-b902-d8fbe9014d03
 Skaab Wrangler	creature	2	blue	9/7/9771d9e8-97d5-44af-8612-dc5c44d65ceb
@@ -18083,6 +18367,7 @@ Skullscorch	sorcery	2	red	8/8/88f1343c-77bf-4f44-8226-fdfb2c2c7015
 Skullsnatcher	creature	2	black	0/7/07a48566-47cd-4214-879d-13bc76d2c1d2
 Skulltap	sorcery	2	black	4/8/48a90779-008e-401f-9877-be0a935d2ccd
 Skullwinder	creature	3	green	6/1/6133735c-37ea-4c91-a848-59bc47dcb0b7
+Sky Crier	creature	2	white	9/8/98e01fa9-9127-4250-94f1-39e71cc3c2bc
 Sky Diamond	artifact	2	colorless	1/1/115d7ea5-9e15-4b0f-83ce-e99228b49cd3
 Sky Hussar	creature	5	multicolored	9/a/9a795ea0-5a8f-4dc2-863b-d3c00844d873
 Sky Ruin Drake	creature	5	blue	2/b/2bdb5850-df1e-4d8a-af7a-15cab080fb8f
@@ -18100,6 +18385,8 @@ Skybind	enchantment	5	white	9/1/91e3117a-0955-47fc-81c0-7a662c8c487f
 Skyblade of the Legion	creature	2	white	6/7/67e788e2-12e9-4041-8210-753aaef2576c
 Skyblade's Boon	enchantment	2	white	e/5/e5705397-525b-4106-92ab-fe8ec9f561a2
 Skyblinder Staff	artifact	1	colorless	d/1/d1602ee8-019d-4dde-8d31-042207017615
+Skyboon Evangelist	creature	5	white	a/7/a776f162-5ac4-444a-8254-ff6915932358
+Skybridge Towers	land	0	colorless	e/2/e28c871f-a96a-4e7d-a159-2e93aeb276d4
 Skycat Sovereign	creature	2	multicolored	6/2/6209dbfd-b765-44c5-b3ad-94f6e0705926
 Skyclave Apparition	creature	3	white	b/8/b83cfbaa-7890-4f6f-878b-4edb45677371
 Skyclave Cleric // Skyclave Basilica	creature	2	white	0/1/014027c4-7f9d-4096-b308-ea4be574c0d4	1
@@ -18108,12 +18395,12 @@ Skyclave Pick-Axe	artifact	1	green	9/9/9965a54b-8b22-418c-9a0d-bf154932f2e2
 Skyclave Plunder	sorcery	5	blue	3/f/3ff05312-787e-4e5e-a0d5-8f3fb576fc49
 Skyclave Relic	artifact	3	colorless	2/0/20259dff-4984-4d0b-aa49-34f3aaf31e3a
 Skyclave Sentinel	creature	3	colorless	f/a/fac8809a-77cd-4090-8a89-12121a8da676
-Skyclave Shade	creature	2	black	5/0/50bbc0e7-48ce-41e2-a014-1f2eb0427550
+Skyclave Shade	creature	2	black	b/4/b4bdcf1d-3387-4e21-9159-9294af1ab0b4
 Skyclave Shadowcat	creature	4	black	b/2/b27fcfc5-a1a9-4b21-8240-2ed6346c64e1
 Skyclave Squid	creature	2	blue	5/8/581ed049-7b5b-47d9-96af-f737631a221f
 Skyclaw Thrash	creature	5	multicolored	f/a/fafde9c4-57c0-4ae5-a4db-38aae434ddcd
 Skycloud Egg	artifact	1	colorless	e/5/e588cc41-4b86-4e93-94e8-dd765b27ab63
-Skycloud Expanse	land	0	colorless	8/0/8053114b-c8a2-4634-b0e0-79ff6681d4ec
+Skycloud Expanse	land	0	colorless	b/7/b7709220-02e3-4669-bdda-fd3e04981e1e
 Skyfire Kirin	creature	4	red	2/d/2d425562-3f0f-4aa3-a761-48ba445b8380
 Skyfire Phoenix	creature	4	red	6/0/605b0d7d-4ece-4ad8-bf59-86ac121ccafe
 Skygames	enchantment	2	blue	7/a/7ab5bf75-762f-46ef-8304-aacdb248bc5b
@@ -18140,7 +18427,7 @@ Skyrider Trainee	creature	5	white	5/d/5d760a01-d6c4-462b-b66c-cfd0f594e13a
 Skyscanner	creature	3	colorless	c/a/cab69fbd-0179-4b02-adba-71d2a0eeea5c
 Skyscribing	sorcery	2	blue	b/6/b6ef8e44-3b40-46c2-973e-8f857126a13e
 Skyshaper	artifact	2	colorless	2/3/234ed934-6ea7-41f6-bd13-3df8662a3a1d
-Skyship Plunderer	creature	2	blue	1/f/1fedbc91-67e4-40d6-b307-7e6197f47c6e
+Skyship Plunderer	creature	2	blue	1/1/113ebd1b-380d-42a1-accb-9889c40478f6
 Skyship Stalker	creature	4	red	6/e/6ea1dbf2-f3fb-40c4-86df-cd2511d27088
 Skyship Weatherlight	artifact	4	colorless	9/9/99791ef7-ff51-4982-b0ef-55560f9577ff
 Skyshooter	creature	2	green	f/5/f56f195e-a80c-4447-8d3f-cc1259035d1b
@@ -18171,6 +18458,7 @@ Skyswirl Harrier	creature	5	white	b/9/b951bc89-be0b-4330-8a13-e196e084d53c
 Skyward Eye Prophets	creature	6	multicolored	6/e/6e99bdc4-cc89-4f44-8838-2c41754f55ba
 Skywarp Skaab	creature	5	blue	7/3/73168804-3c22-4fcb-907a-2f08999c0cea
 Skywatcher Adept	creature	1	blue	b/e/be61e893-4bf5-4550-83f4-42ebe7f1e3b0
+Skyway Robber	creature	4	blue	7/d/7df5aaae-4fa6-4945-bdd4-577ff3235a7d
 Skyway Sniper	creature	1	green	1/7/1776f5b4-1292-460f-9719-e1b603cee46c
 Skywhaler's Shot	instant	3	white	3/e/3e2c5013-523f-42b2-b947-abe304a6cb84
 Skywinder Drake	creature	3	blue	6/2/628213e9-bde9-43fd-a0d9-8c7fb17be879
@@ -18211,6 +18499,7 @@ Sleek Schooner	artifact	3	colorless	7/6/767e2bfb-bcf5-442c-b092-bdb1f4f13561
 Sleep	sorcery	4	blue	c/f/cfde4291-6979-4919-b860-743bc3c7686e
 Sleep of the Dead	sorcery	1	blue	4/0/4007572b-a6c8-4a56-b1a7-ff099189c9c0
 Sleep Paralysis	enchantment	4	blue	2/b/2babef35-27ab-45aa-88cd-f21dccae5125
+Sleep with the Fishes	enchantment	4	blue	3/7/3742a0fb-4b86-49d6-b6fb-bd6a42fa1bcb
 Sleeper Agent	creature	1	black	6/0/60096938-d520-424a-afe4-0c5ee8b90aa1
 Sleeper Dart	artifact	2	colorless	3/1/311f827a-1585-483e-b0fd-3dc05969b485
 Sleeper's Guile	enchantment	3	black	a/0/a001ca83-35b5-48e5-8337-92258d5affc2
@@ -18231,8 +18520,9 @@ Slinking Giant	creature	4	red	b/2/b259c6cd-43c8-415e-baca-b31e2374631f
 Slinking Serpent	creature	4	multicolored	0/7/070a7004-5a28-4ccb-8640-ad6b07b51ece
 Slinking Skirge	creature	4	black	0/0/00522c4b-4e64-4403-96b1-df41afbe255f
 Slinn Voda, the Rising Deep	creature	8	blue	c/e/cebf2c16-bd9d-4a8f-a1b6-6e0c393178bc
-Slip Through Space	sorcery	1	colorless	2/d/2dee6dca-9c7e-4347-bea7-7fecc69e5827
-Slippery Bogbonder	creature	4	green	c/2/c2f9c4a7-ea53-4da0-9746-2195579f98f6
+Slip Out the Back	instant	1	blue	8/7/8725f4c4-fad7-460e-b86c-ff81674f0980
+Slip Through Space	sorcery	1	colorless	0/f/0fc0a593-580c-405c-803e-2f13aa74ab5e
+Slippery Bogbonder	creature	4	green	f/9/f9fc4f93-398c-4d11-a393-dd35e16ac1cc
 Slippery Bogle	creature	1	multicolored	c/4/c4e4bbea-7e3f-4de0-bb01-dfd67f21c254
 Slippery Karst	land	0	colorless	a/8/a8c55693-2111-4406-997e-0ad929931c8c
 Slippery Scoundrel	creature	3	blue	2/6/262f3c10-f29a-494f-88c6-0d44b2cbdc82
@@ -18303,7 +18593,7 @@ Smoldering Butcher	creature	4	black	7/f/7f764936-fceb-4a3d-ac32-15397d7ce664
 Smoldering Crater	land	0	colorless	2/6/26a9d3ef-2a56-45f4-a68a-c6acac381fbc
 Smoldering Efreet	creature	2	red	a/f/af33b204-6b50-4404-b986-9f6b970a7f06
 Smoldering Egg	creature	2	red	4/1/41b6381f-4ff8-49e9-bf00-cfe32851318b	1
-Smoldering Marsh	land	0	colorless	c/2/c2cf99ba-19c4-4f03-901b-69b754b6c48a
+Smoldering Marsh	land	0	colorless	e/0/e0e4a509-09bb-41e5-a37a-53d98c7f2e04
 Smoldering Spires	land	0	colorless	e/6/e6741f53-f02e-4f1b-9620-e49ad00e7e1d
 Smoldering Tar	enchantment	4	multicolored	f/c/fcdc55c0-c8ac-49d5-969b-9bf0ee8e696c
 Smoldering Werewolf	creature	4	red	0/b/0b0eab47-af62-4ee8-99cf-a864fadade2d	1
@@ -18311,7 +18601,9 @@ Smother	instant	2	black	c/f/cf605c8e-e59f-4f49-bb55-1824e7eadec0
 Smothering Abomination	creature	4	colorless	c/d/cd81d0de-01a3-4f28-8a2b-c2e6f36a03c4
 Smothering Tithe	enchantment	4	white	7/a/7af082fa-86a3-4f7b-966d-2be1f1d0c0bc
 Smuggler Captain	creature	4	black	b/1/b10ce284-c994-429c-ad61-ffe1ca88d691
+Smuggler's Buggy	artifact	4	colorless	0/c/0c635ea1-6395-4b28-86e7-6e136c95ca8a
 Smuggler's Copter	artifact	2	colorless	2/6/2680ed41-da35-475a-9d80-ae2f4686feed
+Smuggler's Share	enchantment	3	white	8/7/87e58a16-f344-4a7c-9eca-a71f7c27ad97
 Snag	instant	4	green	7/4/7401df8b-23e7-4485-9ed4-70118a66feed
 Snake Basket	artifact	4	colorless	3/a/3a9bc174-1d10-49bf-af4f-2f6061b1796e
 Snake Cult Initiation	enchantment	4	black	9/3/93b47606-82d1-402c-b1c6-591457b10d86
@@ -18340,6 +18632,7 @@ Sneak Attack	enchantment	4	red	3/d/3d9709ea-5962-4590-8b14-5213b14f9229
 Sneaking Guide	creature	1	red	5/6/569c9e8c-7808-49d0-82c1-72d5b835f51c
 Sneaky Homunculus	creature	2	blue	a/9/a9020f16-4c26-4a7b-8b5c-1d8df3e910a9
 Snickering Squirrel	creature	1	black	9/8/98469f4c-40b6-4ca8-886f-6d1879641641
+Snooping Newsie	creature	2	multicolored	b/e/bed1e957-3df1-4640-9980-783817826602
 Snorting Gahr	creature	4	green	e/5/e568503e-a886-4c8b-9d46-8520c2cdda48
 Snow Day	instant	6	blue	a/6/a6b6f17d-45ba-4d60-a963-5eee026f2219
 Snow Devil	enchantment	2	blue	2/b/2be3a9a5-2ac5-4ea4-915d-8cff35c0e72f
@@ -18364,6 +18657,7 @@ Soaring Hope	enchantment	5	white	7/f/7f6c24b1-af9d-4a9c-9167-faa8a397a361
 Soaring Seacliff	land	0	colorless	6/5/651a1a4f-bdaa-44d6-ac45-050894788063
 Soaring Show-Off	creature	3	blue	2/e/2e6c52da-efc8-4279-b6b5-01e490bcb035
 Soaring Thought-Thief	creature	2	multicolored	0/d/0d73c9c4-8955-499f-8f87-6500b35b4977
+Social Climber	creature	3	green	a/9/a9fb74fd-767f-4dd4-822a-828d59f633ad
 Socketed Sprocketer	creature	1	blue	5/b/5bd90f0f-9009-4002-86ae-3353843735c7
 Soilshaper	creature	2	green	a/e/ae4066c3-bcb0-41c4-a4d3-a22bd186fd13
 Sojourner's Companion	creature	7	colorless	8/c/8c6af084-eee7-4259-a58b-a866e0cf171b
@@ -18373,7 +18667,7 @@ Sokenzan Smelter	creature	2	red	7/5/758724f9-93c9-4178-ae40-3fefc75a010e
 Sokenzan Spellblade	creature	5	red	5/0/500eeccb-aee2-48d4-8a43-bb9668f1c1ab
 Sokenzan, Crucible of Defiance	land	0	colorless	a/a/aa548dcd-c1dd-492d-a69f-c65dfeef0633
 Sol Grail	artifact	3	colorless	6/2/62652722-e345-4670-9547-d9579efa227d
-Sol Ring	artifact	1	colorless	3/9/3917f744-b876-47ae-94ad-f72b215ff1e7
+Sol Ring	artifact	1	colorless	e/1/e1187999-521d-4ed0-8673-6eb8f3c58bb8
 Sol Talisman	artifact	0	colorless	a/5/a51fb64d-cc0c-400d-971f-78c28d42043b
 Sol'kanar the Swamp King	creature	5	multicolored	c/7/c7ea7454-c715-4d6d-8e46-cf5acaf397f5
 Sol, Advocate Eternal	creature	4	multicolored	7/1/711ccbf2-1cd6-4881-b020-a71bedb8f664
@@ -18396,7 +18690,7 @@ Soldier of the Pantheon	creature	1	white	5/c/5cfc0f46-4df4-4ae3-bfe6-391916eb590
 Soldier Replica	creature	3	colorless	e/3/e31761a8-1146-4003-9653-881233787ac4
 Solemn Offering	sorcery	3	white	e/3/e30d14b8-b431-4764-9b30-f511bd40fd08
 Solemn Recruit	creature	3	white	f/4/f42e1e2e-6559-42c1-bab4-e2e868723b43
-Solemn Simulacrum	creature	4	colorless	3/a/3a80f639-b3e8-495a-a967-d9ecff80045d
+Solemn Simulacrum	creature	4	colorless	9/e/9ee7eb71-5399-4ef6-b80f-be79eb307ca6
 Solemnity	enchantment	3	white	0/a/0a71fb62-acbd-49f5-842f-0fc9fa48afea
 Solfatara	instant	3	red	c/5/c5d4bd6f-b019-4594-aa41-138fa58ba529
 Solid Footing	enchantment	1	white	0/9/0900a8d1-a1b1-48c9-8af1-726a623c7d74
@@ -18451,6 +18745,7 @@ Soothsaying	enchantment	1	blue	b/7/b74388fe-73a5-43d5-8826-eb077596a4a9
 Sootstoke Kindler	creature	2	multicolored	4/b/4b2260b4-c069-4f59-9bd9-35745c98c518
 Sootwalkers	creature	4	multicolored	f/3/f36c7932-cc1e-4b1f-ae39-2f04b84bcddb
 Sophic Centaur	creature	4	green	5/8/582cefca-6c11-4df3-8b54-46309dafff4a
+Sophina, Spearsage Deserter	creature	4	multicolored	e/0/e0a64924-068e-483f-91a6-d450b67b3c75
 Soramaro, First to Dream	creature	6	blue	e/5/e56de23d-7281-42f9-afce-7a81438dae5d
 Soratami Cloud Chariot	artifact	5	colorless	2/5/25e6129a-fa5c-4e27-a4d4-cbde7392164b
 Soratami Cloudskater	creature	2	blue	5/e/5e3d3024-bef2-4b50-ab84-8ae2a23cdf27
@@ -18501,6 +18796,7 @@ Soul Link	enchantment	3	multicolored	4/2/425e0ca4-8592-4802-b7c4-6e3323edd78c
 Soul Manipulation	instant	3	multicolored	8/c/8c052464-0e9c-4ac6-af50-ef81711972c8
 Soul Net	artifact	1	colorless	8/c/8ccacae0-f8db-45e0-b25a-35418fd24389
 Soul Nova	instant	5	white	f/8/f862682d-cbf3-4c35-83d0-76883b0ac105
+Soul of Emancipation	creature	7	multicolored	3/5/35b13b82-0650-48f2-9e42-3610b43e2e10
 Soul of Eternity	creature	7	white	0/8/08241f94-8b5e-4f9b-8120-8175e3256e35
 Soul of Innistrad	creature	6	black	3/1/31155467-5444-4a9b-a602-ec7cdad89e8b
 Soul of Magma	creature	5	red	4/0/40b20126-da96-4d79-8d3f-8d7da8e94f4a
@@ -18585,6 +18881,8 @@ Sovereigns of Lost Alara	creature	6	multicolored	9/d/9d68ea02-66d3-4cca-ba0c-96f
 Sower of Discord	creature	6	black	b/1/b111df04-7687-47f9-8ffc-5cf25bc3e9bf
 Sower of Temptation	creature	4	blue	0/d/0d4a3eb3-8b28-49f7-a06c-eae26da6026b
 Sowing Salt	sorcery	4	red	b/d/bd243ce5-152b-4d9c-991e-be56b6731d99
+Spara's Adjudicators	creature	5	multicolored	2/9/29eb0e40-d184-423f-8484-ee288fda00cd
+Spara's Headquarters	land	0	colorless	7/3/7363f1fb-9af3-4212-921f-d59533faf0e5
 Spare Dagger	artifact	1	colorless	a/b/ab6b0291-00f8-45bf-9f3a-ee43739c2b77
 Spare from Evil	instant	2	white	d/0/d01b5d97-b5ae-42a7-944a-feb12febd63c
 Spare Supplies	artifact	2	colorless	a/5/a53baf25-1782-427b-a9dd-fc9b8dc6444f
@@ -18626,6 +18924,7 @@ Spawning Pit	artifact	2	colorless	3/6/36a3345d-1190-45f4-8191-897b4dcec376
 Spawning Pool	land	0	colorless	9/0/907b49ff-2020-4203-b93e-4b3306afc337
 Spawnsire of Ulamog	creature	10	colorless	9/f/9ff46819-bfb3-4448-ab4f-f22ff9e2b2b4
 Spawnwrithe	creature	3	green	5/b/5ba6ee29-fc77-4300-9c5e-1557cabd05e5
+Speakeasy Server	creature	5	white	e/0/e014d9d0-e6e1-4afb-b94f-b927a09b76c1
 Speaker of the Heavens	creature	1	white	1/f/1f44b96a-8498-414a-a4ac-54c80dfa9f23
 Spear of Heliod	artifact	3	white	3/4/34ef01da-d311-4d4f-9f7b-328e7bb17db4
 Spear Spewer	creature	1	red	d/b/dbee1daa-b4ba-49ee-bed1-e70fa09942a2
@@ -18682,6 +18981,7 @@ Spell Swindle	instant	5	blue	6/e/6e619ada-e9ce-4758-afd8-8def853877eb
 Spell Syphon	instant	2	blue	b/8/b883113c-e52b-4633-b4a4-016093327b6a
 Spellbane Centaur	creature	3	green	7/2/72194a6e-481d-4b07-922b-53f919bfa316
 Spellbinder	artifact	3	colorless	4/d/4d193d4f-1beb-4938-b3fb-b2e96d0c9ec4
+Spellbinding Soprano	creature	2	red	2/4/248d71f9-89ef-492e-a854-a890f7d91ef8
 Spellbook	artifact	0	colorless	2/6/26f4d2b1-31d7-40d8-bd4e-cdd128076d0f
 Spellbound Dragon	creature	5	multicolored	8/8/88eba680-a0d7-4356-bf74-7986a51e545f
 Spellbreaker Behemoth	creature	4	multicolored	b/8/b8f73857-8bfb-400a-8c33-47c85276fb2a
@@ -18790,7 +19090,7 @@ Spined Thopter	creature	3	blue	b/d/bd27f71a-cd22-4b5e-9536-3e160111875a
 Spined Wurm	creature	5	green	c/5/c5334998-3c84-4b04-a5c2-d66c9d99e93b
 Spinehorn Minotaur	creature	3	red	8/6/86b9479d-7b6a-40c8-94ea-fdf0ec980b42
 Spineless Thug	creature	2	black	0/2/0221a713-2fdc-4ff0-abe3-1d340d272232
-Spinerock Knoll	land	0	colorless	6/b/6bfb3dac-94d7-4b94-9a9e-6392d5ce5bf2
+Spinerock Knoll	land	0	colorless	a/c/acd4d8c9-fe97-4bed-87a4-d7f0f99c00e2
 Spinneret Sliver	creature	2	green	7/f/7f86e30d-d9e8-48f7-8bd1-f2645f0ab3f4
 Spinning Darkness	instant	6	black	5/8/58e64a8e-84b1-416c-9fa7-8b10130dc9e9
 Spinning Wheel	artifact	3	colorless	0/7/070ff479-9d87-4ab6-aaaa-e96b9df0bac4
@@ -18854,6 +19154,7 @@ Spiteful Blow	sorcery	6	black	f/a/fafaa798-e534-4cd0-b369-9e767a02fe3d
 Spiteful Bully	creature	2	black	5/5/5535d14a-7126-4a94-96a0-e17ad5c72070
 Spiteful Motives	enchantment	4	red	5/9/592d7349-d066-49b0-9920-c1ec1595e00d
 Spiteful Prankster	creature	3	red	d/5/d59ee7a6-3dfa-44c7-8f00-0183137c4d31
+Spiteful Repossession	sorcery	5	red	3/5/354790c1-ce19-4ed5-9cef-f2e2ee621578
 Spiteful Returned	creature	2	black	0/1/017e8cfb-7cb0-403c-b8be-abee22369661
 Spiteful Shadows	enchantment	2	black	e/a/ea0a94fe-11d6-48a7-9195-2cb5eff4b962
 Spiteful Sliver	creature	3	red	6/5/6506d58f-9825-4384-9012-1d037543fb59
@@ -18964,10 +19265,10 @@ Squeaking Pie Grubfellows	creature	4	black	8/1/81290ae9-9217-482a-ae1a-be1a0ef47
 Squeaking Pie Sneak	creature	2	black	b/7/b7184715-3ed3-4f56-9bf3-ff431cca86be
 Squealing Devil	creature	2	red	1/b/1b445a0e-798d-4f82-88cc-04f600d38e49
 Squee's Embrace	enchantment	2	multicolored	e/6/e682a705-9341-4d1e-a9c5-d428e50b9a03
-Squee's Revenge	sorcery	3	multicolored	2/b/2b391ee3-c1cd-47bc-9540-977cbc32913e
+Squee's Revenge	sorcery	3	multicolored	6/6/664c8130-311b-4f65-853d-02f8e57ebe5c
 Squee's Toy	artifact	1	colorless	2/b/2b524ae7-cb24-41af-b41b-3cb3ee8cf3b0
 Squee, Goblin Nabob	creature	3	red	2/b/2bca6f8b-6e6a-43dd-b6a4-9eedfcc24281
-Squee, the Immortal	creature	3	red	a/3/a3974c62-a524-454e-9ce7-2c23b704e5cb
+Squee, the Immortal	creature	3	red	a/8/a8232acd-4645-489c-8cf1-4efdc75d9322
 Squeeze	enchantment	4	blue	b/b/bbe63220-992b-459c-81ca-d4e2de273ce1
 Squelch	instant	2	blue	2/9/29421dd2-70a7-4623-afe0-ca4cb415ec87
 Squelching Leeches	creature	4	black	6/9/694a0e92-8e5c-404e-a8bb-52139884e41a
@@ -19011,7 +19312,7 @@ Stalking Drone	creature	2	colorless	1/2/12bc5b4c-a809-43f0-8848-38812ce865c2
 Stalking Leonin	creature	3	white	0/f/0f32a8ba-43ce-485b-b96d-e1d17e6f3174
 Stalking Stones	land	0	colorless	7/5/754c84c8-455d-4562-99b6-dd1c22fcb5bc
 Stalking Tiger	creature	4	green	a/6/a6c66f57-5a61-4976-86fd-0bb9e1d7b427
-Stalking Vengeance	creature	7	red	f/5/f52a0544-bb0e-4226-8297-8a1b42631dc9
+Stalking Vengeance	creature	7	red	c/4/c4ab472c-22b6-473e-b7b0-df2454eb930c
 Stalking Yeti	creature	4	red	4/a/4af53d0b-ac60-4519-a6f4-c67899bcfdd6
 Stallion of Ashmouth	creature	4	black	4/0/40e29bfe-0fa9-491d-9752-ee12077f6cb4
 Stalwart Aven	creature	3	white	a/8/a84a1a28-b7b0-46d3-acfe-128bbbc99c8a
@@ -19119,7 +19420,7 @@ Steel Sabotage	instant	1	blue	c/2/c227437d-1fc7-4a00-ace5-80795adc51d3
 Steel Squirrel	creature	2	colorless	0/0/00feacac-9496-44bf-ad58-0fd5f3b5675a
 Steel Wall	creature	1	colorless	b/a/bac8df83-12c2-4543-b264-4f2d007fbf58
 Steel-Plume Marshal	creature	5	white	d/d/ddbcb165-0a60-493a-8cbb-ba8b36c527da
-Steelbane Hydra	creature	2	green	9/1/91d0e54d-6e18-44a5-adc2-d875d5b6784f
+Steelbane Hydra	creature	2	green	c/0/c091fe70-ade7-43f9-9081-3263a2524d51
 Steelclad Serpent	creature	6	blue	7/1/71b02044-f3b4-425c-8e6c-697fff2c4ef7
 Steelclad Spirit	creature	2	blue	5/5/55fb1426-5a6f-48dd-938b-c64b1a28ee59
 Steelclaw Lance	artifact	2	multicolored	c/a/cafcf909-d726-4bc2-adf6-c12ca242f0c1
@@ -19153,10 +19454,12 @@ Stern Proctor	creature	2	blue	7/0/7042fdc8-e2dd-4f9a-97b9-00d95c9eae74
 Stet, Draconic Proofreader	creature	6	red	d/5/d57a6d9d-f0e9-4c5a-bacf-7a6c30d65b08
 Steward of Solidarity	creature	2	white	e/d/eda3cd3b-d4c5-4537-8c81-5ccf269f810e
 Steward of Valeron	creature	2	multicolored	2/3/237c62b7-7c0e-44bb-b420-d41aad2792a0
+Sticky Fingers	enchantment	1	red	3/6/3678fa3d-d41f-4b7a-b25e-6fc5f78876c7
 Stifle	instant	1	blue	6/1/616d1b20-61c1-4d39-a9b5-ad9fd61699e4
 Stigma Lasher	creature	2	red	c/e/ce5d1fd4-0543-46ce-bcea-1695fc04e85b
 Still Life	enchantment	3	green	1/2/12be33d7-f25e-4dbf-9706-74403103b127
 Stillmoon Cavalier	creature	3	multicolored	4/0/400dc91e-96c0-49bf-b307-677d6f80f3ed
+Stimulus Package	enchantment	4	multicolored	e/c/ecbe7459-8613-4ab8-84dc-deab19c08511
 Stingerfling Spider	creature	5	green	1/8/18f45424-2c26-43fa-9afe-eeb22ce772e1
 Stinging Barrier	creature	4	blue	c/a/ca7f7cd5-4e91-474a-9f60-a66f3f462b1c
 Stinging Licid	creature	2	blue	8/0/807227d7-2eb2-4d47-bb3c-9d1ec9befeb7
@@ -19195,7 +19498,7 @@ Stoke the Flames	instant	4	red	1/d/1d94c000-52e0-4215-83af-6351dc43e636
 Stolen by the Fae	sorcery	2	blue	a/9/a98a7698-57fb-41f6-86d4-251c7d444c6a
 Stolen Goods	sorcery	4	blue	5/7/57b6f501-a5f8-4a54-bd77-d9b11ab430ff
 Stolen Grain	sorcery	6	black	e/1/e1f08862-5107-46a0-8c14-a961a5c4b135
-Stolen Identity	sorcery	6	blue	a/6/a63a6da6-60f0-4adc-a10f-63c631ee5be3
+Stolen Identity	sorcery	6	blue	2/8/2831fe77-ea98-4334-a78e-01580fb002c0
 Stolen Strategy	enchantment	5	red	b/b/bb90e4b8-8f66-45f0-a457-a081f2ff231c
 Stolen Vitality	instant	2	red	d/5/d50df2dd-8d14-4d92-ab4e-bf9f9f147e91
 Stomp and Howl	sorcery	3	green	b/e/be523140-7c68-4231-a692-7b3af417d858
@@ -19264,6 +19567,7 @@ Storm Front	enchantment	1	green	9/9/994bb02d-6fef-454b-b1b1-d3d1af8dcd1a
 Storm God's Oracle	creature	3	multicolored	a/6/a6d22f24-f752-4bc8-ba97-061b2c060ec8
 Storm Herald	creature	3	red	e/0/e0594aa2-1c53-4271-a0d0-9002c07f3697
 Storm Herd	sorcery	10	white	2/3/2345331c-a14f-4b4b-a9a4-88c5beb48242
+Storm of Forms	instant	4	blue	5/f/5fab4f0d-006d-4a94-80ba-924f19b42f63
 Storm of Souls	sorcery	6	white	3/0/30cb1c3f-19d4-47d3-960e-f2de828e6feb
 Storm Sculptor	creature	4	blue	4/b/4bb9ac55-4bb4-4447-b214-6a108ddb3f07
 Storm Seeker	instant	4	green	e/6/e6166e9b-f119-4b38-aba3-a9e8007704e6
@@ -19317,6 +19621,7 @@ Strands of Undeath	enchantment	4	black	9/3/93ced365-f445-4a4a-b33f-986279404fde
 Strandwalker	artifact	5	colorless	d/0/d0d7ff8f-7733-4323-8575-c50b3e730dbc
 Strange Augmentation	enchantment	1	black	8/d/8d9b9847-7ef7-4fcc-ba16-8f2859d53fe6
 Strange Inversion	instant	3	red	3/1/316a78af-a991-4a5e-bdc2-f39947b89bb2
+Strangle	sorcery	1	red	4/b/4b91d727-c0ee-4bf0-8c7d-8475ecb88083
 Stranglehold	enchantment	4	red	d/a/da81e6e9-90f2-4dad-894c-1952f05264c2
 Strangleroot Geist	creature	2	green	b/f/bf1fb137-205c-480f-b6dc-dfa137793ae3
 Strangling Soot	instant	3	black	8/7/872d8f4d-6ee5-4494-9900-db62d3e4cedd
@@ -19360,7 +19665,7 @@ Strider Harness	artifact	3	colorless	5/e/5e94daa9-5b9b-4fd2-829e-081eed22c18f
 Strike It Rich	sorcery	1	red	1/c/1c7c2814-a617-4123-acdf-1b01b2768210
 Striking Sliver	creature	1	red	4/e/4ee9254b-3d98-4477-a82e-1450cf3ee96e
 String of Disappearances	instant	1	blue	9/9/99ef4f41-211c-4302-b112-1d85ab33952f
-Strionic Resonator	artifact	2	colorless	8/8/88326f60-1c86-4aca-8e6a-b1882a048635
+Strionic Resonator	artifact	2	colorless	b/7/b769231a-768e-48cb-bbab-55df29448047
 Strip Bare	instant	1	white	5/1/51173fa1-7cd4-4093-982a-db0d46564a8a
 Strip Mine	land	0	colorless	a/5/a5899b46-226b-4be6-8e80-d2396f54210d
 Striped Bears	creature	4	green	0/b/0bf54365-56ae-485d-b931-784a4cf9d8f2
@@ -19390,6 +19695,7 @@ Stronghold Overseer	creature	6	black	e/0/e0722fa2-53df-4217-a592-fcaf239f717a
 Stronghold Rats	creature	3	black	8/7/87761f00-bfbc-42dc-b96d-9f4258b43a8b
 Stronghold Taskmaster	creature	4	black	6/1/6171c210-01b5-45a9-9dd3-dbf96a33a750
 Stronghold Zeppelin	creature	4	blue	d/6/d672110d-b7c4-4233-9c46-73323be7204d
+Structural Assault	sorcery	5	red	c/b/cbdb50e3-fe15-4431-b9bd-c4de65820734
 Structural Collapse	sorcery	6	red	d/1/d10da484-db67-4afc-90ef-6caf7d2e3a75
 Structural Distortion	sorcery	4	red	a/7/a7895890-a774-4c7c-9f15-78b8aadfd9ef
 Struggle // Survive	instant	5	multicolored	9/2/92f0a448-fc11-4a1e-ab87-5a02b72a481c
@@ -19459,7 +19765,7 @@ Suit Up	instant	3	blue	5/0/50870bfd-7779-4a1c-b18f-57fac7e193b1
 Sulam Djinn	creature	6	green	7/a/7aeab16f-e104-47e7-81c7-b6e0123120d7
 Suleiman's Legacy	enchantment	2	multicolored	3/a/3a15e970-e605-425a-b4ec-391d9cacde38
 Sulfur Elemental	creature	3	red	0/a/0aed10f9-8c52-400b-a432-a0d8c6458e87
-Sulfur Falls	land	0	colorless	6/b/6bc412fc-e9d4-4283-bd4a-811384e79b5c
+Sulfur Falls	land	0	colorless	b/f/bf1b1e48-6315-476a-a27a-3f02dbf3ad9f
 Sulfur Vent	land	0	colorless	2/2/22c66ed6-55fb-4c65-aac4-26d9cc3053b8
 Sulfuric Vapors	enchantment	4	red	e/1/e133997f-1620-4fe9-8275-057edc998fba
 Sulfuric Vortex	enchantment	3	red	0/4/0463e989-ba32-4a46-a82f-e0d6daf3cd51
@@ -19494,7 +19800,7 @@ Sun Clasp	enchantment	2	white	e/3/e3f1fb74-bc08-4c3b-9fbe-da6973aaeaa2
 Sun Droplet	artifact	2	colorless	6/5/65478c6a-05ba-461d-b1f0-c441d4922f34
 Sun Quan, Lord of Wu	creature	6	blue	6/d/6def4492-3f67-4cdb-8a25-c3ddebd125c7
 Sun Sentinel	creature	2	white	5/c/5cd0b4d6-9753-46a3-924c-2adf3dad2819
-Sun Titan	creature	6	white	e/0/e0f6b7d1-75ea-4153-bbf1-85ed5041fe67
+Sun Titan	creature	6	white	3/3/332280f7-03af-4ef8-b1ff-5ac5e4d3b3ce
 Sun's Bounty	instant	2	white	b/d/bde59b0e-c75e-455b-b375-e0dac430a6d1
 Sun-Blessed Mount	creature	5	multicolored	6/f/6f06ac1f-0bae-4aaa-9ff4-28c806828c40
 Sun-Collared Raptor	creature	2	red	6/2/62fbd1bc-3e57-43d5-ad54-443ca740fcc4
@@ -19530,7 +19836,7 @@ Sungold Barrage	instant	3	white	e/e/ee507688-9890-47c4-bb04-43c51eb48e22
 Sungold Sentinel	creature	2	white	e/7/e7e1afd0-49d4-4657-ab75-98b0bfbfb245
 Sungrace Pegasus	creature	2	white	5/2/52d851b9-c290-4fcc-860d-a3250923b850
 Sungrass Egg	artifact	1	colorless	7/0/70e888f9-c583-478a-9ef0-2e89db8a8dbb
-Sungrass Prairie	land	0	colorless	7/7/778cf871-a934-46f5-8595-a6f457162374
+Sungrass Prairie	land	0	colorless	6/9/69f8f64c-2a4d-4df0-8356-cb15a60b54a6
 Sunhome Enforcer	creature	4	multicolored	c/4/c4d5a88e-fc8f-4dd6-a1db-8e44b74ee0a1
 Sunhome Guildmage	creature	2	multicolored	6/2/62e5ee3d-3db2-45fc-adc0-9903231f16db
 Sunhome Stalwart	creature	2	white	a/4/a431f183-17eb-4a6c-a137-d106bdc8c997
@@ -19538,7 +19844,7 @@ Sunhome, Fortress of the Legion	land	0	colorless	1/5/15e9f92d-638d-46c2-9f8e-f74
 Sunimret	sorcery	6	black	6/d/6d1a29bb-23e2-429f-bfb6-28eee0aac14a
 Sunken City	enchantment	2	blue	2/2/226f89b4-cf98-4354-a2f4-3f63fe2dd99e
 Sunken Field	enchantment	2	blue	9/2/9211ee02-e854-4414-92b1-65a7af29f0b9
-Sunken Hollow	land	0	colorless	0/c/0cda97ff-ddf3-4fe4-af23-6b0eb20a153a
+Sunken Hollow	land	0	colorless	0/f/0fb2782e-6fe9-4383-9ba4-02d21b7cb4d7
 Sunken Hope	enchantment	5	blue	7/3/73fe736d-9ffa-4e8b-a353-d591da749ec3
 Sunken Ruins	land	0	colorless	9/1/9181d30d-4f8e-421f-89b8-149ed8000fb2
 Sunlance	sorcery	1	white	8/2/82ab72c3-1f76-45ff-84b4-05f403866d44
@@ -19632,7 +19938,7 @@ Survivors' Bond	sorcery	2	green	5/3/530ff2a1-6447-4653-a661-d9a39156d6fa
 Survivors' Encampment	land	0	colorless	c/7/c7b0404e-0f42-456b-91ce-f960195c4951
 Suspend	instant	1	blue	4/0/40af215c-d3f7-42f0-85cd-77a3fcd919ba
 Suspension Field	enchantment	2	white	b/a/ba5c9628-1801-43d9-8bb4-4cca168510b2
-Suspicious Bookcase	creature	2	colorless	7/b/7b14ff70-6817-4539-b19b-142f8f6b6b1f
+Suspicious Bookcase	creature	2	colorless	f/c/fc574b42-e1bb-428f-a71f-bc3d7f5451da
 Suspicious Nanny	creature	5	blue	7/2/726e1f2c-da19-45aa-9f48-997a0d62587e
 Suspicious Stowaway	creature	2	blue	a/b/ab17c8fa-4c06-4542-848a-e3f2f9f47c27	1
 Sustainer of the Realm	creature	4	white	e/9/e9f7e21e-d4d8-4d6c-9530-b17d5204e9e7
@@ -19690,14 +19996,16 @@ Swift Spinner	creature	4	green	2/6/264f78d8-d554-45f3-867e-19dba38e4644
 Swift Warden	creature	3	green	1/5/1531cb47-b0ff-4d66-acf2-ef5bb5f690fc
 Swift Warkite	creature	6	multicolored	f/6/f62db9d7-3cc7-49cb-bffc-d2f9c286aa36
 Swiftblade Vindicator	creature	2	multicolored	c/2/c2a89a8f-b3a7-4c38-80fb-b5484ddbf8ec
-Swiftfoot Boots	artifact	2	colorless	e/e/ee23ba9f-3f5e-4fe4-95f8-3dd464db997b
+Swiftfoot Boots	artifact	2	colorless	3/c/3cb171ef-42eb-466e-b425-e3c16301c0ca
 Swiftwater Cliffs	land	0	colorless	e/a/ea6c2670-e6fd-40d6-afe0-7d3c4db96a4d
 Swimmer in Nightmares	creature	3	blue	e/b/ebc6b5ee-e764-444e-8b27-26e00f4b2074
+Swindler's Scheme	enchantment	3	blue	d/c/dc7436c6-cd33-4324-bd1b-026a5d5c0007
 Swirl the Mists	enchantment	4	blue	2/e/2ea50e09-4ab3-439e-83d7-d584f8af8f16
 Swirling Sandstorm	sorcery	4	red	4/d/4d757ec3-c15f-4d6e-8e18-36ebae985448
 Swirling Spriggan	creature	4	green	3/0/303d057c-c51c-46bb-b8fe-aabe7f3b07b6
 Swirling Torrent	sorcery	6	blue	8/d/8dbb3d2f-4ee4-46e2-98aa-4aa388bd5375
 Switcheroo	sorcery	5	blue	9/d/9d3d062c-5853-44f9-b951-a264e9e0d72d
+Swooping Protector	creature	4	white	8/7/8713498f-a467-4a11-9de2-53a1bbd0b18b
 Swooping Talon	creature	6	white	3/4/34c3d19c-d4c6-4c5c-85eb-11d55959a89c
 Sword Dancer	creature	2	white	e/c/ec270d53-042e-4b11-b0f4-6416348b8fff
 Sword of Body and Mind	artifact	3	colorless	1/f/1ffe5f80-a2ac-41b8-8fce-fd3485643557
@@ -19718,7 +20026,7 @@ Sword of Truth and Justice	artifact	3	colorless	2/b/2be8d24e-1370-4e85-90f2-66b6
 Sword of Vengeance	artifact	3	colorless	6/f/6f380a12-9656-479e-bd44-1b8facfcc69c
 Sword of War and Peace	artifact	3	colorless	4/6/46e6f50b-4b18-4aab-a7b0-869f25bc4c40
 Sword-Point Diplomacy	sorcery	3	black	2/5/25750098-02a1-48e4-917d-187c41e111b6
-Swords to Plowshares	instant	1	white	8/0/80f46b80-0728-49bf-9d54-801eaa10b9b2
+Swords to Plowshares	instant	1	white	e/f/ef51caf8-f9d9-48d7-9145-9dfc91054f70
 Swordwise Centaur	creature	2	green	1/7/1776ebd7-91fc-49e1-a978-f2012162d1cf
 Sworn Companions	sorcery	3	white	2/c/2ccfa5c1-69f9-4351-aba3-883fe92c9b98
 Sworn Defender	creature	4	white	3/2/328e6ceb-30f7-415e-93b4-7075af0fed89
@@ -19738,7 +20046,7 @@ Sylvan Hierophant	creature	2	green	4/3/432a6908-0ee3-45c5-9089-b7f8cf1184bb
 Sylvan Library	enchantment	2	green	d/5/d5b5d2a7-8185-4df0-a35a-f89c12857f87
 Sylvan Messenger	creature	4	green	0/8/085f1b89-857b-4e2b-b796-0b95e53322bd
 Sylvan Might	instant	2	green	a/4/a4e1ecf4-bf72-4ae9-9993-9b9a6ca80da7
-Sylvan Offering	sorcery	1	green	8/9/89cefed1-fcef-4def-8e16-d40a24e0c307
+Sylvan Offering	sorcery	1	green	c/d/cd68c02d-aa09-47ee-b989-65965e82b9f3
 Sylvan Paradise	instant	1	green	f/3/f323c3bb-cece-4035-b1a7-c4817cf7a08c
 Sylvan Primordial	creature	7	green	0/4/0483c869-38dc-4b0b-82f3-dd08a1ab985f
 Sylvan Ranger	creature	2	green	e/3/e36a5be0-a730-4cb7-9d1e-6ae84b5bc872
@@ -19768,6 +20076,7 @@ Syncopate	instant	1	blue	0/8/08375017-4432-4296-9799-966db145ed7c
 Syndic of Tithes	creature	2	white	2/b/2bafaa3b-eeaa-427f-9a73-6a1c98d257ca
 Syndicate Enforcer	creature	4	black	c/d/cde6ee2e-a114-4935-8345-d3e264f9fc26
 Syndicate Guildmage	creature	2	multicolored	e/8/e82d3c8d-849a-445b-bc7c-365514d1511f
+Syndicate Infiltrator	creature	4	multicolored	b/f/bf86c5f2-0caf-48ca-b7ad-a1cdcd014539
 Syndicate Messenger	creature	4	white	1/0/10273046-4c74-42d8-afaa-6cfbe0bd4e8f
 Syndicate Trafficker	creature	2	black	d/8/d89427f0-08d5-49a1-9684-ebe8769430f6
 Synod Artificer	creature	3	blue	d/c/dc895eea-505d-4a12-936b-dcf9895d01a1
@@ -19787,6 +20096,7 @@ Syr Elenora, the Discerning	creature	5	blue	a/b/ab14844f-233c-4d1a-85e6-d0945ee1
 Syr Faren, the Hengehammer	creature	2	green	9/a/9a8b1fea-3c5d-43d2-b4d2-e8938f3f7b9c
 Syr Gwyn, Hero of Ashvale	creature	6	multicolored	a/3/a33add37-379d-4a90-9c04-529dff676986
 Syr Konrad, the Grim	creature	5	black	6/8/685faa53-c0b3-4dbb-abd9-bf09067f6f91
+Syrix, Carrier of the Flame	creature	4	multicolored	4/9/492d484b-9af6-4055-9893-627b56c69544
 Sythis, Harvest's Hand	creature	2	multicolored	0/b/0babfe00-9bad-48fc-b3b1-df8280242fd2
 Szadek, Lord of Secrets	creature	7	multicolored	d/a/dac8975a-0d41-4538-8e49-a2de5d410b6c
 Szat's Will	instant	5	black	9/8/9828be7b-1eae-4718-9e71-2f625121b00b
@@ -19810,6 +20120,7 @@ Tail Slash	instant	3	red	9/1/91a59f12-8d1b-4378-abb8-e266d9b6cdba
 Tainted Adversary	creature	2	black	e/6/e6b9b8fc-c30d-49e7-bb6c-219380d73a82
 Tainted Aether	enchantment	4	black	8/3/838cffb6-8099-44d7-a127-b2ab3b53ea44
 Tainted Field	land	0	colorless	6/6/665b1088-b07a-4fc1-a7ea-1fb55961a8d7
+Tainted Indulgence	instant	2	multicolored	3/4/347d883c-84ab-4547-813b-f4385366fbce
 Tainted Isle	land	0	colorless	c/4/c4a3bcf6-4495-4b12-940a-f7703d8646d3
 Tainted Monkey	creature	2	black	9/1/91ef1259-c415-46f5-be9f-dfd6cd76d2c3
 Tainted Pact	instant	2	black	c/5/c513f51b-a0db-4c08-8acc-1e91060b93b7
@@ -19837,6 +20148,7 @@ Take Heart	instant	1	white	4/5/457eb507-bbbf-4064-bdb0-cfeefe2195df
 Take into Custody	instant	1	blue	b/4/b412718a-7bc7-4b16-af60-1b955c820b0f
 Take Inventory	sorcery	2	blue	a/3/a3584150-4f09-4c15-b13e-707bd91b3004
 Take Possession	enchantment	7	blue	a/8/a8632ab0-9b6d-4d32-8af9-c61e9206497f
+Take to the Streets	sorcery	5	green	2/b/2b4a5122-6922-4ab5-aa43-94cf2d7f9c8a
 Take Up Arms	instant	5	white	e/7/e707c745-0bb1-4a85-83c1-be97131bf488
 Take Vengeance	sorcery	2	white	b/3/b39ac13b-f3fb-48c6-bb45-066149db371f
 Takeno's Cavalry	creature	4	white	0/c/0cf9cd2e-5cf6-4959-abf2-56b686b636a3
@@ -19857,7 +20169,7 @@ Talent of the Telepath	sorcery	4	blue	c/5/c5da13a1-8be2-4312-a660-f3e102c552b6
 Tales of Master Seshiro	enchantment	5	green	5/1/512bc867-3a86-4da2-93f0-dd76d6a6f30d	1
 Tales of the Ancestors	sorcery	4	blue	c/2/c286a74c-3714-4190-8322-84b161debe39
 Talisman of Conviction	artifact	2	colorless	7/1/71148fd3-0c2c-459e-b8f5-735a0a8dd87f
-Talisman of Creativity	artifact	2	colorless	1/4/14a506e4-9a46-4499-a986-eb258e809344
+Talisman of Creativity	artifact	2	colorless	3/5/35805e27-fc26-4eb1-943c-f5b6c2185e03
 Talisman of Curiosity	artifact	2	colorless	f/d/fd52688a-39fd-430f-b950-cb56e0004396
 Talisman of Dominance	artifact	2	colorless	5/6/56f62d84-f62f-4363-a99e-fe5387c3d77e
 Talisman of Hierarchy	artifact	2	colorless	8/2/826f99c7-f534-4183-8f0d-efe1609808ac
@@ -19874,7 +20186,7 @@ Talon Trooper	creature	3	multicolored	0/e/0ec07bce-abf0-4387-bb9f-a9ba5492c754
 Talonrend	creature	5	blue	b/5/b5f6256e-5d24-4fa0-a83b-5ff971f7e1cc
 Talons of Falkenrath	enchantment	2	red	f/8/f8e38239-a9ec-4149-9c90-74dcd46ed95d
 Talons of Wildwood	enchantment	2	green	1/b/1b372c44-fd8f-42ba-bdea-103cc7474ebe
-Talrand's Invocation	sorcery	4	blue	4/b/4b153c2f-fc87-49bc-9d1e-d5e7e25b2142
+Talrand's Invocation	sorcery	4	blue	8/8/88f43c2c-fee4-4df2-b326-a1d9840f64b0
 Talrand, Sky Summoner	creature	4	blue	9/f/9f4e8d4c-79f8-4313-bdb4-2062d8f5299b
 Talruum Champion	creature	5	red	3/3/33730a07-754c-4606-bfac-d73454af9567
 Talruum Minotaur	creature	4	red	4/a/4a4f1317-5e9b-4f49-9ed8-4f97f8c4b8d0
@@ -19960,7 +20272,7 @@ Taunting Elf	creature	1	green	6/b/6b24af94-9632-47da-9bf3-e81bb743cd43
 Taurean Mauler	creature	3	red	a/4/a4ee4648-dd6e-4ba9-b643-a7e4c430d51f
 Tavern Ruffian	creature	4	red	1/d/1d7b2d05-ce5c-4b73-8fa6-d9b69619d58c	1
 Tavern Scoundrel	creature	2	red	5/5/55082c8a-d792-4cd8-94b1-d80c65804463
-Tavern Swindler	creature	2	black	d/0/d00850e4-6be3-4246-ae45-c0e990e6d6e1
+Tavern Swindler	creature	2	black	b/1/b17114ed-f98f-4b82-ba03-ef7ec5f572ba
 Tawnos's Coffin	artifact	4	colorless	c/2/c27bc1de-8246-4dc8-af51-ec21def9e226
 Tawnos's Wand	artifact	4	colorless	d/5/d566993f-18a6-4e5c-abc3-0fe9a03e97d2
 Tawnos's Weaponry	artifact	2	colorless	4/7/4750787e-9fef-4bdf-b2e3-e410c84999f2
@@ -20062,15 +20374,15 @@ Temple Garden	land	0	colorless	2/b/2b9b0195-beda-403e-bc27-7ae3be9f318c
 Temple of Abandon	land	0	colorless	1/f/1f539604-8847-45c7-9934-532583c42eab
 Temple of Deceit	land	0	colorless	e/f/efd72676-0e8f-4213-8f1f-8c193f28b620
 Temple of Enlightenment	land	0	colorless	9/9/999538db-d65c-481b-82c8-ff7f71736c82
-Temple of Epiphany	land	0	colorless	e/6/e6f282cd-af76-4b31-a12c-4d601fc986c4
-Temple of Malady	land	0	colorless	c/9/c97929f8-ae80-4b4a-9d9b-2f3c7605edc8
+Temple of Epiphany	land	0	colorless	a/5/a50cd03f-60df-4c76-a7dc-1daa9e7980b7
+Temple of Malady	land	0	colorless	c/1/c1d76b74-0d9b-412f-9fd7-af9099bad7c4
 Temple of Malice	land	0	colorless	6/a/6a5b300c-155d-49d2-a929-08d2bf37ae30
-Temple of Mystery	land	0	colorless	1/2/12f00434-b616-48d2-a486-0fc17a0ccce4
+Temple of Mystery	land	0	colorless	c/7/c79d3853-f2a3-4dea-b60f-831e39ecdc44
 Temple of Plenty	land	0	colorless	e/3/e35f86a8-4941-474b-aefa-f625235933b5
-Temple of Silence	land	0	colorless	b/b/bba526f9-fbe5-4922-a209-8b381653420e
+Temple of Silence	land	0	colorless	e/7/e7b01cad-4d17-45a2-8a39-ba37b6983b15
 Temple of the Dragon Queen	land	0	colorless	0/c/0c79b3c6-ccbe-48ae-a1f7-ddfd37ecdbf5
-Temple of the False God	land	0	colorless	a/2/a2d335ab-9bde-44aa-ae83-0615b5902210
-Temple of Triumph	land	0	colorless	c/0/c0516f04-127a-44de-8d49-e40d3fe192e3
+Temple of the False God	land	0	colorless	6/2/62925298-c7a3-49a7-bd9b-4fe830c66a1c
+Temple of Triumph	land	0	colorless	f/8/f84e5df5-6a1e-4e73-9e02-5001deaf3257
 Temple Thief	creature	2	black	f/c/fc4a61aa-75d2-46bc-b13f-b863f5f49d32
 Temporal Adept	creature	3	blue	0/f/0ff2dfe6-dbc0-46c3-9d5c-9f0ba6f511ec
 Temporal Aperture	artifact	2	colorless	5/b/5b5c2555-c707-4814-933a-c275b9ebc0a3
@@ -20099,14 +20411,15 @@ Tempting Witch	creature	3	black	8/a/8adbd4a5-3171-495a-a540-0ecf280b77fc
 Tempting Wurm	creature	2	green	8/5/857c2b6c-cfdf-4c88-a334-2937cb7db603
 Temur Ascendancy	enchantment	3	multicolored	1/1/11746bf1-d813-4ade-8ce4-9935cebef856
 Temur Banner	artifact	3	colorless	9/9/9990bdff-c27a-447f-b530-d8b7614fe9a0
-Temur Battle Rage	instant	2	red	d/3/d344f38d-0ef2-434b-914c-934c639e7e18
+Temur Battle Rage	instant	2	red	8/c/8c850548-400e-41a5-8acd-77ff67541d54
 Temur Charger	creature	2	green	f/7/f77258fc-8683-4656-84a3-4df4ea2a8435
 Temur Charm	instant	3	multicolored	0/0/009c5aac-194f-4b95-8f69-cc74aa15c3a5
 Temur Runemark	enchantment	3	green	d/d/ddd76874-842e-4f4c-b18e-0e441dae59d7
-Temur Sabertooth	creature	4	green	2/b/2bf59e8d-0746-440d-878f-d6f6f74610d8
+Temur Sabertooth	creature	4	green	c/3/c3a5a175-e963-42cc-a0ba-d8914bb93c00
 Temur War Shaman	creature	6	green	a/8/a873164f-d8eb-460e-a8cc-8b2a663dcf3a
 Tenacious Dead	creature	1	black	7/d/7d88901c-3fa8-4b73-a584-3efa118338f1
 Tenacious Hunter	creature	4	green	3/e/3eec0010-52ab-4bf2-b589-e7fd97c290fe
+Tenacious Underdog	creature	2	black	9/b/9b6a6d00-3e00-4827-8420-13343ac3d0fd
 Tenacity	instant	4	white	4/1/41fbe149-3e1f-495e-be1b-efc3a6dbcb08
 Tend the Pests	instant	2	multicolored	8/f/8f43ed93-008d-44db-8204-ef2cc3b7cf8a
 Tendershoot Dryad	creature	5	green	a/1/a159830a-698f-423c-9da0-a734b210ecab
@@ -20120,6 +20433,7 @@ Tentative Connection	sorcery	4	red	5/c/5c40fd33-bb95-48f3-a10f-a33eb27c48f1
 Tenth District Guard	creature	2	white	8/2/829f959e-91cd-42ea-8644-ce828a304d01
 Tenth District Legionnaire	creature	2	multicolored	4/4/44f3090b-917b-4122-b522-27c30dca8e69
 Tenth District Veteran	creature	3	white	e/f/ef573e92-3106-4b42-90e8-0e165de0659f
+Tenuous Truce	enchantment	2	white	f/5/f511555a-09aa-41f8-b240-c21f911a57b4
 Tenured Inkcaster	creature	5	black	9/2/92eba33e-efea-4e58-a832-1c6049fb211f
 Tenza, Godo's Maul	artifact	3	colorless	e/1/e1aa03d7-ac4f-4793-8f8d-5ffd2f8f38b1
 Tephraderm	creature	5	red	4/1/41b65eba-140b-4c1d-b796-8134b7c1ede8
@@ -20132,7 +20446,7 @@ Tergrid's Shadow	instant	5	black	4/1/417f71d2-d7da-4279-8847-d27c67e9ea9d
 Tergrid, God of Fright // Tergrid's Lantern	creature	5	black	1/4/14dc88ee-bba9-4625-af0d-89f3762a0ead	1
 Terminal Agony	sorcery	4	multicolored	3/1/314e94ad-0e12-48bb-aae1-2c842943114a
 Terminal Moraine	land	0	colorless	3/5/353a8ea8-3f1f-4f77-95bc-b09b96996285
-Terminate	instant	2	multicolored	4/c/4c942af8-e5c1-47e0-a662-d9ef531f0dad
+Terminate	instant	2	multicolored	0/b/0be27d8d-b36a-4c3c-b129-fccc4aa8a17f
 Terminus	sorcery	6	white	c/7/c726193f-e7bf-45b0-8eb5-2e9f62f5e7b0
 Teroh's Faithful	creature	4	white	b/f/bff8cf45-c84f-49d7-ad3d-b5e046286cb3
 Teroh's Vanguard	creature	4	white	1/a/1a39f909-7114-4482-8302-b2a56ca9f556
@@ -20184,7 +20498,7 @@ Tezzeret the Schemer	planeswalker	4	multicolored	5/8/58265203-bc16-41d2-875c-2ff
 Tezzeret the Seeker	planeswalker	5	blue	c/f/cf339735-eb1a-46f0-8c3e-eae06f278eca
 Tezzeret's Ambition	sorcery	5	blue	0/c/0c3700b0-d6b5-4967-add8-3adc2bc8ca86
 Tezzeret's Betrayal	sorcery	5	multicolored	9/d/9d71efa6-5de8-476f-86ce-0790956e574f
-Tezzeret's Gambit	sorcery	4	blue	1/b/1beea6e6-d201-4f6a-ab06-e5a3d04db123
+Tezzeret's Gambit	sorcery	4	blue	4/2/421391da-7435-4364-8d48-009d2c2bdad4
 Tezzeret's Gatebreaker	artifact	4	colorless	5/8/584e0528-01c2-49fb-aa4a-098172bb17a7
 Tezzeret's Simulacrum	creature	3	colorless	7/e/7eacfeec-a341-45bc-bf95-e3df0094505a
 Tezzeret's Strider	creature	3	colorless	8/c/8cf74535-31e3-4d2c-b42a-072580fa4ba0
@@ -20235,6 +20549,7 @@ Thawing Glaciers	land	0	colorless	6/4/6411a8c6-010f-4863-a0fa-bbebe09d5c34
 The Abyss	enchantment	4	black	8/6/86a27d68-3e58-4ade-976d-36381beed451
 The Akroan War	enchantment	4	red	2/8/28ea046b-1bbc-4430-a859-321602c9e928
 The Antiquities War	enchantment	4	blue	b/b/bbda670a-00a7-419c-b4b5-bfdb323f006d
+The Beamtown Bullies	creature	4	multicolored	f/0/f0455a79-15f4-4ea6-87ae-263ce943cfac
 The Bears of Littjara	enchantment	3	multicolored	b/e/be43a643-6cb7-4bb6-a28d-8ad30b7fbb6d
 The Biblioplex	land	0	colorless	8/e/8eae4481-977f-4bb7-bb1a-ab7100e6ba47
 The Big Idea	creature	6	red	2/e/2ec4563d-1a83-402c-b209-0e1f740a6523
@@ -20274,7 +20589,7 @@ The Immortal Sun	artifact	6	colorless	a/d/adeccd88-8dc0-4cc1-943f-27d540d248bb
 The Kami War	enchantment	6	multicolored	3/6/36052532-5028-43a8-9fc4-56221ec867fd	1
 The Lady of the Mountain	creature	6	multicolored	8/3/83717eb2-220e-4086-be09-dee9174798b8
 The Legend of Arena	enchantment	4	multicolored	5/2/52e39cb4-2f92-42cc-bd15-75b01bb66252
-The Locust God	creature	6	multicolored	8/7/87f6aaba-ad2d-41ea-8d07-21c67d384aa0
+The Locust God	creature	6	multicolored	3/0/30265355-d0cc-411a-a2da-8d38803d9021
 The Long Reach of Night	enchantment	4	black	4/e/4ec18bf7-bd80-408d-acc4-ffaaf7ef6b5b	1
 The Magic Mirror	artifact	9	blue	0/8/08b89af1-7b22-4153-b42d-a2ea4e0f320c
 The Meathook Massacre	enchantment	2	black	0/8/08950015-eee5-4327-888c-82dfd13bb9ad
@@ -20329,7 +20644,7 @@ Thicket Crasher	creature	4	green	5/3/534eb449-3f1c-46ec-a965-0f5812e2c93e
 Thicket Elemental	creature	5	green	c/5/c5a462ca-0632-410d-9999-a096b71fc3ea
 Thief of Blood	creature	6	black	1/6/1625be56-a8e9-44f3-a213-b758bffd447f
 Thief of Hope	creature	3	black	4/8/48304e24-9c74-4726-95ae-3b1a356f5998
-Thief of Sanity	creature	3	multicolored	3/0/307543ca-8e17-433f-9758-4c77da6c0870
+Thief of Sanity	creature	3	multicolored	8/e/8ed314c7-1a8a-44b2-84c0-604a087d0e02
 Thieves' Auction	sorcery	7	red	c/9/c9e8ad32-a701-4b77-bb7e-0e440e4072da
 Thieves' Fortune	instant	3	blue	8/1/8175ec81-f4e2-45d2-a9d8-e8855e17ff4a
 Thieves' Guild Enforcer	creature	1	black	d/f/df99f770-2c39-4025-a8a2-a5890f61eb53
@@ -20435,7 +20750,7 @@ Thraben Sentry	creature	4	white	5/8/58ae9cbc-d88d-42df-ab76-63ab5d05c023	1
 Thraben Standard Bearer	creature	1	white	1/2/12d4c34b-7ab7-4022-a43b-7c7e73a56864
 Thraben Valiant	creature	2	white	a/8/a8a8282b-bba6-4815-80fe-7a37a1fec3c1
 Thraben Watcher	creature	4	white	5/b/5b4e0e11-2f16-42ad-b835-c9410c4bd7e3
-Thragtusk	creature	5	green	d/9/d9a8459b-4dea-4dc9-8b95-a3748472f699
+Thragtusk	creature	5	green	b/e/beda7acd-e970-4222-9577-5133765d6052
 Thran Dynamo	artifact	4	colorless	9/e/9ec28f97-5f7a-48aa-8c7c-4690cd728eb6
 Thran Forge	artifact	3	colorless	b/9/b9c9691b-bee8-4251-8275-5f6ba14a8ecd
 Thran Foundry	artifact	1	colorless	9/c/9cdc0d42-d96f-490f-87cb-3577dfdce807
@@ -20464,6 +20779,7 @@ Three Tragedies	sorcery	5	black	4/2/42acaa44-15d5-4760-9aa8-b44eda9ed98a
 Three Visits	sorcery	2	green	b/d/bd9307ec-987b-4bbf-a679-cfaabe283a80
 Three Wishes	instant	3	blue	d/b/dbb2b253-7023-44d1-963b-eae98d48f498
 Three-Headed Goblin	creature	5	red	e/3/e35c6dd7-84eb-42ff-a950-705bc0d1811e
+Threefold Signal	artifact	3	colorless	3/2/3296b4ef-1c4a-4048-b7ce-44424fb3ff7d
 Threnody Singer	creature	2	blue	2/4/242cdffb-5037-4d49-b194-4b60274a8758
 Thresher Beast	creature	5	green	5/7/57996732-c9e4-4271-9d5f-2a8c77f8d177
 Thresher Lizard	creature	3	red	7/a/7adc95ae-fe9d-4cee-9726-5bb2ea2247dd
@@ -20474,13 +20790,13 @@ Thrilling Discovery	sorcery	2	multicolored	b/a/bac1f45e-1884-490e-a94f-f7d312f0e
 Thrilling Encore	instant	5	black	2/0/20b4d2f6-c49c-45d7-b172-2628d336e843
 Thriss, Nantuko Primus	creature	7	green	a/d/ad9e647d-903f-4a77-a56c-cd5c0c2f12cf
 Thrive	sorcery	1	green	0/2/02cb1755-1ba9-49ad-a8fc-6d008c27cd43
-Thriving Bluff	land	0	colorless	1/5/15481459-3703-4185-ad27-105d95691e9d
-Thriving Grove	land	0	colorless	0/d/0de19659-5b50-4917-b8dd-e030aa72868d
+Thriving Bluff	land	0	colorless	0/c/0c918a58-5a44-444f-b98e-661a2f3d3fde
+Thriving Grove	land	0	colorless	1/d/1d6a0661-9be3-431f-8c73-110ab93c9b34
 Thriving Grubs	creature	2	red	b/b/bbc3184a-eeda-4f22-92de-257c20cff6e2
-Thriving Heath	land	0	colorless	5/6/5677c5a9-e63f-4d13-91dc-beeb6875f675
+Thriving Heath	land	0	colorless	2/9/29658d96-279a-402a-abe1-8ef097a556b7
 Thriving Ibex	creature	4	white	8/e/8edc7c57-9298-4fad-a0c2-4b75b944e2ce
-Thriving Isle	land	0	colorless	d/5/d50646a7-f5a7-4106-b660-98ee4bd4d93b
-Thriving Moor	land	0	colorless	7/f/7faa30a1-ca8c-4462-90ea-8e935cad0a53
+Thriving Isle	land	0	colorless	3/8/381517fb-1802-4f19-a73e-ce7025b7634d
+Thriving Moor	land	0	colorless	6/8/68dd1c4b-25c2-4a03-bd8f-07f794f818bb
 Thriving Rats	creature	2	black	5/2/52ba911b-6a52-4430-8f61-63bdae25c16a
 Thriving Rhino	creature	3	green	5/a/5acf10ec-f2dd-4569-909b-ac52a9ed6adf
 Thriving Turtle	creature	1	blue	6/1/61a112a3-ae4e-4aba-86ac-74a8960a6326
@@ -20505,7 +20821,7 @@ Thrull Retainer	enchantment	1	black	d/8/d800512b-1492-41d2-931d-57c625044454
 Thrull Surgeon	creature	2	black	2/d/2d6fe257-b1bd-4eaf-9941-e8819f3bc89a
 Thrull Wizard	creature	3	black	c/4/c4e732fb-cbef-4fd8-b704-e4d513a6cf2d
 Thrumming Stone	artifact	5	colorless	3/1/31412335-110c-449a-9c2f-bff8763a6504
-Thrummingbird	creature	2	blue	e/4/e4adf2d0-5a76-498e-88d4-474d6934a2f5
+Thrummingbird	creature	2	blue	6/6/669bd3ff-2a78-47ca-87b7-635c6c1d6721
 Thrun, the Last Troll	creature	4	green	6/1/617b247f-0e75-4815-b1fc-64bdb5239b46
 Thryx, the Sudden Storm	creature	5	blue	4/2/4238b089-c6d8-4e4b-b6a1-a0f89e3b4968
 Thud	sorcery	1	red	1/1/11bed78a-c579-424a-8fcc-322ce2630dbc
@@ -20528,7 +20844,7 @@ Thunderclap	instant	3	red	b/3/b3f8c5ee-2179-4c05-adc9-0b66d02b59ad
 Thunderclap Wyvern	creature	4	multicolored	7/f/7fc3c21f-99d5-48dc-b36e-8db597da44bf
 Thundercloud Elemental	creature	7	blue	5/9/597aea42-43e0-41ed-bfe7-fc92b6b8e680
 Thundercloud Shaman	creature	5	red	1/7/17676da2-1d9a-4181-bc6c-1f75750f7578
-Thunderfoot Baloth	creature	6	green	7/a/7aafed18-95aa-4e17-97c4-047c4e281950
+Thunderfoot Baloth	creature	6	green	e/3/e376a953-2075-4595-a3ef-85d0f68aa8b2
 Thunderheads	instant	3	blue	b/f/bf0a2851-946d-4f10-b43b-7444daa54ae1
 Thunderherd Migration	sorcery	2	green	8/a/8aef082b-b245-463d-84e5-ed1672845492
 Thundering Ceratok	creature	5	green	9/8/9888d9a4-ad72-43f6-8031-1031877171a9
@@ -20668,6 +20984,7 @@ Tishana, Voice of Thunder	creature	7	multicolored	1/9/19c5cfbe-3972-4d2e-a37f-e9
 Titan Forge	artifact	3	colorless	7/a/7a3bb4ab-6fe7-4926-a929-3e37691f287a
 Titan Hunter	creature	5	black	e/b/eb564473-7416-4cf7-971a-e6dc5eb10445
 Titan of Eternal Fire	creature	6	red	a/a/aa82067a-21af-4f2b-b5e6-9bf3c452d0a9
+Titan of Industry	creature	7	green	5/b/5b6f03c1-9e9d-4a0c-af3b-9753b440cd9f
 Titan's Presence	instant	3	colorless	3/9/39d5e3ab-9719-4918-af4f-25bda5401191
 Titan's Revenge	sorcery	2	red	b/1/b1b0f9ca-b752-4dd6-982b-06bb3a27ddbc
 Titan's Strength	instant	1	red	0/e/0e48f309-8e56-4741-a9ff-e899dafb333a
@@ -20689,19 +21006,20 @@ Tithebearer Giant	creature	6	black	e/4/e49bddc9-0b0b-4d6d-a708-019356f9649e
 Tivadar of Thorn	creature	3	white	f/3/f34d3a74-496e-462d-afa6-370dc2b8347d
 Tivadar's Crusade	sorcery	3	white	8/b/8b6da540-6803-47e5-9af0-7ae8e2f84b6c
 Tivash, Gloom Summoner	creature	5	black	e/3/e3b2a152-7bb9-495d-ac84-516097754137
+Tivit, Seller of Secrets	creature	6	multicolored	9/2/9235977e-a999-4ed0-83a3-742be87b13bb
 Tizerus Charger	creature	3	black	2/e/2ed4901c-9b1e-4e0e-ae71-81cb10779f07
 To Arms!	instant	2	white	2/f/2f72d4b7-3b65-411b-a072-8218a0202974
 To the Slaughter	instant	3	black	5/a/5a645c8d-7cfb-466b-9fd0-e1c26bf6f652
 Tobias Andrion	creature	5	multicolored	e/2/e298291d-8e96-4676-8b6f-daf6fd290b57
 Tocatli Honor Guard	creature	2	white	a/3/a3fc3501-e7bd-4589-98c5-4476258842ea
-Together Forever	enchantment	2	white	5/4/54886f9a-e5df-4101-a05e-332cffeca968
+Together Forever	enchantment	2	white	4/2/4290786d-fbc2-4fdc-8bb1-def8944f0563
 Togglodyte	creature	3	colorless	0/4/046cd853-0cde-4d44-9111-962d6670710b
 Toggo, Goblin Weaponsmith	creature	3	red	1/a/1a05b3e2-259e-4fce-92ee-c00660e22ae7
 Toil // Trouble	sorcery	6	multicolored	1/5/15bb3454-e3bb-4af9-9e93-461e210c26b7
 Toil to Renown	sorcery	2	green	d/5/d54fd436-35eb-4207-9439-de652234dd50
 Toils of Night and Day	instant	3	blue	0/8/0881f8bf-5c28-4f54-9080-9612790ffa83
 Tolaria	land	0	colorless	d/4/d43c01b7-443d-4061-a934-6863d230c9b8
-Tolaria West	land	0	colorless	b/0/b005eef6-75f3-454f-a42b-d851bc84ac4e
+Tolaria West	land	0	colorless	9/c/9cb7d00a-0b8d-4d0c-9592-058f1e0ce087
 Tolarian Academy	land	0	colorless	a/d/ad7ac9a5-340f-4509-826c-7b9416d47887
 Tolarian Drake	creature	3	blue	e/0/e04bba8a-48ee-4981-adc2-4f82c0f2c1bd
 Tolarian Emissary	creature	3	blue	1/c/1cbc55e5-b84c-4449-a288-ec26cdd3997c
@@ -20714,6 +21032,7 @@ Tolarian Winds	instant	2	blue	3/f/3fdd9981-bb5e-450d-90c3-4405a7097939
 Toll of the Invasion	sorcery	3	black	4/4/4471c2a5-aa2c-47e2-8238-1eb366c8adc9
 Tolsimir Wolfblood	creature	6	multicolored	0/6/069ac859-e0ef-4685-bad3-5c741102b5b9
 Tolsimir, Friend to Wolves	creature	5	multicolored	f/7/f7fce047-49f1-40ae-8410-6501cb0f8201
+Toluz, Clever Conductor	creature	3	multicolored	f/0/f01f12e0-f354-43aa-9e2d-b59a99571a5f
 Tomb Hex	instant	3	black	9/b/9beaaa66-0dae-4631-895d-06570834ba7c
 Tomb of the Spirit Dragon	land	0	colorless	e/b/eb6be7ab-8fad-4606-b623-f2188219d60b
 Tomb of Urami	land	0	colorless	9/0/90fedf90-825c-4814-8f0d-170f537db44c
@@ -20743,6 +21062,7 @@ Top-Secret Tunnel	artifact	0	colorless	d/2/d2d5f6ce-1c39-453a-8edf-5461a9db8b8f
 Topan Ascetic	creature	3	green	6/d/6d0952ed-efc7-4ff5-a233-e64c0f11119b
 Topan Freeblade	creature	2	white	f/5/f5b27274-b3f0-4d94-9534-4e495ba53921
 Topdeck the Halls	enchantment	5	multicolored	4/6/461d92f4-7071-4f6e-983a-350e00181034
+Topiary Stomper	creature	3	green	8/7/87bb2699-280f-4e1e-b3f8-73efe6088f31
 Topple	sorcery	3	white	a/7/a7c25c67-4214-4318-a718-7d351e713f80
 Topple the Statue	instant	3	white	a/b/ab74e12a-ad7c-4563-aa06-632654bac91d
 Topplegeist	creature	1	white	e/c/ec9e8653-13ae-446c-b341-85c9b3fa6ca8
@@ -20751,6 +21071,7 @@ Tor Giant	creature	4	red	7/e/7ef8f279-1a10-4685-99d6-bc971a7f922b
 Tor Wauki	creature	5	multicolored	e/e/eef9d043-c9ab-4215-acfc-9065250513d1
 Toralf, God of Fury // Toralf's Hammer	creature	4	red	2/2/22a6a5f1-1405-4efb-af3e-e1f58d664e99	1
 Torbran, Thane of Red Fell	creature	4	red	7/9/79f591cd-d277-4ba5-b1bf-1c09cac9cb8a
+Torch Breath	instant	1	red	d/9/d9fbd4a8-c44c-42fc-b946-bdc7e20e1668
 Torch Courier	creature	1	red	0/2/020e13af-53eb-4285-b6b4-d388689e4484
 Torch Drake	creature	4	blue	0/b/0beff896-df7a-42b3-aaca-0b9ca1b8cf0c
 Torch Fiend	creature	2	red	6/0/60c3aa66-2436-40a3-a541-185f457bd55a
@@ -20875,7 +21196,7 @@ Trained Condor	creature	3	blue	6/e/6e1eaa5a-3f9d-4166-b418-fd82fff86c73
 Trained Jackal	creature	1	green	0/1/01deb3cc-91e8-4ef3-964f-f36c6a21207c
 Trained Orgg	creature	7	red	1/4/14a83031-8b57-41d2-b586-bb4dcf16136a
 Trained Pronghorn	creature	2	white	7/2/720ec745-226c-4211-974f-e04a4f9e1902
-Training Center	land	0	colorless	b/1/b15c58c0-4d42-488e-bb9d-7a550d9ea5e6
+Training Center	land	0	colorless	6/d/6df5d9dc-e4d9-42d6-8a5e-40ac04bc3dc8
 Training Drone	creature	3	colorless	8/b/8b7e986f-5b28-46d2-8ec2-ee719b07dbfd
 Training Grounds	enchantment	1	blue	e/2/e2cf16f8-6e69-46b3-8453-1d1a2a5670e2
 Trait Doctoring	sorcery	1	blue	e/2/e21a7981-5940-4b75-907f-7600a742f946
@@ -20884,6 +21205,7 @@ Traitor's Roar	sorcery	5	multicolored	7/5/751e2700-6425-45b8-b026-8c78098f08b2
 Traitorous Blood	sorcery	3	red	8/2/8220f18a-f23f-4fe6-bb58-58b6c5f36c79
 Traitorous Greed	sorcery	4	red	a/b/ab7052f1-9736-47b6-9da3-8c5ca925ab54
 Traitorous Instinct	sorcery	4	red	4/2/42347e7d-6f65-4904-b3c1-a272e4cd2509
+Tramway Station	land	0	colorless	e/0/e0532304-da6d-45cd-b1e6-4779d3f3b2bc
 Tranquil Cove	land	0	colorless	6/8/68f822b7-efc5-42c8-93ea-7dd17b4c3e7a
 Tranquil Domain	instant	2	green	8/0/801f34a6-9f22-43c2-b1e5-194395cc7da1
 Tranquil Expanse	land	0	colorless	1/2/123cd67f-7226-4e69-8637-382380fb213e
@@ -20938,7 +21260,7 @@ Tread Mill	artifact	0	colorless	7/0/70d2f8f3-7bd0-4775-806b-1583da4814a5
 Tread Upon	instant	2	green	8/7/87f04d27-f38a-4be2-8eb6-7dd0d3a1ac6d
 Treasonous Ogre	creature	4	red	a/e/ae48c31d-6fd9-457f-adb8-37f367724ba1
 Treasure Chest	artifact	3	colorless	6/e/6ecbeb07-0f45-49bf-9a12-f4ca09969122
-Treasure Cruise	sorcery	8	blue	9/0/90bb3d28-30a4-4344-8a41-fe8b9ebf6ce3
+Treasure Cruise	sorcery	8	blue	6/4/64edb748-497d-4737-9d7f-37105fb20cb9
 Treasure Hunt	sorcery	2	blue	f/d/fd01ed44-c83d-4df2-b9ef-c8955e7bb6d1
 Treasure Hunter	creature	3	white	0/2/0282b59e-78ef-412d-bb76-fb337f32a213
 Treasure Keeper	creature	4	colorless	d/c/dc2808aa-1f30-42c3-a2d1-c9eb91828e66
@@ -20958,7 +21280,7 @@ Treefolk Healer	creature	5	green	7/3/73c6f5c0-686d-4b3a-add7-487f9fff5faa
 Treefolk Mystic	creature	4	green	9/6/9697acf5-9bc5-411d-8574-fe6185f18672
 Treefolk Seedlings	creature	3	green	4/c/4c275bdc-e960-4b6f-a8d3-b662739113c1
 Treefolk Umbra	enchantment	3	green	6/7/677166cf-4e1e-43ac-a67b-afaf33c0d14e
-Treeshaker Chimera	creature	7	green	4/5/456627ec-81a4-40db-91dc-d25a59cd2837
+Treeshaker Chimera	creature	7	green	5/f/5f73b249-be19-4a51-8759-648a2f122e6d
 Treespring Lorian	creature	6	green	f/5/f525d7ce-37d3-4989-beb4-173447cb5294
 Treetop Ambusher	creature	2	green	e/1/e1722a55-850c-4924-be98-45539f4676a2
 Treetop Bracers	enchantment	2	green	b/8/b84185d8-c058-4fe7-b46e-f5ca90e70f12
@@ -21111,6 +21433,7 @@ Tunneler Wurm	creature	8	green	c/8/c8e246c8-3b3f-47c4-8a1b-b5f2d36f0ca4
 Tunneling Geopede	creature	3	red	d/4/d4071152-5e64-4133-88a2-8fa5cb0eeb6c
 Turbo-Thwacking Auto-Hammer	artifact	0	colorless	b/e/be96ad59-cec0-4b82-877d-7ffa2755cebf
 Turbulent Dreams	sorcery	2	blue	d/8/d879226b-8ee3-4a48-b03a-d183594dc586
+Turf War	enchantment	5	red	5/e/5e7fecbd-66f6-44b7-8fe4-b9b5bfce3e2c
 Turf Wound	instant	3	red	9/1/91392e9f-f96a-4ac5-b1f1-c73540cf249e
 Turn // Burn	instant	5	multicolored	8/d/8d7fdd59-6d76-4a0c-ac75-816345ef4a39
 Turn Against	instant	5	colorless	4/d/4de8ef35-f141-4bc6-8ea1-f87aa6f5ecd7
@@ -21141,7 +21464,7 @@ Twiddle	instant	1	blue	1/b/1b25858a-ab2d-441a-a3fe-6d5ecd7f05be
 Twiddlestick Charger	artifact	0	colorless	c/9/c9ce1145-ca48-4fee-a11d-df88c20bd852
 Twigwalker	creature	3	green	9/0/90b8ba27-c3bb-48cf-b831-518f5d255c2e
 Twilight Drover	creature	3	white	e/f/ef2bb440-87b7-4d3d-9b37-2f1ebaca4b3f
-Twilight Mire	land	0	colorless	5/3/53c59bee-0369-4a34-832f-fe3829a391b3
+Twilight Mire	land	0	colorless	1/5/1524face-5843-4fca-823b-0e9eaf9be96f
 Twilight Panther	creature	1	white	5/f/5fb149cc-74ca-4bc3-8efc-10ce872b59fb
 Twilight Prophet	creature	4	black	9/d/9da6974f-6753-48ac-98cd-86412cc93726
 Twilight Shepherd	creature	6	white	7/5/753c4ef2-d61a-4cfe-8e8b-8379402c8713
@@ -21155,7 +21478,7 @@ Twinblade Slasher	creature	1	green	0/0/0092d7a0-bd00-45e5-a052-c0a9d970bc2e
 Twincast	instant	2	blue	f/3/f38eec33-a40e-4739-ad2c-2f57008cef4e
 Twinflame	sorcery	2	red	2/0/207128b3-2de3-495a-bf29-eec50c3bd752
 Twinning Glass	artifact	4	colorless	e/0/e0138c42-77ea-45f0-b2ca-cda03f3f50d1
-Twinning Staff	artifact	3	colorless	e/7/e7971306-700e-4677-bf52-83e4f9ac04c1
+Twinning Staff	artifact	3	colorless	5/c/5cdcc324-1427-453c-9940-c21f5d04c997
 Twins of Maurer Estate	creature	5	black	7/2/726f760e-90e6-4b24-aa43-c5a0ef4d4432
 Twinscroll Shaman	creature	3	red	8/7/87193af5-4b6b-48d0-9b75-8171bb1d6e53
 Twinshot Sniper	creature	4	red	0/8/08a86009-4637-4b6c-9d36-367151583668
@@ -21281,6 +21604,7 @@ Undercity Shade	creature	5	black	6/6/6609aa2e-6832-4c20-beda-e5f2506bf9b2
 Undercity Troll	creature	2	green	2/f/2fe1ebf9-8378-444b-870a-5be12aa1f5fa
 Undercity Uprising	sorcery	4	multicolored	7/e/7e1e08bf-a5d6-48bb-9f7f-4711f9ec88d7
 Undercity's Embrace	instant	3	black	e/f/efae2ca9-959e-4a5c-805d-588768f4acda
+Undercover Operative	creature	4	blue	4/e/4ecec953-ab86-409b-b618-04bb07ff3eac
 Underdark Basilisk	creature	2	green	e/d/ed220158-e4e3-4d46-8098-7b940a923ce9
 Underdark Beholder	creature	6	black	0/c/0c90c19d-7b29-4006-98e5-784ef60e1d82
 Underdark Rift	land	0	colorless	d/a/da7b5c5b-fba1-4993-9779-bef96bcb0064
@@ -21352,10 +21676,13 @@ Universal Solvent	artifact	1	colorless	b/b/bbe257c5-d2f8-4a4f-bf74-f6dc4b6861e4
 Universal Surveillance	sorcery	3	blue	4/b/4b2f5584-df67-439b-b0f0-9c0fdf62f18f
 Unknown Shores	land	0	colorless	4/9/492181e4-5825-45d4-b8a1-37f29c32a845
 Unleash Fury	instant	2	red	e/8/e854e6a3-8684-43fa-9560-ef4c3b62c935
+Unleash the Inferno	instant	4	multicolored	1/f/1f892607-8672-4013-86e6-0779d0b726de
 Unlicensed Disintegration	instant	3	multicolored	4/0/402c2c37-9439-4393-b9d7-d7abe8045d4d
+Unlicensed Hearse	artifact	2	colorless	9/3/93ee60f7-31dd-4bc6-b71f-57a1a0d19d20
 Unlikely Aid	instant	2	black	b/a/bac3409e-7c24-43b0-9956-5f0cdeae6468
 Unlikely Alliance	enchantment	2	white	c/1/c14d2c73-1934-4504-bbfb-62ba82e0a0e3
 Unliving Psychopath	creature	4	black	6/9/694bbf39-fd66-4ff4-9cc3-ec75b1fb3a51
+Unlucky Witness	creature	1	red	e/c/ec6430c0-67c1-4793-b4be-8f47545c57d6
 Unmake	instant	3	multicolored	6/d/6d0dea1b-43dc-4e76-aabd-f12e121a78af
 Unmake the Graves	instant	5	black	d/6/d6fd00bb-b247-45b7-9cb2-0d65b92c0360
 Unmarked Grave	sorcery	2	black	4/9/492b368b-de32-45c1-8459-238aae54f9fc
@@ -21418,9 +21745,10 @@ Upwelling	enchantment	4	green	d/5/d5c47cac-679f-4b48-977f-2fa149a6c3c3
 Ur-Drago	creature	7	multicolored	8/1/81a40f34-fc26-4d05-9c52-6ffbf1766a3b
 Ur-Golem's Eye	artifact	4	colorless	7/a/7a2ea921-8ef9-4a31-b484-73375e828d34
 Urabrask the Hidden	creature	5	red	1/b/1ba50b62-710e-4c92-9e02-736c1a987bb9
+Urabrask, Heretic Praetor	creature	5	red	d/9/d9a4ec18-1da4-43c6-a79a-03fbd4aef3db
 Urban Burgeoning	enchantment	1	green	3/9/393c230f-5bc3-4b71-b5ac-81d5ce227df5
 Urban Daggertooth	creature	4	green	4/a/4ab83a39-d90d-403e-b74d-fe99c8b2aacd
-Urban Evolution	sorcery	5	multicolored	2/b/2ba443c5-ed9f-4bc0-8821-0053b536d648
+Urban Evolution	sorcery	5	multicolored	8/5/85df7b1b-7cd6-499d-aa9d-5599a79a3512
 Urban Utopia	enchantment	2	green	4/5/45d7ab0e-db37-4051-86dd-3ab09c047a2b
 Urbis Protector	creature	6	white	8/6/86f41db0-335d-4745-8759-0129baf72992
 Urborg	land	0	colorless	d/0/d0a261d0-7678-46f7-9285-d541486567d8
@@ -21476,7 +21804,7 @@ Utopia Mycon	creature	1	green	5/6/5664e121-d3f1-4ff5-9576-ef515e22bde7
 Utopia Sprawl	enchantment	1	green	2/9/29b4050e-8b73-4f16-85e4-ec2a8faacf48
 Utopia Tree	creature	2	green	4/9/49bed540-da8d-4148-8794-8e8d01ed5387
 Utopia Vow	enchantment	2	green	5/5/55dcec32-6ff2-4f47-b3e2-ab621f58d498
-Utter End	instant	4	multicolored	0/a/0abda7f5-89c2-43ad-bcc9-8b802881c373
+Utter End	instant	4	multicolored	f/e/feea7ca1-44a2-41e8-a234-9ce9cc6029d2
 Utvara Hellkite	creature	8	red	3/3/33f6914d-808f-4502-a87a-70912d7ae6e8
 Utvara Scalper	creature	2	red	0/e/0e0a5aa2-f33a-4976-88b1-f424243016da
 Uvilda, Dean of Perfection // Nassari, Dean of Expression	creature	3	blue	8/c/8cfd0887-0c83-4b33-a85e-8b8ec5bf758d	1
@@ -21534,6 +21862,7 @@ Vampire of the Dire Moon	creature	1	black	b/3/b3c185b9-5d97-4a5a-af0b-8b9c44dcd2
 Vampire Opportunist	creature	2	black	c/e/ced4b4a9-73a8-4135-b150-cd78d1558aca
 Vampire Outcasts	creature	4	black	3/2/32c1d966-b3c5-4480-be58-054a88141e44
 Vampire Revenant	creature	4	black	2/b/2bd3a6c6-33b8-4530-9d80-c488898afd6e
+Vampire Scrivener	creature	5	black	7/0/702315d7-dec9-49e8-a508-feacd47198dc
 Vampire Slayer	creature	2	white	a/8/a8f6f03b-5a4e-4532-9c9e-24c75df2769f
 Vampire Socialite	creature	2	multicolored	f/0/f07cbf04-2864-4407-800e-4d55c10d3426
 Vampire Sovereign	creature	5	black	e/e/ee338221-ead9-4b89-8b0c-12745c4ca13d
@@ -21555,7 +21884,7 @@ Vampiric Touch	sorcery	3	black	2/3/231f7598-8c47-4828-8240-e2a545a7ac5b
 Vampiric Tutor	instant	1	black	1/8/18bd50f2-c3ba-4217-a2d5-bb771e199706
 Vampirism	enchantment	2	black	2/d/2dff2817-1813-410f-aca7-96e8f9f4ce81
 Vance's Blasting Cannons	enchantment	4	red	9/e/9e8c0009-787f-480b-84b6-bf297f1fb466	1
-Vandalblast	sorcery	1	red	4/c/4ce9072b-58e9-422a-9331-31886c111cfa
+Vandalblast	sorcery	1	red	3/6/3636b07e-eab9-4cc8-8624-322c18e8133d
 Vandalize	sorcery	5	red	2/6/26bd89f9-c9df-49bc-b67c-bd46fc4a4dbb
 Vanguard of Brimaz	creature	2	white	a/d/adb38717-97d5-4763-9e6c-46251df704ed
 Vanguard's Shield	artifact	2	colorless	c/e/ce8d9db6-5737-4a1f-ae4e-75821a602784
@@ -21597,6 +21926,7 @@ Vault Skirge	creature	2	black	f/2/f254239c-c07a-4c41-98f7-8f4de539c73e
 Vault Skyward	instant	1	blue	4/e/4e934192-2ea3-48fe-a2a9-42c2ee9b22f7
 Vaultbreaker	creature	4	red	1/2/12891fcf-7118-428a-bdfe-9495a77f8b3d
 Vazal, the Compleat	creature	6	green	b/3/b3aa63b1-5801-44d9-945c-dfcec0c56efe
+Vazi, Keen Negotiator	creature	5	multicolored	5/5/551a6ff5-0f6e-4925-98c7-4d426358e959
 Vebulid	creature	1	black	d/5/d5623194-0cd9-4f3f-bab1-133d6b1e94fe
 Vec Townships	land	0	colorless	1/5/15377e49-e929-413f-9501-8f3e4afa0050
 Vectis Agents	creature	5	multicolored	1/e/1e5ac1be-43e4-4535-8633-730f306c0d00
@@ -21670,6 +22000,7 @@ Vengeful Vampire	creature	6	black	d/0/d03c64a7-37d2-4d8f-bd7a-9435bc2f4101
 Vengeful Warchief	creature	5	black	d/4/d405e1bc-bf58-4cce-8abe-57fb40ef0996
 Vengevine	creature	4	green	5/6/5631668d-75f2-4d2d-b644-90c073c7be21
 Venom	enchantment	3	green	c/7/c7a314a0-14cb-4df1-8f2f-653455f13b09
+Venom Connoisseur	creature	2	green	0/4/04897d8c-ee05-45eb-80f7-76487dbcc449
 Venom Sliver	creature	2	green	1/1/115537f3-0e1d-4c92-b496-8e6aabba15ca
 Venomous Breath	instant	4	green	8/e/8eeb9e02-1d26-4959-a878-2ef8db2358bc
 Venomous Changeling	creature	3	black	4/c/4c5a1d73-d102-469b-82ca-ec18f616375e
@@ -21792,7 +22123,7 @@ Vicious Offering	instant	2	black	a/a/aaed7828-57c1-4ad3-a91b-209c66f0876b
 Vicious Rumors	sorcery	1	black	b/1/b1939952-608e-4786-beeb-a6ff0fa36624
 Vicious Shadows	enchantment	7	red	d/0/d040791e-eee4-4eef-ace1-507216a5d268
 Victim of Night	instant	2	black	c/1/c128272d-4611-477c-84b9-081bddcc7188
-Victimize	sorcery	3	black	1/3/1303644e-d406-4136-8524-9d99f0b318ac
+Victimize	sorcery	3	black	2/2/22000809-20ff-4620-82e9-ddc4299f6e95
 Victorious Destruction	sorcery	5	red	7/b/7b81cb30-e9f8-41f3-a10b-26e0ba2503aa
 Victory Chimes	artifact	3	colorless	9/c/9cb27fb1-41b1-49b8-bb3b-2c8a011ae7a9
 Victory's Envoy	creature	5	white	b/9/b9fd4bad-0227-484d-ba48-4e7f75bb804d
@@ -21920,19 +22251,21 @@ Vito, Thorn of the Dusk Rose	creature	3	black	0/f/0fe79ee4-c3f3-4a6b-a967-203ca3
 Vitu-Ghazi Guildmage	creature	2	multicolored	2/7/275a3199-1297-4281-a95c-374bcdc198ce
 Vitu-Ghazi, the City-Tree	land	0	colorless	3/3/33145080-077e-4231-96ca-e8b1852b6380
 Vivid Crag	land	0	colorless	d/a/da397243-2193-4e5d-8dee-df37b70677e7
-Vivid Creek	land	0	colorless	7/f/7fde8caf-975e-4d43-b994-27199e0557fa
+Vivid Creek	land	0	colorless	c/9/c9082527-aa88-42f7-b2f2-de21878cb179
 Vivid Flying Fish	creature	2	blue	c/6/c6783b19-4d23-445c-9c4c-bb485a1e4149
-Vivid Grove	land	0	colorless	7/f/7fdfbba9-c5f7-426b-8219-8661304ea588
+Vivid Grove	land	0	colorless	1/2/12ccc686-bbaa-4c34-a7b8-a1e763fe0ad0
 Vivid Marsh	land	0	colorless	b/7/b71b3df3-e188-45bb-8dc8-53fd4d527735
-Vivid Meadow	land	0	colorless	1/1/11c2009f-4f83-4b3f-ac1a-2ac50ae03d3b
+Vivid Meadow	land	0	colorless	6/2/625a42b4-d88c-48e0-96b1-77388ca48810
 Vivid Revival	sorcery	5	green	9/e/9e67fcfd-0e9e-4b88-8c65-2125fac10a3d
 Vivien of the Arkbow	planeswalker	6	green	8/c/8c185555-acd4-461a-821a-b21b7b0914a5
+Vivien on the Hunt	planeswalker	6	green	5/e/5edfb119-abc9-4d4d-bc46-33cce1a0922d
 Vivien Reid	planeswalker	5	green	6/8/681fbd66-b622-4f20-a860-f101aff21109
 Vivien's Arkbow	artifact	2	green	e/e/eecc846f-5b78-4d54-8d29-642ad7a852bc
 Vivien's Crocodile	creature	3	green	7/c/7c51c6bd-2ecc-4d92-a406-fcb31e889b45
 Vivien's Grizzly	creature	3	green	3/7/37f2571b-6756-462c-9e71-3121fa458160
 Vivien's Invocation	sorcery	7	green	7/8/784c4711-223d-4b95-a163-87e57f87b8db
 Vivien's Jaguar	creature	3	green	d/4/d4b406cf-738b-4e65-ac00-b1c36ded5f96
+Vivien's Stampede	sorcery	6	green	d/e/de108ae1-7201-4849-9f68-92edff66649c
 Vivien, Arkbow Ranger	planeswalker	4	green	5/9/592c5e27-c538-425e-b41f-1d6708428853
 Vivien, Champion of the Wilds	planeswalker	3	green	f/f/ff3986d7-9b3d-4082-8d72-ce59c9fcd5d5
 Vivien, Monsters' Advocate	planeswalker	5	green	5/0/504ebb84-7e7b-4119-a128-a9c183c5d9de
@@ -21971,6 +22304,7 @@ Voice of Reason	creature	4	white	e/d/ed3d5a10-6d4b-4383-b400-7323f2b4670e
 Voice of Resurgence	creature	2	multicolored	9/9/99d1e843-71c9-4a65-bc36-d23858ef5ead
 Voice of the Blessed	creature	2	white	a/1/a16c0871-3f40-4d5a-9d21-e7f944b64a65
 Voice of the Provinces	creature	6	white	3/0/30a78066-c52e-48fd-bcf9-d0b60f00fddc
+Voice of the Vermin	creature	4	green	b/f/bfe4e0eb-23a5-46a5-b719-5a6f9a1fc4ce
 Voice of the Woods	creature	5	green	d/7/d7a6315c-aa6f-4be1-a002-d7824bfad622
 Voice of Truth	creature	4	white	4/0/40377e3d-77d9-4d86-ac8c-4e27803e48d8
 Voiceless Spirit	creature	3	white	d/2/d24d9bd7-5721-4436-a86f-35e376727f46
@@ -21981,6 +22315,7 @@ Void Beckoner	creature	8	black	a/1/a1523cda-c47d-4419-a5d3-fd6ed9867c56
 Void Grafter	creature	3	colorless	6/c/6c2e37e2-a4bd-4f90-9191-3125784a3369
 Void Maw	creature	6	black	b/a/ba464b81-2633-4422-a4b5-3593dfb7e7aa
 Void Mirror	artifact	2	colorless	6/f/6f906219-7a6a-427b-93c4-4d958cbd171c
+Void Rend	instant	3	multicolored	2/d/2daab74d-d66b-4164-aa19-24e8d5536f7d
 Void Shatter	instant	3	colorless	4/b/4bf13c5e-3968-48ad-ba08-99ba58873223
 Void Snare	sorcery	1	blue	9/4/94efe426-0fb2-4a24-9b50-914e48105b57
 Void Squall	sorcery	5	blue	3/d/3d8a7aee-6403-44ce-a119-66147aa311fd
@@ -22061,7 +22396,7 @@ Voracious Vacuum	creature	3	colorless	8/f/8ffcbb9f-a605-4f7f-a005-b237b4f60052
 Voracious Vampire	creature	3	black	d/6/d66a9f1b-31c8-4557-888b-a927922d37af
 Voracious Wurm	creature	2	green	d/a/da15100b-2934-438c-9917-84ad8bdc4181
 Vorapede	creature	5	green	f/2/f20ad28c-80a0-47c4-a5b6-685569d6a718
-Vorel of the Hull Clade	creature	3	multicolored	4/7/47edde50-81c8-4fe0-ae13-9a10171361bc
+Vorel of the Hull Clade	creature	3	multicolored	8/e/8e7053ff-c825-41bc-9dad-eaf7a37447e5
 Vorinclex, Monstrous Raider	creature	6	green	9/2/92613468-205e-488b-930d-11908477e9f8
 Vorinclex, Voice of Hunger	creature	8	green	9/f/9fe3af8c-109d-486c-aa34-3f023abda5b7
 Vorosh, the Hunter	creature	6	multicolored	9/4/94fc1361-bcd9-4521-a58c-ee2db2f82b10
@@ -22185,7 +22520,7 @@ Wall of Razors	creature	2	red	0/b/0bb37bcd-0bbd-4f3f-9623-803885750344
 Wall of Resistance	creature	2	white	f/d/fd25787d-b90c-4b25-8259-1ac41d4dcd15
 Wall of Resurgence	creature	3	white	c/9/c99f0dc1-c8cf-4733-a874-5ae57b38258e
 Wall of Reverence	creature	4	white	1/5/1515e039-b838-40b6-b087-eb9e9d9ff008
-Wall of Roots	creature	2	green	b/6/b65cb901-bfb0-454a-97ef-138021e524ff
+Wall of Roots	creature	2	green	d/8/d80940ad-8e36-4226-ad5f-b54487c75c76
 Wall of Runes	creature	1	blue	6/a/6ac0f66a-213f-463e-8ebb-35ff5940ea06
 Wall of Shadows	creature	3	black	6/9/69c6e076-d7bf-435b-ba79-84aa9f073130
 Wall of Shards	creature	2	white	8/8/884ee8d8-4c0d-4e44-8321-bccd18195693
@@ -22291,6 +22626,7 @@ Warleader's Helix	instant	4	multicolored	9/8/989f8049-c4d2-4729-b35f-7bd7d8cbcb0
 Warlock Class	enchantment	1	black	b/7/b7faf899-96b7-454e-b634-6684c2d72f26
 Warlord's Axe	artifact	3	colorless	4/1/41ab6393-df29-475b-b56d-c56eb95de05d
 Warlord's Fury	sorcery	1	red	0/e/0ebd63cf-7e8c-4c8d-844d-98535d5f3039
+Warm Welcome	instant	3	green	b/a/bad9e58e-c9a3-4a0d-9a59-71c20a3275b6
 Warmind Infantry	creature	3	red	d/8/d8a5f801-9e55-4e14-85b0-5719521cd9d6
 Warmonger	creature	4	red	5/5/5577ac30-ee84-4d3c-b407-82578779dc90
 Warmonger Hellkite	creature	6	red	e/5/e555b5af-48ed-4682-bf9a-f9f145548e18
@@ -22319,7 +22655,7 @@ Warrior's Honor	instant	3	white	0/9/09117d06-79e6-4f86-ba92-d1f8fe165147
 Warrior's Oath	sorcery	2	red	d/5/d582861a-ca6e-4b74-adf0-3eb588ea5ed2
 Warrior's Stand	instant	2	white	5/3/53bffc2e-67b6-4eb0-9742-e2a5918cc8d8
 Warriors' Lesson	instant	1	green	6/3/63f7e81a-6f9e-4cad-a911-fba7a431cd55
-Warstorm Surge	enchantment	6	red	5/9/596ebc25-b55c-45e7-8aba-97f4ba0c766a
+Warstorm Surge	enchantment	6	red	a/f/afd0838e-5056-4c19-810c-86a87f5c5389
 Warteye Witch	creature	3	black	b/5/b5be9b82-8356-4e7e-95ae-809be87d68b0
 Warthog	creature	3	green	d/6/d65630c7-3813-404c-9919-0e46c557f7b8
 Wary Okapi	creature	3	green	5/4/54f26697-0d4b-4af4-a644-3d0ae13f1d2e
@@ -22330,6 +22666,7 @@ Wasp Lancer	creature	3	multicolored	a/c/ac48a4ff-433b-4fd0-b0d1-43b188ee81b6
 Wasp of the Bitter End	creature	2	black	4/6/46d348eb-7db0-4209-8960-c6adc473417d
 Waste Away	instant	5	black	7/8/78e859c2-3457-4c4c-9b1c-0db647dcf259
 Waste Land	land	0	colorless	3/7/37a5dad0-ad6e-4b7e-8a55-b0aa5b1a8209
+Waste Management	instant	3	black	0/f/0f979e7a-4e7b-4b7b-b4eb-cefa3c02d64f
 Waste Not	enchantment	2	black	2/f/2f5500a2-c6d6-40d7-b586-59b854733160
 Wasteland	land	0	colorless	a/a/aaafb9bc-7cea-4624-a227-595544fa42b0
 Wasteland Scorpion	creature	3	black	2/b/2bab1782-498c-40fc-bf2e-5c991d0c3501
@@ -22356,6 +22693,7 @@ Water Wurm	creature	1	blue	e/3/e3da4a88-5225-467f-9240-f30bc1eee520
 Watercourser	creature	3	blue	f/4/f4f648fc-bf05-4e60-b399-0e0ca82e470c
 Waterfall Aerialist	creature	4	blue	7/b/7bc6966c-18d9-4675-9594-6f0b2d11c405
 Waterfront Bouncer	creature	2	blue	8/d/8dbdce9e-94fa-4ed5-9b97-d2026cffe7cb
+Waterfront District	land	0	colorless	d/e/debf7aac-4d31-49b4-955b-79036258df69
 Waterkin Shaman	creature	2	blue	1/8/184bfbc4-1c9b-44f7-b4a7-068290db3bac
 Waterknot	enchantment	3	blue	a/d/ada68b91-3379-483e-93a0-b6c7c675c1dc
 Waterlogged Grove	land	0	colorless	0/a/0ab6bfbd-d2e1-4c4c-9f91-6f69c5b8e3bb
@@ -22369,6 +22707,7 @@ Waterwhirl	instant	6	blue	9/d/9dd58503-d269-4756-a71c-a6a2bfb1658d
 Watery Grave	land	0	colorless	7/d/7d4595f2-9297-40dc-b2dd-7144bbb401f7
 Wave Elemental	creature	4	blue	1/1/111ee762-72cb-43e3-88a1-6f1f0b9ee66e
 Wave of Indifference	sorcery	1	red	2/c/2c88b942-06d5-45d8-a4d8-6ca864f65516
+Wave of Rats	creature	4	black	1/5/154dc126-67ca-4759-a424-37f0eb52e1fa
 Wave of Reckoning	sorcery	5	white	2/7/27d6655d-f55c-4bfc-a9c6-10232ebc707b
 Wave of Terror	enchantment	3	black	d/4/d40ab3e7-9abb-4acc-9932-de03b533722f
 Wave of Vitriol	sorcery	7	green	1/7/17328391-a510-42a0-8a00-4f61dd873c13
@@ -22382,7 +22721,7 @@ Wax // Wane	instant	2	multicolored	f/8/f855144c-6adb-4cde-8a37-5fb0be775e5d
 Waxing Moon	instant	2	green	6/1/617f9f3a-61a1-4c73-8efe-3d74fe362901
 Waxmane Baku	creature	3	white	f/d/fd0c47e0-c87b-4304-b412-00496c2c289f
 Way of the Thief	enchantment	4	blue	b/2/b249ca81-bd8d-4d3d-81d6-15e8d669c416
-Wayfarer's Bauble	artifact	1	colorless	3/2/32a52319-e4a5-42a9-b9c5-35df42b46fd9
+Wayfarer's Bauble	artifact	1	colorless	a/7/a7fe884a-1ffd-4d12-9513-a4500af255ac
 Wayfaring Giant	creature	6	white	5/7/57e45de5-0e8b-41d3-979b-ec5a29cac682
 Wayfaring Temple	creature	3	multicolored	2/9/298a8a65-4068-4f00-850d-1655161fe2fa
 Waylay	instant	3	white	8/6/867a33ee-0340-413a-8243-9d6bc2d944e2
@@ -22407,6 +22746,7 @@ Weaselback Redcap	creature	1	red	3/3/33a78207-fd76-4112-a257-54a25da6f818
 Weather the Storm	instant	2	green	f/6/f6a9fa51-78c3-42e6-8c2e-39658f59ed87
 Weathered Bodyguards	creature	6	white	9/9/991a18e5-a183-4b84-b157-5a3609b3f910
 Weathered Runestone	artifact	2	colorless	0/f/0fc2478f-e624-46fb-85af-1254564cd4d2
+Weathered Sentinels	creature	3	colorless	e/a/ead6a871-43e1-4ebb-a685-e6fdc39aa5cc
 Weathered Wayfarer	creature	1	white	f/e/fe4be040-27b1-4501-b3d4-f12976e568c9
 Weatherlight	artifact	4	colorless	c/8/c86cf087-c50a-487a-bc1a-eee5410f14d9
 Weatherseed Elf	creature	1	green	4/e/4e74f8ae-992b-40a6-87e3-7b321dba4ffa
@@ -22469,11 +22809,13 @@ Wellspring	enchantment	3	multicolored	c/6/c69ba095-dd78-4999-87a9-63f7165846e4
 Wellwisher	creature	2	green	4/f/4fceaadc-5b40-4f7f-850c-aa87d7e4c38d
 Werebear	creature	2	green	2/2/224ea635-b95b-4803-8716-edd4cb655923
 Werewolf Pack Leader	creature	2	green	e/8/e88e6b39-bb4d-4d69-8007-d42f31bcbc29
+Wernog, Rider's Chaplain	creature	2	multicolored	3/9/39491011-bdf6-4e61-8534-fe26c1571f8f
 Western Paladin	creature	4	black	4/f/4f829763-3dce-453f-a783-177ea085ee01
 Westgate Regent	creature	5	black	e/7/e757cc7d-b9cc-4ef1-80c9-a22755a6d271
 Westvale Abbey	land	0	colorless	c/1/c1f53d7a-9dad-46e8-b686-cd1362867445	1
 Wet Willie of the Damned	sorcery	4	black	9/4/943f1d16-4781-4f65-bbe8-79fad472396c
 Wetland Sambar	creature	2	blue	f/7/f71a86e0-d15a-4fba-94f6-bfbaade8d837
+Whack	sorcery	4	black	c/8/c862769d-f8bd-4cb6-b2b2-816179795f8b
 Whalebone Glider	artifact	2	colorless	4/b/4b75adf0-9501-4776-a213-456c2b821070
 Whammy Burn	instant	1	red	8/2/82b597b2-951c-4fd1-832c-307c4c894035
 Wharf Infiltrator	creature	2	blue	2/6/264baa9a-67fc-4903-9ed8-a4ce6912a184
@@ -22508,8 +22850,8 @@ Whiptail Moloch	creature	5	red	c/c/ccd8e674-49be-47b7-910d-736c9acfa916
 Whiptail Wurm	creature	7	green	a/e/aefe8c78-c07b-427c-9e8d-fad5ea2bfca9
 Whiptongue Frog	creature	3	blue	6/f/6fc17186-e786-46a3-9812-4a6e367e78b9
 Whiptongue Hydra	creature	6	green	5/7/57cfa420-306d-4d2c-8e83-fa9b46f2aa27
-Whir of Invention	instant	3	blue	d/3/d3f6a9c7-9b19-420d-a7b3-40fe31ce5713
-Whirler Rogue	creature	4	blue	2/6/261dd09a-6a68-4fe1-aed3-0892955e52c3
+Whir of Invention	instant	3	blue	a/6/a679659c-7fed-4afa-9b99-fdeb8ccda964
+Whirler Rogue	creature	4	blue	6/4/64d978dd-f194-4f5c-97ca-cadb1a105d39
 Whirler Virtuoso	creature	3	multicolored	a/e/ae429806-28b5-4bee-b0e1-1bd876f282c2
 Whirlermaker	artifact	3	colorless	f/f/ff1a1246-d5a0-43dc-825a-062a3bb4def9
 Whirling Catapult	artifact	4	colorless	6/2/6206d65a-6907-4d11-acb0-8820277f2cf2
@@ -22557,9 +22899,10 @@ Wicked Reward	instant	2	black	e/e/ee32f8ba-3547-4913-a555-d43ee2978ba9
 Wicked Wolf	creature	4	green	0/9/09476eac-55d2-4955-8951-ae4ce117c98b
 Wicker Warcrawler	creature	5	colorless	4/8/488e7c73-62bc-4d51-bcb6-8126ec559b41
 Wicker Witch	creature	3	colorless	a/e/ae115587-012d-40ff-a20d-270fabf2f8c6
-Wickerbough Elder	creature	4	green	a/9/a969128b-e03d-4f35-bac3-6a852881d27a
+Wickerbough Elder	creature	4	green	3/a/3a5832cc-f9f6-4881-99dd-c0728a52cabe
 Widespread Brutality	sorcery	4	multicolored	9/7/97715d22-f432-4f67-b4ea-47b8fe6edca5
 Widespread Panic	enchantment	3	red	d/9/d9e1b37f-8168-4dc0-858f-434ee96ff748
+Widespread Thieving	enchantment	3	red	c/d/cd22723d-855f-4b31-827f-a4e388ebbc07
 Widget Contraption	artifact	0	colorless	1/1/11519144-1f4c-4f11-9a36-4456d45098a1
 Wielding the Green Dragon	sorcery	2	green	2/b/2b138167-8129-4109-a58b-af26c95577e4
 Wight	creature	2	black	f/6/f62abe9c-7599-433b-a964-10d6641f3586
@@ -22654,12 +22997,12 @@ Wind-Kin Raiders	creature	6	blue	8/0/8037f588-6b9f-472d-b26a-2c06db976ad0
 Wind-Scarred Crag	land	0	colorless	c/f/cf9b1d47-11ef-4f06-94b2-94b6727de3bd
 Windborn Muse	creature	4	white	b/0/b098ad05-3e30-4a73-b327-da1cdc22786d
 Windborne Charge	sorcery	4	white	a/e/ae4272f2-ef56-48c6-8374-64becee8a60e
-Windbrisk Heights	land	0	colorless	e/c/ec7f0e60-8fa4-4eab-8465-baf4e5e8196b
+Windbrisk Heights	land	0	colorless	4/3/43af2a0a-8809-49e7-926b-45b6f0c6390f
 Windbrisk Raptor	creature	7	white	5/d/5df7b710-d44c-4ebc-be5b-f81d697086c4
 Windcaller Aven	creature	6	blue	2/e/2ef5d303-e91b-4522-a3e0-0b94dc872018
 Windfall	sorcery	3	blue	0/8/0846f753-0d53-4bdd-be0e-19d989db5d5f
 Windgrace Acolyte	creature	5	black	8/c/8cd9fc6f-d85c-4475-b79e-705a1674099e
-Windgrace's Judgment	instant	5	multicolored	d/8/d8b8f56c-091f-4932-9216-af58f7ea4bd7
+Windgrace's Judgment	instant	5	multicolored	0/f/0fd6469c-fbce-41ed-ae23-bb55c0f56d3d
 Winding Canyons	land	0	colorless	f/2/f26672a8-f4ff-4c64-bb3e-f5072bbc9e3e
 Winding Constrictor	creature	2	multicolored	9/1/918f5490-7a81-42f3-b920-b728c7258b72
 Winding Way	sorcery	2	green	4/e/4e5d9776-b6ce-4ad6-8acc-69115ba5de76
@@ -22703,7 +23046,8 @@ Wings of Hubris	artifact	2	colorless	e/3/e3ef8f96-3e3c-4b1b-8180-3b38c7deaaff
 Wings of the Cosmos	instant	1	white	d/6/d6b26c95-f90d-43fb-8c99-2a3aa13ac2c6
 Wings of the Guard	creature	2	white	4/0/4084a009-f366-416b-b82d-a762189abf43
 Wings of Velis Vel	instant	2	blue	c/c/cc5f287b-beaa-4b51-8db7-91982e2c0bb0
-Wingspan Mentor	creature	3	blue	8/9/89348a02-29f6-40b9-b39f-cb5f8c230a02
+Wingshield Agent	creature	3	blue	b/9/b9ec36ec-1a9c-41db-b304-c23286a4d182
+Wingspan Mentor	creature	3	blue	2/2/225701da-1e6d-479c-aecc-3a13e0698524
 Wingsteed Rider	creature	3	white	9/b/9b189050-522b-4b8a-b4e6-1f5158ebe519
 Winnow	instant	2	white	d/6/d61748dd-4010-47da-8717-ca0147877057
 Winnower Patrol	creature	3	green	a/4/a47bed84-5a4a-4f16-af6c-789c542ce3a7
@@ -22723,6 +23067,7 @@ Wipe Away	instant	3	blue	2/e/2ece0707-72f7-4a0a-8c37-9fbe0c694f9b
 Wipe Clean	instant	2	white	c/f/cf7c14c9-cb5a-49f0-be2c-eb3166f02510
 Wirecat	creature	4	colorless	6/3/6333d686-58ec-4360-8929-9f7302f9a09c
 Wirefly Hive	artifact	3	colorless	7/b/7bdb7e06-748c-4fc0-adc5-f8f2ec62029a
+Wiretapping	enchantment	5	blue	8/5/859ed6fc-1f9a-428d-82d8-8e4b5bae6d5a
 Wirewood Channeler	creature	4	green	5/6/5670ae47-befb-4aaf-a77a-d7dbd4d8dc08
 Wirewood Elf	creature	2	green	1/0/10a34e31-97f1-40e8-9d91-a8139af7f096
 Wirewood Guardian	creature	7	green	e/8/e8676b1f-e37c-4ae1-9dbe-d000369fa422
@@ -22776,9 +23121,11 @@ Withstand	instant	3	white	b/b/bb458f79-13dd-4446-be75-463f19548867
 Withstand Death	instant	1	green	b/0/b059cca0-2373-428b-a3a6-c8be5523c96f
 Witness of the Ages	creature	6	colorless	7/6/763ac4c4-af2d-4b71-9fb3-244c96f93860
 Witness of Tomorrows	creature	5	blue	6/4/64cd9d60-826c-4b35-9684-dccb0880399e
+Witness Protection	enchantment	1	blue	a/2/a2be6f2c-8ad0-402d-a7ca-9fe817e83b72
 Witness the End	sorcery	4	colorless	0/c/0c06d8ec-55ab-4be9-a470-77c79d643d1f
 Witness the Future	sorcery	3	blue	d/0/d0b3683f-a68b-458c-8f70-bba0f8779b8a
 Witty Demon	creature	3	black	7/4/7492492a-418d-4fac-91fe-e1f709c2208a
+Witty Roastmaster	creature	3	red	7/1/71d13f19-482b-4a2e-9692-b7d7caf2f9f5
 Wizard Class	enchantment	1	blue	d/1/d1f629fb-b097-4240-8560-ef47f5678f48
 Wizard Mentor	creature	3	blue	4/9/49805401-9bd9-48a3-9b99-0120a8bb1fb5
 Wizard Replica	creature	3	colorless	e/d/ed9b6a66-2ec4-44e6-b29b-f08768dca9cc
@@ -22789,7 +23136,7 @@ Wizards' School	land	0	colorless	c/d/cd736532-8e98-4f4a-b48f-a66c57efcbfd
 Wizened Arbiter	creature	2	white	e/9/e9edf0b1-0889-4c50-b7b8-a0136104699c
 Wizened Cenn	creature	2	white	5/8/585f1c8e-6898-4def-8e3f-d45cd263f776
 Wizened Snitches	creature	4	blue	b/f/bf35807a-a003-4a99-a883-03b8e097f1b2
-Woe Strider	creature	3	black	3/4/3457b558-b35b-49fd-b499-b1ec755f86ce
+Woe Strider	creature	3	black	d/b/dbe6790c-638b-4eb5-832f-900e221b5dd4
 Woebearer	creature	5	black	c/5/c5a6e960-169d-431a-9ebd-c4413aa67377
 Woebringer Demon	creature	5	black	f/0/f0c758c9-3138-49b2-bebf-cdab5dc68a3d
 Woeleecher	creature	6	white	d/0/d05c7868-e589-478e-af0c-512d0fe4f253
@@ -22817,7 +23164,7 @@ Wolverine Pack	creature	4	green	b/a/ba5aee52-095e-4c69-93eb-5adac11ed1fc
 Wolverine Riders	creature	6	green	7/0/70fd0439-294b-454c-b2af-e814b85f4590
 Wonder	creature	4	blue	6/7/675d6729-23da-4f0b-b222-fe54fe24dd90
 Wood Elemental	creature	4	green	e/d/edc71122-2951-43eb-8ca8-1cda6d231013
-Wood Elves	creature	3	green	2/2/227746cb-8d9e-4f56-a19c-971a35f4cf20
+Wood Elves	creature	3	green	8/3/83304fb9-a6b3-4cf8-b215-ebb46ef4508c
 Wood Sage	creature	2	multicolored	9/2/92c9bb32-626b-4367-844d-20ae9fbfb9aa
 Woodborn Behemoth	creature	5	green	a/2/a2e49925-a4ab-4960-ad83-20583dcd2c2c
 Woodcloaker	creature	6	green	4/a/4aa85e09-a1cd-473d-98cd-c6a7c7aff949
@@ -22826,7 +23173,7 @@ Wooded Bastion	land	0	colorless	3/6/36b591ec-0231-4b91-a132-eb3aedfdf8fa
 Wooded Foothills	land	0	colorless	a/8/a8503cca-7e7d-44c4-8587-81376b396398
 Wooden Sphere	artifact	1	colorless	5/3/5310b3a7-0a85-4469-be88-5c7ab1de4f4a
 Wooden Stake	artifact	2	colorless	7/e/7e2825f5-8112-4108-910a-4303b2d57356
-Woodfall Primus	creature	8	green	5/d/5da88d23-8650-4b55-a3f9-e964427660ed
+Woodfall Primus	creature	8	green	9/7/97914abe-71d5-4bd6-87d7-8e7379abf1aa
 Woodland Bellower	creature	6	green	a/7/a706d4bb-0b44-4e43-b340-7de799c086b8
 Woodland Cemetery	land	0	colorless	b/a/ba05cf47-9823-41f9-b893-321ea89e473e
 Woodland Champion	creature	2	green	0/2/021bc8f5-3992-4d6a-9806-ed43c89e99f2
@@ -22868,10 +23215,11 @@ Workhorse	creature	6	colorless	c/2/c2571ff7-0287-4ba2-8365-5ff08de641a2
 Working Stiff	creature	2	black	b/5/b5a5e4c9-8452-4fdc-a5f0-5fd168e18050
 Workshop Assistant	creature	3	colorless	e/9/e9387e8f-0e72-4212-81c8-e64050700c52
 Workshop Elders	creature	7	blue	5/3/53913e26-d98b-4ca6-aeea-23633d762d46
+Workshop Warchief	creature	5	green	2/7/27851834-688f-4929-967d-dfa015194f7f
 World at War	sorcery	5	red	a/4/a47a05ad-fe86-481e-b770-e1760be4f852
 World Breaker	creature	7	colorless	0/0/0020a124-ba76-4d40-84e9-9803268d9f16
 World Queller	creature	5	white	1/3/134ff41d-1645-4d3a-94b6-e13a30dedb8e
-World Shaper	creature	4	green	d/5/d59c87f5-95ab-4385-abbe-99a3149bdbcf
+World Shaper	creature	4	green	d/b/db9a0b21-2e9d-4e76-ac97-d11c299d8bd6
 World-Bottling Kit	artifact	5	colorless	f/d/fd1be145-cf42-4a9a-8d0a-d7174d96834e
 World-Weary	enchantment	5	black	6/c/6c7c1b08-3184-478f-92be-88db6cda33c5
 Worldfire	sorcery	9	red	2/e/2ef3d4b5-0453-4bf0-b018-23b0c3b9ae11
@@ -22915,6 +23263,7 @@ Wreak Havoc	sorcery	4	multicolored	0/c/0c3b44e5-0ad8-4487-a6e2-d43b123086ab
 Wreath of Geists	enchantment	1	green	7/6/7604e22e-1f29-4a8f-b887-b18f43e3745e
 Wrecking Ball	instant	4	multicolored	9/a/9a8fafff-e9b1-49e1-9bba-5f3c82cac894
 Wrecking Beast	creature	7	green	7/4/74e6f7be-4493-4081-ac67-d782ab2b3723
+Wrecking Crew	creature	5	red	9/2/92691507-b1ce-40d0-87e7-b79e81370511
 Wrecking Ogre	creature	5	red	8/7/87f1a27c-c576-4c34-873f-6faf020c2773
 Wren's Run Hydra	creature	1	green	5/1/5198ac65-118c-4616-8315-d71d41b883ad
 Wren's Run Packmaster	creature	4	green	a/4/a44a2d69-df93-475b-8233-f73d8402594a
@@ -22929,9 +23278,10 @@ Wretched Camel	creature	2	black	c/d/cdd729df-8a02-4d5e-8432-bc0d006b0d3d
 Wretched Confluence	instant	5	black	b/d/bd9e38ad-389e-4178-9c8a-5ca89c1a2f73
 Wretched Gryff	creature	7	colorless	c/0/c08d4f91-3859-4c3b-8d56-d4bbe36c4de0
 Wretched Throng	creature	2	blue	e/b/eb3991f0-76b8-4f77-9d67-0e2b11fda750
-Wrexial, the Risen Deep	creature	6	multicolored	8/e/8e946dda-65db-4a01-8abd-9a92e8e3eddd
+Wrexial, the Risen Deep	creature	6	multicolored	c/9/c96b11ad-67fd-4a2b-89ea-e9df9c50731e
 Wring Flesh	instant	1	black	d/6/d6b77692-08aa-40b6-b21b-c29a2dc87709
 Writ of Passage	enchantment	1	blue	a/b/abd58eee-1108-49be-9ae7-da179fb081c2
+Writ of Return	sorcery	5	black	d/8/d826b38e-a026-472b-afe7-d3a6bd806cf6
 Write into Being	sorcery	3	blue	5/4/548ee36f-b1be-4e81-bb04-1ccdacde615c
 Wrong Turn	instant	3	blue	3/b/3b69687d-191a-4bca-b1f7-eea27847c1af
 Wu Admiral	creature	5	blue	4/9/499ae191-80ac-42bf-b49d-db343803bd56
@@ -22953,6 +23303,8 @@ Wyleth, Soul of Steel	creature	3	multicolored	7/c/7c5ada8c-98f2-4f9c-bcb5-dfa4f8
 Wyluli Wolf	creature	2	green	1/5/15ccebe1-ef08-4805-a65f-a1c57abed9f2
 X	creature	2	multicolored	f/7/f77f6e64-2470-4c6a-a92b-328e4edc3ea9
 Xanathar, Guild Kingpin	creature	6	multicolored	5/b/5bc58050-a615-4090-9cf5-cd49ccb4e2c6
+Xander's Lounge	land	0	colorless	5/4/54f449ff-4025-465e-9ec5-a5cf42c4c9d3
+Xander's Pact	sorcery	6	black	2/1/2154df0d-9d35-4a67-aeff-c9f224b969a2
 Xantcha, Sleeper Agent	creature	3	multicolored	8/9/89b03b9a-7e20-47cb-bc64-23513acea855
 Xanthic Statue	artifact	8	colorless	8/b/8becb285-cd91-4de0-af59-ddaa7d8c5366
 Xantid Swarm	creature	1	green	0/2/022ab408-3292-40b6-b35e-ac1b7f06dffa
@@ -23061,7 +23413,7 @@ Yukora, the Prisoner	creature	4	black	5/4/54aeca31-1175-4d2d-adc3-e3682d7e9e07
 Yule Ooze	creature	4	multicolored	3/4/34f1e901-7728-41e2-ad1b-94c877404a58
 Yuriko, the Tiger's Shadow	creature	3	multicolored	6/e/6e4ef5bf-f055-4f0a-b1f4-263081f39104
 Yurlok of Scorch Thrash	creature	4	multicolored	e/a/ead8a1f5-6260-47fa-a649-43711ec5bbeb
-Yusri, Fortune's Flame	creature	3	multicolored	b/f/bfab9e33-0d07-46e6-be06-1eaffe26cbfd
+Yusri, Fortune's Flame	creature	3	multicolored	5/a/5a75a38d-8bfc-4fe3-8bec-66f46313e48e
 Zabaz, the Glimmerwasp	creature	1	colorless	8/c/8c1cce91-7c81-45d9-bbec-b085e794791d
 Zacama, Primal Calamity	creature	9	multicolored	5/a/5aa75f2b-53c5-47c5-96d2-ab796358a96f
 Zada's Commando	creature	2	red	a/3/a3dd3478-16d3-4753-ba3d-958d2ccb9b43
@@ -23127,11 +23479,14 @@ Zhur-Taa Ancient	creature	5	multicolored	2/0/2076308f-0f4e-4b31-9e75-c2965942e7d
 Zhur-Taa Druid	creature	2	multicolored	f/1/f1882783-7284-490f-a0de-df9eb11f6ea5
 Zhur-Taa Goblin	creature	2	multicolored	1/3/13070db2-cf89-4552-8b6c-76426274321a
 Zhur-Taa Swine	creature	5	multicolored	c/e/cef93050-2f24-4c85-a00b-796e53868ac1
+Ziatora's Envoy	creature	4	multicolored	b/a/ba39154c-aace-4d55-a3ad-7c9eb717ed2b
+Ziatora's Proving Ground	land	0	colorless	7/5/75fdce80-e338-4a50-bdc6-786511feaeef
+Ziatora, the Incinerator	creature	6	multicolored	b/a/ba4fa4c8-f09f-4d97-a7d1-1b93caf7d4f9
 Zilortha, Strength Incarnate	creature	5	multicolored	9/a/9a0639a0-c898-4a07-975c-a02bdd53175b
 Zimone, Quandrix Prodigy	creature	2	multicolored	0/c/0ca14c17-dc72-4f68-92f2-14a6c4019f4e
 Zirda, the Dawnwaker	creature	3	multicolored	1/b/1bd8e61c-2ee8-4243-a848-7008810db8a0
 Zirilan of the Claw	creature	5	red	a/1/a105b7f4-c93b-4b54-acf8-7212907d9cd6
-Zndrsplt's Judgment	sorcery	5	blue	1/7/17eed02c-e2af-4642-b411-1b20494109a7
+Zndrsplt's Judgment	sorcery	5	blue	a/a/aa97df52-1ae7-4cfe-842a-1b13deef00ae
 Zndrsplt, Eye of Wisdom	creature	5	blue	7/6/76c33402-a022-4d2f-9a83-4b8ddc04e971
 Zo-Zu the Punisher	creature	3	red	e/7/e7c927d6-911d-4a37-89a2-6c500edf4dd7
 Zodiac Dog	creature	3	red	c/c/cc61aa62-25ee-40a4-9b6e-d6277316b464
@@ -23181,6 +23536,6 @@ Zuran Orb	artifact	0	colorless	6/1/618c8ecc-686d-41de-b9b1-1a7ee9cc7c14
 Zuran Spellcaster	creature	3	blue	1/5/152a72b1-a7b7-4e5c-8558-fab97465f549
 Zurgo Bellstriker	creature	1	red	b/b/bbac6d75-59ab-4d7d-87ae-46875abf8cc7
 Zurgo Helmsmasher	creature	5	multicolored	1/3/13f4bafe-0d21-47ba-8f16-0274107d618c
-Zurzoth, Chaos Rider	creature	3	red	3/d/3d94b4c3-7944-41b6-8c92-78fd6e50658d
+Zurzoth, Chaos Rider	creature	3	red	c/6/c62990d7-a337-4fc3-859c-63bc1dade1b9
 Zyym, Mesmeric Lord	creature	4	multicolored	7/1/71615ac1-0df6-452e-a14e-237c35bac09f
 Zzzyxas's Abyss	enchantment	3	black	d/1/d1ead203-b976-46d7-81c7-86ada091a4ec`
