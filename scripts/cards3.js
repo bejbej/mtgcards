@@ -22357,7 +22357,7 @@ Snow-Covered Island	land	0	colorless	3/b/3bfa5ebc-5623-4eec-89ea-dc187489ee4a
 Snow-Covered Mountain	land	0	colorless	5/4/5474e67c-628f-41b0-aa31-3d85a267265a
 Snow-Covered Plains	land	0	colorless	a/f/afd2730f-878e-47ee-ad2a-73f8fa4e0794
 Snow-Covered Swamp	land	0	colorless	6/a/6aa85af8-15f5-4620-8aea-0b45c28372ed
-Snow-Covered Wastes	land	0	colorless	a/d/ad21a874-525e-4d11-bd8e-bc44918bec40
+Snow-Covered Wastes	land	0	colorless	8/7/87870792-e429-4eba-8193-cdce5c7b6c55
 Snowblind	enchantment	4	green	5/f/5f62c376-487a-42bc-bd85-ab8b0480f7dc
 Snowborn Simulacra	sorcery	2	blue	0/d/0d1a9b59-f26a-456f-8606-09cfaee2fe69
 Snowfall	enchantment	3	blue	7/8/788ed793-3993-4a63-b9f9-9ac3947c3108
