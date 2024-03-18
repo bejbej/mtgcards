@@ -86,8 +86,8 @@ A-Find the Path	enchantment	3	green	5/0/50a223fc-ded8-4675-a72a-74ca6a44a642
 A-Fires of Invention	enchantment	5	red	2/4/24729f25-e900-4a71-a304-7346eb17990a
 A-Forge Boss	creature	4	multicolored	b/9/b9e6942a-f6fd-455f-be4a-0cdd16d67e13
 A-Futurist Operative	creature	1	blue	0/3/034c5631-fd61-47cb-88b6-aca036affc1e
-A-Geological Appraiser	creature	4	red	7/1/71dec77b-e790-48b8-8c13-91305d9f97ce
-A-Geology Enthusiast	creature	5	blue	8/b/8b60d67a-0133-4688-83e4-7ff8209a3946
+A-Geological Appraiser	creature	5	red	7/1/71dec77b-e790-48b8-8c13-91305d9f97ce
+A-Geology Enthusiast	creature	4	blue	8/b/8b60d67a-0133-4688-83e4-7ff8209a3946
 A-Glamorous Outlaw	creature	6	multicolored	a/b/ab334c44-0cdb-4521-bb7d-162131155796
 A-Glittermonger	creature	4	green	6/b/6bf8438c-9738-4577-b55d-f1e270c06890
 A-Gnarlid Colony	creature	2	green	4/6/46f644a6-9621-429e-a0a0-4c74d0ecff2e
