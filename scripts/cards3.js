@@ -6325,6 +6325,7 @@ Disciples of Gix	creature	6	black	7/d/7d356456-865d-4c92-8923-ce7384e29a79
 Disciplined Duelist	creature	3	multicolored	e/2/e23cdb0a-e114-47f8-aceb-c54c4683bbc5
 Discombobulate	instant	4	blue	8/b/8bee0d51-f4a1-4a3a-9ccd-540c3afe62d0
 Discontinuity	instant	6	blue	b/3/b33ba0a8-04e9-4df6-af20-a3ca4470cdcc
+Discord, Lord of Disharmony	creature	4	multicolored	c/4/c474c0f1-08c7-4183-b024-297a11594a96
 Discordant Dirge	enchantment	5	black	d/4/d48e753c-ba11-4aa3-9a73-584f8a7538f5
 Discordant Piper	creature	2	black	a/8/a8cce294-f6ee-4b18-8b65-7d01d0317b00
 Discordant Spirit	creature	4	multicolored	b/e/be67b950-dfe3-4159-aa53-63df25d2a926
