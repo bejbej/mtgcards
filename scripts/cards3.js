@@ -5895,6 +5895,7 @@ Deathrender	artifact	4	colorless	e/a/ea48de8d-edcd-414e-b630-473af2d95abe
 Deathrite Shaman	creature	1	multicolored	c/f/cfdb1c47-14be-491f-88b3-bed03489dbc5
 Deathspore Thallid	creature	2	black	7/4/74c1b368-6fb0-4430-807e-d124f3077361
 Deathsprout	instant	4	multicolored	2/6/26a0ae4f-a48c-4333-a53f-70702b5b4c9e
+Deb Thomas	planeswalker	4	red	2/9/29f9fa2f-71eb-4579-93a2-31423bd48596
 Debilitating Injury	enchantment	2	black	0/9/09b2b263-34db-4961-bf41-1eaaba3701da
 Debt of Loyalty	instant	3	white	d/1/d19ed33b-42d4-4a5d-a763-cfb43348769c
 Debt to the Deathless	sorcery	4	multicolored	a/4/a42f8d69-dff4-4c35-a5fc-527ea5f1d21b
@@ -27301,7 +27302,7 @@ Voltaic Servant	creature	2	colorless	2/8/28564ac6-8b9b-4b99-9630-8fb3158d354c
 Voltaic Visionary	creature	2	red	a/8/a8b85386-462b-46f8-9412-fd47ed1dc1da	1
 Volunteer Militia	creature	1	white	0/a/0af243f6-ef28-49d1-afeb-ac03d568ed6a
 Volunteer Reserves	creature	2	white	5/3/5344911f-25e8-45ce-87b9-607e42db0139
-Vona de ledo, the Antifex	creature	5	multicolored	8/5/853e5a1e-91eb-486b-8121-b5bc78d3e827
+Vona de Iedo, the Antifex	creature	5	multicolored	8/5/853e5a1e-91eb-486b-8121-b5bc78d3e827
 Vona's Hunger	instant	3	black	a/a/aab958d5-9c1f-420f-b358-ec0325f22f84
 Vona, Butcher of Magan	creature	5	multicolored	2/7/27beed9c-a42e-46de-8fbc-885da337ae75
 Voodoo Doll	artifact	6	colorless	c/6/c60ea64d-0209-4ca4-bee6-f9eb63784c9e
