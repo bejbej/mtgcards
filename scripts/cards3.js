@@ -2096,6 +2096,7 @@ Basilica Skullbomb	artifact	1	colorless	8/e/8e2f0ae2-db68-4338-93f9-9d9268cec41e
 Basilica Stalker	creature	6	black	f/d/fdafea8f-283d-4f19-a74a-669bfbdfed98
 Basilisk Collar	artifact	1	colorless	5/2/52a55efe-a870-4cd7-b22b-37c917065653
 Basilisk Gate	land	0	colorless	4/a/4a306025-d429-4006-b7ed-bdb287e83f57
+Basking Broodscale	creature	2	colorless	5/f/5feba5d6-99a6-4e9b-8a7d-90d955868fc3
 Basking Capybara	creature	2	green	f/f/ff0a2ba4-dfa8-49d6-95e9-04b7a14d0c6c
 Basking Rootwalla	creature	1	green	2/6/26bfde99-7761-48e1-851a-522f888d0f6c
 Basri Ket	planeswalker	3	white	9/8/98c85699-2daf-4e87-a3be-465d02bd64bb
@@ -3178,6 +3179,7 @@ Break the Spell	instant	1	white	f/7/f7094fc0-1d26-429c-9b49-37718c4a5c80
 Break Through the Line	enchantment	2	red	8/1/81c1cdbe-5ddb-4cc6-975b-42f3f1ee4749
 Break Ties	instant	3	white	7/2/723ec2ef-aa82-449d-88b0-405d06454fc2
 Breaker of Armies	creature	8	colorless	7/8/784e843e-7010-466d-adbd-1dd1595aead1
+Breaker of Creation	creature	8	colorless	7/2/72449552-aa2c-4ae3-846f-df523c5e6078
 Breaking // Entering	sorcery	8	multicolored	6/6/66724f4e-59dd-4c70-b09b-49947320e6d1
 Breaking of the Fellowship	sorcery	2	red	1/3/130f60d0-4fac-4e4e-a938-58f3b96e5335
 Breaking Point	sorcery	3	red	7/3/73e348dd-2d8a-4ee6-a834-2d5861566043
@@ -4988,6 +4990,7 @@ Corrupted Harvester	creature	6	black	b/5/b54625ac-484f-4522-8048-38e01c545ac3
 Corrupted Key	artifact	1	black	2/e/2ef92453-8a3e-456b-b2e7-f05d3807cd9b
 Corrupted Resolve	instant	2	blue	2/8/28432161-023b-4a98-b92a-55dc6d936cd1
 Corrupted Roots	enchantment	1	black	c/8/c8a7fe66-db40-4eca-8953-0eb2cf98e4e8
+Corrupted Shapeshifter	creature	4	colorless	2/7/27534c8a-cb71-43bc-b706-80a525396222
 Corrupted Zendikon	enchantment	2	black	0/c/0ce7d93d-3998-4486-b277-e4f91f6e3feb
 Corrupting Licid	creature	3	black	c/1/c12c6548-20e6-4697-ba26-e711590f9e28
 Corruption of Towashi	enchantment	5	blue	0/e/0e896a87-2a93-488c-a0c9-0bed8404da44
@@ -6247,6 +6250,7 @@ Devour Flesh	instant	2	black	8/8/88c42ebd-114a-430d-b3a4-ff2fb3093bf5
 Devour in Flames	sorcery	3	red	4/3/432dd78b-9520-4c28-8699-d7ff9c477070
 Devour in Shadow	instant	2	black	9/8/98c80584-b7b5-4dcd-8a00-812b9dd9b1b9
 Devour Intellect	sorcery	1	black	1/3/13c34f2d-2eac-4241-8b23-9cab3268c254
+Devourer of Destiny	creature	7	colorless	5/6/560debcd-feb4-4534-991e-a7aa1cca2409
 Devourer of Memory	creature	2	multicolored	5/1/514a6206-c2e5-4a0f-8a20-7efd6628dd0a
 Devouring Deep	creature	3	blue	0/8/0855a5a8-8c40-4396-9ad1-8fa0fc6a0c59
 Devouring Greed	sorcery	4	black	4/a/4a0f9b26-e1b0-4818-8d70-40a000f274eb
@@ -7197,6 +7201,7 @@ Echo of Dusk	creature	2	black	3/1/319a457c-89b7-47f6-a13c-20bb50d41138
 Echo of Eons	sorcery	6	blue	f/f/ff590af2-2d6c-4f16-a9b8-1a6dab6e9ad5
 Echo Storm	sorcery	5	blue	7/5/75046d32-fb0b-4c25-9ffd-53db64ff6c9e
 Echo Tracer	creature	3	blue	e/8/e856fbd5-0e8b-4f28-bfea-0ad73418d140
+Echoes of Eternity	enchantment	6	colorless	b/2/b28b9bee-d726-407b-9e5b-2231384df81e
 Echoes of the Kin Tree	enchantment	2	white	5/3/531414e6-ea72-4934-b05e-e1782249fd1f
 Echoing Boon	conspiracy	0	colorless	1/6/165dd3b0-0878-448e-b922-019d0ba372d0
 Echoing Calm	instant	2	white	0/6/060e278c-dc34-4a94-9b15-6e9ffb2a1aee
@@ -13656,6 +13661,7 @@ Kozilek's Return	instant	3	colorless	7/2/72765559-0a78-4aa3-827e-cb4612720991
 Kozilek's Sentinel	creature	2	colorless	7/8/786c6a0f-3f75-45ff-aae9-5c866be279d0
 Kozilek's Shrieker	creature	3	colorless	a/3/a384cd5b-2c6c-4969-bb62-a017e2fc9794
 Kozilek's Translator	creature	5	colorless	d/8/d80665ae-fcb2-48fd-95be-8768293bcef7
+Kozilek's Unsealing	enchantment	3	colorless	e/6/e6b44ffe-db9e-4db5-9806-098411c9ece0
 Kozilek, Butcher of Truth	creature	10	colorless	d/2/d27cf7b7-7982-46bd-a559-7789c0e74bae
 Kozilek, the Great Distortion	creature	10	colorless	c/4/c41554e7-2a07-4cc7-b01b-44deed08e588
 Kragma Butcher	creature	3	red	5/6/56d1dcab-7e46-4ff1-91f6-77352ef0cd90
@@ -17943,6 +17949,7 @@ Petrified Field	land	0	colorless	e/a/eaeaf9f2-d196-4607-a704-06f2315d8cc5
 Petrified Plating	enchantment	3	green	1/1/1195c459-5e06-4f4e-aa6e-58fefa712684
 Petrified Wood-Kin	creature	7	green	a/5/a56fbf32-f08f-4882-b8d4-41ccb60cba63
 Petrify	enchantment	2	white	b/b/bbc5f28f-6361-455f-ac82-260a70e59316
+Petrifying Meddler	creature	5	colorless	f/0/f0f2bdfd-1cbc-456e-aba7-4e0b6485cf8a
 Petting Zookeeper	creature	3	green	9/b/9bb72280-0544-450a-afc6-afec159e6c1f
 Pewter Golem	creature	5	colorless	2/8/28aa6682-bf11-4959-9d07-423a55f35199
 Phabine, Boss's Confidant	creature	6	multicolored	f/0/f0f238f6-3578-4e16-bfd0-2f5a452e46fe
@@ -28335,6 +28342,7 @@ Wring Flesh	instant	1	black	d/6/d6b77692-08aa-40b6-b21b-c29a2dc87709
 Writ of Passage	enchantment	1	blue	a/b/abd58eee-1108-49be-9ae7-da179fb081c2
 Writ of Return	sorcery	5	black	d/8/d826b38e-a026-472b-afe7-d3a6bd806cf6
 Write into Being	sorcery	3	blue	a/8/a85e6fbe-cda0-4fbf-853c-c03c567a7de9
+Writhing Chrysalis	creature	4	colorless	f/5/f54dbeb1-51f8-40e2-912a-ec25457de5a2
 Writhing Necromass	creature	7	black	a/1/a166abef-f068-47e9-8a65-43ebf4b015bd
 Wrong Turn	instant	3	blue	3/b/3b69687d-191a-4bca-b1f7-eea27847c1af
 Wu Admiral	creature	5	blue	4/9/499ae191-80ac-42bf-b49d-db343803bd56
@@ -28346,6 +28354,7 @@ Wu Scout	creature	2	blue	8/d/8d13330f-6e07-451f-b17a-4e1606a74c3f
 Wu Spy	creature	2	blue	f/7/f77b8e34-e7e9-4ac6-bc21-0ef52c6696c7
 Wu Warship	creature	3	blue	9/3/935fc8cf-c2c5-4bfc-9dd8-0a0d52058312
 Wulfgar of Icewind Dale	creature	5	multicolored	8/0/80665af6-fd66-4684-94ec-1f04eb898c2a
+Wumpus Aberration	creature	4	colorless	2/3/23c19f67-834c-4709-9038-7916ac0921eb
 Wurm's Tooth	artifact	2	colorless	d/a/da965767-a8b1-4725-ae20-65c18e37ad27
 Wurmcalling	sorcery	1	green	8/5/85402aef-3fb1-4e78-9103-e2e47e5f3c65
 Wurmcoil Engine	creature	6	colorless	5/d/5d275f04-cc60-4e3f-95cc-3d02bc916b82
