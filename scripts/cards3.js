@@ -8339,7 +8339,6 @@ Famished Paladin	creature	2	white	d/8/d80e3bc9-7b67-4eab-916a-6d83da06f20a
 Fan Bearer	creature	1	white	4/f/4f587d8d-1bef-4e4b-9b94-94c0ae11bc8f
 Fan Favorite	creature	4	black	0/6/062fe308-f892-446d-8f85-f6e77bb00977
 Fanatic of Mogis	creature	4	red	5/8/581eaadb-442b-40c9-b8f9-9e19d5eba824
-Fanatic of Rhonas	creature	0	black	6/e/6ef58164-4155-4e5b-8c16-f16f2ab65baa
 Fanatic of Rhonas	creature	2	green	1/f/1f9fb33a-3b39-4aff-93b8-aedafe0ea694
 Fanatic of Xenagos	creature	3	multicolored	3/6/3687799c-81bd-4c49-902a-2a96863629c3
 Fanatical Devotion	enchantment	3	white	b/e/be0ed1fb-d380-4e3e-a43f-c39660a996e9
@@ -13312,6 +13311,7 @@ Kaslem's Stonetree	artifact	3	green	7/8/78b1b412-228a-4e05-a4b3-8159ebf54dc6	1
 Kasmina's Transmutation	enchantment	2	blue	b/5/b5287705-cf89-49cb-b1f2-bff7a9119c98
 Kasmina, Enigma Sage	planeswalker	3	multicolored	1/7/178bf300-38cf-4ab2-9e66-6fcaa112b649
 Kasmina, Enigmatic Mentor	planeswalker	4	blue	c/7/c77d9454-a78c-4063-ad66-46b2f5a030aa
+Kassandra, Eagle Bearer	creature	3	multicolored	1/f/1f053676-de35-4465-b3b2-ce6050055e85
 Katabatic Winds	enchantment	3	green	9/7/97b34ce8-1eb2-44eb-813a-09d0308e27a0
 Kataki, War's Wage	creature	2	white	4/d/4d84ac44-01d8-415e-af69-7c608ac8ae20
 Kate Stewart	creature	4	multicolored	0/d/0d1c2b4d-5627-4264-943f-9be029c0ee92
@@ -18270,8 +18270,6 @@ Phyrexian Vivisector	creature	2	black	6/5/65617a8f-4bd8-4edb-b5ec-e20b4482390b
 Phyrexian Walker	creature	0	colorless	9/f/9f8a3979-2947-4692-8b2f-d4c07c534777
 Phyrexian War Beast	creature	3	colorless	6/c/6c7576e2-1a95-453f-aab5-b08e21f28ba4
 Phyrexian Warhorse	creature	4	black	f/4/f42167ef-7858-4c66-b1bc-41c3288a8ee8
-Phyrexian Wurm	creature	0	black	1/a/1a7800c9-6808-4f33-87ad-50ad8c79f2d7
-Phyrexian Wurm	creature	0	black	1/4/1482ab42-875c-46fc-aa0b-b18154488985
 Phytoburst	sorcery	2	green	7/5/7507afc4-f504-4eb2-a86d-f99bc2860838
 Phytohydra	creature	5	multicolored	a/5/a5928146-27c6-47f6-8f09-43fe80359309
 Phytotitan	creature	6	green	e/0/e0e6eedf-8f5a-407e-b15b-48e19df20bed
@@ -19475,7 +19473,6 @@ Rashmi, Eternities Crafter	creature	4	multicolored	7/0/70288968-7bfd-44e2-a2b3-0
 Rasputin Dreamweaver	creature	6	multicolored	7/8/78418809-f048-4611-88cb-369f427d9c44
 Rasputin, the Oneiromancer	creature	3	multicolored	7/f/7f0f171a-2929-4d95-9829-d0e885622e04
 Rassilon, the War President	creature	5	multicolored	5/6/564120cb-dbe5-4a28-947c-d79ad3123152
-Rat	creature	0	black	f/3/f3054ecd-0f8a-439d-ab7c-129d5aa0ccb2
 Rat Colony	creature	2	black	4/f/4f618e07-f06f-45d2-8512-e6cef88c0434
 Rat in the Hat	creature	1	black	6/c/6c41ae26-23be-4ebe-9ca2-b972ca2b8f91
 Rat Out	instant	1	black	f/2/f2c42755-bf91-4c75-95c6-d2a60ba3492a
@@ -22863,7 +22860,6 @@ Smuggler's Share	enchantment	3	white	f/1/f1ced678-5cfd-49ff-9420-6ee52d5edf5a
 Smuggler's Surprise	instant	1	green	e/7/e7fbb489-e2b5-4278-8162-86802cf124d8
 Sméagol, Helpful Guide	creature	3	multicolored	1/3/13253f8d-1897-41e8-a904-9e57ac7eff0a
 Snag	instant	4	green	7/4/7401df8b-23e7-4485-9ed4-70118a66feed
-Snake	creature	0	black	8/b/8b9be7c2-efe5-4d37-a43e-ddcd50a77aa9
 Snake Basket	artifact	4	colorless	3/a/3a9bc174-1d10-49bf-af4f-2f6061b1796e
 Snake Cult Initiation	enchantment	4	black	9/3/93b47606-82d1-402c-b1c6-591457b10d86
 Snake of the Golden Grove	creature	5	green	0/8/08b10bd7-3f8b-426f-acdf-5a9559b9bc7d
@@ -23313,7 +23309,6 @@ Spellchain Scatter	instant	1	red	d/e/debe025d-c1ca-4d10-a991-6e4bbf44d15c
 Spelldrain Assassin	creature	3	multicolored	9/7/976b471c-9153-4b1e-bfb5-e844a874cc37
 Spelleater Wolverine	creature	3	red	a/5/a5f03ffd-dcdb-441c-8dfc-4fe06a289b22
 Spellgorger Barbarian	creature	4	red	0/4/043fcf80-dd20-4cc2-a0d5-4bb22b8b0789
-Spellgorger Weird	creature	0	red	3/3/33b63bd0-0b61-4a87-928f-95fc6b5a3150
 Spellgorger Weird	creature	3	red	9/b/9ba52955-2ab9-48a4-bb12-6127bdef1909
 Spellheart Chimera	creature	3	multicolored	8/7/8782a7b7-79ca-4e5c-845b-d662222574c0
 Spelling Bee	creature	3	green	4/0/40ceb595-33cd-4b5c-8a23-83b1cd5709d0
@@ -24805,7 +24800,6 @@ Tariel, Reckoner of Souls	creature	7	multicolored	b/5/b588dc15-68e6-4cbb-9345-a9
 Tariff	sorcery	2	white	6/1/61094858-b8a8-425f-9c96-fac4fc6ecae8
 Tarkir Duneshaper	creature	1	white	f/d/fdc37acc-05ba-4457-8a03-d635497bfb1b	1
 Tarmogoyf	creature	2	green	6/9/69daba76-96e8-4bcc-ab79-2f00189ad8fb
-Tarmogoyf	creature	0	green	f/2/f26e1f55-284c-4540-bf5c-ebc7ab9687ab
 Tarmogoyf Nest	enchantment	3	green	e/a/eafd7838-faf2-4216-9ff6-8b98e58d69c5
 Tarnation Vista	land	0	colorless	9/6/962552a1-ec34-49e2-a23d-85dfb405d5e0
 Tarnished Citadel	land	0	colorless	3/0/30375d24-ccfe-47a2-babd-1bda0a6298fe
@@ -25355,6 +25349,7 @@ The Sixth Doctor	creature	6	multicolored	c/0/c045ccb2-28d1-4bbe-9feb-3e86988fd24
 The Skullspore Nexus	artifact	8	green	b/5/b56a7631-5f94-468d-aab7-7e9e129c5f49
 The Sound of Drums	enchantment	3	red	5/f/5ff2141a-a3ed-4ad0-9338-560502b1c85c
 The Space Family Goblinson	creature	4	multicolored	2/6/26177224-3c0e-4081-8468-3cd9981ddb0a
+The Spear of Leonidas	artifact	3	red	8/b/8b729699-efb7-4769-a166-29aaadef335b
 The Stasis Coffin	artifact	3	colorless	4/5/45537ac3-fc61-4253-a782-7f3e436b2aa6
 The Stone Brain	artifact	2	colorless	3/5/3570ebf2-a94c-4621-8808-b06e6e830c06
 The Superlatorium	artifact	0	colorless	9/f/9f21a33a-ef9d-495d-a475-7042cbd9f6f5
