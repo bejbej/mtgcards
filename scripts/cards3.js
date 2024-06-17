@@ -11295,7 +11295,7 @@ Havoc Festival	enchantment	6	multicolored	0/4/04560623-c768-4273-a40d-7e3f39e832
 Havoc Jester	creature	5	red	3/9/39fb5187-a315-4a6d-9435-67db30c06c55
 Havoc Sower	creature	4	colorless	f/8/f8585871-24a2-41d7-ae12-29aabfbc9ccc
 Hawkeater Moth	creature	4	green	8/4/842e8c4c-32f3-4ec3-b636-1d7dc9f0023e
-Haystack	artifact	2	white	c/5/c5fffb8d-e639-4863-84a1-37cd330a3226
+Haystack	artifact	2	white	4/6/46e791f0-297b-46bf-acd5-f62458009d76
 Haywire Mite	creature	1	colorless	8/4/847a175e-ead1-4596-baf3-5f7f57859e0b
 Hazardous Blast	sorcery	4	red	0/3/0380a4c9-a5d3-465f-8584-e546b54f91e0
 Hazardous Conditions	sorcery	4	multicolored	d/a/daa9b08b-c56f-480e-874e-069e72d979c8
@@ -13311,7 +13311,7 @@ Kaslem's Stonetree	artifact	3	green	7/8/78b1b412-228a-4e05-a4b3-8159ebf54dc6	1
 Kasmina's Transmutation	enchantment	2	blue	b/5/b5287705-cf89-49cb-b1f2-bff7a9119c98
 Kasmina, Enigma Sage	planeswalker	3	multicolored	1/7/178bf300-38cf-4ab2-9e66-6fcaa112b649
 Kasmina, Enigmatic Mentor	planeswalker	4	blue	c/7/c77d9454-a78c-4063-ad66-46b2f5a030aa
-Kassandra, Eagle Bearer	creature	3	multicolored	1/f/1f053676-de35-4465-b3b2-ce6050055e85
+Kassandra, Eagle Bearer	creature	3	multicolored	e/1/e127a40c-90c8-4c2d-aff4-daab1c56a4c5
 Katabatic Winds	enchantment	3	green	9/7/97b34ce8-1eb2-44eb-813a-09d0308e27a0
 Kataki, War's Wage	creature	2	white	4/d/4d84ac44-01d8-415e-af69-7c608ac8ae20
 Kate Stewart	creature	4	multicolored	0/d/0d1c2b4d-5627-4264-943f-9be029c0ee92
@@ -25349,7 +25349,7 @@ The Sixth Doctor	creature	6	multicolored	c/0/c045ccb2-28d1-4bbe-9feb-3e86988fd24
 The Skullspore Nexus	artifact	8	green	b/5/b56a7631-5f94-468d-aab7-7e9e129c5f49
 The Sound of Drums	enchantment	3	red	5/f/5ff2141a-a3ed-4ad0-9338-560502b1c85c
 The Space Family Goblinson	creature	4	multicolored	2/6/26177224-3c0e-4081-8468-3cd9981ddb0a
-The Spear of Leonidas	artifact	3	red	8/b/8b729699-efb7-4769-a166-29aaadef335b
+The Spear of Leonidas	artifact	3	red	1/6/160d6ce7-2452-41a2-aa70-41e1b8045c54
 The Stasis Coffin	artifact	3	colorless	4/5/45537ac3-fc61-4253-a782-7f3e436b2aa6
 The Stone Brain	artifact	2	colorless	3/5/3570ebf2-a94c-4621-8808-b06e6e830c06
 The Superlatorium	artifact	0	colorless	9/f/9f21a33a-ef9d-495d-a475-7042cbd9f6f5
