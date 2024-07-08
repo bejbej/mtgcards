@@ -11973,6 +11973,7 @@ Huatli, the Sun's Heart	planeswalker	3	multicolored	d/7/d709742c-82a2-457e-9991-
 Huatli, Warrior Poet	planeswalker	5	multicolored	a/0/a0cc61ba-e91a-4b30-841c-cae8dd288b40
 Hubris	instant	2	blue	0/5/05f5b473-edad-43a9-b4e7-b6d3fc877cf2
 Huddle Up	sorcery	3	blue	2/0/202e69fd-fdf6-4b40-815b-107049e19edf
+Hugs, Grisly Guardian	creature	4	multicolored	f/0/f09d7f4a-c947-4389-befa-1d547d0d1237
 Hulking Bugbear	creature	3	red	f/5/f55d43d4-5f63-45c3-b8f8-0aebd23750a5
 Hulking Cyclops	creature	5	red	d/c/dc1a5428-9bb4-4e2b-ba94-fccd321ce537
 Hulking Devil	creature	4	red	0/3/031ecfc4-cc84-4f74-8eb1-3eaa234d8093
@@ -13854,7 +13855,7 @@ Kothophed, Soul Hoarder	creature	6	black	a/1/a1070dd6-944f-44a0-8834-02eae93daba
 Kotori, Pilot Prodigy	creature	3	multicolored	f/e/fea6c1c8-eff9-4b66-b96d-e23016f0bb62
 Kotose, the Silent Spider	creature	5	multicolored	3/1/314e97b5-cd43-4f5e-acdd-a107208e061c
 Kozilek's Channeler	creature	5	colorless	c/5/c550d179-32ec-4ad8-91c2-d79320a21cba
-Kozilek's Command	instant	2	colorless	9/2/92585587-cfdc-406a-9114-4f6dd8802c37
+Kozilek's Command	instant	2	colorless	7/a/7a753c5c-9271-4a10-9fdc-4849ce4fb412
 Kozilek's Pathfinder	creature	6	colorless	b/7/b75585bd-fdd8-44d1-8c7c-b96df5fc473e
 Kozilek's Predator	creature	4	green	f/a/fa828bc7-0f5a-45de-9608-da42dda8f3f9
 Kozilek's Return	instant	3	colorless	7/2/72765559-0a78-4aa3-827e-cb4612720991
