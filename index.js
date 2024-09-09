@@ -26,7 +26,14 @@ const cardDefinitionsFileName = "./cards.js";
 });
 
 async function loadAllCards() {
-    const cardSources = JSON.parse(await http.get("https://api.scryfall.com/bulk-data"));
+    const response = await http.get({ 
+        uri: "https://api.scryfall.com/bulk-data", 
+        headers: { 
+            "User-Agent": "bejbej/mtgcards", 
+            "Accept": "application/json;q=0.9,*/*;q=0.8" 
+        } 
+    }) 
+    const cardSources = JSON.parse(response); 
     const oracleCardSource = cardSources.data.filter(cardSource => cardSource.type === "oracle_cards")[0];
     return JSON.parse(await http.get(oracleCardSource.download_uri));
 }
