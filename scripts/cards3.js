@@ -17018,7 +17018,7 @@ Myojin of Grim Betrayal	creature	8	black	3/f/3fa18695-e10f-4dd5-b116-8a9891e58c2
 Myojin of Infinite Rage	creature	10	red	d/f/df630ae9-aa17-46e9-95e7-4980f4a76ade
 Myojin of Life's Web	creature	9	green	e/f/efb926ad-e762-4883-8841-73e034d8e21e
 Myojin of Night's Reach	creature	8	black	1/3/13a295b0-535e-4c2d-879d-62603d1f2f1b
-Myojin of Night's Reach Grim Betrayal	creature	8	black	0/2/02da984a-295e-422e-a05a-5d8c1349bc64
+Myojin of Night's Reach and Grim Betrayal	creature	8	black	0/2/02da984a-295e-422e-a05a-5d8c1349bc64
 Myojin of Roaring Blades	creature	8	red	1/b/1b948181-4688-455c-97ae-990d0ec50f1d
 Myojin of Seeing Winds	creature	10	blue	8/f/8f5f8d3a-95e7-4dd9-8510-43517eb02693
 Myojin of Towering Might	creature	8	green	5/4/54803ba5-a2d7-4997-8e76-298aff6e1aff
@@ -19844,7 +19844,7 @@ Queen's Bay Soldier	creature	2	black	c/e/ce2ca2e6-f920-4529-88d2-d984bdb7490a
 Queen's Commission	sorcery	3	white	f/0/f06c0007-299e-4d71-99c3-f905d942759d
 Quench	instant	2	blue	1/7/1779a6c5-147d-4632-b1d9-95e89a64dc2c
 Quenchable Fire	sorcery	4	red	e/e/ee1c0ded-2a80-4ed4-b9fc-3a18bf5c3239
-Quest Compleated Best	creature	4	black	c/b/cb38c0dc-c945-447f-9bca-62af1dc1f2c3
+Quest Compleated Beast	creature	4	black	c/b/cb38c0dc-c945-447f-9bca-62af1dc1f2c3
 Quest for Ancient Secrets	enchantment	1	blue	0/d/0de22b67-968e-49e1-ae96-6dd0ee75cd54
 Quest for Pure Flame	enchantment	1	red	7/b/7b43ac5a-21b9-4abe-b8be-86b9056ad70d
 Quest for Renewal	enchantment	2	green	4/1/41b7ad82-1115-4f80-886a-3f59f568423f
@@ -26262,8 +26262,8 @@ The Long Reach of Night	enchantment	4	black	4/e/4ec18bf7-bd80-408d-acc4-ffaaf7ef
 The Lord of Pain	creature	5	multicolored	4/9/494c244e-dcdc-4169-9743-8a61f58e8763
 The Lost and the Damned	enchantment	3	multicolored	9/a/9a53cf96-b47f-48f0-b9cc-3330ae546a87
 The Magic Bandit	creature	4	black	3/1/315e87dd-04f4-4bb0-a939-745a617effb5
-The Magic City, New	land	0	colorless	c/9/c9c6c852-cb3f-4f12-9f5b-037704d507d7
 The Magic Mirror	artifact	9	blue	0/8/08b89af1-7b22-4153-b42d-a2ea4e0f320c
+The Magical City, New	land	0	colorless	c/9/c9c6c852-cb3f-4f12-9f5b-037704d507d7
 The Mana Rig	artifact	3	colorless	c/0/c0a6edbf-eabe-44d3-b098-562f3758c005
 The Many Deeds of Belzenlok	enchantment	2	black	1/7/175af5a8-879a-403c-901b-23f354c9b71c
 The Marvelous Scientist	creature	3	multicolored	6/a/6a440935-6358-4d83-bc01-ec0af4fad7b7
