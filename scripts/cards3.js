@@ -7886,7 +7886,7 @@ Empyrial Archangel	creature	8	multicolored	d/9/d908d523-1911-4a49-9e3f-ea1b719a8
 Empyrial Armor	enchantment	3	white	6/6/6619db75-4d32-4c7b-856c-00aa33434342
 Empyrial Plate	artifact	2	colorless	d/9/d9086f9e-2c29-48ee-b0af-889351e86152
 Empyrial Storm	sorcery	6	white	d/b/dbfb7f01-87bf-4eb6-8a8f-3401f37c3ebf
-Emrakul and Chatterfang	creature	11	green	a/0/a05d2a64-fc37-4bb8-ad98-0cbf08552d81
+Emrakul and Chatterfang	creature	11	colorless	a/0/a05d2a64-fc37-4bb8-ad98-0cbf08552d81
 Emrakul's Evangel	creature	3	green	5/1/51c21822-972f-4c20-ac3b-80ba9af101c5
 Emrakul's Hatcher	creature	5	red	3/5/35fab29d-1bcc-4ba0-90bf-427d95bf6699
 Emrakul's Influence	enchantment	4	green	1/1/112476e7-72ab-4ebc-9e6e-e96fbf5109c0
@@ -26153,6 +26153,7 @@ The Collector	creature	5	multicolored	1/1/11c455b9-fd1c-44b9-9f4c-87c1934b6c6b
 The Colossal Dreadmaw	creature	6	green	d/0/d0c98dca-b499-408f-8f99-9c59742027ee
 The Companion of the Wilds	creature	5	colorless	2/c/2c0127ce-32ad-4860-85c2-95a085532492
 The Conundrum of Bowls	enchantment	4	blue	3/9/3905bf55-288a-480c-a16f-826ba70f9325
+The Convincing General	creature	5	multicolored	0/0/0017051f-bb7d-4f78-b214-02d08a542400
 The Council of Four	creature	5	multicolored	0/8/0873cfa8-046c-4b14-ae22-3fd6a691f763
 The Countdown Is at One	sorcery	5	red	4/a/4afb8115-3a47-4d7e-a3ed-b2e81ca27255
 The Crab Queen	creature	4	blue	b/c/bc28b93d-c25b-4e26-af0f-f84e0c03e72e
