@@ -10,7 +10,10 @@ const cardDefinitionsFileName = "./cards.js";
     const filteredCards = filterCards(allCards);
     console.log(`filtered ${filteredCards.length} cards`);
 
-    const mappedCards = mapCards(filteredCards);
+    const groupedCards = groupCards(filteredCards);
+    console.log(`grouped ${groupedCards.length} cards`);
+
+    const mappedCards = mapCards(groupedCards);
     console.log(`mapped ${mappedCards.length} cards`);
 
     const sortedCards = sortCards(mappedCards);
@@ -34,7 +37,7 @@ async function loadAllCards() {
         } 
     }) 
     const cardSources = JSON.parse(response); 
-    const oracleCardSource = cardSources.data.filter(cardSource => cardSource.type === "oracle_cards")[0];
+    const oracleCardSource = cardSources.data.filter(cardSource => cardSource.type === "default_cards")[0];
     return JSON.parse(await http.get(oracleCardSource.download_uri));
 }
 
@@ -62,16 +65,110 @@ function filterCards(cards) {
     }, cards);
 }
 
-function mapCards(cards) {
-    return cards.map(card => {
+function groupCards(cards) {
+    const cardDictionary = cards.reduce((dictionary, card) => {
+        dictionary[card.name] = dictionary[card.name] ?? [];
+        dictionary[card.name].push(card);
+        return dictionary;
+    }, {});
+
+    return Object.keys(cardDictionary).map(key => cardDictionary[key]);
+}
+
+function mapCards(groups) {
+    return groups.map(cards => {
+        const card = choosePrinting(cards);
+
         return {
             name: determineName(card),
             color: determineColor(card),
             type: determinePrimaryType(card),
             cmc: card.cmc,
-            imageUri: determineImageUri(card)
+            imageUri: determineImageUri(card),
+            price: determinePrice(cards)
         };
     });
+}
+
+function choosePrinting(cards) {
+    if (cards.length === 1) {
+        return cards[0];
+    }
+
+    const dictionary = cards.reduce((dictionary, card) => {
+        const desirability = determinePrintingDesirability(card);
+        dictionary[desirability] = dictionary[desirability] ?? [];
+        dictionary[desirability].push(card);
+        return dictionary;
+    }, {});
+
+    const desiredPrintings = dictionary[Math.max(...Object.keys(dictionary))];
+    const orderedDesiredPrintings = desiredPrintings.slice().sort((a, b) => a.released_at < b.released_at ? 1 : -1);
+    return orderedDesiredPrintings[0];
+}
+
+function determinePrintingDesirability(card) {
+    if (card.textless === true) {
+        return 1;
+    }
+
+    if (card.digital) {
+        return 2;
+    }
+
+    if (card.security_stamp === "triangle") {
+        return 3;
+    }
+
+    if ((card.promo_types ?? []).indexOf("boosterfun") > -1) {
+        return 4;
+    }
+
+    if ((card.frame_effects ?? []).indexOf("inverted") > -1) {
+        return 5;
+    }
+
+    if (card.set_type === "masterpiece") {
+        return 6;
+    }
+
+    if (card.full_art === true) {
+        return 7;
+    }
+
+    if (card.nonfoil === false) {
+        return 8;
+    }
+
+    if (card.border_color === "borderless") {
+        return 9;
+    }
+
+    if (card.border_color !== "black") {
+        return 10;
+    }
+
+    if (card.set_type === "memorabilia") {
+        return 11;
+    }
+
+    if (card.set === "plst") {
+        return 12;
+    }
+
+    if (card.set === "sld") {
+        return 13;
+    }
+
+    if (card.frame === "future") {
+        return 14;
+    }
+
+    if (card.frame === "1997") {
+        return 15;
+    }
+
+    return Number.POSITIVE_INFINITY;
 }
 
 function sortCards(cards) {
@@ -80,9 +177,9 @@ function sortCards(cards) {
 
 function createFileContents(cards) {
     const lines = cards.map(card => {
-        return `${card.name}\t${card.type}\t${card.cmc}\t${card.color}\t${card.imageUri}`;
+        return `${card.name}\t${card.type}\t${card.cmc}\t${card.color}\t${card.price}\t${card.imageUri}`;
     });
-    return `var cardsCSV = \`name	primaryType	cmc	color	imageuri	doubleFace\n${lines.join("\n")}\``;
+    return `var cardsCSV = \`name	primaryType	cmc	color	price   imageuri	doubleFace\n${lines.join("\n")}\``;
 }
 
 function determineName(card) {
@@ -183,8 +280,21 @@ function determineImageUri(card) {
     ];
 
     const primaryFace = layouts.includes(card.layout) ? card.card_faces["0"] : card;
-    const [, imageUri ] = /front\/([^\.]+)\.jpg/.exec(primaryFace.image_uris.border_crop);
-    const doubleFace = layouts.includes(card.layout) ? "\t1" : "";
+    const result = /front\/([^\.]+)\.jpg/.exec(primaryFace.image_uris.border_crop);
+    if (result === null) {
+        return "";
+    }
 
+    const [, imageUri] = result;
+    const doubleFace = layouts.includes(card.layout) ? "\t1" : "";
+    
     return `${imageUri}${doubleFace}`;
+}
+
+function determinePrice(cards) {
+    const allPrices = cards.map(card => [card.prices.usd, card.prices.usd_etched, card.prices.usd_foil])
+        .flat(1)
+        .filter(x => x !== null);
+
+    return allPrices.length === 0 ? 0 : Math.min(...allPrices);
 }
