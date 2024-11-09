@@ -54,10 +54,13 @@ function filterCards(cards) {
     }
     const isNotToken = card => !card.layout.includes("token");
 
+    const isPaper = card => (card.games ?? []).indexOf("paper") > -1;
+
     const filters = [
         isCard,
         isAllowedType,
-        isNotToken
+        isNotToken,
+        isPaper
     ];
 
     return filters.reduce((cards, filter) => {
@@ -108,67 +111,52 @@ function choosePrinting(cards) {
 }
 
 function determinePrintingDesirability(card) {
-    if (card.textless === true) {
-        return 1;
+    // earlier items are more important
+    const orderedCriteria = [
+        card.id === "cc3db531-3f21-49a2-8aeb-d98b7db94397", // Plains
+        card.id === "91595b00-6233-48be-a012-1e87bd704aca", // Island
+        card.id === "8e5eef83-a3d4-44c7-a6cb-7f6803825b9e", // Swamp
+        card.id === "6418bc71-de29-410c-baf3-f63f5615eee2", // Mountain
+        card.id === "146b803f-0455-497b-8362-03da2547070d", // Forest
+        
+        // Readability
+        card.lang != "en",
+        card.textless === true,
+
+        // Reprint only sets with promo mark
+        card.set === "30a",
+        card.set === "plst",
+        card.set === "olep",
+        card.set_type === "memorabilia",
+
+        // Off theme
+        //card.image_status !== "highres_scan",
+        card.security_stamp === "triangle",
+
+        // Non-standard border
+        (card.promo_types ?? []).indexOf("boosterfun") > -1,
+        (card.frame_effects ?? []).indexOf("inverted") > -1,
+        (card.frame_effects ?? []).indexOf("showcase") > -1,
+        card.set_type === "masterpiece",
+        card.full_art === true,
+        (card.promo_types ?? []).indexOf("stamped") > -1,
+        card.border_color !== "black",
+        (card.finishes ?? []).indexOf("nonfoil") === -1,
+
+        // Old border
+        card.frame === "future",
+        card.frame === "1993",
+        card.frame === "1997",
+        card.frame === "2003",
+        true
+    ];
+
+    let desirability = 0;
+    for (let i = 0; i < orderedCriteria.length; ++i) {
+        desirability = (desirability + (orderedCriteria[i] ? 0 : 1)) << 1;
     }
 
-    if (card.digital) {
-        return 2;
-    }
-
-    if (card.security_stamp === "triangle") {
-        return 3;
-    }
-
-    if ((card.promo_types ?? []).indexOf("boosterfun") > -1) {
-        return 4;
-    }
-
-    if ((card.frame_effects ?? []).indexOf("inverted") > -1) {
-        return 5;
-    }
-
-    if (card.set_type === "masterpiece") {
-        return 6;
-    }
-
-    if (card.full_art === true) {
-        return 7;
-    }
-
-    if (card.nonfoil === false) {
-        return 8;
-    }
-
-    if (card.border_color === "borderless") {
-        return 9;
-    }
-
-    if (card.border_color !== "black") {
-        return 10;
-    }
-
-    if (card.set_type === "memorabilia") {
-        return 11;
-    }
-
-    if (card.set === "plst") {
-        return 12;
-    }
-
-    if (card.set === "sld") {
-        return 13;
-    }
-
-    if (card.frame === "future") {
-        return 14;
-    }
-
-    if (card.frame === "1997") {
-        return 15;
-    }
-
-    return Number.POSITIVE_INFINITY;
+    return desirability;
 }
 
 function sortCards(cards) {
