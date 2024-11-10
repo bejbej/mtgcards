@@ -127,10 +127,10 @@ function determinePrintingDesirability(card) {
         card.set === "30a",
         card.set === "plst",
         card.set === "olep",
+        card.set === "sld",
         card.set_type === "memorabilia",
 
         // Off theme
-        //card.image_status !== "highres_scan",
         card.security_stamp === "triangle",
 
         // Non-standard border
@@ -143,12 +143,14 @@ function determinePrintingDesirability(card) {
         card.border_color !== "black",
         (card.finishes ?? []).indexOf("nonfoil") === -1,
 
+        card.image_status !== "highres_scan",
+
         // Old border
         card.frame === "future",
         card.frame === "1993",
         card.frame === "1997",
         card.frame === "2003",
-        true
+        card.frame === "2015"
     ];
 
     let desirability = 0;
