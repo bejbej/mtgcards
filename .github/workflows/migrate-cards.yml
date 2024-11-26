@@ -37,7 +37,7 @@ jobs:
       run: git switch gh-pages -f
     - name: check for card definition changes
       run: |
-        if cmp -s ../cards.js ./scripts/cards4.js;
+        if cmp -s ../cards.js ./scripts/cards5.js;
         then
           echo "card definitions have not changed"
           echo "NEW_CARDS=false" >> "$GITHUB_ENV"
@@ -48,10 +48,10 @@ jobs:
     - name: update card definitions, commit, and push changes
       if: env.NEW_CARDS == 'true'
       run: |
-        mv ../cards.js ./scripts/cards4.js -f
+        mv ../cards.js ./scripts/cards5.js -f
         git config user.name bejbej
         git config user.email bejbej.uit@gmail.com
-        git add ./scripts/cards4.js
+        git add ./scripts/cards5.js
         git commit -m "$(date +'%Y-%m-%d') automatic card definition update"
         git push
 

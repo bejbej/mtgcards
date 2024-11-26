@@ -2,6 +2,10 @@ const fs = require("fs");
 const http = require("request-promise");
 
 const cardDefinitionsFileName = "./cards.js";
+const cardImagesFileName = "./card-images.txt";
+const oracleFileName = "./oracle.json";
+const cacheOracleJson = false;
+const createCardImages = false;
 
 (async () => {
     const allCards = await loadAllCards();
@@ -19,16 +23,24 @@ const cardDefinitionsFileName = "./cards.js";
     const sortedCards = sortCards(mappedCards);
     console.log(`sorted ${sortedCards.length} cards`);
 
-    const fileContents = createFileContents(sortedCards);
-    console.log("created file contents");
-
-    fs.writeFileSync(`${cardDefinitionsFileName}`, fileContents);
+    const cardDefinitionsfileContents = createFileContents(sortedCards);
+    fs.writeFileSync(`${cardDefinitionsFileName}`, cardDefinitionsfileContents);
     console.log(`${cardDefinitionsFileName} created`);
+
+    if (createCardImages) {
+        const cardImagesFileContents = createCardImageFileContents(sortedCards);
+        fs.writeFileSync(`${cardImagesFileName}`, cardImagesFileContents);
+        console.log(`${cardImagesFileName} created`);
+    }
 })().catch(error => {
     console.log(error);
 });
 
 async function loadAllCards() {
+    if (cacheOracleJson && fs.existsSync(oracleFileName)) {
+        return JSON.parse(fs.readFileSync(oracleFileName))
+    }
+
     const response = await http.get({ 
         uri: "https://api.scryfall.com/bulk-data", 
         headers: { 
@@ -38,7 +50,13 @@ async function loadAllCards() {
     }) 
     const cardSources = JSON.parse(response); 
     const oracleCardSource = cardSources.data.filter(cardSource => cardSource.type === "default_cards")[0];
-    return JSON.parse(await http.get(oracleCardSource.download_uri));
+    const oracleFileContents = await http.get(oracleCardSource.download_uri)
+
+    if (cacheOracleJson) {
+        fs.writeFileSync(oracleFileName, oracleFileContents);
+    }
+
+    return JSON.parse(oracleFileContents);
 }
 
 function filterCards(cards) {
@@ -87,6 +105,7 @@ function mapCards(groups) {
             color: determineColor(card),
             type: determinePrimaryType(card),
             cmc: card.cmc,
+            doubleFace: determineDoubleFace(card),
             imageUri: determineImageUri(card),
             price: determinePrice(cards)
         };
@@ -134,12 +153,13 @@ function determinePrintingDesirability(card) {
         card.security_stamp === "triangle",
 
         // Non-standard border
-        (card.promo_types ?? []).indexOf("boosterfun") > -1,
+        (card.promo_types ?? []).length > 0,
+
         (card.frame_effects ?? []).indexOf("inverted") > -1,
         (card.frame_effects ?? []).indexOf("showcase") > -1,
+        
         card.set_type === "masterpiece",
         card.full_art === true,
-        (card.promo_types ?? []).indexOf("stamped") > -1,
         card.border_color !== "black",
         (card.finishes ?? []).indexOf("nonfoil") === -1,
 
@@ -167,9 +187,13 @@ function sortCards(cards) {
 
 function createFileContents(cards) {
     const lines = cards.map(card => {
-        return `${card.name}\t${card.type}\t${card.cmc}\t${card.color}\t${card.price}\t${card.imageUri}`;
+        return `${card.name}\t${card.type}\t${card.cmc}\t${card.color}\t${card.doubleFace}\t${card.price}\t${card.imageUri}`;
     });
-    return `var cardsCSV = \`name	primaryType	cmc	color	price   imageuri	doubleFace\n${lines.join("\n")}\``;
+    return `var cardsCSV = \`name\tprimaryType\tcmc\tcolor\tdoubleFace\tprice\timageUri\n${lines.join("\n")}\``;
+}
+
+function createCardImageFileContents(cards) {
+    return cards.map(card => `${card.name}\t${card.imageUri}`).join("\n");
 }
 
 function determineName(card) {
@@ -253,15 +277,15 @@ function determinePrimaryType(card) {
 function determineImageUri(card) {
     switch (card.name) {
         case "Plains":
-            return "c/c/cc3db531-3f21-49a2-8aeb-d98b7db94397";
+            return "cc3db531-3f21-49a2-8aeb-d98b7db94397";
         case "Island":
-            return "9/1/91595b00-6233-48be-a012-1e87bd704aca";
+            return "91595b00-6233-48be-a012-1e87bd704aca";
         case "Swamp":
-            return "8/e/8e5eef83-a3d4-44c7-a6cb-7f6803825b9e";
+            return "8e5eef83-a3d4-44c7-a6cb-7f6803825b9e";
         case "Mountain":
-            return "6/4/6418bc71-de29-410c-baf3-f63f5615eee2";
+            return "6418bc71-de29-410c-baf3-f63f5615eee2";
         case "Forest":
-            return "1/4/146b803f-0455-497b-8362-03da2547070d";
+            return "146b803f-0455-497b-8362-03da2547070d";
     }
 
     const layouts = [
@@ -270,15 +294,22 @@ function determineImageUri(card) {
     ];
 
     const primaryFace = layouts.includes(card.layout) ? card.card_faces["0"] : card;
-    const result = /front\/([^\.]+)\.jpg/.exec(primaryFace.image_uris.border_crop);
+    const result = /front\/.\/.\/([^\.]+)\.jpg/.exec(primaryFace.image_uris.border_crop);
     if (result === null) {
         return "";
     }
 
     const [, imageUri] = result;
-    const doubleFace = layouts.includes(card.layout) ? "\t1" : "";
-    
-    return `${imageUri}${doubleFace}`;
+    return imageUri;
+}
+
+function determineDoubleFace(card) {
+    const layouts = [
+        "modal_dfc",
+        "transform"
+    ];
+
+    return layouts.includes(card.layout) ? "1" : "0";
 }
 
 function determinePrice(cards) {
